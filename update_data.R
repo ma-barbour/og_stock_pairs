@@ -137,6 +137,7 @@ num_pairs <- ncol(pair_matrix)
 
 pairs_results <- vector("list", num_pairs)
 historical_results <- vector("list", num_pairs)
+acf_results <- vector("list", num_pairs)
 
 for (i in 1:num_pairs) {
         
@@ -168,6 +169,23 @@ for (i in 1:num_pairs) {
                 list(stat = test_stat, cointegrated = test_stat < -3.34)
                 
         }, error = function(e) list(stat = NA, cointegrated = FALSE))
+        
+        # Compute Autocorrelation (ACF) for 1000-day and 250-day windows
+        
+        if (isTRUE(eg_res$cointegrated)) {
+                
+                spread_250 <- tail(spread, 250)
+                
+                acf_1000 <- acf(spread, lag.max = 100, plot = FALSE)$acf[-1]
+                acf_250 <- acf(spread_250, lag.max = 100, plot = FALSE)$acf[-1]
+                
+                acf_results[[i]] <- tibble(
+                        pair_id = paste(ticker_A, ticker_B, sep = "_"),
+                        lag = 1:100,
+                        acf_1000 = round(as.numeric(acf_1000), 4),
+                        acf_250 = round(as.numeric(acf_250), 4))
+                
+        }
         
         # Compute rolling data for cointegrated pairs 
         
@@ -247,6 +265,14 @@ valid_pairs <- bind_rows(pairs_results) |>
 
 write_json(valid_pairs, 
            "data/valid_pairs_summary.json", 
+           pretty = TRUE)
+
+# Collect and save the ACF data
+
+acf_chart_data <- bind_rows(acf_results) 
+
+write_json(acf_chart_data,
+           "data/acf_chart_data.json", 
            pretty = TRUE)
 
 # Isolate the historical charting data
