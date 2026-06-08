@@ -1,0 +1,188 @@
+[
+  {
+    "ticker": "OBE",
+    "actual": 15.44,
+    "expected": 16.51,
+    "divergence_pct": -6.49
+  },
+  {
+    "ticker": "VET",
+    "actual": 15.84,
+    "expected": 16.92,
+    "divergence_pct": -6.37
+  },
+  {
+    "ticker": "SDE",
+    "actual": 12.08,
+    "expected": 12.75,
+    "divergence_pct": -5.28
+  },
+  {
+    "ticker": "BTE",
+    "actual": 6.64,
+    "expected": 6.86,
+    "divergence_pct": -3.2
+  },
+  {
+    "ticker": "IMO",
+    "actual": 169.62,
+    "expected": 174.3,
+    "divergence_pct": -2.69
+  },
+  {
+    "ticker": "SU",
+    "actual": 86.85,
+    "expected": 87.91,
+    "divergence_pct": -1.21
+  },
+  {
+    "ticker": "IPO",
+    "actual": 16.61,
+    "expected": 16.78,
+    "divergence_pct": -1.02
+  },
+  {
+    "ticker": "TNZ",
+    "actual": 50.76,
+    "expected": 51.19,
+    "divergence_pct": -0.85
+  },
+  {
+    "ticker": "BIR",
+    "actual": 6.46,
+    "expected": 6.5,
+    "divergence_pct": -0.69
+  },
+  {
+    "ticker": "CJ",
+    "actual": 11.79,
+    "expected": 11.87,
+    "divergence_pct": -0.68
+  },
+  {
+    "ticker": "TOU",
+    "actual": 63.73,
+    "expected": 64.16,
+    "divergence_pct": -0.67
+  },
+  {
+    "ticker": "OVV",
+    "actual": 79.1,
+    "expected": 79.45,
+    "divergence_pct": -0.44
+  },
+  {
+    "ticker": "FRU",
+    "actual": 17.2,
+    "expected": 17.28,
+    "divergence_pct": -0.43
+  },
+  {
+    "ticker": "PEY",
+    "actual": 25.22,
+    "expected": 25.22,
+    "divergence_pct": 0
+  },
+  {
+    "ticker": "POU",
+    "actual": 30.07,
+    "expected": 30.02,
+    "divergence_pct": 0.16
+  },
+  {
+    "ticker": "AAV",
+    "actual": 10.02,
+    "expected": 9.99,
+    "divergence_pct": 0.26
+  },
+  {
+    "ticker": "HWX",
+    "actual": 12.93,
+    "expected": 12.86,
+    "divergence_pct": 0.57
+  },
+  {
+    "ticker": "SES",
+    "actual": 21.33,
+    "expected": 21.13,
+    "divergence_pct": 0.96
+  },
+  {
+    "ticker": "PD",
+    "actual": 129.84,
+    "expected": 128.03,
+    "divergence_pct": 1.41
+  },
+  {
+    "ticker": "PSK",
+    "actual": 34.14,
+    "expected": 33.61,
+    "divergence_pct": 1.59
+  },
+  {
+    "ticker": "WCP",
+    "actual": 16.51,
+    "expected": 16.25,
+    "divergence_pct": 1.6
+  },
+  {
+    "ticker": "TPZ",
+    "actual": 32.42,
+    "expected": 31.87,
+    "divergence_pct": 1.72
+  },
+  {
+    "ticker": "SGY",
+    "actual": 10.07,
+    "expected": 9.89,
+    "divergence_pct": 1.77
+  },
+  {
+    "ticker": "CVE",
+    "actual": 39.41,
+    "expected": 38.71,
+    "divergence_pct": 1.81
+  },
+  {
+    "ticker": "ATH",
+    "actual": 11.46,
+    "expected": 11.24,
+    "divergence_pct": 2
+  },
+  {
+    "ticker": "CNQ",
+    "actual": 63.76,
+    "expected": 62.44,
+    "divergence_pct": 2.11
+  },
+  {
+    "ticker": "PNE",
+    "actual": 0.63,
+    "expected": 0.61,
+    "divergence_pct": 2.7
+  },
+  {
+    "ticker": "KEL",
+    "actual": 9.72,
+    "expected": 9.39,
+    "divergence_pct": 3.48
+  },
+  {
+    "ticker": "SCR",
+    "actual": 47.67,
+    "expected": 44.73,
+    "divergence_pct": 6.57
+  },
+  {
+    "ticker": "TVE",
+    "actual": 13.3,
+    "expected": 12.43,
+    "divergence_pct": 7.01
+  },
+  {
+    "ticker": "SOIL",
+    "actual": 7.05,
+    "expected": 6.57,
+    "divergence_pct": 7.3
+  }
+]
