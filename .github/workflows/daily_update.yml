@@ -33,6 +33,7 @@ jobs:
             any::slider
             any::lubridate
             any::zoo
+            any::tidyr
 
       - name: Run Data Pipeline Script
         run: Rscript update_data.R
