@@ -1,5 +1,8 @@
 # This script updates the data for my Canadian Oil & Gas stock pairs app
 
+# To start RStudio server: servr::httd()
+# To stop the server: servr::daemon_stop(1) 
+
 ## LIBRARIES ####
 
 library(tidyquant)
