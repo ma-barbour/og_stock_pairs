@@ -258,10 +258,11 @@ function renderMomentumValueChart() {
         }]
     }, {
         type: 'scatter',
+        customPlugins: typeof ChartDataLabels !== 'undefined' ? [ChartDataLabels] : [], 
         plugins: {
             tooltip: { callbacks: { label: (ctx) => ` ${ctx.raw.ticker}: Mom ${ctx.raw.x.toFixed(1)}% | Val ${ctx.raw.y.toFixed(1)}%` } },
             datalabels: {
-                display: true, // Specifically turn it ON for this chart only
+                display: true, 
                 color: '#ffffff', 
                 textShadowColor: 'rgba(0, 0, 0, 0.8)', 
                 textShadowBlur: 4,
@@ -291,6 +292,42 @@ function updateChart(id, data, extraOptions = {}) {
     
     const isTimeSeries = data.labels && data.labels.length > 0 && typeof data.labels[0] === 'string' && data.labels[0].includes('-');
 
+    // Construct the scales object dynamically
+    let chartScales = {
+        x: {
+            grid: { display: false },
+            ticks: {
+                autoSkip: false, maxRotation: 45, color: '#6b7280',
+                callback: function(val, i) {
+                    if (!isTimeSeries) return this.getLabelForValue(val);
+                    
+                    const dStr = data.labels[i];
+                    const d = new Date(dStr);
+                    if (isNaN(d.getTime())) return dStr;
+
+                    const isFirst = i === 0;
+                    let isNewMonth = false;
+                    if (!isFirst) {
+                        const prevD = new Date(data.labels[i - 1]);
+                        isNewMonth = d.getUTCMonth() !== prevD.getUTCMonth();
+                    }
+
+                    if (isFirst || isNewMonth) {
+                        return `${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short' }).toUpperCase()} ${d.toLocaleDateString('en-US', { timeZone: 'UTC', year: '2-digit' })}`; 
+                    }
+                    return null;
+                }
+            },
+            ...extraOptions.scales?.x
+        },
+        y: { ticks: { color: '#6b7280' }, grid: { color: '#1f2937' }, ...extraOptions.scales?.y }
+    };
+
+    // Inject the secondary y-axis if it is passed in the extraOptions
+    if (extraOptions.scales && extraOptions.scales.y1) {
+        chartScales.y1 = extraOptions.scales.y1;
+    }
+
     charts[id] = new Chart(c.getContext('2d'), {
         type: extraOptions.type || 'line', 
         data: data,
@@ -298,39 +335,11 @@ function updateChart(id, data, extraOptions = {}) {
             responsive: true, 
             maintainAspectRatio: false, 
             plugins: { 
-                datalabels: { display: false }, // TURN OFF BY DEFAULT so it doesn't choke line charts
+                datalabels: { display: false }, 
                 legend: { display: false, ...extraOptions.plugins?.legend }, 
                 ...extraOptions.plugins 
             },
-            scales: { 
-                x: { 
-                    grid: { display: false }, 
-                    ticks: { 
-                        autoSkip: false, maxRotation: 45, color: '#6b7280', 
-                        callback: function(val, i) { 
-                            if (!isTimeSeries) return this.getLabelForValue(val); 
-                            
-                            const dStr = data.labels[i];
-                            const d = new Date(dStr);
-                            if (isNaN(d.getTime())) return dStr;
-
-                            const isFirst = i === 0;
-                            let isNewMonth = false;
-                            if (!isFirst) {
-                                const prevD = new Date(data.labels[i - 1]);
-                                isNewMonth = d.getUTCMonth() !== prevD.getUTCMonth();
-                            }
-
-                            if (isFirst || isNewMonth) {
-                                return `${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short' }).toUpperCase()} ${d.toLocaleDateString('en-US', { timeZone: 'UTC', year: '2-digit' })}`; 
-                            }
-                            return null;
-                        } 
-                    },
-                    ...extraOptions.scales?.x
-                }, 
-                y: { ticks: { color: '#6b7280' }, grid: { color: '#1f2937' }, ...extraOptions.scales?.y }
-            }
+            scales: chartScales
         }
     });
 }
