@@ -32,6 +32,7 @@ jobs:
             any::urca
             any::slider
             any::lubridate
+            any::zoo
 
       - name: Run Data Pipeline Script
         run: Rscript update_data.R
