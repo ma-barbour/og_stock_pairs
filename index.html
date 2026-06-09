@@ -8,6 +8,7 @@
     <script>tailwind.config = { darkMode: 'class' }</script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.0.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
 </head>
 <body class="bg-gray-950 text-gray-100 min-h-screen p-4 md:p-6 font-sans">
     <div class="max-w-[1400px] mx-auto">
@@ -35,13 +36,17 @@
                 </div>
 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="zscore-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Z-Score Spread</h3><div class="h-56"><canvas id="zScoreChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="histogram-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Distribution vs Normal Bell Curve</h3><div class="h-56"><canvas id="histogramChart"></canvas></div></div>
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="acf-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Autocorrelation (ACF)</h3><div class="h-56"><canvas id="acfChart"></canvas></div></div>
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="price-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="h-56"><canvas id="priceChart"></canvas></div></div>
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="ratio-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price Ratio</h3><div class="h-56"><canvas id="ratioChart"></canvas></div></div>
+                
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="h-56"><canvas id="primaryChart"></canvas></div></div>
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-xeg-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Relative Performance vs Sector</h3><div class="h-48"><canvas id="primaryXegChart"></canvas></div></div>
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Energy Sector vs Market (XEG / VCN)</h3><div class="h-48"><canvas id="macroChart"></canvas></div></div>
+                
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Lasso Regression: Expected Price Divergence (%)</h3><div class="h-56"><canvas id="predictionsChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Momentum vs. Expected Value</h3><div class="h-64"><canvas id="momentumValueChart"></canvas></div></div>
             </div>
         </div>
     </div>

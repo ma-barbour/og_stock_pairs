@@ -17,7 +17,10 @@ async function init() {
             document.getElementById('data-status').innerText = `Data Updated: ${new Date(lastDate).toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' })}`;
         }
         populateTable(summaryData); setupDropdowns();
+        
+        // Render Global Charts
         renderPredictionsChart(); 
+        renderMomentumValueChart();
     } catch (err) { console.error(err); document.getElementById('data-status').innerText = "Error loading data."; }
 }
 
@@ -28,18 +31,16 @@ function setupDropdowns() {
     pSel.addEventListener('change', () => updateSecondaryOptions(pSel.value));
     sSel.addEventListener('change', () => refreshDashboard(pSel.value, sSel.value));
     
-    // NEW: Find the pair with the highest absolute Z-Score (top of the table)
     const topPair = [...summaryData].sort((a, b) => Math.abs(b.current_z_score) - Math.abs(a.current_z_score))[0];
     
     if (topPair) {
-        pSel.value = topPair.stock_A; // Force primary dropdown
-        updateSecondaryOptions(topPair.stock_A, topPair.stock_B); // Pass the partner to pre-select it
+        pSel.value = topPair.stock_A; 
+        updateSecondaryOptions(topPair.stock_A, topPair.stock_B); 
     } else if (tickers.length > 0) {
         updateSecondaryOptions(tickers[0]);
     }
 }
 
-// NEW: Added targetSecondary parameter to accept the pre-loaded partner
 function updateSecondaryOptions(primary, targetSecondary = null) {
     const sSel = document.getElementById('secondary-ticker');
     sSel.innerHTML = '';
@@ -47,7 +48,6 @@ function updateSecondaryOptions(primary, targetSecondary = null) {
                                 .map(p => p.stock_A === primary ? p.stock_B : p.stock_A).sort();
     partners.forEach(t => sSel.add(new Option(t, t)));
     
-    // If a specific partner was passed in, select it. Otherwise, default to the first one.
     if (targetSecondary && partners.includes(targetSecondary)) {
         sSel.value = targetSecondary;
         refreshDashboard(primary, targetSecondary);
@@ -70,11 +70,16 @@ function refreshDashboard(p1, p2) {
     document.getElementById('ratio-header').innerText = `Price Ratio: ${tA} / ${tB}`;
     document.getElementById('primary-header').innerText = `Price History: ${p1}`;
     document.getElementById('primary-xeg-header').innerText = `Relative Performance: ${p1} / XEG`;
+    document.getElementById('histogram-header').innerText = `Distribution vs Normal Bell Curve: ${tA} vs ${tB}`;
     
     renderZScoreChart(pairId, tA, tB); 
-    
-    renderACFChart(pairId); renderPriceChart(p1, p2); 
-    renderRatioChart(pairId); renderPrimaryChart(p1); renderPrimaryXegChart(p1); renderMacroChart();
+    renderSpreadHistogramChart(pairId);
+    renderACFChart(pairId); 
+    renderPriceChart(p1, p2); 
+    renderRatioChart(pairId); 
+    renderPrimaryChart(p1); 
+    renderPrimaryXegChart(p1); 
+    renderMacroChart();
 }
 
 function populateTable(data) {
@@ -110,20 +115,15 @@ function renderZScoreChart(pairId, tA, tB) {
     updateChart('zScoreChart', { 
         labels: d.map(v => v.date), 
         datasets: [{ 
-            data: d.map(v => v.dynamic_z), 
-            borderColor: '#ffffff', 
-            borderWidth: 1.5, 
-            pointRadius: 0
+            data: d.map(v => v.dynamic_z), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0
         }] 
     }, {
         plugins: { 
             annotation: { 
                 annotations: { 
                     zeroLine: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1 }, 
-                    L1: { type: 'line', yMin: 2, yMax: 2, borderColor: '#22d3ee', borderWidth: 1 }, 
-                    L2: { type: 'line', yMin: -2, yMax: -2, borderColor: '#22d3ee', borderWidth: 1 }, 
-                    L3: { type: 'line', yMin: 1, yMax: 1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] }, 
-                    L4: { type: 'line', yMin: -1, yMax: -1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] },
+                    L1: { type: 'line', yMin: 2, yMax: 2, borderColor: '#22d3ee', borderWidth: 1 }, L2: { type: 'line', yMin: -2, yMax: -2, borderColor: '#22d3ee', borderWidth: 1 }, 
+                    L3: { type: 'line', yMin: 1, yMax: 1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] }, L4: { type: 'line', yMin: -1, yMax: -1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] },
                     labelTop: { type: 'label', yValue: 3.5, content: `BUY ${tB}`, color: '#22d3ee', font: { size: 10, weight: 'bold' } },
                     labelBottom: { type: 'label', yValue: -3.5, content: `BUY ${tA}`, color: '#22d3ee', font: { size: 10, weight: 'bold' } }
                 } 
@@ -133,19 +133,53 @@ function renderZScoreChart(pairId, tA, tB) {
     });
 }
 
+function renderSpreadHistogramChart(pairId) {
+    const zValues = zHistory.filter(v => v.pair_id === pairId).map(v => v.dynamic_z);
+    if(zValues.length === 0) return;
+
+    const binSize = 0.5;
+    const bins = [];
+    for(let i = -4.0; i <= 4.0; i += binSize) bins.push(i);
+
+    const counts = new Array(bins.length - 1).fill(0);
+    zValues.forEach(z => {
+        for(let i = 0; i < bins.length - 1; i++) {
+            if (z >= bins[i] && z < bins[i+1]) { counts[i]++; break; }
+        }
+    });
+
+    const labels = [];
+    const normalCurve = [];
+    const totalPoints = zValues.length;
+
+    for(let i = 0; i < bins.length - 1; i++) {
+        const mid = (bins[i] + bins[i+1]) / 2;
+        labels.push(mid.toFixed(2));
+        const pdf = (1 / Math.sqrt(2 * Math.PI)) * Math.exp(-0.5 * Math.pow(mid, 2));
+        normalCurve.push(pdf * totalPoints * binSize);
+    }
+
+    updateChart('histogramChart', {
+        labels: labels,
+        datasets: [
+            { type: 'line', label: 'Theoretical Normal Distribution', data: normalCurve, borderColor: '#fbbf24', borderWidth: 2, pointRadius: 0, tension: 0.4, fill: false },
+            { type: 'bar', label: 'Actual Distribution', data: counts, backgroundColor: '#374151', borderRadius: 2 }
+        ]
+    }, {
+        plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 12 } } },
+        scales: {
+            x: { grid: { display: false }, ticks: { color: '#9ca3af' }, title: { display: true, text: 'Z-SCORE RANGE', color: '#9ca3af', font: { size: 10, weight: 'bold' } } },
+            y: { grid: { color: '#1f2937' }, ticks: { color: '#6b7280' }, title: { display: true, text: 'FREQUENCY (DAYS)', color: '#9ca3af', font: { size: 10, weight: 'bold' } } }
+        }
+    });
+}
+
 function renderACFChart(pairId) {
     const d = acfHistory.filter(v => v.pair_id === pairId);
     const labels = [0, ...d.map(v => v.lag)];
     updateChart('acfChart', { labels: labels, datasets: [{ label: 'Macro', data: [1.0, ...d.map(v => v.acf_1000)], borderColor: '#3b82f6', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }, { label: 'Recent', data: [1.0, ...d.map(v => v.acf_250)], borderColor: '#fb923c', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }] }, {
         type: 'line', plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } }, annotation: { annotations: { z: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1 } } } },
-        scales: { 
-            y: { min: -1.0, max: 1.0, ticks: { stepSize: 0.2, color: '#6b7280' } }, 
-            x: { 
-                title: { display: true, text: 'TRADING DAYS', color: '#9ca3af', font: { size: 10, weight: 'bold' } },
-                grid: { display: false }, 
-                ticks: { autoSkip: false, maxRotation: 0, color: '#6b7280', callback: (_, i) => labels[i] % 10 === 0 ? labels[i] : null } 
-            } 
-        }
+        scales: { y: { min: -1.0, max: 1.0, ticks: { stepSize: 0.2, color: '#6b7280' } }, x: { title: { display: true, text: 'TRADING DAYS', color: '#9ca3af', font: { size: 10, weight: 'bold' } }, grid: { display: false }, ticks: { autoSkip: false, maxRotation: 0, color: '#6b7280', callback: (_, i) => labels[i] % 10 === 0 ? labels[i] : null } } }
     });
 }
 
@@ -165,7 +199,7 @@ function renderRatioChart(pairId) {
 function renderPrimaryChart(p1) {
     const d = priceHistory.filter(v => v.symbol === p1);
     updateChart('primaryChart', { labels: d.map(v => v.date), datasets: [{ label: p1, data: d.map(v => v.adjusted), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }, { label: '20D MA', data: d.map(v => v.sma_20), borderColor: '#fb923c', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }, { label: '50D MA', data: d.map(v => v.sma_50), borderColor: '#3b82f6', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }] }, {
-        plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 24, boxHeight: 2 } } }
+        plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 24, boxHeight: 2 } } },
     });
 }
 
@@ -186,27 +220,68 @@ function renderPredictionsChart() {
         labels: predictionsData.map(d => d.ticker),
         datasets: [{
             data: predictionsData.map(d => d.divergence_pct),
-            backgroundColor: predictionsData.map(d => d.divergence_pct >= 0 ? '#22d3ee' : '#ef4444'), 
-            borderWidth: 0,
-            borderRadius: 2
+            backgroundColor: predictionsData.map(d => d.divergence_pct >= 0 ? '#22d3ee' : '#ef4444'), borderWidth: 0, borderRadius: 2
         }]
     }, {
         type: 'bar',
+        plugins: { tooltip: { callbacks: { label: (ctx) => ` Divergence: ${ctx.raw.toFixed(2)}%`, afterBody: (ctx) => { return `\nTop 5 Predictors:\n${predictionsData[ctx[0].dataIndex].ranked_predictors.slice(0, 5).join(', ')}`; } } } },
+        scales: { x: { grid: { display: false }, ticks: { color: '#9ca3af', autoSkip: false, maxRotation: 45 } }, y: { grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: (val) => val + '%' } } }
+    });
+}
+
+function renderMomentumValueChart() {
+    
+    if(predictionsData.length === 0 || priceHistory.length === 0) return;
+    
+    Chart.register(ChartDataLabels);
+    
+    const scatterPoints = [];
+    predictionsData.forEach(p => {
+        const tData = priceHistory.filter(h => h.symbol === p.ticker);
+        if(tData.length > 0) {
+            const latest = tData[tData.length - 1]; 
+            if(latest && latest.sma_50) {
+                const momentum = ((latest.adjusted - latest.sma_50) / latest.sma_50) * 100;
+                scatterPoints.push({ x: momentum, y: p.divergence_pct, ticker: p.ticker });
+            }
+        }
+    });
+
+    updateChart('momentumValueChart', {
+        datasets: [{
+            label: 'Stocks',
+            data: scatterPoints,
+            backgroundColor: scatterPoints.map(p => (p.x > 0 && p.y > 0) ? '#22d3ee' : '#374151'), 
+            borderColor: '#ffffff',
+            borderWidth: 1,
+            pointRadius: 6,
+            pointHoverRadius: 8
+        }]
+    }, {
+        type: 'scatter',
+        customPlugins: typeof ChartDataLabels !== 'undefined' ? [ChartDataLabels] : [], 
         plugins: {
-            tooltip: {
-                callbacks: {
-                    label: (ctx) => ` Divergence: ${ctx.raw.toFixed(2)}%`,
-                    afterBody: (ctx) => {
-                        const idx = ctx[0].dataIndex;
-                        const predictors = predictionsData[idx].ranked_predictors.slice(0, 5).join(', ');
-                        return `\nTop 5 Predictors:\n${predictors}`;
-                    }
+            tooltip: { callbacks: { label: (ctx) => ` ${ctx.raw.ticker}: Mom ${ctx.raw.x.toFixed(1)}% | Val ${ctx.raw.y.toFixed(1)}%` } },
+            datalabels: {
+                color: '#ffffff', 
+                textShadowColor: 'rgba(0, 0, 0, 0.8)', 
+                textShadowBlur: 4,
+                z: 100, 
+                align: 'right', // Reverted to consistently plot to the right of the dot
+                offset: 6,
+                formatter: (value) => value.ticker,
+                font: { weight: 'bold', size: 10 }
+            },
+            annotation: {
+                annotations: {
+                    zeroX: { type: 'line', xMin: 0, xMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] },
+                    zeroY: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] }
                 }
             }
         },
         scales: {
-            x: { grid: { display: false }, ticks: { color: '#9ca3af', autoSkip: false, maxRotation: 45 } },
-            y: { grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: (val) => val + '%' } }
+            x: { title: { display: true, text: 'MOMENTUM (PRICE VS 50D MA)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } },
+            y: { title: { display: true, text: 'EXPECTED VALUE (LASSO REGRESSION)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } }
         }
     });
 }
@@ -214,8 +289,13 @@ function renderPredictionsChart() {
 function updateChart(id, data, extraOptions = {}) {
     if (charts[id]) charts[id].destroy();
     const c = document.getElementById(id); if (!c) return;
+    
+    const isTimeSeries = data.labels && data.labels.length > 0 && typeof data.labels[0] === 'string' && data.labels[0].includes('-');
+
     charts[id] = new Chart(c.getContext('2d'), {
-        type: extraOptions.type || 'line', data: data,
+        type: extraOptions.type || 'line', 
+        data: data,
+        plugins: extraOptions.customPlugins || [], 
         options: { 
             responsive: true, maintainAspectRatio: false, 
             plugins: { legend: { display: false, ...extraOptions.plugins?.legend }, ...extraOptions.plugins },
@@ -224,11 +304,10 @@ function updateChart(id, data, extraOptions = {}) {
                     grid: { display: false }, 
                     ticks: { 
                         autoSkip: false, maxRotation: 45, color: '#6b7280', 
-                        callback: function(_, i) { 
-                            if (!data.labels || !data.labels[i]) return null;
-                            const dStr = data.labels[i];
-                            if (typeof dStr !== 'string' || !dStr.includes('-')) return null;
+                        callback: function(val, i) { 
+                            if (!isTimeSeries) return this.getLabelForValue(val); 
                             
+                            const dStr = data.labels[i];
                             const d = new Date(dStr);
                             if (isNaN(d.getTime())) return dStr;
 
@@ -240,16 +319,14 @@ function updateChart(id, data, extraOptions = {}) {
                             }
 
                             if (isFirst || isNewMonth) {
-                                const m = d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short' }).toUpperCase();
-                                const y = d.toLocaleDateString('en-US', { timeZone: 'UTC', year: '2-digit' });
-                                return `${m} ${y}`; 
+                                return `${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short' }).toUpperCase()} ${d.toLocaleDateString('en-US', { timeZone: 'UTC', year: '2-digit' })}`; 
                             }
                             return null;
                         } 
-                    } 
+                    },
+                    ...extraOptions.scales?.x
                 }, 
-                y: { ticks: { color: '#6b7280' }, grid: { color: '#1f2937' } }, 
-                ...extraOptions.scales 
+                y: { ticks: { color: '#6b7280' }, grid: { color: '#1f2937' }, ...extraOptions.scales?.y }
             }
         }
     });
