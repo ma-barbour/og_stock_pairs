@@ -11,14 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
 </head>
 <body class="bg-gray-950 text-gray-100 min-h-screen p-4 md:p-6 font-sans">
-    <div class="max-w-[1400px] mx-auto">
+    <div class="max-w-[1400px] mx-auto overflow-x-hidden">
         <header class="mb-6 flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-800 pb-4">
             <h1 class="text-3xl font-black tracking-tight text-cyan-400 uppercase">CANADIAN ENERGY STOCKS</h1>
             <div id="data-status" class="text-xs text-gray-500 mt-2 md:mt-0">Loading data...</div>
         </header>
 
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-            <div class="lg:col-span-5 bg-gray-900 p-4 rounded-xl border border-gray-800 flex flex-col h-[850px] shadow-xl">
+            <div class="md:col-span-5 bg-gray-900 p-4 rounded-xl border border-gray-800 flex flex-col h-[850px] shadow-xl min-w-0">
                 <h2 class="text-sm font-bold text-gray-400 uppercase mb-3 tracking-wider border-b border-gray-800 pb-2">Active Signals</h2>
                 <table class="w-full text-center text-xs text-gray-500 uppercase tracking-wider mb-2">
                     <thead><tr><th class="w-[20%]">Pair</th><th class="w-[20%]">Z-Score</th><th class="w-[20%]">Action</th><th class="w-[20%]">Coint</th><th class="w-[20%]">R-Sq</th></tr></thead>
@@ -28,25 +28,25 @@
                 </div>
             </div>
 
-            <div class="lg:col-span-7 flex flex-col gap-6">
+            <div class="md:col-span-7 flex flex-col gap-6 min-w-0">
                 
                 <div class="grid grid-cols-2 gap-4 bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
                     <div><label class="block text-[10px] font-bold text-gray-500 uppercase mb-1">Primary Stock</label><select id="primary-ticker" class="w-full bg-gray-800 border border-gray-700 text-white text-sm rounded-lg p-2 outline-none focus:border-cyan-400 transition-colors cursor-pointer"></select></div>
                     <div><label class="block text-[10px] font-bold text-gray-500 uppercase mb-1">Cointegrated Partner</label><select id="secondary-ticker" class="w-full bg-gray-800 border border-gray-700 text-white text-sm rounded-lg p-2 outline-none focus:border-cyan-400 transition-colors cursor-pointer"></select></div>
                 </div>
 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="zscore-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Z-Score Spread</h3><div class="h-56"><canvas id="zScoreChart"></canvas></div></div>
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="histogram-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Distribution vs Normal Bell Curve</h3><div class="h-56"><canvas id="histogramChart"></canvas></div></div>
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="acf-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Autocorrelation (ACF)</h3><div class="h-56"><canvas id="acfChart"></canvas></div></div>
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="price-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="h-56"><canvas id="priceChart"></canvas></div></div>
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="ratio-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price Ratio</h3><div class="h-56"><canvas id="ratioChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="zscore-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Z-Score Spread</h3><div class="relative w-full h-56"><canvas id="zScoreChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="histogram-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Distribution vs Normal Bell Curve</h3><div class="relative w-full h-56"><canvas id="histogramChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="acf-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Autocorrelation (ACF)</h3><div class="relative w-full h-56"><canvas id="acfChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="price-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="relative w-full h-56"><canvas id="priceChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="ratio-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price Ratio</h3><div class="relative w-full h-56"><canvas id="ratioChart"></canvas></div></div>
                 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="h-56"><canvas id="primaryChart"></canvas></div></div>
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-xeg-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Relative Performance vs Sector</h3><div class="h-48"><canvas id="primaryXegChart"></canvas></div></div>
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Energy Sector vs Market (XEG / VCN)</h3><div class="h-48"><canvas id="macroChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="relative w-full h-56"><canvas id="primaryChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-xeg-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Relative Performance vs Sector</h3><div class="relative w-full h-48"><canvas id="primaryXegChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Energy Sector vs Market (XEG / VCN)</h3><div class="relative w-full h-48"><canvas id="macroChart"></canvas></div></div>
                 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Lasso Regression: Expected Price Divergence (%)</h3><div class="h-56"><canvas id="predictionsChart"></canvas></div></div>
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Momentum vs. Expected Value</h3><div class="h-64"><canvas id="momentumValueChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Lasso Regression: Expected Price Divergence (%)</h3><div class="relative w-full h-56"><canvas id="predictionsChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Momentum vs. Expected Value</h3><div class="relative w-full h-64"><canvas id="momentumValueChart"></canvas></div></div>
             </div>
         </div>
     </div>

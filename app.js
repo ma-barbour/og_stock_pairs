@@ -1,6 +1,9 @@
 let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [];
 let charts = {}; 
 
+// Register globally so it works, but we will turn it off by default in updateChart()
+Chart.register(ChartDataLabels);
+
 async function init() {
     try {
         const [resSum, resZ, resP, resR, resACF, resPred] = await Promise.all([
@@ -18,7 +21,6 @@ async function init() {
         }
         populateTable(summaryData); setupDropdowns();
         
-        // Render Global Charts
         renderPredictionsChart(); 
         renderMomentumValueChart();
     } catch (err) { console.error(err); document.getElementById('data-status').innerText = "Error loading data."; }
@@ -163,7 +165,7 @@ function renderSpreadHistogramChart(pairId) {
         labels: labels,
         datasets: [
             { type: 'line', label: 'Theoretical Normal Distribution', data: normalCurve, borderColor: '#fbbf24', borderWidth: 2, pointRadius: 0, tension: 0.4, fill: false },
-            { type: 'bar', label: 'Actual Distribution', data: counts, backgroundColor: '#374151', borderRadius: 2 }
+            { type: 'bar', label: 'Actual Distribution', data: counts, backgroundColor: '#4b5563', borderRadius: 2 }
         ]
     }, {
         plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 12 } } },
@@ -230,10 +232,7 @@ function renderPredictionsChart() {
 }
 
 function renderMomentumValueChart() {
-    
     if(predictionsData.length === 0 || priceHistory.length === 0) return;
-    
-    Chart.register(ChartDataLabels);
     
     const scatterPoints = [];
     predictionsData.forEach(p => {
@@ -259,15 +258,15 @@ function renderMomentumValueChart() {
         }]
     }, {
         type: 'scatter',
-        customPlugins: typeof ChartDataLabels !== 'undefined' ? [ChartDataLabels] : [], 
         plugins: {
             tooltip: { callbacks: { label: (ctx) => ` ${ctx.raw.ticker}: Mom ${ctx.raw.x.toFixed(1)}% | Val ${ctx.raw.y.toFixed(1)}%` } },
             datalabels: {
+                display: true, // Specifically turn it ON for this chart only
                 color: '#ffffff', 
                 textShadowColor: 'rgba(0, 0, 0, 0.8)', 
                 textShadowBlur: 4,
                 z: 100, 
-                align: 'right', // Reverted to consistently plot to the right of the dot
+                align: 'right', 
                 offset: 6,
                 formatter: (value) => value.ticker,
                 font: { weight: 'bold', size: 10 }
@@ -295,10 +294,14 @@ function updateChart(id, data, extraOptions = {}) {
     charts[id] = new Chart(c.getContext('2d'), {
         type: extraOptions.type || 'line', 
         data: data,
-        plugins: extraOptions.customPlugins || [], 
         options: { 
-            responsive: true, maintainAspectRatio: false, 
-            plugins: { legend: { display: false, ...extraOptions.plugins?.legend }, ...extraOptions.plugins },
+            responsive: true, 
+            maintainAspectRatio: false, 
+            plugins: { 
+                datalabels: { display: false }, // TURN OFF BY DEFAULT so it doesn't choke line charts
+                legend: { display: false, ...extraOptions.plugins?.legend }, 
+                ...extraOptions.plugins 
+            },
             scales: { 
                 x: { 
                     grid: { display: false }, 
@@ -331,4 +334,14 @@ function updateChart(id, data, extraOptions = {}) {
         }
     });
 }
+
+// Debounced resize listener: Waits for phone rotation to finish (300ms) before redrawing
+let resizeTimer;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        Object.values(charts).forEach(chart => { if (chart) chart.resize(); });
+    }, 300); 
+});
+
 document.addEventListener('DOMContentLoaded', init);
