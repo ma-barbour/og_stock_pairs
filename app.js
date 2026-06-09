@@ -1,3 +1,4 @@
+// 1. Globals with all datasets including PCA
 let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [];
 let charts = {}; 
 
@@ -128,7 +129,7 @@ function renderZScoreChart(pairId, tA, tB) {
     updateChart('zScoreChart', { 
         labels: d.map(v => v.date), 
         datasets: [{ 
-            data: d.map(v => v.dynamic_z), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0
+            data: d.map(v => v.dynamic_z), borderColor: '#ffffff', borderWidth: 2, pointRadius: 0
         }] 
     }, {
         plugins: { 
@@ -198,15 +199,15 @@ function renderACFChart(pairId) {
 
 function renderPriceChart(p1, p2) {
     const d1 = priceHistory.filter(v => v.symbol === p1), d2 = priceHistory.filter(v => v.symbol === p2);
-    updateChart('priceChart', { labels: d1.map(v => v.date), datasets: [{ label: p1, data: d1.map(v => v.adjusted), borderColor: '#fb923c', borderWidth: 1.5, pointRadius: 0, yAxisID: 'y' }, { label: `${p1} 50D`, data: d1.map(v => v.sma_50), borderColor: '#fb923c', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0, yAxisID: 'y' }, { label: p2, data: d2.map(v => v.adjusted), borderColor: '#6366f1', borderWidth: 1.5, pointRadius: 0, yAxisID: 'y1' }, { label: `${p2} 50D`, data: d2.map(v => v.sma_50), borderColor: '#6366f1', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0, yAxisID: 'y1' }] }, {
+    updateChart('priceChart', { labels: d1.map(v => v.date), datasets: [{ label: p1, data: d1.map(v => v.adjusted), borderColor: '#fb923c', borderWidth: 2, pointRadius: 0, yAxisID: 'y' }, { label: `${p1} 50D`, data: d1.map(v => v.sma_50), borderColor: '#fb923c', borderWidth: 2, borderDash: [4,4], pointRadius: 0, yAxisID: 'y' }, { label: p2, data: d2.map(v => v.adjusted), borderColor: '#3b82f6', borderWidth: 2, pointRadius: 0, yAxisID: 'y1' }, { label: `${p2} 50D`, data: d2.map(v => v.sma_50), borderColor: '#3b82f6', borderWidth: 2, borderDash: [4,4], pointRadius: 0, yAxisID: 'y1' }] }, {
         plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 24, boxHeight: 2 } } },
-        scales: { y: { position: 'left', ticks: { color: '#fb923c' } }, y1: { position: 'right', grid: { display: false }, ticks: { color: '#6366f1' } } }
+        scales: { y: { position: 'left', ticks: { color: '#fb923c' } }, y1: { position: 'right', grid: { display: false }, ticks: { color: '#3b82f6' } } }
     });
 }
 
 function renderRatioChart(pairId) {
     const d = ratioHistory.filter(v => v.ratio_id === pairId);
-    if(d.length > 0) updateChart('ratioChart', { labels: d.map(v => v.date), datasets: [{ data: d.map(v => v.ratio), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }] });
+    if(d.length > 0) updateChart('ratioChart', { labels: d.map(v => v.date), datasets: [{ data: d.map(v => v.ratio), borderColor: '#ffffff', borderWidth: 2, pointRadius: 0 }] });
 }
 
 function renderPrimaryChart(p1) {
@@ -216,9 +217,9 @@ function renderPrimaryChart(p1) {
     updateChart('primaryChart', { 
         labels: stockData.map(v => v.date), 
         datasets: [
-            { label: `${p1} Price`, data: stockData.map(v => v.adjusted), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }, 
-            { label: '20D MA', data: stockData.map(v => v.sma_20), borderColor: '#fb923c', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }, 
-            { label: '50D MA', data: stockData.map(v => v.sma_50), borderColor: '#3b82f6', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }
+            { label: `${p1} Price`, data: stockData.map(v => v.adjusted), borderColor: '#ffffff', borderWidth: 2, pointRadius: 0 }, 
+            { label: '20D MA', data: stockData.map(v => v.sma_20), borderColor: '#fb923c', borderWidth: 2, borderDash: [4,4], pointRadius: 0 }, 
+            { label: '50D MA', data: stockData.map(v => v.sma_50), borderColor: '#3b82f6', borderWidth: 2, borderDash: [4,4], pointRadius: 0 }
         ] 
     }, {
         plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 24, boxHeight: 2 } } }
@@ -228,7 +229,7 @@ function renderPrimaryChart(p1) {
 function renderPrimaryXegChart(p1) {
     const idStr = `${p1}_XEG`;
     const d = ratioHistory.filter(v => v.ratio_id === idStr);
-    if(d.length > 0) updateChart('primaryXegChart', { labels: d.map(v => v.date), datasets: [{ data: d.map(v => v.ratio), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }] });
+    if(d.length > 0) updateChart('primaryXegChart', { labels: d.map(v => v.date), datasets: [{ data: d.map(v => v.ratio), borderColor: '#ffffff', borderWidth: 2, pointRadius: 0 }] });
 }
 
 function renderCommodityRatioChart() {
@@ -241,7 +242,7 @@ function renderCommodityRatioChart() {
                 label: 'WTI PRICE', 
                 data: commodityData.map(v => v.WTI), 
                 borderColor: '#ffffff', 
-                borderWidth: 1.5, 
+                borderWidth: 2, 
                 pointRadius: 0, 
                 yAxisID: 'y' 
             },
@@ -249,7 +250,7 @@ function renderCommodityRatioChart() {
                 label: 'NATGAS / WTI RATIO', 
                 data: commodityData.map(v => v.gas_oil_ratio), 
                 borderColor: '#3b82f6', 
-                borderWidth: 1.5, 
+                borderWidth: 2, 
                 pointRadius: 0, 
                 yAxisID: 'y1'
             }
@@ -289,7 +290,7 @@ function renderMacroChart() {
                 label: 'XEG / VCN Ratio', 
                 data: ratioData.map(v => v.ratio), 
                 borderColor: '#ffffff', 
-                borderWidth: 1.5, 
+                borderWidth: 2, 
                 pointRadius: 0
             }
         ] 
@@ -308,7 +309,7 @@ function renderPcaLineChart() {
                 label: 'Market Beta (PC1)', 
                 data: pcaLineData.map(v => v.PC1), 
                 borderColor: '#3b82f6', 
-                borderWidth: 1.5, 
+                borderWidth: 2, 
                 pointRadius: 0,
                 tension: 0.1
             },
@@ -316,7 +317,7 @@ function renderPcaLineChart() {
                 label: 'Sector Rotation (PC2)', 
                 data: pcaLineData.map(v => v.PC2), 
                 borderColor: '#fb923c', 
-                borderWidth: 1.5, 
+                borderWidth: 2, 
                 pointRadius: 0,
                 tension: 0.1
             }
