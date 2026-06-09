@@ -1,19 +1,25 @@
-let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [];
+// 1. ADD commodityData to your global variables
+let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [];
 let charts = {}; 
 
-// Register globally so it works, but we will turn it off by default in updateChart()
 Chart.register(ChartDataLabels);
 
 async function init() {
     try {
-        const [resSum, resZ, resP, resR, resACF, resPred] = await Promise.all([
+        // 2. ADD the fetch call for commodity_chart_data.json
+        const [resSum, resZ, resP, resR, resACF, resPred, resCom] = await Promise.all([
             fetch('./data/valid_pairs_summary.json'), fetch('./data/sd_chart_data.json'),
             fetch('./data/price_chart_data.json'), fetch('./data/ratio_chart_data.json'),
-            fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json') 
+            fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json'),
+            fetch('./data/commodity_chart_data.json') 
         ]);
+        
         summaryData = await resSum.json(); zHistory = await resZ.json();
         priceHistory = await resP.json(); ratioHistory = await resR.json(); 
         acfHistory = await resACF.json(); predictionsData = await resPred.json();
+        
+        // 3. ASSIGN the fetched JSON to your variable
+        commodityData = await resCom.json(); 
 
         if (priceHistory.length > 0) {
             const lastDate = priceHistory[priceHistory.length - 1].date;
@@ -23,6 +29,11 @@ async function init() {
         
         renderPredictionsChart(); 
         renderMomentumValueChart();
+        
+        // Render the standalone charts that don't depend on dropdowns here:
+        renderCommodityRatioChart();
+        renderMacroChart();
+        
     } catch (err) { console.error(err); document.getElementById('data-status').innerText = "Error loading data."; }
 }
 
@@ -80,7 +91,8 @@ function refreshDashboard(p1, p2) {
     renderPriceChart(p1, p2); 
     renderRatioChart(pairId); 
     renderPrimaryChart(p1); 
-    renderPrimaryXegChart(p1); 
+    renderPrimaryXegChart(p1);
+    renderCommodityRatioChart();
     renderMacroChart();
 }
 
@@ -209,6 +221,55 @@ function renderPrimaryXegChart(p1) {
     const idStr = `${p1}_XEG`;
     const d = ratioHistory.filter(v => v.ratio_id === idStr);
     if(d.length > 0) updateChart('primaryXegChart', { labels: d.map(v => v.date), datasets: [{ data: d.map(v => v.ratio), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }] });
+}
+
+function renderCommodityRatioChart() {
+    if (commodityData.length === 0) return;
+
+    updateChart('commodityRatioChart', { 
+        labels: commodityData.map(v => v.date), 
+        datasets: [
+            { 
+                label: 'WTI PRICE', // Updated to match y-axis
+                data: commodityData.map(v => v.WTI), 
+                borderColor: '#ffffff', // Solid white
+                borderWidth: 1.5, 
+                pointRadius: 0, 
+                yAxisID: 'y' 
+                // Removed borderDash to make it solid
+            },
+            { 
+                label: 'NATGAS / WTI RATIO', // Updated to match y1-axis
+                data: commodityData.map(v => v.gas_oil_ratio), 
+                borderColor: '#3b82f6', // Solid blue
+                borderWidth: 1.5, 
+                pointRadius: 0, 
+                yAxisID: 'y1'
+                // Removed borderDash to make it solid
+            }
+        ] 
+    }, {
+        plugins: { 
+            legend: { 
+                display: true, 
+                position: 'top', 
+                labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } 
+            } 
+        },
+        scales: {
+            y: { 
+                position: 'left', 
+                title: { display: true, text: 'WTI PRICE', color: '#ffffff' }, // Matched to dataset label
+                ticks: { color: '#ffffff' } 
+            },
+            y1: { 
+                position: 'right', 
+                grid: { display: false }, 
+                title: { display: true, text: 'NATGAS / WTI RATIO', color: '#3b82f6' }, // Matched to dataset label
+                ticks: { color: '#3b82f6' } 
+            }
+        }
+    });
 }
 
 function renderMacroChart() {

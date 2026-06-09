@@ -13,6 +13,7 @@ library(jsonlite)
 library(urca)
 library(slider)
 library(lubridate)
+library(zoo)
 
 ## BASIC SETTINGS ####
 
@@ -21,6 +22,8 @@ library(lubridate)
 stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "CVE.TO", "FRU.TO", "HWX.TO", "IMO.TO", "IPO.TO", "KEL.TO", "OBE.TO", "OVV.TO", "POU.TO", "PEY.TO", "PNE.TO", "PSK.TO", "SOIL.TO", "SDE.TO", "SCR.TO", "SGY.TO", "SU.TO", "TVE.TO", "TNZ.TO", "TPZ.TO", "TOU.TO", "VET.TO", "WCP.TO")
 
 etf_tickers <- c("VCN.TO", "XEG.TO")
+
+commodity_tickers <- c("CL=F", "NG=F", "CADUSD=X")
 
 # Set the start date for stock data
 
@@ -59,6 +62,20 @@ prices_wide_etfs <- raw_prices_etfs |>
         pivot_wider(names_from = symbol, values_from = adjusted) |>
         arrange(date) 
 
+# Commodity prices
+
+raw_prices_commods <- tq_get(commodity_tickers, 
+                             get = "stock.prices", 
+                             from = start_date)
+
+prices_wide_commods <- raw_prices_commods |>
+        select(date, symbol, adjusted) |>
+        pivot_wider(names_from = symbol, values_from = adjusted) |>
+        rename(WTI = `CL=F`, NATGAS = `NG=F`, CAD_USD = `CADUSD=X`) |>
+        arrange(date) |>
+        mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
+        fill(WTI, NATGAS, CAD_USD, .direction = "downup")
+
 ## PRICE PREDICTIONS ####
 
 # Settings for regression model
@@ -66,17 +83,22 @@ prices_wide_etfs <- raw_prices_etfs |>
 reg_lookback <- 250
 universal_penalty <- 0.00325
 
-# Data for regression model
+# Prepare data for regression model
 
-training_data <- log_prices_stocks |>
-        drop_na() |> 
+target_stocks <- setdiff(colnames(log_prices_stocks), c("date"))
+
+log_commods <- prices_wide_commods |>
+        mutate(across(-date, log))
+
+combined_model_data <- log_prices_stocks |>
+        left_join(log_commods, by = "date") |>
+        drop_na()
+
+training_data <- combined_model_data |>
         tail(reg_lookback + 1) |> head(reg_lookback)
 
-todays_data <- log_prices_stocks |>
-        drop_na() |> 
+todays_data <- combined_model_data |>
         tail(1)
-
-target_stocks <- setdiff(colnames(training_data), c("date"))
 
 # Loop through the stocks using lasso regression model
 # INVESTIGATE ADJUSTING THE MIXTURE
@@ -410,3 +432,18 @@ ratio_chart_data <- bind_rows(ratio_results) |>
 write_json(ratio_chart_data, 
            "data/ratio_chart_data.json", 
            pretty = TRUE)
+
+## COMMODITY CHART DATA ####
+
+# Save the commodity charting data
+
+commodity_chart_data <- prices_wide_commods |>
+        filter(date >= chart_start_date) |>
+        drop_na() |>
+        mutate(gas_oil_ratio = NATGAS / WTI) |>
+        mutate(across(where(is.numeric), ~ round(.x, 4)))
+
+write_json(commodity_chart_data, 
+           "data/commodity_chart_data.json", 
+           pretty = TRUE)
+
