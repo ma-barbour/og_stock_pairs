@@ -74,7 +74,8 @@ prices_wide_commods <- raw_prices_commods |>
         rename(WTI = `CL=F`, NATGAS = `NG=F`, CAD_USD = `CADUSD=X`) |>
         arrange(date) |>
         mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
-        fill(WTI, NATGAS, CAD_USD, .direction = "downup")
+        fill(WTI, NATGAS, CAD_USD, .direction = "downup") |>
+        mutate(gas_oil_ratio = NATGAS / WTI)
 
 ## PRICE PREDICTIONS ####
 
@@ -440,7 +441,6 @@ write_json(ratio_chart_data,
 commodity_chart_data <- prices_wide_commods |>
         filter(date >= chart_start_date) |>
         drop_na() |>
-        mutate(gas_oil_ratio = NATGAS / WTI) |>
         mutate(across(where(is.numeric), ~ round(.x, 4)))
 
 write_json(commodity_chart_data, 
