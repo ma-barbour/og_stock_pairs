@@ -2,7 +2,6 @@
 
 ## LIBRARIES ####
 
-#library(tidyverse)
 library(tidyquant)
 library(tidymodels)
 library(stringr)
@@ -10,18 +9,23 @@ library(glmnet)
 library(jsonlite)
 library(urca)
 library(slider)
+library(lubridate)
 
 ## BASIC SETTINGS ####
 
 # Select the target tickers
 
-stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "CVE.TO", "FRU.TO", "HWX.TO", "IMO.TO", "IPO.TO", "KEL.TO", "OBE.TO", "OVV.TO", "PD.TO", "POU.TO", "PEY.TO", "PNE.TO", "PSK.TO", "SOIL.TO", "SDE.TO", "SES.TO", "SCR.TO", "SGY.TO", "SU.TO", "TVE.TO", "TNZ.TO", "TPZ.TO", "TOU.TO", "VET.TO", "WCP.TO")
+stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "CVE.TO", "FRU.TO", "HWX.TO", "IMO.TO", "IPO.TO", "KEL.TO", "OBE.TO", "OVV.TO", "POU.TO", "PEY.TO", "PNE.TO", "PSK.TO", "SOIL.TO", "SDE.TO", "SCR.TO", "SGY.TO", "SU.TO", "TVE.TO", "TNZ.TO", "TPZ.TO", "TOU.TO", "VET.TO", "WCP.TO")
 
 etf_tickers <- c("VCN.TO", "XEG.TO")
 
 # Set the start date for stock data
 
 start_date <- Sys.Date() - 1000
+
+# Set the start date for app charts
+
+chart_start_date <- floor_date(Sys.Date() - days(500), "month")
 
 ## GET AND CLEAN DATA ####
 
@@ -57,7 +61,7 @@ prices_wide_etfs <- raw_prices_etfs |>
 # Settings for regression model
 
 reg_lookback <- 250
-universal_penalty <- 0.001
+universal_penalty <- 0.00325
 
 # Data for regression model
 
@@ -98,12 +102,24 @@ for (target in target_stocks) {
         lasso_fit <- lasso_wf |> 
                 fit(data = training_data)
         
+        # Extract the model's important tickers
+
+        importances <- tidy(lasso_fit, penalty = universal_penalty) |>
+                filter(term != "(Intercept)",
+                       estimate != 0) |> 
+                mutate(abs_estimate = abs(estimate)) |>
+                arrange(desc(abs_estimate))
+        
+        ranked_tickers <- importances$term
+        
+        #print(paste(target, length(ranked_tickers)))
+        
         # Make price predictions
         
         log_pred <- predict(lasso_fit, new_data = todays_data)
         expected_price <- exp(log_pred$.pred[1])
         actual_price <- exp(todays_data[[target]][1])
-        divergence <- (actual_price - expected_price) / expected_price
+        divergence <- ((expected_price - actual_price) / actual_price)
         
         # Add price data to the loop list
         
@@ -111,12 +127,13 @@ for (target in target_stocks) {
                 ticker = target,
                 actual = round(actual_price, 2),
                 expected = round(expected_price, 2),
-                divergence_pct = round(divergence * 100, 2))
+                divergence_pct = round(divergence * 100, 2),
+                ranked_predictors = list(ranked_tickers))
         
 }
 
 price_predictions <- bind_rows(output_results) |> 
-        arrange(divergence_pct)
+        arrange(desc(divergence_pct))
 
 # Save the updated price predictions
 
@@ -281,6 +298,7 @@ valid_pair_ids <- paste(valid_pairs$stock_A, valid_pairs$stock_B, sep = "_")
 
 historical_chart_data <- bind_rows(historical_results) |>
         filter(pair_id %in% valid_pair_ids) |>
+        filter(date >= chart_start_date) |>
         mutate(across(where(is.numeric), ~ round(.x, 4)))
 
 write_json(historical_chart_data, 
@@ -311,8 +329,8 @@ price_chart_data <- raw_prices_stocks |>
                        mean, 
                        .before = 49, 
                        .complete = TRUE)) |>
-        slice_tail(n = 500) |> 
         ungroup() |>
+        filter(date >= chart_start_date) |>
         mutate(across(where(is.numeric), ~ round(.x, 2)))
 
 # Save the updated pricing data
@@ -381,10 +399,7 @@ if (all(c("XEG", "VCN") %in% colnames(all_prices_wide))) {
 # Finalize the ratio data
 
 ratio_chart_data <- bind_rows(ratio_results) |>
-        group_by(ratio_id) |>
-        arrange(date) |>
-        slice_tail(n = 500) |> 
-        ungroup() |>
+        filter(date >= chart_start_date) |>
         mutate(ratio = round(ratio, 4))
 
 # Save the ratio data
