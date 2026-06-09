@@ -4,7 +4,7 @@
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "ATH",
-    "current_z_score": -1.03,
+    "current_z_score": -1.1,
     "r_squared": 0.85,
     "cointegration_stat": -4.68
   },
@@ -22,9 +22,9 @@
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "IMO",
-    "current_z_score": -1.13,
+    "current_z_score": -1.16,
     "r_squared": 0.82,
-    "cointegration_stat": -4.06
+    "cointegration_stat": -4.05
   },
   {
     "stock_A": "KEL",
@@ -63,22 +63,22 @@
     "cointegration_stat": -3.69
   },
   {
-    "stock_A": "SCR",
-    "stock_B": "SU",
-    "buy_signal": "None",
-    "watch_list": "None",
-    "current_z_score": 0.45,
-    "r_squared": 0.83,
-    "cointegration_stat": -3.63
-  },
-  {
     "stock_A": "CJ",
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "CJ",
-    "current_z_score": -1.41,
+    "current_z_score": -1.48,
     "r_squared": 0.87,
-    "cointegration_stat": -3.62
+    "cointegration_stat": -3.61
+  },
+  {
+    "stock_A": "SCR",
+    "stock_B": "SU",
+    "buy_signal": "None",
+    "watch_list": "None",
+    "current_z_score": 0.54,
+    "r_squared": 0.83,
+    "cointegration_stat": -3.61
   },
   {
     "stock_A": "KEL",
@@ -108,21 +108,21 @@
     "cointegration_stat": -3.47
   },
   {
-    "stock_A": "SCR",
-    "stock_B": "WCP",
-    "buy_signal": "None",
-    "watch_list": "SCR",
-    "current_z_score": -1.62,
-    "r_squared": 0.87,
-    "cointegration_stat": -3.46
-  },
-  {
     "stock_A": "POU",
     "stock_B": "PEY",
     "buy_signal": "None",
     "watch_list": "None",
     "current_z_score": 0.02,
     "r_squared": 0.91,
+    "cointegration_stat": -3.45
+  },
+  {
+    "stock_A": "SCR",
+    "stock_B": "WCP",
+    "buy_signal": "None",
+    "watch_list": "SCR",
+    "current_z_score": -1.54,
+    "r_squared": 0.87,
     "cointegration_stat": -3.45
   },
   {
