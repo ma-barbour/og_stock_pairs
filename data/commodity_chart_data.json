@@ -1,0 +1,2900 @@
+[
+  {
+    "date": "2025-01-01",
+    "WTI": 72.425,
+    "NATGAS": 3.6465,
+    "CAD_USD": 0.6963,
+    "gas_oil_ratio": 0.0503
+  },
+  {
+    "date": "2025-01-02",
+    "WTI": 73.13,
+    "NATGAS": 3.66,
+    "CAD_USD": 0.6957,
+    "gas_oil_ratio": 0.05
+  },
+  {
+    "date": "2025-01-03",
+    "WTI": 73.96,
+    "NATGAS": 3.354,
+    "CAD_USD": 0.6943,
+    "gas_oil_ratio": 0.0453
+  },
+  {
+    "date": "2025-01-06",
+    "WTI": 73.56,
+    "NATGAS": 3.672,
+    "CAD_USD": 0.6925,
+    "gas_oil_ratio": 0.0499
+  },
+  {
+    "date": "2025-01-07",
+    "WTI": 74.25,
+    "NATGAS": 3.449,
+    "CAD_USD": 0.6974,
+    "gas_oil_ratio": 0.0465
+  },
+  {
+    "date": "2025-01-08",
+    "WTI": 73.32,
+    "NATGAS": 3.651,
+    "CAD_USD": 0.6962,
+    "gas_oil_ratio": 0.0498
+  },
+  {
+    "date": "2025-01-09",
+    "WTI": 73.92,
+    "NATGAS": 3.701,
+    "CAD_USD": 0.6956,
+    "gas_oil_ratio": 0.0501
+  },
+  {
+    "date": "2025-01-10",
+    "WTI": 76.57,
+    "NATGAS": 3.989,
+    "CAD_USD": 0.6944,
+    "gas_oil_ratio": 0.0521
+  },
+  {
+    "date": "2025-01-13",
+    "WTI": 78.82,
+    "NATGAS": 3.934,
+    "CAD_USD": 0.6937,
+    "gas_oil_ratio": 0.0499
+  },
+  {
+    "date": "2025-01-14",
+    "WTI": 77.5,
+    "NATGAS": 3.968,
+    "CAD_USD": 0.6962,
+    "gas_oil_ratio": 0.0512
+  },
+  {
+    "date": "2025-01-15",
+    "WTI": 80.04,
+    "NATGAS": 4.083,
+    "CAD_USD": 0.6968,
+    "gas_oil_ratio": 0.051
+  },
+  {
+    "date": "2025-01-16",
+    "WTI": 78.68,
+    "NATGAS": 4.258,
+    "CAD_USD": 0.698,
+    "gas_oil_ratio": 0.0541
+  },
+  {
+    "date": "2025-01-17",
+    "WTI": 77.88,
+    "NATGAS": 3.948,
+    "CAD_USD": 0.6946,
+    "gas_oil_ratio": 0.0507
+  },
+  {
+    "date": "2025-01-20",
+    "WTI": 76.885,
+    "NATGAS": 3.852,
+    "CAD_USD": 0.6909,
+    "gas_oil_ratio": 0.0501
+  },
+  {
+    "date": "2025-01-21",
+    "WTI": 75.89,
+    "NATGAS": 3.756,
+    "CAD_USD": 0.6992,
+    "gas_oil_ratio": 0.0495
+  },
+  {
+    "date": "2025-01-22",
+    "WTI": 75.44,
+    "NATGAS": 3.96,
+    "CAD_USD": 0.6972,
+    "gas_oil_ratio": 0.0525
+  },
+  {
+    "date": "2025-01-23",
+    "WTI": 74.62,
+    "NATGAS": 3.945,
+    "CAD_USD": 0.6948,
+    "gas_oil_ratio": 0.0529
+  },
+  {
+    "date": "2025-01-24",
+    "WTI": 74.66,
+    "NATGAS": 4.027,
+    "CAD_USD": 0.6955,
+    "gas_oil_ratio": 0.0539
+  },
+  {
+    "date": "2025-01-27",
+    "WTI": 73.17,
+    "NATGAS": 3.697,
+    "CAD_USD": 0.6952,
+    "gas_oil_ratio": 0.0505
+  },
+  {
+    "date": "2025-01-28",
+    "WTI": 73.77,
+    "NATGAS": 3.471,
+    "CAD_USD": 0.6944,
+    "gas_oil_ratio": 0.0471
+  },
+  {
+    "date": "2025-01-29",
+    "WTI": 72.62,
+    "NATGAS": 3.535,
+    "CAD_USD": 0.6944,
+    "gas_oil_ratio": 0.0487
+  },
+  {
+    "date": "2025-01-30",
+    "WTI": 72.73,
+    "NATGAS": 3.047,
+    "CAD_USD": 0.6945,
+    "gas_oil_ratio": 0.0419
+  },
+  {
+    "date": "2025-01-31",
+    "WTI": 72.53,
+    "NATGAS": 3.044,
+    "CAD_USD": 0.69,
+    "gas_oil_ratio": 0.042
+  },
+  {
+    "date": "2025-02-03",
+    "WTI": 73.16,
+    "NATGAS": 3.352,
+    "CAD_USD": 0.6795,
+    "gas_oil_ratio": 0.0458
+  },
+  {
+    "date": "2025-02-04",
+    "WTI": 72.7,
+    "NATGAS": 3.253,
+    "CAD_USD": 0.6936,
+    "gas_oil_ratio": 0.0447
+  },
+  {
+    "date": "2025-02-05",
+    "WTI": 71.03,
+    "NATGAS": 3.36,
+    "CAD_USD": 0.6976,
+    "gas_oil_ratio": 0.0473
+  },
+  {
+    "date": "2025-02-06",
+    "WTI": 70.61,
+    "NATGAS": 3.408,
+    "CAD_USD": 0.6986,
+    "gas_oil_ratio": 0.0483
+  },
+  {
+    "date": "2025-02-07",
+    "WTI": 71,
+    "NATGAS": 3.309,
+    "CAD_USD": 0.699,
+    "gas_oil_ratio": 0.0466
+  },
+  {
+    "date": "2025-02-10",
+    "WTI": 72.32,
+    "NATGAS": 3.444,
+    "CAD_USD": 0.6977,
+    "gas_oil_ratio": 0.0476
+  },
+  {
+    "date": "2025-02-11",
+    "WTI": 73.32,
+    "NATGAS": 3.519,
+    "CAD_USD": 0.6975,
+    "gas_oil_ratio": 0.048
+  },
+  {
+    "date": "2025-02-12",
+    "WTI": 71.37,
+    "NATGAS": 3.565,
+    "CAD_USD": 0.7,
+    "gas_oil_ratio": 0.05
+  },
+  {
+    "date": "2025-02-13",
+    "WTI": 71.29,
+    "NATGAS": 3.628,
+    "CAD_USD": 0.6993,
+    "gas_oil_ratio": 0.0509
+  },
+  {
+    "date": "2025-02-14",
+    "WTI": 70.74,
+    "NATGAS": 3.725,
+    "CAD_USD": 0.7046,
+    "gas_oil_ratio": 0.0527
+  },
+  {
+    "date": "2025-02-17",
+    "WTI": 71.295,
+    "NATGAS": 3.866,
+    "CAD_USD": 0.705,
+    "gas_oil_ratio": 0.0542
+  },
+  {
+    "date": "2025-02-18",
+    "WTI": 71.85,
+    "NATGAS": 4.007,
+    "CAD_USD": 0.705,
+    "gas_oil_ratio": 0.0558
+  },
+  {
+    "date": "2025-02-19",
+    "WTI": 72.25,
+    "NATGAS": 4.28,
+    "CAD_USD": 0.7048,
+    "gas_oil_ratio": 0.0592
+  },
+  {
+    "date": "2025-02-20",
+    "WTI": 72.57,
+    "NATGAS": 4.152,
+    "CAD_USD": 0.7022,
+    "gas_oil_ratio": 0.0572
+  },
+  {
+    "date": "2025-02-21",
+    "WTI": 70.4,
+    "NATGAS": 4.234,
+    "CAD_USD": 0.7054,
+    "gas_oil_ratio": 0.0601
+  },
+  {
+    "date": "2025-02-24",
+    "WTI": 70.7,
+    "NATGAS": 3.994,
+    "CAD_USD": 0.7037,
+    "gas_oil_ratio": 0.0565
+  },
+  {
+    "date": "2025-02-25",
+    "WTI": 68.93,
+    "NATGAS": 4.174,
+    "CAD_USD": 0.7005,
+    "gas_oil_ratio": 0.0606
+  },
+  {
+    "date": "2025-02-26",
+    "WTI": 68.62,
+    "NATGAS": 3.906,
+    "CAD_USD": 0.6993,
+    "gas_oil_ratio": 0.0569
+  },
+  {
+    "date": "2025-02-27",
+    "WTI": 70.35,
+    "NATGAS": 3.934,
+    "CAD_USD": 0.6975,
+    "gas_oil_ratio": 0.0559
+  },
+  {
+    "date": "2025-02-28",
+    "WTI": 69.76,
+    "NATGAS": 3.834,
+    "CAD_USD": 0.6924,
+    "gas_oil_ratio": 0.055
+  },
+  {
+    "date": "2025-03-03",
+    "WTI": 68.37,
+    "NATGAS": 4.122,
+    "CAD_USD": 0.6925,
+    "gas_oil_ratio": 0.0603
+  },
+  {
+    "date": "2025-03-04",
+    "WTI": 68.26,
+    "NATGAS": 4.35,
+    "CAD_USD": 0.6901,
+    "gas_oil_ratio": 0.0637
+  },
+  {
+    "date": "2025-03-05",
+    "WTI": 66.31,
+    "NATGAS": 4.45,
+    "CAD_USD": 0.6946,
+    "gas_oil_ratio": 0.0671
+  },
+  {
+    "date": "2025-03-06",
+    "WTI": 66.36,
+    "NATGAS": 4.302,
+    "CAD_USD": 0.6974,
+    "gas_oil_ratio": 0.0648
+  },
+  {
+    "date": "2025-03-07",
+    "WTI": 67.04,
+    "NATGAS": 4.399,
+    "CAD_USD": 0.6997,
+    "gas_oil_ratio": 0.0656
+  },
+  {
+    "date": "2025-03-10",
+    "WTI": 66.03,
+    "NATGAS": 4.491,
+    "CAD_USD": 0.6959,
+    "gas_oil_ratio": 0.068
+  },
+  {
+    "date": "2025-03-11",
+    "WTI": 66.25,
+    "NATGAS": 4.453,
+    "CAD_USD": 0.6931,
+    "gas_oil_ratio": 0.0672
+  },
+  {
+    "date": "2025-03-12",
+    "WTI": 67.68,
+    "NATGAS": 4.084,
+    "CAD_USD": 0.6929,
+    "gas_oil_ratio": 0.0603
+  },
+  {
+    "date": "2025-03-13",
+    "WTI": 66.55,
+    "NATGAS": 4.111,
+    "CAD_USD": 0.6963,
+    "gas_oil_ratio": 0.0618
+  },
+  {
+    "date": "2025-03-14",
+    "WTI": 67.18,
+    "NATGAS": 4.104,
+    "CAD_USD": 0.6932,
+    "gas_oil_ratio": 0.0611
+  },
+  {
+    "date": "2025-03-17",
+    "WTI": 67.58,
+    "NATGAS": 4.018,
+    "CAD_USD": 0.6959,
+    "gas_oil_ratio": 0.0595
+  },
+  {
+    "date": "2025-03-18",
+    "WTI": 66.9,
+    "NATGAS": 4.052,
+    "CAD_USD": 0.6995,
+    "gas_oil_ratio": 0.0606
+  },
+  {
+    "date": "2025-03-19",
+    "WTI": 67.16,
+    "NATGAS": 4.247,
+    "CAD_USD": 0.6993,
+    "gas_oil_ratio": 0.0632
+  },
+  {
+    "date": "2025-03-20",
+    "WTI": 68.26,
+    "NATGAS": 3.975,
+    "CAD_USD": 0.6984,
+    "gas_oil_ratio": 0.0582
+  },
+  {
+    "date": "2025-03-21",
+    "WTI": 68.28,
+    "NATGAS": 3.98,
+    "CAD_USD": 0.6982,
+    "gas_oil_ratio": 0.0583
+  },
+  {
+    "date": "2025-03-24",
+    "WTI": 69.11,
+    "NATGAS": 3.914,
+    "CAD_USD": 0.6977,
+    "gas_oil_ratio": 0.0566
+  },
+  {
+    "date": "2025-03-25",
+    "WTI": 69,
+    "NATGAS": 3.84,
+    "CAD_USD": 0.6985,
+    "gas_oil_ratio": 0.0557
+  },
+  {
+    "date": "2025-03-26",
+    "WTI": 69.65,
+    "NATGAS": 3.861,
+    "CAD_USD": 0.7006,
+    "gas_oil_ratio": 0.0554
+  },
+  {
+    "date": "2025-03-27",
+    "WTI": 69.92,
+    "NATGAS": 3.95,
+    "CAD_USD": 0.6995,
+    "gas_oil_ratio": 0.0565
+  },
+  {
+    "date": "2025-03-28",
+    "WTI": 69.36,
+    "NATGAS": 4.065,
+    "CAD_USD": 0.6989,
+    "gas_oil_ratio": 0.0586
+  },
+  {
+    "date": "2025-03-30",
+    "WTI": 70.42,
+    "NATGAS": 4.092,
+    "CAD_USD": 0.6989,
+    "gas_oil_ratio": 0.0581
+  },
+  {
+    "date": "2025-03-31",
+    "WTI": 71.48,
+    "NATGAS": 4.119,
+    "CAD_USD": 0.6949,
+    "gas_oil_ratio": 0.0576
+  },
+  {
+    "date": "2025-04-01",
+    "WTI": 71.2,
+    "NATGAS": 3.951,
+    "CAD_USD": 0.6997,
+    "gas_oil_ratio": 0.0555
+  },
+  {
+    "date": "2025-04-02",
+    "WTI": 71.71,
+    "NATGAS": 4.055,
+    "CAD_USD": 0.7034,
+    "gas_oil_ratio": 0.0565
+  },
+  {
+    "date": "2025-04-03",
+    "WTI": 66.95,
+    "NATGAS": 4.138,
+    "CAD_USD": 0.7102,
+    "gas_oil_ratio": 0.0618
+  },
+  {
+    "date": "2025-04-04",
+    "WTI": 61.99,
+    "NATGAS": 3.837,
+    "CAD_USD": 0.7062,
+    "gas_oil_ratio": 0.0619
+  },
+  {
+    "date": "2025-04-06",
+    "WTI": 61.345,
+    "NATGAS": 3.746,
+    "CAD_USD": 0.7022,
+    "gas_oil_ratio": 0.0611
+  },
+  {
+    "date": "2025-04-07",
+    "WTI": 60.7,
+    "NATGAS": 3.655,
+    "CAD_USD": 0.7024,
+    "gas_oil_ratio": 0.0602
+  },
+  {
+    "date": "2025-04-08",
+    "WTI": 59.58,
+    "NATGAS": 3.465,
+    "CAD_USD": 0.7016,
+    "gas_oil_ratio": 0.0582
+  },
+  {
+    "date": "2025-04-09",
+    "WTI": 62.35,
+    "NATGAS": 3.816,
+    "CAD_USD": 0.7092,
+    "gas_oil_ratio": 0.0612
+  },
+  {
+    "date": "2025-04-10",
+    "WTI": 60.07,
+    "NATGAS": 3.557,
+    "CAD_USD": 0.7168,
+    "gas_oil_ratio": 0.0592
+  },
+  {
+    "date": "2025-04-11",
+    "WTI": 61.5,
+    "NATGAS": 3.527,
+    "CAD_USD": 0.7188,
+    "gas_oil_ratio": 0.0573
+  },
+  {
+    "date": "2025-04-13",
+    "WTI": 61.515,
+    "NATGAS": 3.426,
+    "CAD_USD": 0.7208,
+    "gas_oil_ratio": 0.0557
+  },
+  {
+    "date": "2025-04-14",
+    "WTI": 61.53,
+    "NATGAS": 3.325,
+    "CAD_USD": 0.7194,
+    "gas_oil_ratio": 0.054
+  },
+  {
+    "date": "2025-04-15",
+    "WTI": 61.33,
+    "NATGAS": 3.329,
+    "CAD_USD": 0.7165,
+    "gas_oil_ratio": 0.0543
+  },
+  {
+    "date": "2025-04-16",
+    "WTI": 62.47,
+    "NATGAS": 3.247,
+    "CAD_USD": 0.7215,
+    "gas_oil_ratio": 0.052
+  },
+  {
+    "date": "2025-04-17",
+    "WTI": 64.68,
+    "NATGAS": 3.245,
+    "CAD_USD": 0.722,
+    "gas_oil_ratio": 0.0502
+  },
+  {
+    "date": "2025-04-20",
+    "WTI": 63.88,
+    "NATGAS": 3.1305,
+    "CAD_USD": 0.7224,
+    "gas_oil_ratio": 0.049
+  },
+  {
+    "date": "2025-04-21",
+    "WTI": 63.08,
+    "NATGAS": 3.016,
+    "CAD_USD": 0.7228,
+    "gas_oil_ratio": 0.0478
+  },
+  {
+    "date": "2025-04-22",
+    "WTI": 64.31,
+    "NATGAS": 3.007,
+    "CAD_USD": 0.7222,
+    "gas_oil_ratio": 0.0468
+  },
+  {
+    "date": "2025-04-23",
+    "WTI": 62.27,
+    "NATGAS": 3.022,
+    "CAD_USD": 0.7208,
+    "gas_oil_ratio": 0.0485
+  },
+  {
+    "date": "2025-04-24",
+    "WTI": 62.79,
+    "NATGAS": 2.93,
+    "CAD_USD": 0.7216,
+    "gas_oil_ratio": 0.0467
+  },
+  {
+    "date": "2025-04-25",
+    "WTI": 63.02,
+    "NATGAS": 2.937,
+    "CAD_USD": 0.7213,
+    "gas_oil_ratio": 0.0466
+  },
+  {
+    "date": "2025-04-27",
+    "WTI": 62.535,
+    "NATGAS": 3.0535,
+    "CAD_USD": 0.7209,
+    "gas_oil_ratio": 0.0488
+  },
+  {
+    "date": "2025-04-28",
+    "WTI": 62.05,
+    "NATGAS": 3.17,
+    "CAD_USD": 0.7231,
+    "gas_oil_ratio": 0.0511
+  },
+  {
+    "date": "2025-04-29",
+    "WTI": 60.42,
+    "NATGAS": 3.386,
+    "CAD_USD": 0.7232,
+    "gas_oil_ratio": 0.056
+  },
+  {
+    "date": "2025-04-30",
+    "WTI": 58.21,
+    "NATGAS": 3.326,
+    "CAD_USD": 0.7252,
+    "gas_oil_ratio": 0.0571
+  },
+  {
+    "date": "2025-05-01",
+    "WTI": 59.24,
+    "NATGAS": 3.479,
+    "CAD_USD": 0.7222,
+    "gas_oil_ratio": 0.0587
+  },
+  {
+    "date": "2025-05-02",
+    "WTI": 58.29,
+    "NATGAS": 3.63,
+    "CAD_USD": 0.7228,
+    "gas_oil_ratio": 0.0623
+  },
+  {
+    "date": "2025-05-04",
+    "WTI": 57.71,
+    "NATGAS": 3.59,
+    "CAD_USD": 0.7235,
+    "gas_oil_ratio": 0.0622
+  },
+  {
+    "date": "2025-05-05",
+    "WTI": 57.13,
+    "NATGAS": 3.55,
+    "CAD_USD": 0.7235,
+    "gas_oil_ratio": 0.0621
+  },
+  {
+    "date": "2025-05-06",
+    "WTI": 59.09,
+    "NATGAS": 3.463,
+    "CAD_USD": 0.7262,
+    "gas_oil_ratio": 0.0586
+  },
+  {
+    "date": "2025-05-07",
+    "WTI": 58.07,
+    "NATGAS": 3.621,
+    "CAD_USD": 0.7228,
+    "gas_oil_ratio": 0.0624
+  },
+  {
+    "date": "2025-05-08",
+    "WTI": 59.91,
+    "NATGAS": 3.592,
+    "CAD_USD": 0.7182,
+    "gas_oil_ratio": 0.06
+  },
+  {
+    "date": "2025-05-09",
+    "WTI": 61.02,
+    "NATGAS": 3.795,
+    "CAD_USD": 0.7182,
+    "gas_oil_ratio": 0.0622
+  },
+  {
+    "date": "2025-05-11",
+    "WTI": 61.485,
+    "NATGAS": 3.7205,
+    "CAD_USD": 0.7182,
+    "gas_oil_ratio": 0.0605
+  },
+  {
+    "date": "2025-05-12",
+    "WTI": 61.95,
+    "NATGAS": 3.646,
+    "CAD_USD": 0.7156,
+    "gas_oil_ratio": 0.0589
+  },
+  {
+    "date": "2025-05-13",
+    "WTI": 63.67,
+    "NATGAS": 3.647,
+    "CAD_USD": 0.7178,
+    "gas_oil_ratio": 0.0573
+  },
+  {
+    "date": "2025-05-14",
+    "WTI": 63.15,
+    "NATGAS": 3.492,
+    "CAD_USD": 0.7154,
+    "gas_oil_ratio": 0.0553
+  },
+  {
+    "date": "2025-05-15",
+    "WTI": 61.62,
+    "NATGAS": 3.362,
+    "CAD_USD": 0.7166,
+    "gas_oil_ratio": 0.0546
+  },
+  {
+    "date": "2025-05-16",
+    "WTI": 62.49,
+    "NATGAS": 3.334,
+    "CAD_USD": 0.7167,
+    "gas_oil_ratio": 0.0534
+  },
+  {
+    "date": "2025-05-18",
+    "WTI": 62.59,
+    "NATGAS": 3.2235,
+    "CAD_USD": 0.7167,
+    "gas_oil_ratio": 0.0515
+  },
+  {
+    "date": "2025-05-19",
+    "WTI": 62.69,
+    "NATGAS": 3.113,
+    "CAD_USD": 0.7165,
+    "gas_oil_ratio": 0.0497
+  },
+  {
+    "date": "2025-05-20",
+    "WTI": 62.56,
+    "NATGAS": 3.427,
+    "CAD_USD": 0.7189,
+    "gas_oil_ratio": 0.0548
+  },
+  {
+    "date": "2025-05-21",
+    "WTI": 61.57,
+    "NATGAS": 3.368,
+    "CAD_USD": 0.7215,
+    "gas_oil_ratio": 0.0547
+  },
+  {
+    "date": "2025-05-22",
+    "WTI": 61.2,
+    "NATGAS": 3.253,
+    "CAD_USD": 0.7216,
+    "gas_oil_ratio": 0.0532
+  },
+  {
+    "date": "2025-05-23",
+    "WTI": 61.53,
+    "NATGAS": 3.334,
+    "CAD_USD": 0.7248,
+    "gas_oil_ratio": 0.0542
+  },
+  {
+    "date": "2025-05-25",
+    "WTI": 61.3167,
+    "NATGAS": 3.3553,
+    "CAD_USD": 0.728,
+    "gas_oil_ratio": 0.0547
+  },
+  {
+    "date": "2025-05-26",
+    "WTI": 61.1033,
+    "NATGAS": 3.3767,
+    "CAD_USD": 0.728,
+    "gas_oil_ratio": 0.0553
+  },
+  {
+    "date": "2025-05-27",
+    "WTI": 60.89,
+    "NATGAS": 3.398,
+    "CAD_USD": 0.7241,
+    "gas_oil_ratio": 0.0558
+  },
+  {
+    "date": "2025-05-28",
+    "WTI": 61.84,
+    "NATGAS": 3.204,
+    "CAD_USD": 0.722,
+    "gas_oil_ratio": 0.0518
+  },
+  {
+    "date": "2025-05-29",
+    "WTI": 60.94,
+    "NATGAS": 3.522,
+    "CAD_USD": 0.7243,
+    "gas_oil_ratio": 0.0578
+  },
+  {
+    "date": "2025-05-30",
+    "WTI": 60.79,
+    "NATGAS": 3.447,
+    "CAD_USD": 0.7264,
+    "gas_oil_ratio": 0.0567
+  },
+  {
+    "date": "2025-06-01",
+    "WTI": 61.655,
+    "NATGAS": 3.5705,
+    "CAD_USD": 0.7285,
+    "gas_oil_ratio": 0.0579
+  },
+  {
+    "date": "2025-06-02",
+    "WTI": 62.52,
+    "NATGAS": 3.694,
+    "CAD_USD": 0.7294,
+    "gas_oil_ratio": 0.0591
+  },
+  {
+    "date": "2025-06-03",
+    "WTI": 63.41,
+    "NATGAS": 3.722,
+    "CAD_USD": 0.7291,
+    "gas_oil_ratio": 0.0587
+  },
+  {
+    "date": "2025-06-04",
+    "WTI": 62.85,
+    "NATGAS": 3.716,
+    "CAD_USD": 0.731,
+    "gas_oil_ratio": 0.0591
+  },
+  {
+    "date": "2025-06-05",
+    "WTI": 63.37,
+    "NATGAS": 3.677,
+    "CAD_USD": 0.7317,
+    "gas_oil_ratio": 0.058
+  },
+  {
+    "date": "2025-06-06",
+    "WTI": 64.58,
+    "NATGAS": 3.784,
+    "CAD_USD": 0.7311,
+    "gas_oil_ratio": 0.0586
+  },
+  {
+    "date": "2025-06-08",
+    "WTI": 64.935,
+    "NATGAS": 3.7095,
+    "CAD_USD": 0.7304,
+    "gas_oil_ratio": 0.0571
+  },
+  {
+    "date": "2025-06-09",
+    "WTI": 65.29,
+    "NATGAS": 3.635,
+    "CAD_USD": 0.73,
+    "gas_oil_ratio": 0.0557
+  },
+  {
+    "date": "2025-06-10",
+    "WTI": 64.98,
+    "NATGAS": 3.533,
+    "CAD_USD": 0.7316,
+    "gas_oil_ratio": 0.0544
+  },
+  {
+    "date": "2025-06-11",
+    "WTI": 68.15,
+    "NATGAS": 3.507,
+    "CAD_USD": 0.7318,
+    "gas_oil_ratio": 0.0515
+  },
+  {
+    "date": "2025-06-12",
+    "WTI": 68.04,
+    "NATGAS": 3.492,
+    "CAD_USD": 0.7355,
+    "gas_oil_ratio": 0.0513
+  },
+  {
+    "date": "2025-06-13",
+    "WTI": 72.98,
+    "NATGAS": 3.581,
+    "CAD_USD": 0.7358,
+    "gas_oil_ratio": 0.0491
+  },
+  {
+    "date": "2025-06-15",
+    "WTI": 72.375,
+    "NATGAS": 3.6645,
+    "CAD_USD": 0.7362,
+    "gas_oil_ratio": 0.0506
+  },
+  {
+    "date": "2025-06-16",
+    "WTI": 71.77,
+    "NATGAS": 3.748,
+    "CAD_USD": 0.7367,
+    "gas_oil_ratio": 0.0522
+  },
+  {
+    "date": "2025-06-17",
+    "WTI": 74.84,
+    "NATGAS": 3.851,
+    "CAD_USD": 0.7308,
+    "gas_oil_ratio": 0.0515
+  },
+  {
+    "date": "2025-06-18",
+    "WTI": 75.14,
+    "NATGAS": 3.989,
+    "CAD_USD": 0.7301,
+    "gas_oil_ratio": 0.0531
+  },
+  {
+    "date": "2025-06-19",
+    "WTI": 75.035,
+    "NATGAS": 3.918,
+    "CAD_USD": 0.7302,
+    "gas_oil_ratio": 0.0522
+  },
+  {
+    "date": "2025-06-20",
+    "WTI": 74.93,
+    "NATGAS": 3.847,
+    "CAD_USD": 0.729,
+    "gas_oil_ratio": 0.0513
+  },
+  {
+    "date": "2025-06-22",
+    "WTI": 71.72,
+    "NATGAS": 3.7725,
+    "CAD_USD": 0.7278,
+    "gas_oil_ratio": 0.0526
+  },
+  {
+    "date": "2025-06-23",
+    "WTI": 68.51,
+    "NATGAS": 3.698,
+    "CAD_USD": 0.7284,
+    "gas_oil_ratio": 0.054
+  },
+  {
+    "date": "2025-06-24",
+    "WTI": 64.37,
+    "NATGAS": 3.537,
+    "CAD_USD": 0.7285,
+    "gas_oil_ratio": 0.0549
+  },
+  {
+    "date": "2025-06-25",
+    "WTI": 64.92,
+    "NATGAS": 3.406,
+    "CAD_USD": 0.7293,
+    "gas_oil_ratio": 0.0525
+  },
+  {
+    "date": "2025-06-26",
+    "WTI": 65.24,
+    "NATGAS": 3.261,
+    "CAD_USD": 0.733,
+    "gas_oil_ratio": 0.05
+  },
+  {
+    "date": "2025-06-27",
+    "WTI": 65.52,
+    "NATGAS": 3.739,
+    "CAD_USD": 0.7319,
+    "gas_oil_ratio": 0.0571
+  },
+  {
+    "date": "2025-06-29",
+    "WTI": 65.315,
+    "NATGAS": 3.5975,
+    "CAD_USD": 0.7309,
+    "gas_oil_ratio": 0.0551
+  },
+  {
+    "date": "2025-06-30",
+    "WTI": 65.11,
+    "NATGAS": 3.456,
+    "CAD_USD": 0.735,
+    "gas_oil_ratio": 0.0531
+  },
+  {
+    "date": "2025-07-01",
+    "WTI": 65.45,
+    "NATGAS": 3.415,
+    "CAD_USD": 0.7329,
+    "gas_oil_ratio": 0.0522
+  },
+  {
+    "date": "2025-07-02",
+    "WTI": 67.45,
+    "NATGAS": 3.488,
+    "CAD_USD": 0.736,
+    "gas_oil_ratio": 0.0517
+  },
+  {
+    "date": "2025-07-03",
+    "WTI": 67,
+    "NATGAS": 3.409,
+    "CAD_USD": 0.7368,
+    "gas_oil_ratio": 0.0509
+  },
+  {
+    "date": "2025-07-04",
+    "WTI": 66.5,
+    "NATGAS": 3.387,
+    "CAD_USD": 0.7359,
+    "gas_oil_ratio": 0.0509
+  },
+  {
+    "date": "2025-07-06",
+    "WTI": 67.215,
+    "NATGAS": 3.3995,
+    "CAD_USD": 0.7351,
+    "gas_oil_ratio": 0.0506
+  },
+  {
+    "date": "2025-07-07",
+    "WTI": 67.93,
+    "NATGAS": 3.412,
+    "CAD_USD": 0.7318,
+    "gas_oil_ratio": 0.0502
+  },
+  {
+    "date": "2025-07-08",
+    "WTI": 68.33,
+    "NATGAS": 3.34,
+    "CAD_USD": 0.7316,
+    "gas_oil_ratio": 0.0489
+  },
+  {
+    "date": "2025-07-09",
+    "WTI": 68.38,
+    "NATGAS": 3.214,
+    "CAD_USD": 0.7308,
+    "gas_oil_ratio": 0.047
+  },
+  {
+    "date": "2025-07-10",
+    "WTI": 66.57,
+    "NATGAS": 3.337,
+    "CAD_USD": 0.7323,
+    "gas_oil_ratio": 0.0501
+  },
+  {
+    "date": "2025-07-11",
+    "WTI": 68.45,
+    "NATGAS": 3.314,
+    "CAD_USD": 0.7315,
+    "gas_oil_ratio": 0.0484
+  },
+  {
+    "date": "2025-07-13",
+    "WTI": 67.715,
+    "NATGAS": 3.39,
+    "CAD_USD": 0.7308,
+    "gas_oil_ratio": 0.0501
+  },
+  {
+    "date": "2025-07-14",
+    "WTI": 66.98,
+    "NATGAS": 3.466,
+    "CAD_USD": 0.7297,
+    "gas_oil_ratio": 0.0517
+  },
+  {
+    "date": "2025-07-15",
+    "WTI": 66.52,
+    "NATGAS": 3.523,
+    "CAD_USD": 0.7291,
+    "gas_oil_ratio": 0.053
+  },
+  {
+    "date": "2025-07-16",
+    "WTI": 66.38,
+    "NATGAS": 3.551,
+    "CAD_USD": 0.7305,
+    "gas_oil_ratio": 0.0535
+  },
+  {
+    "date": "2025-07-17",
+    "WTI": 67.54,
+    "NATGAS": 3.542,
+    "CAD_USD": 0.728,
+    "gas_oil_ratio": 0.0524
+  },
+  {
+    "date": "2025-07-18",
+    "WTI": 67.34,
+    "NATGAS": 3.565,
+    "CAD_USD": 0.7283,
+    "gas_oil_ratio": 0.0529
+  },
+  {
+    "date": "2025-07-20",
+    "WTI": 67.27,
+    "NATGAS": 3.445,
+    "CAD_USD": 0.7287,
+    "gas_oil_ratio": 0.0512
+  },
+  {
+    "date": "2025-07-21",
+    "WTI": 67.2,
+    "NATGAS": 3.325,
+    "CAD_USD": 0.7312,
+    "gas_oil_ratio": 0.0495
+  },
+  {
+    "date": "2025-07-22",
+    "WTI": 66.21,
+    "NATGAS": 3.252,
+    "CAD_USD": 0.7351,
+    "gas_oil_ratio": 0.0491
+  },
+  {
+    "date": "2025-07-23",
+    "WTI": 65.25,
+    "NATGAS": 3.077,
+    "CAD_USD": 0.7352,
+    "gas_oil_ratio": 0.0472
+  },
+  {
+    "date": "2025-07-24",
+    "WTI": 66.03,
+    "NATGAS": 3.094,
+    "CAD_USD": 0.7331,
+    "gas_oil_ratio": 0.0469
+  },
+  {
+    "date": "2025-07-25",
+    "WTI": 65.16,
+    "NATGAS": 3.11,
+    "CAD_USD": 0.7315,
+    "gas_oil_ratio": 0.0477
+  },
+  {
+    "date": "2025-07-27",
+    "WTI": 65.935,
+    "NATGAS": 3.049,
+    "CAD_USD": 0.7298,
+    "gas_oil_ratio": 0.0462
+  },
+  {
+    "date": "2025-07-28",
+    "WTI": 66.71,
+    "NATGAS": 2.988,
+    "CAD_USD": 0.7281,
+    "gas_oil_ratio": 0.0448
+  },
+  {
+    "date": "2025-07-29",
+    "WTI": 69.21,
+    "NATGAS": 3.081,
+    "CAD_USD": 0.726,
+    "gas_oil_ratio": 0.0445
+  },
+  {
+    "date": "2025-07-30",
+    "WTI": 70,
+    "NATGAS": 3.045,
+    "CAD_USD": 0.7233,
+    "gas_oil_ratio": 0.0435
+  },
+  {
+    "date": "2025-07-31",
+    "WTI": 69.26,
+    "NATGAS": 3.106,
+    "CAD_USD": 0.7217,
+    "gas_oil_ratio": 0.0448
+  },
+  {
+    "date": "2025-08-01",
+    "WTI": 67.33,
+    "NATGAS": 3.083,
+    "CAD_USD": 0.7237,
+    "gas_oil_ratio": 0.0458
+  },
+  {
+    "date": "2025-08-03",
+    "WTI": 66.81,
+    "NATGAS": 3.0075,
+    "CAD_USD": 0.7258,
+    "gas_oil_ratio": 0.045
+  },
+  {
+    "date": "2025-08-04",
+    "WTI": 66.29,
+    "NATGAS": 2.932,
+    "CAD_USD": 0.7263,
+    "gas_oil_ratio": 0.0442
+  },
+  {
+    "date": "2025-08-05",
+    "WTI": 65.16,
+    "NATGAS": 3.01,
+    "CAD_USD": 0.7262,
+    "gas_oil_ratio": 0.0462
+  },
+  {
+    "date": "2025-08-06",
+    "WTI": 64.35,
+    "NATGAS": 3.077,
+    "CAD_USD": 0.7278,
+    "gas_oil_ratio": 0.0478
+  },
+  {
+    "date": "2025-08-07",
+    "WTI": 63.88,
+    "NATGAS": 3.067,
+    "CAD_USD": 0.7282,
+    "gas_oil_ratio": 0.048
+  },
+  {
+    "date": "2025-08-08",
+    "WTI": 63.88,
+    "NATGAS": 2.99,
+    "CAD_USD": 0.7277,
+    "gas_oil_ratio": 0.0468
+  },
+  {
+    "date": "2025-08-10",
+    "WTI": 63.92,
+    "NATGAS": 2.972,
+    "CAD_USD": 0.7271,
+    "gas_oil_ratio": 0.0465
+  },
+  {
+    "date": "2025-08-11",
+    "WTI": 63.96,
+    "NATGAS": 2.954,
+    "CAD_USD": 0.726,
+    "gas_oil_ratio": 0.0462
+  },
+  {
+    "date": "2025-08-12",
+    "WTI": 63.17,
+    "NATGAS": 2.808,
+    "CAD_USD": 0.7262,
+    "gas_oil_ratio": 0.0445
+  },
+  {
+    "date": "2025-08-13",
+    "WTI": 62.65,
+    "NATGAS": 2.828,
+    "CAD_USD": 0.7272,
+    "gas_oil_ratio": 0.0451
+  },
+  {
+    "date": "2025-08-14",
+    "WTI": 63.96,
+    "NATGAS": 2.841,
+    "CAD_USD": 0.724,
+    "gas_oil_ratio": 0.0444
+  },
+  {
+    "date": "2025-08-15",
+    "WTI": 62.8,
+    "NATGAS": 2.916,
+    "CAD_USD": 0.7239,
+    "gas_oil_ratio": 0.0464
+  },
+  {
+    "date": "2025-08-17",
+    "WTI": 63.11,
+    "NATGAS": 2.903,
+    "CAD_USD": 0.7239,
+    "gas_oil_ratio": 0.046
+  },
+  {
+    "date": "2025-08-18",
+    "WTI": 63.42,
+    "NATGAS": 2.89,
+    "CAD_USD": 0.7245,
+    "gas_oil_ratio": 0.0456
+  },
+  {
+    "date": "2025-08-19",
+    "WTI": 62.35,
+    "NATGAS": 2.766,
+    "CAD_USD": 0.7212,
+    "gas_oil_ratio": 0.0444
+  },
+  {
+    "date": "2025-08-20",
+    "WTI": 63.21,
+    "NATGAS": 2.752,
+    "CAD_USD": 0.7208,
+    "gas_oil_ratio": 0.0435
+  },
+  {
+    "date": "2025-08-21",
+    "WTI": 63.52,
+    "NATGAS": 2.826,
+    "CAD_USD": 0.7194,
+    "gas_oil_ratio": 0.0445
+  },
+  {
+    "date": "2025-08-22",
+    "WTI": 63.66,
+    "NATGAS": 2.698,
+    "CAD_USD": 0.7213,
+    "gas_oil_ratio": 0.0424
+  },
+  {
+    "date": "2025-08-24",
+    "WTI": 64.23,
+    "NATGAS": 2.697,
+    "CAD_USD": 0.7231,
+    "gas_oil_ratio": 0.042
+  },
+  {
+    "date": "2025-08-25",
+    "WTI": 64.8,
+    "NATGAS": 2.696,
+    "CAD_USD": 0.7215,
+    "gas_oil_ratio": 0.0416
+  },
+  {
+    "date": "2025-08-26",
+    "WTI": 63.25,
+    "NATGAS": 2.717,
+    "CAD_USD": 0.7229,
+    "gas_oil_ratio": 0.043
+  },
+  {
+    "date": "2025-08-27",
+    "WTI": 64.15,
+    "NATGAS": 2.867,
+    "CAD_USD": 0.7256,
+    "gas_oil_ratio": 0.0447
+  },
+  {
+    "date": "2025-08-28",
+    "WTI": 64.6,
+    "NATGAS": 2.944,
+    "CAD_USD": 0.7273,
+    "gas_oil_ratio": 0.0456
+  },
+  {
+    "date": "2025-08-29",
+    "WTI": 64.01,
+    "NATGAS": 2.997,
+    "CAD_USD": 0.7276,
+    "gas_oil_ratio": 0.0468
+  },
+  {
+    "date": "2025-08-31",
+    "WTI": 64.5367,
+    "NATGAS": 3.001,
+    "CAD_USD": 0.7279,
+    "gas_oil_ratio": 0.0465
+  },
+  {
+    "date": "2025-09-01",
+    "WTI": 65.0633,
+    "NATGAS": 3.005,
+    "CAD_USD": 0.7274,
+    "gas_oil_ratio": 0.0462
+  },
+  {
+    "date": "2025-09-02",
+    "WTI": 65.59,
+    "NATGAS": 3.009,
+    "CAD_USD": 0.7255,
+    "gas_oil_ratio": 0.0459
+  },
+  {
+    "date": "2025-09-03",
+    "WTI": 63.97,
+    "NATGAS": 3.064,
+    "CAD_USD": 0.725,
+    "gas_oil_ratio": 0.0479
+  },
+  {
+    "date": "2025-09-04",
+    "WTI": 63.48,
+    "NATGAS": 3.074,
+    "CAD_USD": 0.7239,
+    "gas_oil_ratio": 0.0484
+  },
+  {
+    "date": "2025-09-05",
+    "WTI": 61.87,
+    "NATGAS": 3.048,
+    "CAD_USD": 0.7234,
+    "gas_oil_ratio": 0.0493
+  },
+  {
+    "date": "2025-09-07",
+    "WTI": 62.065,
+    "NATGAS": 3.069,
+    "CAD_USD": 0.7229,
+    "gas_oil_ratio": 0.0494
+  },
+  {
+    "date": "2025-09-08",
+    "WTI": 62.26,
+    "NATGAS": 3.09,
+    "CAD_USD": 0.7249,
+    "gas_oil_ratio": 0.0496
+  },
+  {
+    "date": "2025-09-09",
+    "WTI": 62.63,
+    "NATGAS": 3.117,
+    "CAD_USD": 0.7222,
+    "gas_oil_ratio": 0.0498
+  },
+  {
+    "date": "2025-09-10",
+    "WTI": 63.67,
+    "NATGAS": 3.029,
+    "CAD_USD": 0.7215,
+    "gas_oil_ratio": 0.0476
+  },
+  {
+    "date": "2025-09-11",
+    "WTI": 62.37,
+    "NATGAS": 2.934,
+    "CAD_USD": 0.7229,
+    "gas_oil_ratio": 0.047
+  },
+  {
+    "date": "2025-09-12",
+    "WTI": 62.69,
+    "NATGAS": 2.941,
+    "CAD_USD": 0.7227,
+    "gas_oil_ratio": 0.0469
+  },
+  {
+    "date": "2025-09-14",
+    "WTI": 62.995,
+    "NATGAS": 2.992,
+    "CAD_USD": 0.7226,
+    "gas_oil_ratio": 0.0475
+  },
+  {
+    "date": "2025-09-15",
+    "WTI": 63.3,
+    "NATGAS": 3.043,
+    "CAD_USD": 0.726,
+    "gas_oil_ratio": 0.0481
+  },
+  {
+    "date": "2025-09-16",
+    "WTI": 64.52,
+    "NATGAS": 3.103,
+    "CAD_USD": 0.7279,
+    "gas_oil_ratio": 0.0481
+  },
+  {
+    "date": "2025-09-17",
+    "WTI": 64.05,
+    "NATGAS": 3.1,
+    "CAD_USD": 0.7262,
+    "gas_oil_ratio": 0.0484
+  },
+  {
+    "date": "2025-09-18",
+    "WTI": 63.57,
+    "NATGAS": 2.939,
+    "CAD_USD": 0.7251,
+    "gas_oil_ratio": 0.0462
+  },
+  {
+    "date": "2025-09-19",
+    "WTI": 62.68,
+    "NATGAS": 2.888,
+    "CAD_USD": 0.7253,
+    "gas_oil_ratio": 0.0461
+  },
+  {
+    "date": "2025-09-21",
+    "WTI": 62.66,
+    "NATGAS": 2.847,
+    "CAD_USD": 0.7256,
+    "gas_oil_ratio": 0.0454
+  },
+  {
+    "date": "2025-09-22",
+    "WTI": 62.64,
+    "NATGAS": 2.806,
+    "CAD_USD": 0.7233,
+    "gas_oil_ratio": 0.0448
+  },
+  {
+    "date": "2025-09-23",
+    "WTI": 63.41,
+    "NATGAS": 2.853,
+    "CAD_USD": 0.7226,
+    "gas_oil_ratio": 0.045
+  },
+  {
+    "date": "2025-09-24",
+    "WTI": 64.99,
+    "NATGAS": 2.858,
+    "CAD_USD": 0.7196,
+    "gas_oil_ratio": 0.044
+  },
+  {
+    "date": "2025-09-25",
+    "WTI": 64.98,
+    "NATGAS": 2.904,
+    "CAD_USD": 0.7173,
+    "gas_oil_ratio": 0.0447
+  },
+  {
+    "date": "2025-09-26",
+    "WTI": 65.72,
+    "NATGAS": 2.835,
+    "CAD_USD": 0.7174,
+    "gas_oil_ratio": 0.0431
+  },
+  {
+    "date": "2025-09-28",
+    "WTI": 64.585,
+    "NATGAS": 3.051,
+    "CAD_USD": 0.7175,
+    "gas_oil_ratio": 0.0472
+  },
+  {
+    "date": "2025-09-29",
+    "WTI": 63.45,
+    "NATGAS": 3.267,
+    "CAD_USD": 0.7186,
+    "gas_oil_ratio": 0.0515
+  },
+  {
+    "date": "2025-09-30",
+    "WTI": 62.37,
+    "NATGAS": 3.303,
+    "CAD_USD": 0.7182,
+    "gas_oil_ratio": 0.053
+  },
+  {
+    "date": "2025-10-01",
+    "WTI": 61.78,
+    "NATGAS": 3.476,
+    "CAD_USD": 0.7174,
+    "gas_oil_ratio": 0.0563
+  },
+  {
+    "date": "2025-10-02",
+    "WTI": 60.48,
+    "NATGAS": 3.442,
+    "CAD_USD": 0.7163,
+    "gas_oil_ratio": 0.0569
+  },
+  {
+    "date": "2025-10-03",
+    "WTI": 60.88,
+    "NATGAS": 3.324,
+    "CAD_USD": 0.7162,
+    "gas_oil_ratio": 0.0546
+  },
+  {
+    "date": "2025-10-05",
+    "WTI": 61.285,
+    "NATGAS": 3.3405,
+    "CAD_USD": 0.7161,
+    "gas_oil_ratio": 0.0545
+  },
+  {
+    "date": "2025-10-06",
+    "WTI": 61.69,
+    "NATGAS": 3.357,
+    "CAD_USD": 0.7171,
+    "gas_oil_ratio": 0.0544
+  },
+  {
+    "date": "2025-10-07",
+    "WTI": 61.73,
+    "NATGAS": 3.498,
+    "CAD_USD": 0.7167,
+    "gas_oil_ratio": 0.0567
+  },
+  {
+    "date": "2025-10-08",
+    "WTI": 62.55,
+    "NATGAS": 3.333,
+    "CAD_USD": 0.7166,
+    "gas_oil_ratio": 0.0533
+  },
+  {
+    "date": "2025-10-09",
+    "WTI": 61.51,
+    "NATGAS": 3.269,
+    "CAD_USD": 0.7133,
+    "gas_oil_ratio": 0.0531
+  },
+  {
+    "date": "2025-10-10",
+    "WTI": 58.9,
+    "NATGAS": 3.106,
+    "CAD_USD": 0.7138,
+    "gas_oil_ratio": 0.0527
+  },
+  {
+    "date": "2025-10-12",
+    "WTI": 59.195,
+    "NATGAS": 3.112,
+    "CAD_USD": 0.7144,
+    "gas_oil_ratio": 0.0526
+  },
+  {
+    "date": "2025-10-13",
+    "WTI": 59.49,
+    "NATGAS": 3.118,
+    "CAD_USD": 0.7123,
+    "gas_oil_ratio": 0.0524
+  },
+  {
+    "date": "2025-10-14",
+    "WTI": 58.7,
+    "NATGAS": 3.028,
+    "CAD_USD": 0.712,
+    "gas_oil_ratio": 0.0516
+  },
+  {
+    "date": "2025-10-15",
+    "WTI": 58.27,
+    "NATGAS": 3.016,
+    "CAD_USD": 0.7119,
+    "gas_oil_ratio": 0.0518
+  },
+  {
+    "date": "2025-10-16",
+    "WTI": 57.46,
+    "NATGAS": 2.938,
+    "CAD_USD": 0.7119,
+    "gas_oil_ratio": 0.0511
+  },
+  {
+    "date": "2025-10-17",
+    "WTI": 57.54,
+    "NATGAS": 3.008,
+    "CAD_USD": 0.7127,
+    "gas_oil_ratio": 0.0523
+  },
+  {
+    "date": "2025-10-19",
+    "WTI": 57.53,
+    "NATGAS": 3.2025,
+    "CAD_USD": 0.7135,
+    "gas_oil_ratio": 0.0557
+  },
+  {
+    "date": "2025-10-20",
+    "WTI": 57.52,
+    "NATGAS": 3.397,
+    "CAD_USD": 0.7126,
+    "gas_oil_ratio": 0.0591
+  },
+  {
+    "date": "2025-10-21",
+    "WTI": 57.82,
+    "NATGAS": 3.474,
+    "CAD_USD": 0.7133,
+    "gas_oil_ratio": 0.0601
+  },
+  {
+    "date": "2025-10-22",
+    "WTI": 58.5,
+    "NATGAS": 3.45,
+    "CAD_USD": 0.7149,
+    "gas_oil_ratio": 0.059
+  },
+  {
+    "date": "2025-10-23",
+    "WTI": 61.79,
+    "NATGAS": 3.344,
+    "CAD_USD": 0.715,
+    "gas_oil_ratio": 0.0541
+  },
+  {
+    "date": "2025-10-24",
+    "WTI": 61.5,
+    "NATGAS": 3.304,
+    "CAD_USD": 0.7148,
+    "gas_oil_ratio": 0.0537
+  },
+  {
+    "date": "2025-10-27",
+    "WTI": 61.31,
+    "NATGAS": 3.442,
+    "CAD_USD": 0.7146,
+    "gas_oil_ratio": 0.0561
+  },
+  {
+    "date": "2025-10-28",
+    "WTI": 60.15,
+    "NATGAS": 3.345,
+    "CAD_USD": 0.7147,
+    "gas_oil_ratio": 0.0556
+  },
+  {
+    "date": "2025-10-29",
+    "WTI": 60.48,
+    "NATGAS": 3.376,
+    "CAD_USD": 0.7174,
+    "gas_oil_ratio": 0.0558
+  },
+  {
+    "date": "2025-10-30",
+    "WTI": 60.57,
+    "NATGAS": 3.956,
+    "CAD_USD": 0.7173,
+    "gas_oil_ratio": 0.0653
+  },
+  {
+    "date": "2025-10-31",
+    "WTI": 60.98,
+    "NATGAS": 4.124,
+    "CAD_USD": 0.7153,
+    "gas_oil_ratio": 0.0676
+  },
+  {
+    "date": "2025-11-03",
+    "WTI": 61.05,
+    "NATGAS": 4.266,
+    "CAD_USD": 0.7135,
+    "gas_oil_ratio": 0.0699
+  },
+  {
+    "date": "2025-11-04",
+    "WTI": 60.56,
+    "NATGAS": 4.343,
+    "CAD_USD": 0.7115,
+    "gas_oil_ratio": 0.0717
+  },
+  {
+    "date": "2025-11-05",
+    "WTI": 59.6,
+    "NATGAS": 4.232,
+    "CAD_USD": 0.7092,
+    "gas_oil_ratio": 0.071
+  },
+  {
+    "date": "2025-11-06",
+    "WTI": 59.43,
+    "NATGAS": 4.357,
+    "CAD_USD": 0.7091,
+    "gas_oil_ratio": 0.0733
+  },
+  {
+    "date": "2025-11-07",
+    "WTI": 59.75,
+    "NATGAS": 4.315,
+    "CAD_USD": 0.7086,
+    "gas_oil_ratio": 0.0722
+  },
+  {
+    "date": "2025-11-10",
+    "WTI": 60.13,
+    "NATGAS": 4.338,
+    "CAD_USD": 0.7121,
+    "gas_oil_ratio": 0.0721
+  },
+  {
+    "date": "2025-11-11",
+    "WTI": 61.04,
+    "NATGAS": 4.565,
+    "CAD_USD": 0.713,
+    "gas_oil_ratio": 0.0748
+  },
+  {
+    "date": "2025-11-12",
+    "WTI": 58.49,
+    "NATGAS": 4.533,
+    "CAD_USD": 0.7135,
+    "gas_oil_ratio": 0.0775
+  },
+  {
+    "date": "2025-11-13",
+    "WTI": 58.69,
+    "NATGAS": 4.646,
+    "CAD_USD": 0.7138,
+    "gas_oil_ratio": 0.0792
+  },
+  {
+    "date": "2025-11-14",
+    "WTI": 60.09,
+    "NATGAS": 4.566,
+    "CAD_USD": 0.7125,
+    "gas_oil_ratio": 0.076
+  },
+  {
+    "date": "2025-11-17",
+    "WTI": 59.91,
+    "NATGAS": 4.361,
+    "CAD_USD": 0.7134,
+    "gas_oil_ratio": 0.0728
+  },
+  {
+    "date": "2025-11-18",
+    "WTI": 60.74,
+    "NATGAS": 4.371,
+    "CAD_USD": 0.7117,
+    "gas_oil_ratio": 0.072
+  },
+  {
+    "date": "2025-11-19",
+    "WTI": 59.44,
+    "NATGAS": 4.55,
+    "CAD_USD": 0.715,
+    "gas_oil_ratio": 0.0765
+  },
+  {
+    "date": "2025-11-20",
+    "WTI": 59.14,
+    "NATGAS": 4.474,
+    "CAD_USD": 0.7121,
+    "gas_oil_ratio": 0.0757
+  },
+  {
+    "date": "2025-11-21",
+    "WTI": 58.06,
+    "NATGAS": 4.58,
+    "CAD_USD": 0.7097,
+    "gas_oil_ratio": 0.0789
+  },
+  {
+    "date": "2025-11-24",
+    "WTI": 58.84,
+    "NATGAS": 4.549,
+    "CAD_USD": 0.7095,
+    "gas_oil_ratio": 0.0773
+  },
+  {
+    "date": "2025-11-25",
+    "WTI": 57.95,
+    "NATGAS": 4.424,
+    "CAD_USD": 0.7088,
+    "gas_oil_ratio": 0.0763
+  },
+  {
+    "date": "2025-11-26",
+    "WTI": 58.65,
+    "NATGAS": 4.558,
+    "CAD_USD": 0.7091,
+    "gas_oil_ratio": 0.0777
+  },
+  {
+    "date": "2025-11-27",
+    "WTI": 58.6,
+    "NATGAS": 4.704,
+    "CAD_USD": 0.7123,
+    "gas_oil_ratio": 0.0803
+  },
+  {
+    "date": "2025-11-28",
+    "WTI": 58.55,
+    "NATGAS": 4.85,
+    "CAD_USD": 0.713,
+    "gas_oil_ratio": 0.0828
+  },
+  {
+    "date": "2025-12-01",
+    "WTI": 59.32,
+    "NATGAS": 4.921,
+    "CAD_USD": 0.7159,
+    "gas_oil_ratio": 0.083
+  },
+  {
+    "date": "2025-12-02",
+    "WTI": 58.64,
+    "NATGAS": 4.84,
+    "CAD_USD": 0.7143,
+    "gas_oil_ratio": 0.0825
+  },
+  {
+    "date": "2025-12-03",
+    "WTI": 58.95,
+    "NATGAS": 4.995,
+    "CAD_USD": 0.7158,
+    "gas_oil_ratio": 0.0847
+  },
+  {
+    "date": "2025-12-04",
+    "WTI": 59.67,
+    "NATGAS": 5.063,
+    "CAD_USD": 0.7167,
+    "gas_oil_ratio": 0.0849
+  },
+  {
+    "date": "2025-12-05",
+    "WTI": 60.08,
+    "NATGAS": 5.289,
+    "CAD_USD": 0.7163,
+    "gas_oil_ratio": 0.088
+  },
+  {
+    "date": "2025-12-08",
+    "WTI": 58.88,
+    "NATGAS": 4.912,
+    "CAD_USD": 0.7228,
+    "gas_oil_ratio": 0.0834
+  },
+  {
+    "date": "2025-12-09",
+    "WTI": 58.25,
+    "NATGAS": 4.574,
+    "CAD_USD": 0.7221,
+    "gas_oil_ratio": 0.0785
+  },
+  {
+    "date": "2025-12-10",
+    "WTI": 58.46,
+    "NATGAS": 4.595,
+    "CAD_USD": 0.7223,
+    "gas_oil_ratio": 0.0786
+  },
+  {
+    "date": "2025-12-11",
+    "WTI": 57.6,
+    "NATGAS": 4.231,
+    "CAD_USD": 0.7252,
+    "gas_oil_ratio": 0.0735
+  },
+  {
+    "date": "2025-12-12",
+    "WTI": 57.44,
+    "NATGAS": 4.113,
+    "CAD_USD": 0.7259,
+    "gas_oil_ratio": 0.0716
+  },
+  {
+    "date": "2025-12-15",
+    "WTI": 56.82,
+    "NATGAS": 4.012,
+    "CAD_USD": 0.7263,
+    "gas_oil_ratio": 0.0706
+  },
+  {
+    "date": "2025-12-16",
+    "WTI": 55.27,
+    "NATGAS": 3.886,
+    "CAD_USD": 0.7263,
+    "gas_oil_ratio": 0.0703
+  },
+  {
+    "date": "2025-12-17",
+    "WTI": 55.94,
+    "NATGAS": 4.024,
+    "CAD_USD": 0.727,
+    "gas_oil_ratio": 0.0719
+  },
+  {
+    "date": "2025-12-18",
+    "WTI": 56.15,
+    "NATGAS": 3.908,
+    "CAD_USD": 0.7255,
+    "gas_oil_ratio": 0.0696
+  },
+  {
+    "date": "2025-12-19",
+    "WTI": 56.66,
+    "NATGAS": 3.984,
+    "CAD_USD": 0.7258,
+    "gas_oil_ratio": 0.0703
+  },
+  {
+    "date": "2025-12-22",
+    "WTI": 58.01,
+    "NATGAS": 3.965,
+    "CAD_USD": 0.7251,
+    "gas_oil_ratio": 0.0684
+  },
+  {
+    "date": "2025-12-23",
+    "WTI": 58.38,
+    "NATGAS": 4.408,
+    "CAD_USD": 0.7273,
+    "gas_oil_ratio": 0.0755
+  },
+  {
+    "date": "2025-12-24",
+    "WTI": 58.35,
+    "NATGAS": 4.242,
+    "CAD_USD": 0.7307,
+    "gas_oil_ratio": 0.0727
+  },
+  {
+    "date": "2025-12-25",
+    "WTI": 57.545,
+    "NATGAS": 4.304,
+    "CAD_USD": 0.7311,
+    "gas_oil_ratio": 0.0748
+  },
+  {
+    "date": "2025-12-26",
+    "WTI": 56.74,
+    "NATGAS": 4.366,
+    "CAD_USD": 0.7314,
+    "gas_oil_ratio": 0.0769
+  },
+  {
+    "date": "2025-12-29",
+    "WTI": 58.08,
+    "NATGAS": 4.687,
+    "CAD_USD": 0.7316,
+    "gas_oil_ratio": 0.0807
+  },
+  {
+    "date": "2025-12-30",
+    "WTI": 57.95,
+    "NATGAS": 3.972,
+    "CAD_USD": 0.7306,
+    "gas_oil_ratio": 0.0685
+  },
+  {
+    "date": "2025-12-31",
+    "WTI": 57.42,
+    "NATGAS": 3.686,
+    "CAD_USD": 0.7302,
+    "gas_oil_ratio": 0.0642
+  },
+  {
+    "date": "2026-01-01",
+    "WTI": 57.37,
+    "NATGAS": 3.652,
+    "CAD_USD": 0.7296,
+    "gas_oil_ratio": 0.0637
+  },
+  {
+    "date": "2026-01-02",
+    "WTI": 57.32,
+    "NATGAS": 3.618,
+    "CAD_USD": 0.7291,
+    "gas_oil_ratio": 0.0631
+  },
+  {
+    "date": "2026-01-05",
+    "WTI": 58.32,
+    "NATGAS": 3.523,
+    "CAD_USD": 0.7274,
+    "gas_oil_ratio": 0.0604
+  },
+  {
+    "date": "2026-01-06",
+    "WTI": 57.13,
+    "NATGAS": 3.35,
+    "CAD_USD": 0.7261,
+    "gas_oil_ratio": 0.0586
+  },
+  {
+    "date": "2026-01-07",
+    "WTI": 55.99,
+    "NATGAS": 3.525,
+    "CAD_USD": 0.7238,
+    "gas_oil_ratio": 0.063
+  },
+  {
+    "date": "2026-01-08",
+    "WTI": 57.76,
+    "NATGAS": 3.407,
+    "CAD_USD": 0.7216,
+    "gas_oil_ratio": 0.059
+  },
+  {
+    "date": "2026-01-09",
+    "WTI": 59.12,
+    "NATGAS": 3.169,
+    "CAD_USD": 0.7213,
+    "gas_oil_ratio": 0.0536
+  },
+  {
+    "date": "2026-01-12",
+    "WTI": 59.5,
+    "NATGAS": 3.409,
+    "CAD_USD": 0.7187,
+    "gas_oil_ratio": 0.0573
+  },
+  {
+    "date": "2026-01-13",
+    "WTI": 61.15,
+    "NATGAS": 3.419,
+    "CAD_USD": 0.7207,
+    "gas_oil_ratio": 0.0559
+  },
+  {
+    "date": "2026-01-14",
+    "WTI": 62.02,
+    "NATGAS": 3.12,
+    "CAD_USD": 0.7201,
+    "gas_oil_ratio": 0.0503
+  },
+  {
+    "date": "2026-01-15",
+    "WTI": 59.19,
+    "NATGAS": 3.128,
+    "CAD_USD": 0.7202,
+    "gas_oil_ratio": 0.0528
+  },
+  {
+    "date": "2026-01-16",
+    "WTI": 59.44,
+    "NATGAS": 3.103,
+    "CAD_USD": 0.72,
+    "gas_oil_ratio": 0.0522
+  },
+  {
+    "date": "2026-01-19",
+    "WTI": 59.89,
+    "NATGAS": 3.505,
+    "CAD_USD": 0.7195,
+    "gas_oil_ratio": 0.0585
+  },
+  {
+    "date": "2026-01-20",
+    "WTI": 60.34,
+    "NATGAS": 3.907,
+    "CAD_USD": 0.7208,
+    "gas_oil_ratio": 0.0647
+  },
+  {
+    "date": "2026-01-21",
+    "WTI": 60.62,
+    "NATGAS": 4.875,
+    "CAD_USD": 0.7229,
+    "gas_oil_ratio": 0.0804
+  },
+  {
+    "date": "2026-01-22",
+    "WTI": 59.36,
+    "NATGAS": 5.045,
+    "CAD_USD": 0.7224,
+    "gas_oil_ratio": 0.085
+  },
+  {
+    "date": "2026-01-23",
+    "WTI": 61.07,
+    "NATGAS": 5.275,
+    "CAD_USD": 0.7255,
+    "gas_oil_ratio": 0.0864
+  },
+  {
+    "date": "2026-01-26",
+    "WTI": 60.63,
+    "NATGAS": 6.8,
+    "CAD_USD": 0.7298,
+    "gas_oil_ratio": 0.1122
+  },
+  {
+    "date": "2026-01-27",
+    "WTI": 62.39,
+    "NATGAS": 6.954,
+    "CAD_USD": 0.7293,
+    "gas_oil_ratio": 0.1115
+  },
+  {
+    "date": "2026-01-28",
+    "WTI": 63.21,
+    "NATGAS": 7.46,
+    "CAD_USD": 0.7358,
+    "gas_oil_ratio": 0.118
+  },
+  {
+    "date": "2026-01-29",
+    "WTI": 65.42,
+    "NATGAS": 3.918,
+    "CAD_USD": 0.7387,
+    "gas_oil_ratio": 0.0599
+  },
+  {
+    "date": "2026-01-30",
+    "WTI": 65.21,
+    "NATGAS": 4.354,
+    "CAD_USD": 0.7412,
+    "gas_oil_ratio": 0.0668
+  },
+  {
+    "date": "2026-02-02",
+    "WTI": 62.14,
+    "NATGAS": 3.237,
+    "CAD_USD": 0.7334,
+    "gas_oil_ratio": 0.0521
+  },
+  {
+    "date": "2026-02-03",
+    "WTI": 63.21,
+    "NATGAS": 3.311,
+    "CAD_USD": 0.7313,
+    "gas_oil_ratio": 0.0524
+  },
+  {
+    "date": "2026-02-04",
+    "WTI": 65.14,
+    "NATGAS": 3.465,
+    "CAD_USD": 0.7332,
+    "gas_oil_ratio": 0.0532
+  },
+  {
+    "date": "2026-02-05",
+    "WTI": 63.29,
+    "NATGAS": 3.509,
+    "CAD_USD": 0.7316,
+    "gas_oil_ratio": 0.0554
+  },
+  {
+    "date": "2026-02-06",
+    "WTI": 63.55,
+    "NATGAS": 3.422,
+    "CAD_USD": 0.7293,
+    "gas_oil_ratio": 0.0538
+  },
+  {
+    "date": "2026-02-09",
+    "WTI": 64.36,
+    "NATGAS": 3.138,
+    "CAD_USD": 0.7321,
+    "gas_oil_ratio": 0.0488
+  },
+  {
+    "date": "2026-02-10",
+    "WTI": 63.96,
+    "NATGAS": 3.115,
+    "CAD_USD": 0.7373,
+    "gas_oil_ratio": 0.0487
+  },
+  {
+    "date": "2026-02-11",
+    "WTI": 64.63,
+    "NATGAS": 3.159,
+    "CAD_USD": 0.7379,
+    "gas_oil_ratio": 0.0489
+  },
+  {
+    "date": "2026-02-12",
+    "WTI": 62.84,
+    "NATGAS": 3.217,
+    "CAD_USD": 0.7366,
+    "gas_oil_ratio": 0.0512
+  },
+  {
+    "date": "2026-02-13",
+    "WTI": 62.89,
+    "NATGAS": 3.243,
+    "CAD_USD": 0.7347,
+    "gas_oil_ratio": 0.0516
+  },
+  {
+    "date": "2026-02-16",
+    "WTI": 62.61,
+    "NATGAS": 3.137,
+    "CAD_USD": 0.7343,
+    "gas_oil_ratio": 0.0501
+  },
+  {
+    "date": "2026-02-17",
+    "WTI": 62.33,
+    "NATGAS": 3.031,
+    "CAD_USD": 0.7333,
+    "gas_oil_ratio": 0.0486
+  },
+  {
+    "date": "2026-02-18",
+    "WTI": 65.19,
+    "NATGAS": 3.011,
+    "CAD_USD": 0.7333,
+    "gas_oil_ratio": 0.0462
+  },
+  {
+    "date": "2026-02-19",
+    "WTI": 66.43,
+    "NATGAS": 2.996,
+    "CAD_USD": 0.7301,
+    "gas_oil_ratio": 0.0451
+  },
+  {
+    "date": "2026-02-20",
+    "WTI": 66.39,
+    "NATGAS": 3.047,
+    "CAD_USD": 0.7306,
+    "gas_oil_ratio": 0.0459
+  },
+  {
+    "date": "2026-02-23",
+    "WTI": 66.31,
+    "NATGAS": 2.985,
+    "CAD_USD": 0.7327,
+    "gas_oil_ratio": 0.045
+  },
+  {
+    "date": "2026-02-24",
+    "WTI": 65.63,
+    "NATGAS": 2.915,
+    "CAD_USD": 0.7303,
+    "gas_oil_ratio": 0.0444
+  },
+  {
+    "date": "2026-02-25",
+    "WTI": 65.42,
+    "NATGAS": 2.969,
+    "CAD_USD": 0.7299,
+    "gas_oil_ratio": 0.0454
+  },
+  {
+    "date": "2026-02-26",
+    "WTI": 65.21,
+    "NATGAS": 2.827,
+    "CAD_USD": 0.7312,
+    "gas_oil_ratio": 0.0434
+  },
+  {
+    "date": "2026-02-27",
+    "WTI": 67.02,
+    "NATGAS": 2.859,
+    "CAD_USD": 0.7312,
+    "gas_oil_ratio": 0.0427
+  },
+  {
+    "date": "2026-03-02",
+    "WTI": 71.23,
+    "NATGAS": 2.96,
+    "CAD_USD": 0.7316,
+    "gas_oil_ratio": 0.0416
+  },
+  {
+    "date": "2026-03-03",
+    "WTI": 74.56,
+    "NATGAS": 3.054,
+    "CAD_USD": 0.7315,
+    "gas_oil_ratio": 0.041
+  },
+  {
+    "date": "2026-03-04",
+    "WTI": 74.66,
+    "NATGAS": 2.917,
+    "CAD_USD": 0.7313,
+    "gas_oil_ratio": 0.0391
+  },
+  {
+    "date": "2026-03-05",
+    "WTI": 81.01,
+    "NATGAS": 3.003,
+    "CAD_USD": 0.7329,
+    "gas_oil_ratio": 0.0371
+  },
+  {
+    "date": "2026-03-06",
+    "WTI": 90.9,
+    "NATGAS": 3.186,
+    "CAD_USD": 0.7315,
+    "gas_oil_ratio": 0.035
+  },
+  {
+    "date": "2026-03-09",
+    "WTI": 94.77,
+    "NATGAS": 3.12,
+    "CAD_USD": 0.7352,
+    "gas_oil_ratio": 0.0329
+  },
+  {
+    "date": "2026-03-10",
+    "WTI": 83.45,
+    "NATGAS": 3.02,
+    "CAD_USD": 0.736,
+    "gas_oil_ratio": 0.0362
+  },
+  {
+    "date": "2026-03-11",
+    "WTI": 87.25,
+    "NATGAS": 3.209,
+    "CAD_USD": 0.7362,
+    "gas_oil_ratio": 0.0368
+  },
+  {
+    "date": "2026-03-12",
+    "WTI": 95.73,
+    "NATGAS": 3.233,
+    "CAD_USD": 0.7352,
+    "gas_oil_ratio": 0.0338
+  },
+  {
+    "date": "2026-03-13",
+    "WTI": 98.71,
+    "NATGAS": 3.131,
+    "CAD_USD": 0.7335,
+    "gas_oil_ratio": 0.0317
+  },
+  {
+    "date": "2026-03-16",
+    "WTI": 93.5,
+    "NATGAS": 3.023,
+    "CAD_USD": 0.7293,
+    "gas_oil_ratio": 0.0323
+  },
+  {
+    "date": "2026-03-17",
+    "WTI": 96.21,
+    "NATGAS": 3.033,
+    "CAD_USD": 0.7308,
+    "gas_oil_ratio": 0.0315
+  },
+  {
+    "date": "2026-03-18",
+    "WTI": 96.32,
+    "NATGAS": 3.065,
+    "CAD_USD": 0.7305,
+    "gas_oil_ratio": 0.0318
+  },
+  {
+    "date": "2026-03-19",
+    "WTI": 96.14,
+    "NATGAS": 3.166,
+    "CAD_USD": 0.7284,
+    "gas_oil_ratio": 0.0329
+  },
+  {
+    "date": "2026-03-20",
+    "WTI": 98.32,
+    "NATGAS": 3.095,
+    "CAD_USD": 0.728,
+    "gas_oil_ratio": 0.0315
+  },
+  {
+    "date": "2026-03-23",
+    "WTI": 88.13,
+    "NATGAS": 2.891,
+    "CAD_USD": 0.7294,
+    "gas_oil_ratio": 0.0328
+  },
+  {
+    "date": "2026-03-24",
+    "WTI": 92.35,
+    "NATGAS": 2.943,
+    "CAD_USD": 0.7283,
+    "gas_oil_ratio": 0.0319
+  },
+  {
+    "date": "2026-03-25",
+    "WTI": 90.32,
+    "NATGAS": 2.952,
+    "CAD_USD": 0.7269,
+    "gas_oil_ratio": 0.0327
+  },
+  {
+    "date": "2026-03-26",
+    "WTI": 94.48,
+    "NATGAS": 2.999,
+    "CAD_USD": 0.7239,
+    "gas_oil_ratio": 0.0317
+  },
+  {
+    "date": "2026-03-27",
+    "WTI": 99.64,
+    "NATGAS": 3.095,
+    "CAD_USD": 0.7219,
+    "gas_oil_ratio": 0.0311
+  },
+  {
+    "date": "2026-03-29",
+    "WTI": 101.26,
+    "NATGAS": 2.991,
+    "CAD_USD": 0.7195,
+    "gas_oil_ratio": 0.0295
+  },
+  {
+    "date": "2026-03-30",
+    "WTI": 102.88,
+    "NATGAS": 2.887,
+    "CAD_USD": 0.718,
+    "gas_oil_ratio": 0.0281
+  },
+  {
+    "date": "2026-03-31",
+    "WTI": 101.38,
+    "NATGAS": 2.884,
+    "CAD_USD": 0.7193,
+    "gas_oil_ratio": 0.0284
+  },
+  {
+    "date": "2026-04-01",
+    "WTI": 100.12,
+    "NATGAS": 2.819,
+    "CAD_USD": 0.7206,
+    "gas_oil_ratio": 0.0282
+  },
+  {
+    "date": "2026-04-02",
+    "WTI": 111.54,
+    "NATGAS": 2.8,
+    "CAD_USD": 0.7185,
+    "gas_oil_ratio": 0.0251
+  },
+  {
+    "date": "2026-04-05",
+    "WTI": 111.975,
+    "NATGAS": 2.8055,
+    "CAD_USD": 0.7171,
+    "gas_oil_ratio": 0.0251
+  },
+  {
+    "date": "2026-04-06",
+    "WTI": 112.41,
+    "NATGAS": 2.811,
+    "CAD_USD": 0.7188,
+    "gas_oil_ratio": 0.025
+  },
+  {
+    "date": "2026-04-07",
+    "WTI": 112.95,
+    "NATGAS": 2.87,
+    "CAD_USD": 0.7224,
+    "gas_oil_ratio": 0.0254
+  },
+  {
+    "date": "2026-04-08",
+    "WTI": 94.41,
+    "NATGAS": 2.724,
+    "CAD_USD": 0.722,
+    "gas_oil_ratio": 0.0289
+  },
+  {
+    "date": "2026-04-09",
+    "WTI": 97.87,
+    "NATGAS": 2.67,
+    "CAD_USD": 0.7234,
+    "gas_oil_ratio": 0.0273
+  },
+  {
+    "date": "2026-04-10",
+    "WTI": 96.57,
+    "NATGAS": 2.648,
+    "CAD_USD": 0.7221,
+    "gas_oil_ratio": 0.0274
+  },
+  {
+    "date": "2026-04-12",
+    "WTI": 97.825,
+    "NATGAS": 2.6375,
+    "CAD_USD": 0.7208,
+    "gas_oil_ratio": 0.027
+  },
+  {
+    "date": "2026-04-13",
+    "WTI": 99.08,
+    "NATGAS": 2.627,
+    "CAD_USD": 0.7254,
+    "gas_oil_ratio": 0.0265
+  },
+  {
+    "date": "2026-04-14",
+    "WTI": 91.28,
+    "NATGAS": 2.599,
+    "CAD_USD": 0.7264,
+    "gas_oil_ratio": 0.0285
+  },
+  {
+    "date": "2026-04-15",
+    "WTI": 91.29,
+    "NATGAS": 2.61,
+    "CAD_USD": 0.7283,
+    "gas_oil_ratio": 0.0286
+  },
+  {
+    "date": "2026-04-16",
+    "WTI": 94.69,
+    "NATGAS": 2.647,
+    "CAD_USD": 0.7299,
+    "gas_oil_ratio": 0.028
+  },
+  {
+    "date": "2026-04-17",
+    "WTI": 83.85,
+    "NATGAS": 2.674,
+    "CAD_USD": 0.7298,
+    "gas_oil_ratio": 0.0319
+  },
+  {
+    "date": "2026-04-19",
+    "WTI": 86.73,
+    "NATGAS": 2.6815,
+    "CAD_USD": 0.7297,
+    "gas_oil_ratio": 0.0309
+  },
+  {
+    "date": "2026-04-20",
+    "WTI": 89.61,
+    "NATGAS": 2.689,
+    "CAD_USD": 0.7329,
+    "gas_oil_ratio": 0.03
+  },
+  {
+    "date": "2026-04-21",
+    "WTI": 92.13,
+    "NATGAS": 2.697,
+    "CAD_USD": 0.7322,
+    "gas_oil_ratio": 0.0293
+  },
+  {
+    "date": "2026-04-22",
+    "WTI": 92.96,
+    "NATGAS": 2.722,
+    "CAD_USD": 0.7315,
+    "gas_oil_ratio": 0.0293
+  },
+  {
+    "date": "2026-04-23",
+    "WTI": 95.85,
+    "NATGAS": 2.614,
+    "CAD_USD": 0.73,
+    "gas_oil_ratio": 0.0273
+  },
+  {
+    "date": "2026-04-24",
+    "WTI": 94.4,
+    "NATGAS": 2.523,
+    "CAD_USD": 0.7306,
+    "gas_oil_ratio": 0.0267
+  },
+  {
+    "date": "2026-04-26",
+    "WTI": 95.385,
+    "NATGAS": 2.5365,
+    "CAD_USD": 0.7312,
+    "gas_oil_ratio": 0.0266
+  },
+  {
+    "date": "2026-04-27",
+    "WTI": 96.37,
+    "NATGAS": 2.55,
+    "CAD_USD": 0.7341,
+    "gas_oil_ratio": 0.0265
+  },
+  {
+    "date": "2026-04-28",
+    "WTI": 99.93,
+    "NATGAS": 2.559,
+    "CAD_USD": 0.731,
+    "gas_oil_ratio": 0.0256
+  },
+  {
+    "date": "2026-04-29",
+    "WTI": 106.88,
+    "NATGAS": 2.647,
+    "CAD_USD": 0.7315,
+    "gas_oil_ratio": 0.0248
+  },
+  {
+    "date": "2026-04-30",
+    "WTI": 105.07,
+    "NATGAS": 2.767,
+    "CAD_USD": 0.7364,
+    "gas_oil_ratio": 0.0263
+  },
+  {
+    "date": "2026-05-01",
+    "WTI": 101.94,
+    "NATGAS": 2.78,
+    "CAD_USD": 0.7362,
+    "gas_oil_ratio": 0.0273
+  },
+  {
+    "date": "2026-05-03",
+    "WTI": 104.18,
+    "NATGAS": 2.8235,
+    "CAD_USD": 0.7359,
+    "gas_oil_ratio": 0.0271
+  },
+  {
+    "date": "2026-05-04",
+    "WTI": 106.42,
+    "NATGAS": 2.867,
+    "CAD_USD": 0.7342,
+    "gas_oil_ratio": 0.0269
+  },
+  {
+    "date": "2026-05-05",
+    "WTI": 102.27,
+    "NATGAS": 2.788,
+    "CAD_USD": 0.7351,
+    "gas_oil_ratio": 0.0273
+  },
+  {
+    "date": "2026-05-06",
+    "WTI": 95.08,
+    "NATGAS": 2.73,
+    "CAD_USD": 0.7333,
+    "gas_oil_ratio": 0.0287
+  },
+  {
+    "date": "2026-05-07",
+    "WTI": 94.81,
+    "NATGAS": 2.769,
+    "CAD_USD": 0.732,
+    "gas_oil_ratio": 0.0292
+  },
+  {
+    "date": "2026-05-08",
+    "WTI": 95.42,
+    "NATGAS": 2.757,
+    "CAD_USD": 0.7314,
+    "gas_oil_ratio": 0.0289
+  },
+  {
+    "date": "2026-05-10",
+    "WTI": 96.745,
+    "NATGAS": 2.8335,
+    "CAD_USD": 0.7308,
+    "gas_oil_ratio": 0.0293
+  },
+  {
+    "date": "2026-05-11",
+    "WTI": 98.07,
+    "NATGAS": 2.91,
+    "CAD_USD": 0.7311,
+    "gas_oil_ratio": 0.0297
+  },
+  {
+    "date": "2026-05-12",
+    "WTI": 102.18,
+    "NATGAS": 2.843,
+    "CAD_USD": 0.7301,
+    "gas_oil_ratio": 0.0278
+  },
+  {
+    "date": "2026-05-13",
+    "WTI": 101.02,
+    "NATGAS": 2.864,
+    "CAD_USD": 0.7297,
+    "gas_oil_ratio": 0.0284
+  },
+  {
+    "date": "2026-05-14",
+    "WTI": 101.17,
+    "NATGAS": 2.894,
+    "CAD_USD": 0.7287,
+    "gas_oil_ratio": 0.0286
+  },
+  {
+    "date": "2026-05-15",
+    "WTI": 105.42,
+    "NATGAS": 2.96,
+    "CAD_USD": 0.7277,
+    "gas_oil_ratio": 0.0281
+  },
+  {
+    "date": "2026-05-17",
+    "WTI": 107.04,
+    "NATGAS": 2.992,
+    "CAD_USD": 0.7267,
+    "gas_oil_ratio": 0.028
+  },
+  {
+    "date": "2026-05-18",
+    "WTI": 108.66,
+    "NATGAS": 3.024,
+    "CAD_USD": 0.7279,
+    "gas_oil_ratio": 0.0278
+  },
+  {
+    "date": "2026-05-19",
+    "WTI": 107.77,
+    "NATGAS": 3.114,
+    "CAD_USD": 0.7274,
+    "gas_oil_ratio": 0.0289
+  },
+  {
+    "date": "2026-05-20",
+    "WTI": 98.26,
+    "NATGAS": 3.004,
+    "CAD_USD": 0.7274,
+    "gas_oil_ratio": 0.0306
+  },
+  {
+    "date": "2026-05-21",
+    "WTI": 96.35,
+    "NATGAS": 3.018,
+    "CAD_USD": 0.7259,
+    "gas_oil_ratio": 0.0313
+  },
+  {
+    "date": "2026-05-22",
+    "WTI": 96.6,
+    "NATGAS": 2.907,
+    "CAD_USD": 0.7252,
+    "gas_oil_ratio": 0.0301
+  },
+  {
+    "date": "2026-05-24",
+    "WTI": 95.6967,
+    "NATGAS": 2.9027,
+    "CAD_USD": 0.7245,
+    "gas_oil_ratio": 0.0303
+  },
+  {
+    "date": "2026-05-25",
+    "WTI": 94.7933,
+    "NATGAS": 2.8983,
+    "CAD_USD": 0.7244,
+    "gas_oil_ratio": 0.0306
+  },
+  {
+    "date": "2026-05-26",
+    "WTI": 93.89,
+    "NATGAS": 2.894,
+    "CAD_USD": 0.7242,
+    "gas_oil_ratio": 0.0308
+  },
+  {
+    "date": "2026-05-27",
+    "WTI": 88.68,
+    "NATGAS": 3.04,
+    "CAD_USD": 0.7224,
+    "gas_oil_ratio": 0.0343
+  },
+  {
+    "date": "2026-05-28",
+    "WTI": 88.9,
+    "NATGAS": 3.285,
+    "CAD_USD": 0.7255,
+    "gas_oil_ratio": 0.037
+  },
+  {
+    "date": "2026-05-29",
+    "WTI": 87.36,
+    "NATGAS": 3.29,
+    "CAD_USD": 0.7252,
+    "gas_oil_ratio": 0.0377
+  },
+  {
+    "date": "2026-05-31",
+    "WTI": 89.76,
+    "NATGAS": 3.2345,
+    "CAD_USD": 0.7248,
+    "gas_oil_ratio": 0.036
+  },
+  {
+    "date": "2026-06-01",
+    "WTI": 92.16,
+    "NATGAS": 3.179,
+    "CAD_USD": 0.7226,
+    "gas_oil_ratio": 0.0345
+  },
+  {
+    "date": "2026-06-02",
+    "WTI": 93.76,
+    "NATGAS": 3.167,
+    "CAD_USD": 0.7223,
+    "gas_oil_ratio": 0.0338
+  },
+  {
+    "date": "2026-06-03",
+    "WTI": 96.02,
+    "NATGAS": 3.214,
+    "CAD_USD": 0.7198,
+    "gas_oil_ratio": 0.0335
+  },
+  {
+    "date": "2026-06-04",
+    "WTI": 93.04,
+    "NATGAS": 3.336,
+    "CAD_USD": 0.7191,
+    "gas_oil_ratio": 0.0359
+  },
+  {
+    "date": "2026-06-05",
+    "WTI": 90.54,
+    "NATGAS": 3.229,
+    "CAD_USD": 0.7181,
+    "gas_oil_ratio": 0.0357
+  },
+  {
+    "date": "2026-06-07",
+    "WTI": 90.92,
+    "NATGAS": 3.188,
+    "CAD_USD": 0.7171,
+    "gas_oil_ratio": 0.0351
+  },
+  {
+    "date": "2026-06-08",
+    "WTI": 91.3,
+    "NATGAS": 3.147,
+    "CAD_USD": 0.7167,
+    "gas_oil_ratio": 0.0345
+  },
+  {
+    "date": "2026-06-09",
+    "WTI": 91.3,
+    "NATGAS": 3.147,
+    "CAD_USD": 0.7163,
+    "gas_oil_ratio": 0.0345
+  }
+]
