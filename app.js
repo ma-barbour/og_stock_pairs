@@ -27,67 +27,108 @@ function setupDropdowns() {
     tickers.forEach(t => pSel.add(new Option(t, t)));
     pSel.addEventListener('change', () => updateSecondaryOptions(pSel.value));
     sSel.addEventListener('change', () => refreshDashboard(pSel.value, sSel.value));
-    if (tickers.length > 0) updateSecondaryOptions(tickers[0]);
+    
+    // NEW: Find the pair with the highest absolute Z-Score (top of the table)
+    const topPair = [...summaryData].sort((a, b) => Math.abs(b.current_z_score) - Math.abs(a.current_z_score))[0];
+    
+    if (topPair) {
+        pSel.value = topPair.stock_A; // Force primary dropdown
+        updateSecondaryOptions(topPair.stock_A, topPair.stock_B); // Pass the partner to pre-select it
+    } else if (tickers.length > 0) {
+        updateSecondaryOptions(tickers[0]);
+    }
 }
 
-function updateSecondaryOptions(primary) {
+// NEW: Added targetSecondary parameter to accept the pre-loaded partner
+function updateSecondaryOptions(primary, targetSecondary = null) {
     const sSel = document.getElementById('secondary-ticker');
     sSel.innerHTML = '';
     const partners = summaryData.filter(p => p.stock_A === primary || p.stock_B === primary)
                                 .map(p => p.stock_A === primary ? p.stock_B : p.stock_A).sort();
     partners.forEach(t => sSel.add(new Option(t, t)));
-    if (partners.length > 0) refreshDashboard(primary, partners[0]);
+    
+    // If a specific partner was passed in, select it. Otherwise, default to the first one.
+    if (targetSecondary && partners.includes(targetSecondary)) {
+        sSel.value = targetSecondary;
+        refreshDashboard(primary, targetSecondary);
+    } else if (partners.length > 0) {
+        refreshDashboard(primary, partners[0]);
+    }
 }
 
 function refreshDashboard(p1, p2) {
-    const pairId = summaryData.find(p => p.stock_A === p1 && p.stock_B === p2) ? `${p1}_${p2}` : `${p2}_${p1}`;
+    const pairObj = summaryData.find(p => p.stock_A === p1 && p.stock_B === p2) || summaryData.find(p => p.stock_A === p2 && p.stock_B === p1);
+    if (!pairObj) return;
+
+    const tA = pairObj.stock_A;
+    const tB = pairObj.stock_B;
+    const pairId = `${tA}_${tB}`;
     
-    document.getElementById('zscore-header').innerText = `Z-Score Spread: ${p1} vs ${p2}`;
-    document.getElementById('acf-header').innerText = `Spread Autocorrelation: ${p1} vs ${p2}`;
-    document.getElementById('price-header').innerText = `Price History: ${p1} vs ${p2}`;
-    document.getElementById('ratio-header').innerText = `Price Ratio: ${p1} / ${p2}`;
+    document.getElementById('zscore-header').innerText = `Z-Score Spread: ${tA} vs ${tB}`;
+    document.getElementById('acf-header').innerText = `Spread Autocorrelation: ${tA} vs ${tB}`;
+    document.getElementById('price-header').innerText = `Price History: ${tA} vs ${tB}`;
+    document.getElementById('ratio-header').innerText = `Price Ratio: ${tA} / ${tB}`;
     document.getElementById('primary-header').innerText = `Price History: ${p1}`;
     document.getElementById('primary-xeg-header').innerText = `Relative Performance: ${p1} / XEG`;
     
-    renderZScoreChart(pairId); renderACFChart(pairId); renderPriceChart(p1, p2); 
+    renderZScoreChart(pairId, tA, tB); 
+    
+    renderACFChart(pairId); renderPriceChart(p1, p2); 
     renderRatioChart(pairId); renderPrimaryChart(p1); renderPrimaryXegChart(p1); renderMacroChart();
 }
 
 function populateTable(data) {
     const tbody = document.getElementById('signals-body');
     if (!tbody) return; tbody.innerHTML = '';
-    data.forEach(pair => {
+    
+    const sortedData = [...data].sort((a, b) => Math.abs(b.current_z_score) - Math.abs(a.current_z_score));
+    
+    sortedData.forEach(pair => {
         const row = document.createElement('tr');
         row.className = "hover:bg-gray-800 transition-colors cursor-pointer group";
         const isBuy = pair.buy_signal !== "None", isWatch = pair.watch_list !== "None";
         
-        const actionHtml = isBuy ? `<span class="text-cyan-400 bg-cyan-500/10 border-cyan-500/20 px-2 py-0.5 rounded text-[10px] border font-bold">BUY ${pair.buy_signal}</span>` :
-                           isWatch ? `<span class="text-yellow-400 bg-yellow-500/10 border-yellow-500/20 px-2 py-0.5 rounded text-[10px] border font-bold">WATCH ${pair.watch_list}</span>` :
+        const actionHtml = isBuy ? `<span class="text-cyan-400 font-bold leading-tight tracking-wider">BUY<br/>${pair.buy_signal}</span>` :
+                           isWatch ? `<span class="text-yellow-400 font-bold leading-tight tracking-wider">WATCH<br/>${pair.watch_list}</span>` :
                            "";
 
         const zC = isBuy ? "text-cyan-400 font-bold" : isWatch ? "text-yellow-400 font-bold" : "text-gray-400";
-        row.innerHTML = `<td class="w-[20%] py-3 font-semibold text-gray-200 group-hover:text-cyan-400">${pair.stock_A} <span class="text-gray-600 text-[10px]">vs</span> ${pair.stock_B}</td>
-                         <td class="w-[20%] py-3 ${zC} font-mono">${pair.current_z_score.toFixed(2)}</td>
-                         <td class="w-[20%] py-3">${actionHtml}</td>
-                         <td class="w-[20%] py-3 text-gray-300 font-mono">${pair.cointegration_stat.toFixed(2)}</td>
-                         <td class="w-[20%] py-3 text-gray-300 font-mono">${pair.r_squared.toFixed(2)}</td>`;
+        
+        row.innerHTML = `<td class="w-[20%] py-3 font-semibold text-gray-200 group-hover:text-cyan-400 align-middle">${pair.stock_A} <span class="text-gray-600 text-[10px]">vs</span> ${pair.stock_B}</td>
+                         <td class="w-[20%] py-3 ${zC} font-mono align-middle">${pair.current_z_score.toFixed(2)}</td>
+                         <td class="w-[20%] py-3 align-middle">${actionHtml}</td>
+                         <td class="w-[20%] py-3 text-gray-300 font-mono align-middle">${pair.cointegration_stat.toFixed(2)}</td>
+                         <td class="w-[20%] py-3 text-gray-300 font-mono align-middle">${pair.r_squared.toFixed(2)}</td>`;
+        
         row.onclick = () => { document.getElementById('primary-ticker').value = pair.stock_A; updateSecondaryOptions(pair.stock_A); document.getElementById('secondary-ticker').value = pair.stock_B; refreshDashboard(pair.stock_A, pair.stock_B); };
         tbody.appendChild(row);
     });
 }
 
-function renderZScoreChart(pairId) {
+function renderZScoreChart(pairId, tA, tB) {
     const d = zHistory.filter(v => v.pair_id === pairId);
     updateChart('zScoreChart', { 
         labels: d.map(v => v.date), 
         datasets: [{ 
             data: d.map(v => v.dynamic_z), 
-            borderColor: '#ffffff', // Reverted to solid white
+            borderColor: '#ffffff', 
             borderWidth: 1.5, 
             pointRadius: 0
         }] 
     }, {
-        plugins: { annotation: { annotations: { zeroLine: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1 }, L1: { type: 'line', yMin: 2, yMax: 2, borderColor: '#22d3ee', borderWidth: 1 }, L2: { type: 'line', yMin: -2, yMax: -2, borderColor: '#22d3ee', borderWidth: 1 }, L3: { type: 'line', yMin: 1, yMax: 1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] }, L4: { type: 'line', yMin: -1, yMax: -1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] } } } },
+        plugins: { 
+            annotation: { 
+                annotations: { 
+                    zeroLine: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1 }, 
+                    L1: { type: 'line', yMin: 2, yMax: 2, borderColor: '#22d3ee', borderWidth: 1 }, 
+                    L2: { type: 'line', yMin: -2, yMax: -2, borderColor: '#22d3ee', borderWidth: 1 }, 
+                    L3: { type: 'line', yMin: 1, yMax: 1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] }, 
+                    L4: { type: 'line', yMin: -1, yMax: -1, borderColor: '#fbbf24', borderWidth: 1, borderDash: [4,4] },
+                    labelTop: { type: 'label', yValue: 3.5, content: `BUY ${tB}`, color: '#22d3ee', font: { size: 10, weight: 'bold' } },
+                    labelBottom: { type: 'label', yValue: -3.5, content: `BUY ${tA}`, color: '#22d3ee', font: { size: 10, weight: 'bold' } }
+                } 
+            } 
+        },
         scales: { y: { min: -4, max: 4, ticks: { stepSize: 1, color: '#6b7280' } } }
     });
 }
