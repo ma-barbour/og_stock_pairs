@@ -1,25 +1,25 @@
-// 1. ADD commodityData to your global variables
-let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [];
+let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [];
 let charts = {}; 
 
 Chart.register(ChartDataLabels);
 
 async function init() {
     try {
-        // 2. ADD the fetch call for commodity_chart_data.json
-        const [resSum, resZ, resP, resR, resACF, resPred, resCom] = await Promise.all([
+        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter] = await Promise.all([
             fetch('./data/valid_pairs_summary.json'), fetch('./data/sd_chart_data.json'),
             fetch('./data/price_chart_data.json'), fetch('./data/ratio_chart_data.json'),
             fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json'),
-            fetch('./data/commodity_chart_data.json') 
+            fetch('./data/commodity_chart_data.json'), 
+            fetch('./data/pca_chart_data.json'),
+            fetch('./data/pca_scatter_data.json')
         ]);
         
         summaryData = await resSum.json(); zHistory = await resZ.json();
         priceHistory = await resP.json(); ratioHistory = await resR.json(); 
         acfHistory = await resACF.json(); predictionsData = await resPred.json();
-        
-        // 3. ASSIGN the fetched JSON to your variable
         commodityData = await resCom.json(); 
+        pcaLineData = await resPcaLine.json();
+        pcaScatterData = await resPcaScatter.json();
 
         if (priceHistory.length > 0) {
             const lastDate = priceHistory[priceHistory.length - 1].date;
@@ -27,12 +27,13 @@ async function init() {
         }
         populateTable(summaryData); setupDropdowns();
         
-        renderPredictionsChart(); 
+        // Render standalone macro charts in the background
         renderMomentumValueChart();
-        
-        // Render the standalone charts that don't depend on dropdowns here:
         renderCommodityRatioChart();
         renderMacroChart();
+        renderPcaLineChart();
+        renderPcaScatterChart();
+        renderPredictionsChart(); 
         
     } catch (err) { console.error(err); document.getElementById('data-status').innerText = "Error loading data."; }
 }
@@ -92,8 +93,6 @@ function refreshDashboard(p1, p2) {
     renderRatioChart(pairId); 
     renderPrimaryChart(p1); 
     renderPrimaryXegChart(p1);
-    renderCommodityRatioChart();
-    renderMacroChart();
 }
 
 function populateTable(data) {
@@ -211,9 +210,18 @@ function renderRatioChart(pairId) {
 }
 
 function renderPrimaryChart(p1) {
-    const d = priceHistory.filter(v => v.symbol === p1);
-    updateChart('primaryChart', { labels: d.map(v => v.date), datasets: [{ label: p1, data: d.map(v => v.adjusted), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }, { label: '20D MA', data: d.map(v => v.sma_20), borderColor: '#fb923c', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }, { label: '50D MA', data: d.map(v => v.sma_50), borderColor: '#3b82f6', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }] }, {
-        plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 24, boxHeight: 2 } } },
+    const stockData = priceHistory.filter(v => v.symbol === p1);
+    if (stockData.length === 0) return;
+
+    updateChart('primaryChart', { 
+        labels: stockData.map(v => v.date), 
+        datasets: [
+            { label: `${p1} Price`, data: stockData.map(v => v.adjusted), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }, 
+            { label: '20D MA', data: stockData.map(v => v.sma_20), borderColor: '#fb923c', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }, 
+            { label: '50D MA', data: stockData.map(v => v.sma_50), borderColor: '#3b82f6', borderWidth: 1.5, borderDash: [4,4], pointRadius: 0 }
+        ] 
+    }, {
+        plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 24, boxHeight: 2 } } }
     });
 }
 
@@ -230,22 +238,20 @@ function renderCommodityRatioChart() {
         labels: commodityData.map(v => v.date), 
         datasets: [
             { 
-                label: 'WTI PRICE', // Updated to match y-axis
+                label: 'WTI PRICE', 
                 data: commodityData.map(v => v.WTI), 
-                borderColor: '#ffffff', // Solid white
+                borderColor: '#ffffff', 
                 borderWidth: 1.5, 
                 pointRadius: 0, 
                 yAxisID: 'y' 
-                // Removed borderDash to make it solid
             },
             { 
-                label: 'NATGAS / WTI RATIO', // Updated to match y1-axis
+                label: 'NATGAS / WTI RATIO', 
                 data: commodityData.map(v => v.gas_oil_ratio), 
-                borderColor: '#3b82f6', // Solid blue
+                borderColor: '#3b82f6', 
                 borderWidth: 1.5, 
                 pointRadius: 0, 
                 yAxisID: 'y1'
-                // Removed borderDash to make it solid
             }
         ] 
     }, {
@@ -259,13 +265,13 @@ function renderCommodityRatioChart() {
         scales: {
             y: { 
                 position: 'left', 
-                title: { display: true, text: 'WTI PRICE', color: '#ffffff' }, // Matched to dataset label
+                title: { display: true, text: 'WTI PRICE', color: '#ffffff' }, 
                 ticks: { color: '#ffffff' } 
             },
             y1: { 
                 position: 'right', 
                 grid: { display: false }, 
-                title: { display: true, text: 'NATGAS / WTI RATIO', color: '#3b82f6' }, // Matched to dataset label
+                title: { display: true, text: 'NATGAS / WTI RATIO', color: '#3b82f6' }, 
                 ticks: { color: '#3b82f6' } 
             }
         }
@@ -273,8 +279,123 @@ function renderCommodityRatioChart() {
 }
 
 function renderMacroChart() {
-    const d = ratioHistory.filter(v => v.ratio_id === 'XEG_VCN');
-    if(d.length > 0) updateChart('macroChart', { labels: d.map(v => v.date), datasets: [{ data: d.map(v => v.ratio), borderColor: '#ffffff', borderWidth: 1.5, pointRadius: 0 }] });
+    const ratioData = ratioHistory.filter(v => v.ratio_id === 'XEG_VCN');
+    if (ratioData.length === 0) return;
+
+    updateChart('macroChart', { 
+        labels: ratioData.map(v => v.date), 
+        datasets: [
+            { 
+                label: 'XEG / VCN Ratio', 
+                data: ratioData.map(v => v.ratio), 
+                borderColor: '#ffffff', 
+                borderWidth: 1.5, 
+                pointRadius: 0
+            }
+        ] 
+    }, {
+        plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } } }
+    });
+}
+
+function renderPcaLineChart() {
+    if (pcaLineData.length === 0) return;
+
+    updateChart('pcaLineChart', { 
+        labels: pcaLineData.map(v => v.date), 
+        datasets: [
+            { 
+                label: 'Market Beta (PC1)', 
+                data: pcaLineData.map(v => v.PC1), 
+                borderColor: '#3b82f6', 
+                borderWidth: 1.5, 
+                pointRadius: 0,
+                tension: 0.1
+            },
+            { 
+                label: 'Sector Rotation (PC2)', 
+                data: pcaLineData.map(v => v.PC2), 
+                borderColor: '#fb923c', 
+                borderWidth: 1.5, 
+                pointRadius: 0,
+                tension: 0.1
+            }
+        ] 
+    }, {
+        plugins: { 
+            legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } },
+            annotation: {
+                annotations: {
+                    zeroLine: { type: 'line', yMin: 0, yMax: 0, borderColor: '#4b5563', borderWidth: 1, borderDash: [4,4] }
+                }
+            }
+        },
+        scales: {
+            y: { title: { display: true, text: 'FACTOR SCORE', color: '#9ca3af' } }
+        }
+    });
+}
+
+function renderPcaScatterChart() {
+    if (pcaScatterData.length === 0) return;
+
+    const scatterPoints = pcaScatterData.map(d => ({
+        x: d.PC1,
+        y: d.PC2,
+        ticker: d.ticker
+    }));
+
+    updateChart('pcaScatterChart', {
+        datasets: [{
+            label: 'Stocks',
+            data: scatterPoints,
+            backgroundColor: '#374151',
+            borderColor: '#ffffff',
+            borderWidth: 1,
+            pointRadius: 5,
+            pointHoverRadius: 7
+        }]
+    }, {
+        type: 'scatter',
+        customPlugins: typeof ChartDataLabels !== 'undefined' ? [ChartDataLabels] : [], 
+        plugins: {
+            legend: { display: false },
+            tooltip: { 
+                callbacks: { 
+                    label: (ctx) => ` ${ctx.raw.ticker}: PC1 ${ctx.raw.x.toFixed(2)} | PC2 ${ctx.raw.y.toFixed(2)}` 
+                } 
+            },
+            datalabels: {
+                display: true, 
+                color: '#ffffff', 
+                textShadowColor: 'rgba(0, 0, 0, 0.8)', 
+                textShadowBlur: 4,
+                z: 100, 
+                align: 'right', 
+                offset: 6,
+                formatter: (value) => value.ticker,
+                font: { weight: 'bold', size: 10 }
+            },
+            annotation: {
+                annotations: {
+                    zeroX: { type: 'line', xMin: 0, xMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] },
+                    zeroY: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] }
+                }
+            }
+        },
+        scales: {
+            x: { 
+                title: { display: true, text: 'PC1 (MARKET BETA)', color: '#9ca3af' }, 
+                grid: { color: '#1f2937' }, 
+                ticks: { color: '#6b7280' } 
+            },
+            y: { 
+                title: { display: true, text: 'PC2 (SUB-SECTOR ROTATION)', color: '#9ca3af' }, 
+                grid: { color: '#1f2937' }, 
+                ticks: { color: '#6b7280' } 
+            }
+        }
+    });
 }
 
 function renderPredictionsChart() {
@@ -353,7 +474,6 @@ function updateChart(id, data, extraOptions = {}) {
     
     const isTimeSeries = data.labels && data.labels.length > 0 && typeof data.labels[0] === 'string' && data.labels[0].includes('-');
 
-    // Construct the scales object dynamically
     let chartScales = {
         x: {
             grid: { display: false },
@@ -384,7 +504,6 @@ function updateChart(id, data, extraOptions = {}) {
         y: { ticks: { color: '#6b7280' }, grid: { color: '#1f2937' }, ...extraOptions.scales?.y }
     };
 
-    // Inject the secondary y-axis if it is passed in the extraOptions
     if (extraOptions.scales && extraOptions.scales.y1) {
         chartScales.y1 = extraOptions.scales.y1;
     }
@@ -405,7 +524,6 @@ function updateChart(id, data, extraOptions = {}) {
     });
 }
 
-// Debounced resize listener: Waits for phone rotation to finish (300ms) before redrawing
 let resizeTimer;
 window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);

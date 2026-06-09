@@ -19,7 +19,7 @@ library(zoo)
 
 # Select the target tickers
 
-stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "CVE.TO", "FRU.TO", "HWX.TO", "IMO.TO", "IPO.TO", "KEL.TO", "OBE.TO", "OVV.TO", "POU.TO", "PEY.TO", "PNE.TO", "PSK.TO", "SOIL.TO", "SDE.TO", "SCR.TO", "SGY.TO", "SU.TO", "TVE.TO", "TNZ.TO", "TPZ.TO", "TOU.TO", "VET.TO", "WCP.TO")
+stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "CVE.TO", "FRU.TO", "HWX.TO", "IMO.TO", "IPO.TO", "KEL.TO", "OBE.TO", "OVV.TO", "POU.TO", "PEY.TO", "PSK.TO", "SOIL.TO", "SDE.TO", "SCR.TO", "SGY.TO", "SU.TO", "TVE.TO", "TNZ.TO", "TPZ.TO", "TOU.TO", "VET.TO", "WCP.TO")
 
 etf_tickers <- c("VCN.TO", "XEG.TO")
 
@@ -102,9 +102,10 @@ todays_data <- combined_model_data |>
         tail(1)
 
 # Loop through the stocks using lasso regression model
-# INVESTIGATE ADJUSTING THE MIXTURE
+# Collect price predictions and regression data
 
 output_results <- list()
+network_edges <- list()
 
 for (target in target_stocks) {
         
@@ -128,7 +129,7 @@ for (target in target_stocks) {
         lasso_fit <- lasso_wf |> 
                 fit(data = training_data)
         
-        # Extract the model's important tickers
+        # Extract the model's important tickers and relationships
 
         importances <- tidy(lasso_fit, penalty = universal_penalty) |>
                 filter(term != "(Intercept)",
@@ -137,6 +138,18 @@ for (target in target_stocks) {
                 arrange(desc(abs_estimate))
         
         ranked_tickers <- importances$term
+        
+        #target_edges <- importances |>
+                #select(term, estimate) |>
+                #mutate(target = target,
+                       #weight = abs(estimate),
+                       #direction = ifelse(estimate > 0, 
+                                          #"positive", 
+                                          #"negative")) |>
+                #rename(source = term) |>
+                #filter(weight > 0.01)
+        
+        #network_edges[[target]] <- target_edges
         
         #print(paste(target, length(ranked_tickers)))
         
@@ -161,11 +174,19 @@ for (target in target_stocks) {
 price_predictions <- bind_rows(output_results) |> 
         arrange(desc(divergence_pct))
 
+#final_edge_list <- bind_rows(network_edges)
+
 # Save the updated price predictions
 
 write_json(price_predictions, 
            "data/price_predictions.json", 
            pretty = TRUE)
+
+# Save the cluster edge data
+
+#write_json(final_edge_list, 
+           #"data/network_edges.json", 
+           #pretty = TRUE)
 
 ## STOCK PAIRS ANALYSIS ####
 
@@ -432,6 +453,42 @@ ratio_chart_data <- bind_rows(ratio_results) |>
 
 write_json(ratio_chart_data, 
            "data/ratio_chart_data.json", 
+           pretty = TRUE)
+
+## PRINCIPAL COMPONENT ANALYSIS (PCA) ####
+
+pca_rec <- recipe(~ ., data = log_prices_stocks) |>
+        update_role(date, new_role = "ID") |>
+        step_normalize(all_numeric_predictors()) |>
+        step_pca(all_numeric_predictors(), 
+                 num_comp = 3, 
+                 id = "pca_step")
+
+pca_prep <- prep(pca_rec)
+
+pca_data <- bake(pca_prep, new_data = NULL) |>
+        filter(date >= chart_start_date)
+
+pca_loadings <- tidy(pca_prep, id = "pca_step") |>
+        filter(component %in% c("PC1", "PC2")) |>
+        pivot_wider(names_from = component, values_from = value)
+
+# Save the PCA data
+
+pca_chart_data <- pca_data |>
+        select(date, PC1, PC2) |>
+        mutate(across(where(is.numeric), ~ round(.x, 4)))
+
+write_json(pca_chart_data, 
+           "data/pca_chart_data.json", 
+           pretty = TRUE)
+
+pca_scatter_data <- pca_loadings |>
+        select(ticker = terms, PC1, PC2) |>
+        mutate(across(where(is.numeric), ~ round(.x, 4)))
+
+write_json(pca_scatter_data, 
+           "data/pca_scatter_data.json", 
            pretty = TRUE)
 
 ## COMMODITY CHART DATA ####
