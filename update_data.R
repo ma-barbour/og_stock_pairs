@@ -42,16 +42,29 @@ raw_prices_stocks <- tq_get(stock_tickers,
                             get = "stock.prices", 
                             from = start_date)
 
+print(paste("There are", sum(is.na(raw_prices_stocks)), "in the raw_prices_stocks data"))
+
 prices_wide_stocks <- raw_prices_stocks |>
         select(date, symbol, adjusted) |>
         mutate(symbol = str_remove(symbol, "\\.TO")) |>
         pivot_wider(names_from = symbol, values_from = adjusted) |>
         arrange(date) |>
         mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
-        fill(everything(), .direction = "downup")
+        fill(everything(), .direction = "downup") |>
+        filter(date < Sys.Date())
 
 log_prices_stocks <- prices_wide_stocks |>
         mutate(across(-date, log))
+
+missing_data_check <- raw_prices_stocks |>
+        arrange(desc(date)) |>
+        select(adjusted) |>
+        head(50) |>
+        summarise(na = sum(is.na(adjusted)))
+
+write_json(missing_data_check, 
+           "data/missing_data_check.json", 
+           pretty = TRUE)
 
 # ETF prices
 
@@ -59,11 +72,16 @@ raw_prices_etfs <- tq_get(etf_tickers,
                           get = "stock.prices", 
                           from = start_date)
 
+print(paste("There are", sum(is.na(raw_prices_etfs)), "in the raw_prices_stocks data"))
+
 prices_wide_etfs <- raw_prices_etfs |>
         select(date, symbol, adjusted) |>
         mutate(symbol = str_remove(symbol, "\\.TO")) |>
         pivot_wider(names_from = symbol, values_from = adjusted) |>
-        arrange(date) 
+        arrange(date) |>
+        mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
+        fill(everything(), .direction = "downup") |>
+        filter(date < Sys.Date())
 
 # Commodity prices
 
@@ -78,7 +96,9 @@ prices_wide_commods <- raw_prices_commods |>
         arrange(date) |>
         mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
         fill(WTI, NATGAS, CAD_USD, .direction = "downup") |>
-        mutate(gas_oil_ratio = NATGAS / WTI)
+        mutate(gas_oil_ratio = NATGAS / WTI) |>
+        filter(date < Sys.Date()) |>
+        filter(date >= start_date)
 
 ## PRICE PREDICTIONS ####
 
@@ -367,8 +387,11 @@ price_chart_data <- raw_prices_stocks |>
         select(date, symbol, adjusted) |>
         mutate(symbol = str_remove(symbol, "\\.TO")) |>
         filter(symbol %in% unique_valid_tickers) |> 
+        filter(date < Sys.Date()) |>
         group_by(symbol) |>
         arrange(date) |>
+        mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
+        fill(everything(), .direction = "downup") |>
         mutate(sma_20 = slider::slide_dbl(
                 adjusted, 
                 mean, 

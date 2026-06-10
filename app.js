@@ -1,18 +1,20 @@
-// 1. Globals with all datasets including PCA
-let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [];
+// 1. Globals with all datasets including the new missing data check
+let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], missingData = [];
 let charts = {}; 
 
 Chart.register(ChartDataLabels);
 
 async function init() {
     try {
-        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter] = await Promise.all([
+        // Fetch all 10 JSON endpoints
+        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resMissing] = await Promise.all([
             fetch('./data/valid_pairs_summary.json'), fetch('./data/sd_chart_data.json'),
             fetch('./data/price_chart_data.json'), fetch('./data/ratio_chart_data.json'),
             fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json'),
             fetch('./data/commodity_chart_data.json'), 
             fetch('./data/pca_chart_data.json'),
-            fetch('./data/pca_scatter_data.json')
+            fetch('./data/pca_scatter_data.json'),
+            fetch('./data/missing_data_check.json') // <-- Fetch the new check
         ]);
         
         summaryData = await resSum.json(); zHistory = await resZ.json();
@@ -21,11 +23,19 @@ async function init() {
         commodityData = await resCom.json(); 
         pcaLineData = await resPcaLine.json();
         pcaScatterData = await resPcaScatter.json();
+        missingData = await resMissing.json();
 
+        // Handle the Data Updated timestamp
         if (priceHistory.length > 0) {
             const lastDate = priceHistory[priceHistory.length - 1].date;
             document.getElementById('data-status').innerText = `Data Updated: ${new Date(lastDate).toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' })}`;
         }
+
+        // Trigger the Critical Data Missing UI Warning
+        if (missingData.length > 0 && missingData[0].na > 0) {
+            document.getElementById('missing-data-warning').classList.remove('hidden');
+        }
+
         populateTable(summaryData); setupDropdowns();
         
         // Render standalone macro charts in the background
@@ -36,7 +46,10 @@ async function init() {
         renderPcaScatterChart();
         renderPredictionsChart(); 
         
-    } catch (err) { console.error(err); document.getElementById('data-status').innerText = "Error loading data."; }
+    } catch (err) { 
+        console.error(err); 
+        document.getElementById('data-status').innerText = "Error loading data."; 
+    }
 }
 
 function setupDropdowns() {
