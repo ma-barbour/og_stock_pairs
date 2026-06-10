@@ -42,7 +42,7 @@ raw_prices_stocks <- tq_get(stock_tickers,
                             get = "stock.prices", 
                             from = start_date)
 
-print(paste("There are", sum(is.na(raw_prices_stocks)), "in the raw_prices_stocks data"))
+print(paste("There are", sum(is.na(raw_prices_stocks)), "NAs in the raw_prices_stocks data"))
 
 prices_wide_stocks <- raw_prices_stocks |>
         select(date, symbol, adjusted) |>

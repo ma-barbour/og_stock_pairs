@@ -43,7 +43,6 @@ async function init() {
         renderCommodityRatioChart();
         renderMacroChart();
         renderPcaLineChart();
-        renderPcaScatterChart();
         renderPredictionsChart(); 
         
     } catch (err) { 
@@ -107,6 +106,7 @@ function refreshDashboard(p1, p2) {
     renderRatioChart(pairId); 
     renderPrimaryChart(p1); 
     renderPrimaryXegChart(p1);
+    renderPcaScatterChart(p1, p2);
 }
 
 function populateTable(data) {
@@ -196,7 +196,13 @@ function renderSpreadHistogramChart(pairId) {
         plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 12 } } },
         scales: {
             x: { grid: { display: false }, ticks: { color: '#9ca3af' }, title: { display: true, text: 'Z-SCORE', color: '#9ca3af', font: { size: 10, weight: 'bold' } } },
-            y: { grid: { color: '#1f2937' }, ticks: { color: '#6b7280' }, title: { display: true, text: 'FREQUENCY (DAYS)', color: '#9ca3af', font: { size: 10, weight: 'bold' } } }
+            y: { 
+                min: 0,
+                max: 90, // <-- Locked at 90 for clean grid intervals and perfect curve framing
+                grid: { color: '#1f2937' }, 
+                ticks: { color: '#6b7280' }, 
+                title: { display: true, text: 'FREQUENCY (DAYS)', color: '#9ca3af', font: { size: 10, weight: 'bold' } } 
+            }
         }
     });
 }
@@ -204,9 +210,35 @@ function renderSpreadHistogramChart(pairId) {
 function renderACFChart(pairId) {
     const d = acfHistory.filter(v => v.pair_id === pairId);
     const labels = [0, ...d.map(v => v.lag)];
-    updateChart('acfChart', { labels: labels, datasets: [{ label: 'Macro (1000D)', data: [1.0, ...d.map(v => v.acf_1000)], borderColor: '#3b82f6', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }, { label: 'Recent (250D)', data: [1.0, ...d.map(v => v.acf_250)], borderColor: '#fb923c', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }] }, {
-        type: 'line', plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } }, annotation: { annotations: { z: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1 } } } },
-        scales: { y: { min: -1.0, max: 1.0, ticks: { stepSize: 0.2, color: '#6b7280' } }, x: { title: { display: true, text: 'TRADING DAYS', color: '#9ca3af', font: { size: 10, weight: 'bold' } }, grid: { display: false }, ticks: { autoSkip: false, maxRotation: 0, color: '#6b7280', callback: (_, i) => labels[i] % 10 === 0 ? labels[i] : null } } }
+    
+    updateChart('acfChart', { 
+        labels: labels, 
+        datasets: [
+            { label: 'Macro (1000D)', data: [1.0, ...d.map(v => v.acf_1000)], borderColor: '#3b82f6', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }, 
+            { label: 'Recent (250D)', data: [1.0, ...d.map(v => v.acf_250)], borderColor: '#fb923c', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }
+        ] 
+    }, {
+        type: 'line', 
+        plugins: { 
+            legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } }, 
+            annotation: { 
+                annotations: { 
+                    z: { 
+                        type: 'line', 
+                        yMin: 0, 
+                        yMax: 0, 
+                        borderColor: '#6b7280', 
+                        borderWidth: 1,
+                        borderDash: [4, 4],             // <-- Makes the line dashed
+                        drawTime: 'beforeDatasetsDraw'  // <-- Pushes the line underneath the data
+                    } 
+                } 
+            } 
+        },
+        scales: { 
+            y: { min: -1.0, max: 1.0, ticks: { stepSize: 0.2, color: '#6b7280' } }, 
+            x: { title: { display: true, text: 'TRADING DAYS', color: '#9ca3af', font: { size: 10, weight: 'bold' } }, grid: { display: false }, ticks: { autoSkip: false, maxRotation: 0, color: '#6b7280', callback: (_, i) => labels[i] % 10 === 0 ? labels[i] : null } } 
+        }
     });
 }
 
@@ -350,24 +382,39 @@ function renderPcaLineChart() {
     });
 }
 
-function renderPcaScatterChart() {
+function renderPcaScatterChart(p1 = null, p2 = null) {
     if (pcaScatterData.length === 0) return;
 
-    const scatterPoints = pcaScatterData.map(d => ({
-        x: d.PC1,
-        y: d.PC2,
-        ticker: d.ticker
-    }));
+    // 1. Separate the selected pair from the base points
+    let basePoints = [];
+    let highlightedPoints = [];
+
+    pcaScatterData.forEach(d => {
+        let pt = { x: d.PC1, y: d.PC2, ticker: d.ticker };
+        if (d.ticker === p1 || d.ticker === p2) {
+            highlightedPoints.push(pt);
+        } else {
+            basePoints.push(pt);
+        }
+    });
+
+    // 2. Recombine them with highlighted points at the end so they draw on top
+    const scatterPoints = [...basePoints, ...highlightedPoints];
 
     updateChart('pcaScatterChart', {
         datasets: [{
             label: 'Stocks',
             data: scatterPoints,
-            backgroundColor: '#374151',
-            borderColor: '#ffffff',
+            // 3. Map colors and sizes based on the selected tickers
+            backgroundColor: scatterPoints.map(d => {
+                if (d.ticker === p1) return '#fb923c'; // Orange for Primary
+                if (d.ticker === p2) return '#3b82f6'; // Blue for Secondary
+                return '#374151'; // Dark grey for the rest
+            }),
+            borderColor: scatterPoints.map(d => (d.ticker === p1 || d.ticker === p2) ? '#ffffff' : '#4b5563'),
             borderWidth: 1,
-            pointRadius: 5,
-            pointHoverRadius: 7
+            pointRadius: scatterPoints.map(d => (d.ticker === p1 || d.ticker === p2) ? 8 : 5),
+            pointHoverRadius: scatterPoints.map(d => (d.ticker === p1 || d.ticker === p2) ? 10 : 7)
         }]
     }, {
         type: 'scatter',
@@ -381,7 +428,13 @@ function renderPcaScatterChart() {
             },
             datalabels: {
                 display: true, 
-                color: '#ffffff', 
+                // Color the labels to match the dots so they pop out of the cluster
+                color: (ctx) => {
+                    const t = ctx.dataset.data[ctx.dataIndex].ticker;
+                    if (t === p1) return '#fb923c';
+                    if (t === p2) return '#3b82f6';
+                    return '#ffffff';
+                }, 
                 textShadowColor: 'rgba(0, 0, 0, 0.8)', 
                 textShadowBlur: 4,
                 z: 100, 
@@ -392,7 +445,6 @@ function renderPcaScatterChart() {
             },
             annotation: {
                 annotations: {
-                    zeroX: { type: 'line', xMin: 0, xMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] },
                     zeroY: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] }
                 }
             }
