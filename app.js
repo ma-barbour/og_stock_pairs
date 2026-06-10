@@ -28,7 +28,7 @@ async function init() {
         // Handle the Data Updated timestamp
         if (priceHistory.length > 0) {
             const lastDate = priceHistory[priceHistory.length - 1].date;
-            document.getElementById('data-status').innerText = `Data Updated: ${new Date(lastDate).toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' })}`;
+            document.getElementById('data-status').innerText = `Latest Data: ${new Date(lastDate).toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' })}`;
         }
 
         // Trigger the Critical Data Missing UI Warning
@@ -97,8 +97,8 @@ function refreshDashboard(p1, p2) {
     document.getElementById('price-header').innerText = `Price History: ${tA} vs ${tB}`;
     document.getElementById('ratio-header').innerText = `Price Ratio: ${tA} / ${tB}`;
     document.getElementById('primary-header').innerText = `Price History: ${p1}`;
-    document.getElementById('primary-xeg-header').innerText = `Relative Performance: ${p1} / XEG`;
-    document.getElementById('histogram-header').innerText = `Distribution vs Normal Bell Curve: ${tA} vs ${tB}`;
+    document.getElementById('primary-xeg-header').innerText = `Relative Performance vs Sector: ${p1} / XEG`;
+    document.getElementById('histogram-header').innerText = `Actual & Normal Distribution: ${tA} vs ${tB}`;
     
     renderZScoreChart(pairId, tA, tB); 
     renderSpreadHistogramChart(pairId);
@@ -189,13 +189,13 @@ function renderSpreadHistogramChart(pairId) {
     updateChart('histogramChart', {
         labels: labels,
         datasets: [
-            { type: 'line', label: 'Theoretical Normal Distribution', data: normalCurve, borderColor: '#fbbf24', borderWidth: 2, pointRadius: 0, tension: 0.4, fill: false },
+            { type: 'line', label: 'Normal Distribution', data: normalCurve, borderColor: '#fbbf24', borderWidth: 2, pointRadius: 0, tension: 0.4, fill: false },
             { type: 'bar', label: 'Actual Distribution', data: counts, backgroundColor: '#4b5563', borderRadius: 2 }
         ]
     }, {
         plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 12 } } },
         scales: {
-            x: { grid: { display: false }, ticks: { color: '#9ca3af' }, title: { display: true, text: 'Z-SCORE RANGE', color: '#9ca3af', font: { size: 10, weight: 'bold' } } },
+            x: { grid: { display: false }, ticks: { color: '#9ca3af' }, title: { display: true, text: 'Z-SCORE', color: '#9ca3af', font: { size: 10, weight: 'bold' } } },
             y: { grid: { color: '#1f2937' }, ticks: { color: '#6b7280' }, title: { display: true, text: 'FREQUENCY (DAYS)', color: '#9ca3af', font: { size: 10, weight: 'bold' } } }
         }
     });
@@ -204,7 +204,7 @@ function renderSpreadHistogramChart(pairId) {
 function renderACFChart(pairId) {
     const d = acfHistory.filter(v => v.pair_id === pairId);
     const labels = [0, ...d.map(v => v.lag)];
-    updateChart('acfChart', { labels: labels, datasets: [{ label: 'Macro', data: [1.0, ...d.map(v => v.acf_1000)], borderColor: '#3b82f6', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }, { label: 'Recent', data: [1.0, ...d.map(v => v.acf_250)], borderColor: '#fb923c', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }] }, {
+    updateChart('acfChart', { labels: labels, datasets: [{ label: 'Macro (1000D)', data: [1.0, ...d.map(v => v.acf_1000)], borderColor: '#3b82f6', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }, { label: 'Recent (250D)', data: [1.0, ...d.map(v => v.acf_250)], borderColor: '#fb923c', borderWidth: 2, pointRadius: 0, tension: 0.1, fill: false }] }, {
         type: 'line', plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } }, annotation: { annotations: { z: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1 } } } },
         scales: { y: { min: -1.0, max: 1.0, ticks: { stepSize: 0.2, color: '#6b7280' } }, x: { title: { display: true, text: 'TRADING DAYS', color: '#9ca3af', font: { size: 10, weight: 'bold' } }, grid: { display: false }, ticks: { autoSkip: false, maxRotation: 0, color: '#6b7280', callback: (_, i) => labels[i] % 10 === 0 ? labels[i] : null } } }
     });
@@ -254,7 +254,7 @@ function renderCommodityRatioChart() {
             { 
                 label: 'WTI PRICE', 
                 data: commodityData.map(v => v.WTI), 
-                borderColor: '#ffffff', 
+                borderColor: '#fb923c', 
                 borderWidth: 2, 
                 pointRadius: 0, 
                 yAxisID: 'y' 
@@ -279,8 +279,8 @@ function renderCommodityRatioChart() {
         scales: {
             y: { 
                 position: 'left', 
-                title: { display: true, text: 'WTI PRICE', color: '#ffffff' }, 
-                ticks: { color: '#ffffff' } 
+                title: { display: true, text: 'WTI PRICE', color: '#fb923c' }, 
+                ticks: { color: '#fb923c' } 
             },
             y1: { 
                 position: 'right', 
@@ -308,7 +308,7 @@ function renderMacroChart() {
             }
         ] 
     }, {
-        plugins: { legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } } }
+        plugins: { legend: { display: false, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } } }
     });
 }
 
@@ -319,7 +319,7 @@ function renderPcaLineChart() {
         labels: pcaLineData.map(v => v.date), 
         datasets: [
             { 
-                label: 'Market Beta (PC1)', 
+                label: 'Market Trend (PC1)', 
                 data: pcaLineData.map(v => v.PC1), 
                 borderColor: '#3b82f6', 
                 borderWidth: 2, 
@@ -399,12 +399,12 @@ function renderPcaScatterChart() {
         },
         scales: {
             x: { 
-                title: { display: true, text: 'PC1 (MARKET BETA)', color: '#9ca3af' }, 
+                title: { display: true, text: 'PC1 (MARKET TREND)', color: '#9ca3af' }, 
                 grid: { color: '#1f2937' }, 
                 ticks: { color: '#6b7280' } 
             },
             y: { 
-                title: { display: true, text: 'PC2 (SUB-SECTOR ROTATION)', color: '#9ca3af' }, 
+                title: { display: true, text: 'PC2 (SECTOR ROTATION)', color: '#9ca3af' }, 
                 grid: { color: '#1f2937' }, 
                 ticks: { color: '#6b7280' } 
             }
@@ -476,8 +476,8 @@ function renderMomentumValueChart() {
             }
         },
         scales: {
-            x: { title: { display: true, text: 'MOMENTUM (PRICE VS 50D MA)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } },
-            y: { title: { display: true, text: 'EXPECTED VALUE (LASSO REGRESSION)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } }
+            x: { title: { display: true, text: 'ACTUAL PRICE VS MOVING AVERAGE (50D)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } },
+            y: { title: { display: true, text: 'PREDICTED PRICE CHANGE (LASSO)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } }
         }
     });
 }

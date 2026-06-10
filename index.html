@@ -24,7 +24,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
             <div class="md:col-span-5 bg-gray-900 p-4 rounded-xl border border-gray-800 flex flex-col h-[850px] shadow-xl min-w-0">
-                <h2 class="text-sm font-bold text-gray-400 uppercase mb-3 tracking-wider border-b border-gray-800 pb-2">Active Signals</h2>
+                <h2 class="text-sm font-bold text-gray-400 uppercase mb-3 tracking-wider border-b border-gray-800 pb-2">Active Stock Pairs</h2>
                 <table class="w-full text-center text-xs text-gray-500 uppercase tracking-wider mb-2">
                     <thead><tr><th class="w-[20%]">Pair</th><th class="w-[20%]">Z-Score</th><th class="w-[20%]">Action</th><th class="w-[20%]">Coint</th><th class="w-[20%]">R-Sq</th></tr></thead>
                 </table>
@@ -42,7 +42,7 @@
 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="zscore-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Z-Score Spread</h3><div class="relative w-full h-56"><canvas id="zScoreChart"></canvas></div></div>
                 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="histogram-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Distribution vs Normal Bell Curve</h3><div class="relative w-full h-56"><canvas id="histogramChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="histogram-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Actual & Normal Distribution</h3><div class="relative w-full h-56"><canvas id="histogramChart"></canvas></div></div>
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="acf-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Spread Autocorrelation (ACF)</h3><div class="relative w-full h-56"><canvas id="acfChart"></canvas></div></div>
                 
@@ -54,23 +54,23 @@
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-xeg-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Relative Performance vs Sector</h3><div class="relative w-full h-48"><canvas id="primaryXegChart"></canvas></div></div>
                 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Momentum vs. Expected Value</h3><div class="relative w-full h-64"><canvas id="momentumValueChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Momentum vs Expected Value</h3><div class="relative w-full h-64"><canvas id="momentumValueChart"></canvas></div></div>
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Commodity Prices</h3><div class="relative w-full h-48"><canvas id="commodityRatioChart"></canvas></div></div>
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Energy Sector vs Market (XEG / VCN)</h3><div class="relative w-full h-48"><canvas id="macroChart"></canvas></div></div>
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
-                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro Regime: Market Beta (PC1) vs Sub-Sector Rotation (PC2)</h3>
+                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Market Trend & Sector Rotation</h3>
                     <div class="relative w-full h-56"><canvas id="pcaLineChart"></canvas></div>
                 </div>
 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
-                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">PCA Clusters: Gas vs Oil Factor Loadings</h3>
+                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">PCA Clusters</h3>
                     <div class="relative w-full h-64"><canvas id="pcaScatterChart"></canvas></div>
                 </div>
 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Lasso Regression: Expected Price Divergence (%)</h3><div class="relative w-full h-56"><canvas id="predictionsChart"></canvas></div></div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Predicted Price Change (Lasso)</h3><div class="relative w-full h-56"><canvas id="predictionsChart"></canvas></div></div>
 
             </div>
         </div>
