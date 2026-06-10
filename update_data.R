@@ -46,7 +46,9 @@ prices_wide_stocks <- raw_prices_stocks |>
         select(date, symbol, adjusted) |>
         mutate(symbol = str_remove(symbol, "\\.TO")) |>
         pivot_wider(names_from = symbol, values_from = adjusted) |>
-        arrange(date) 
+        arrange(date) |>
+        mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
+        fill(everything(), .direction = "downup")
 
 log_prices_stocks <- prices_wide_stocks |>
         mutate(across(-date, log))
@@ -458,7 +460,7 @@ write_json(ratio_chart_data,
 
 ## PRINCIPAL COMPONENT ANALYSIS (PCA) ####
 
-pca_rec <- recipe(~ ., data = log_prices_stocks) |>
+pca_rec <- recipe(~ ., data = log_prices_stocks |> drop_na()) |>
         update_role(date, new_role = "ID") |>
         step_normalize(all_numeric_predictors()) |>
         step_pca(all_numeric_predictors(), 
