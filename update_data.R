@@ -15,7 +15,7 @@ library(slider)
 library(lubridate)
 library(zoo)
 library(tidyr)
-library(forcats)
+#library(forcats)
 
 ## BASIC SETTINGS ####
 
