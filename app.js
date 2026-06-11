@@ -310,45 +310,53 @@ function renderPrimaryXegChart(p1) {
 function renderCommodityRatioChart() {
     if (commodityData.length === 0) return;
 
-    updateChart('commodityRatioChart', { 
-        labels: commodityData.map(v => v.date), 
+    updateChart('commodityRatioChart', {
+        labels: commodityData.map(v => v.date),
         datasets: [
-            { 
-                label: 'WTI PRICE', 
-                data: commodityData.map(v => v.WTI), 
-                borderColor: '#fb923c', 
-                borderWidth: 2, 
-                pointRadius: 0, 
-                yAxisID: 'y' 
+            {
+                label: 'WTI PRICE',
+                data: commodityData.map(v => v.WTI),
+                borderColor: '#fb923c',
+                borderWidth: 2,
+                pointRadius: 0,
+                yAxisID: 'y'
             },
-            { 
-                label: 'NATGAS / WTI RATIO', 
-                data: commodityData.map(v => v.gas_oil_ratio), 
-                borderColor: '#3b82f6', 
-                borderWidth: 2, 
-                pointRadius: 0, 
+            {
+                label: 'WTI_12',
+                data: commodityData.map(v => v.WTI_12),
+                borderColor: '#6b7280', // Dark grey line
+                borderWidth: 2,
+                pointRadius: 0,
+                yAxisID: 'y' // Shares the left axis with spot WTI
+            },
+            {
+                label: 'NATGAS / WTI RATIO',
+                data: commodityData.map(v => v.gas_oil_ratio),
+                borderColor: '#3b82f6',
+                borderWidth: 2,
+                pointRadius: 0,
                 yAxisID: 'y1'
             }
-        ] 
+        ]
     }, {
-        plugins: { 
-            legend: { 
-                display: true, 
-                position: 'top', 
-                labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } 
-            } 
+        plugins: {
+            legend: {
+                display: true,
+                position: 'top',
+                labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 }
+            }
         },
         scales: {
-            y: { 
-                position: 'left', 
-                title: { display: true, text: 'WTI PRICE', color: '#fb923c' }, 
-                ticks: { color: '#fb923c' } 
+            y: {
+                position: 'left',
+                title: { display: true, text: 'WTI PRICE', color: '#fb923c' },
+                ticks: { color: '#fb923c' }
             },
-            y1: { 
-                position: 'right', 
-                grid: { display: false }, 
-                title: { display: true, text: 'NATGAS / WTI RATIO', color: '#3b82f6' }, 
-                ticks: { color: '#3b82f6' } 
+            y1: {
+                position: 'right',
+                grid: { display: false },
+                title: { display: true, text: 'NATGAS / WTI RATIO', color: '#3b82f6' },
+                ticks: { color: '#3b82f6' }
             }
         }
     });

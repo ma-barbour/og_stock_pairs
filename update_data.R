@@ -24,7 +24,7 @@ stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "C
 
 etf_tickers <- c("VCN.TO", "XEG.TO")
 
-commodity_tickers <- c("CL=F", "NG=F", "CADUSD=X")
+commodity_tickers <- c("CL=F", "NG=F", "CADUSD=X", "CLM27.NYM")
 
 # Set the start date for stock data
 
@@ -92,11 +92,15 @@ raw_prices_commods <- tq_get(commodity_tickers,
 prices_wide_commods <- raw_prices_commods |>
         select(date, symbol, adjusted) |>
         pivot_wider(names_from = symbol, values_from = adjusted) |>
-        rename(WTI = `CL=F`, NATGAS = `NG=F`, CAD_USD = `CADUSD=X`) |>
+        rename(WTI = 'CL=F', 
+               NATGAS = 'NG=F', 
+               CAD_USD = 'CADUSD=X',
+               WTI_12 = 'CLM27.NYM') |>
         arrange(date) |>
         mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
-        fill(WTI, NATGAS, CAD_USD, .direction = "downup") |>
-        mutate(gas_oil_ratio = NATGAS / WTI) |>
+        fill(WTI, NATGAS, CAD_USD, WTI_12, .direction = "downup") |>
+        mutate(gas_oil_ratio = NATGAS / WTI,
+               .before = WTI_12) |>
         filter(date < Sys.Date()) |>
         filter(date >= start_date)
 
@@ -114,8 +118,10 @@ target_stocks <- setdiff(colnames(log_prices_stocks), c("date"))
 log_commods <- prices_wide_commods |>
         mutate(across(-date, log))
 
+# Note - remove WTI_12 for this regression
+
 combined_model_data <- log_prices_stocks |>
-        left_join(log_commods, by = "date") |>
+        left_join(log_commods |> select(-WTI_12), by = "date") |>
         drop_na()
 
 training_data <- combined_model_data |>
@@ -236,7 +242,7 @@ for (i in 1:num_pairs) {
                 
         }, error = function(e) list(stat = NA, cointegrated = FALSE))
         
-        # Compute Autocorrelation (ACF) for 1000-day and 250-day windows, along with half-life of mean reversion and crossings
+        # Compute Autocorrelation (ACF) for 1000-day and 250-day windows, along with half-life (Ornstein-Uhlenbeck) of mean reversion and crossings
         
         if (isTRUE(eg_res$cointegrated)) {
                 
@@ -244,7 +250,9 @@ for (i in 1:num_pairs) {
                 spread_diff <- diff(spread)
                 hl_model <- lm(spread_diff ~ spread_lag)
                 lambda <- coef(hl_model)[2]
-                half_life <- ifelse(!is.na(lambda) && lambda < 0, -log(2) / lambda, NA)
+                half_life <- ifelse(!is.na(lambda) && lambda < 0, 
+                                    -log(2) / lambda, 
+                                    NA)
                 
                 spread_250 <- tail(spread, 250)
                 
@@ -544,6 +552,8 @@ for (target in target_stocks) {
         
         model_data <- recent_data |> 
                 select(all_of(target), WTI, NATGAS)
+        #model_data <- recent_data |> 
+                #select(all_of(target), WTI_12, NATGAS)
         
         # Center the data (z-scores)
         
@@ -553,10 +563,13 @@ for (target in target_stocks) {
         
         fit <- lm(as.formula(paste(target, "~ WTI + NATGAS")), 
                   data = scaled_data)
+        #fit <- lm(as.formula(paste(target, "~ WTI_12 + NATGAS")), 
+                  #data = scaled_data)
         
         # Extract coefficients and append to list
         beta_results[[target]] <- tibble(ticker = target,
                                          WTI_beta = coef(fit)["WTI"],
+                                         #WTI_beta = coef(fit)["WTI_12"],
                                          NG_beta  = coef(fit)["NATGAS"],
                                          R_squared = summary(fit)$r.squared)
         
