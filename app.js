@@ -1,20 +1,21 @@
-// 1. Globals with all datasets including the new missing data check
-let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], missingData = [];
+// 1. Globals with all datasets
+let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], missingData = [], dnaData = [];
 let charts = {}; 
 
 Chart.register(ChartDataLabels);
 
 async function init() {
     try {
-        // Fetch all 10 JSON endpoints
-        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resMissing] = await Promise.all([
+        // Fetch all 11 JSON endpoints
+        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resMissing, resDna] = await Promise.all([
             fetch('./data/valid_pairs_summary.json'), fetch('./data/sd_chart_data.json'),
             fetch('./data/price_chart_data.json'), fetch('./data/ratio_chart_data.json'),
             fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json'),
             fetch('./data/commodity_chart_data.json'), 
             fetch('./data/pca_chart_data.json'),
             fetch('./data/pca_scatter_data.json'),
-            fetch('./data/missing_data_check.json') // <-- Fetch the new check
+            fetch('./data/missing_data_check.json'),
+            fetch('./data/dashboard_betas.json') // <-- New endpoint added
         ]);
         
         summaryData = await resSum.json(); zHistory = await resZ.json();
@@ -24,6 +25,7 @@ async function init() {
         pcaLineData = await resPcaLine.json();
         pcaScatterData = await resPcaScatter.json();
         missingData = await resMissing.json();
+        dnaData = await resDna.json();
 
         // Handle the Data Updated timestamp
         if (priceHistory.length > 0) {
@@ -43,6 +45,7 @@ async function init() {
         renderCommodityRatioChart();
         renderMacroChart();
         renderPcaLineChart();
+        renderMacroDnaChart();
         renderPredictionsChart(); 
         
     } catch (err) { 
@@ -198,7 +201,7 @@ function renderSpreadHistogramChart(pairId) {
             x: { grid: { display: false }, ticks: { color: '#9ca3af' }, title: { display: true, text: 'Z-SCORE', color: '#9ca3af', font: { size: 10, weight: 'bold' } } },
             y: { 
                 min: 0,
-                max: 90, // <-- Locked at 90 for clean grid intervals and perfect curve framing
+                max: 90, 
                 grid: { color: '#1f2937' }, 
                 ticks: { color: '#6b7280' }, 
                 title: { display: true, text: 'FREQUENCY (DAYS)', color: '#9ca3af', font: { size: 10, weight: 'bold' } } 
@@ -211,6 +214,43 @@ function renderACFChart(pairId) {
     const d = acfHistory.filter(v => v.pair_id === pairId);
     const labels = [0, ...d.map(v => v.lag)];
     
+    const pairSummary = summaryData.find(p => `${p.stock_A}_${p.stock_B}` === pairId);
+    const halfLife = pairSummary ? pairSummary.half_life_days : null;
+
+    const chartAnnotations = {
+        z: { 
+            type: 'line', 
+            yMin: 0, 
+            yMax: 0, 
+            borderColor: '#6b7280', 
+            borderWidth: 1,
+            borderDash: [4, 4],             
+            drawTime: 'beforeDatasetsDraw'  
+        }
+    };
+
+    if (halfLife && halfLife > 0) {
+        chartAnnotations.halfLifeLine = {
+            type: 'line',
+            xMin: halfLife,
+            xMax: halfLife,
+            borderColor: '#9ca3af',
+            borderWidth: 1.5,
+            borderDash: [4, 4],
+            drawTime: 'beforeDatasetsDraw',
+            adjustScaleRange: false,
+            label: {
+                display: true,
+                content: `HALF-LIFE: ${halfLife}`,
+                position: 'start',
+                backgroundColor: 'rgba(31, 41, 55, 0.8)',
+                color: '#e5e7eb',
+                font: { size: 10, weight: 'bold' },
+                padding: 4
+            }
+        };
+    }
+    
     updateChart('acfChart', { 
         labels: labels, 
         datasets: [
@@ -222,21 +262,11 @@ function renderACFChart(pairId) {
         plugins: { 
             legend: { display: true, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } }, 
             annotation: { 
-                annotations: { 
-                    z: { 
-                        type: 'line', 
-                        yMin: 0, 
-                        yMax: 0, 
-                        borderColor: '#6b7280', 
-                        borderWidth: 1,
-                        borderDash: [4, 4],             // <-- Makes the line dashed
-                        drawTime: 'beforeDatasetsDraw'  // <-- Pushes the line underneath the data
-                    } 
-                } 
+                annotations: chartAnnotations 
             } 
         },
         scales: { 
-            y: { min: -1.0, max: 1.0, ticks: { stepSize: 0.2, color: '#6b7280' } }, 
+            y: { min: -1.0, max: 1.0, ticks: { stepSize: 0.2, autoSkip: false, color: '#6b7280' } }, 
             x: { title: { display: true, text: 'TRADING DAYS', color: '#9ca3af', font: { size: 10, weight: 'bold' } }, grid: { display: false }, ticks: { autoSkip: false, maxRotation: 0, color: '#6b7280', callback: (_, i) => labels[i] % 10 === 0 ? labels[i] : null } } 
         }
     });
@@ -385,7 +415,6 @@ function renderPcaLineChart() {
 function renderPcaScatterChart(p1 = null, p2 = null) {
     if (pcaScatterData.length === 0) return;
 
-    // 1. Separate the selected pair from the base points
     let basePoints = [];
     let highlightedPoints = [];
 
@@ -398,18 +427,16 @@ function renderPcaScatterChart(p1 = null, p2 = null) {
         }
     });
 
-    // 2. Recombine them with highlighted points at the end so they draw on top
     const scatterPoints = [...basePoints, ...highlightedPoints];
 
     updateChart('pcaScatterChart', {
         datasets: [{
             label: 'Stocks',
             data: scatterPoints,
-            // 3. Map colors and sizes based on the selected tickers
             backgroundColor: scatterPoints.map(d => {
-                if (d.ticker === p1) return '#fb923c'; // Orange for Primary
-                if (d.ticker === p2) return '#3b82f6'; // Blue for Secondary
-                return '#374151'; // Dark grey for the rest
+                if (d.ticker === p1) return '#fb923c';
+                if (d.ticker === p2) return '#3b82f6';
+                return '#374151';
             }),
             borderColor: scatterPoints.map(d => (d.ticker === p1 || d.ticker === p2) ? '#ffffff' : '#4b5563'),
             borderWidth: 1,
@@ -428,7 +455,6 @@ function renderPcaScatterChart(p1 = null, p2 = null) {
             },
             datalabels: {
                 display: true, 
-                // Color the labels to match the dots so they pop out of the cluster
                 color: (ctx) => {
                     const t = ctx.dataset.data[ctx.dataIndex].ticker;
                     if (t === p1) return '#fb923c';
@@ -461,6 +487,42 @@ function renderPcaScatterChart(p1 = null, p2 = null) {
                 ticks: { color: '#6b7280' } 
             }
         }
+    });
+}
+
+function renderMacroDnaChart() {
+    if (dnaData.length === 0) return;
+
+    updateChart('macroDnaChart', {
+        labels: dnaData.map(d => d.ticker),
+        datasets: [
+            { label: 'WTI', data: dnaData.map(d => d.WTI_Share), backgroundColor: '#fb923c', borderWidth: 0 },
+            { label: 'NATGAS', data: dnaData.map(d => d.NG_Share), backgroundColor: '#3b82f6', borderWidth: 0 },
+            { label: 'FX', data: dnaData.map(d => d.FX_Share), backgroundColor: '#ffffff', borderWidth: 0 }
+        ]
+    }, {
+        type: 'bar',
+        plugins: {
+            legend: { display: true, position: 'bottom', labels: { color: '#9ca3af', boxWidth: 12 } },
+            tooltip: { callbacks: { label: (ctx) => ` ${ctx.dataset.label}: ${ctx.raw.toFixed(1)}%` } }
+        },
+        scales: {
+            x: { 
+                stacked: true, 
+                max: 100, 
+                grid: { color: '#1f2937' }, 
+                ticks: { 
+                    color: '#6b7280', 
+                    callback: val => val + '%' 
+                } 
+            },
+            y: { 
+                stacked: true, 
+                grid: { display: false }, 
+                ticks: { color: '#9ca3af', font: { size: 10, weight: 'bold' } } 
+            }
+        },
+        indexAxis: 'y'
     });
 }
 
@@ -578,6 +640,7 @@ function updateChart(id, data, extraOptions = {}) {
         type: extraOptions.type || 'line', 
         data: data,
         options: { 
+            indexAxis: extraOptions.indexAxis || 'x',
             responsive: true, 
             maintainAspectRatio: false, 
             plugins: { 

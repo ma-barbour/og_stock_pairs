@@ -2,7 +2,6 @@
 
 # To start RStudio server: servr::httd()
 # To stop the server: servr::daemon_stop(1)
-# 
 
 ## LIBRARIES ####
 
@@ -16,12 +15,13 @@ library(slider)
 library(lubridate)
 library(zoo)
 library(tidyr)
+library(forcats)
 
 ## BASIC SETTINGS ####
 
 # Select the target tickers
 
-stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "CVE.TO", "FRU.TO", "HWX.TO", "IMO.TO", "IPO.TO", "KEL.TO", "OBE.TO", "OVV.TO", "POU.TO", "PEY.TO", "PSK.TO", "SOIL.TO", "SDE.TO", "SCR.TO", "SGY.TO", "SU.TO", "TVE.TO", "TNZ.TO", "TPZ.TO", "TOU.TO", "WCP.TO")
+stock_tickers <- c("AAV.TO", "ATH.TO", "BTE.TO", "BIR.TO", "CNQ.TO", "CJ.TO", "CVE.TO", "FRU.TO", "HWX.TO", "IMO.TO", "IPO.TO", "KEL.TO", "OBE.TO", "OVV.TO", "POU.TO", "PEY.TO", "PSK.TO", "SOIL.TO", "SDE.TO", "SCR.TO", "SGY.TO", "SU.TO", "TVE.TO", "TPZ.TO", "TOU.TO", "WCP.TO")
 
 etf_tickers <- c("VCN.TO", "XEG.TO")
 
@@ -129,7 +129,6 @@ todays_data <- combined_model_data |>
 # Collect price predictions and regression data
 
 output_results <- list()
-network_edges <- list()
 
 for (target in target_stocks) {
         
@@ -163,18 +162,6 @@ for (target in target_stocks) {
         
         ranked_tickers <- importances$term
         
-        #target_edges <- importances |>
-                #select(term, estimate) |>
-                #mutate(target = target,
-                       #weight = abs(estimate),
-                       #direction = ifelse(estimate > 0, 
-                                          #"positive", 
-                                          #"negative")) |>
-                #rename(source = term) |>
-                #filter(weight > 0.01)
-        
-        #network_edges[[target]] <- target_edges
-        
         #print(paste(target, length(ranked_tickers)))
         
         # Make price predictions
@@ -198,19 +185,11 @@ for (target in target_stocks) {
 price_predictions <- bind_rows(output_results) |> 
         arrange(desc(divergence_pct))
 
-#final_edge_list <- bind_rows(network_edges)
-
 # Save the updated price predictions
 
 write_json(price_predictions, 
            "data/price_predictions.json", 
            pretty = TRUE)
-
-# Save the cluster edge data
-
-#write_json(final_edge_list, 
-           #"data/network_edges.json", 
-           #pretty = TRUE)
 
 ## STOCK PAIRS ANALYSIS ####
 
@@ -258,9 +237,15 @@ for (i in 1:num_pairs) {
                 
         }, error = function(e) list(stat = NA, cointegrated = FALSE))
         
-        # Compute Autocorrelation (ACF) for 1000-day and 250-day windows
+        # Compute Autocorrelation (ACF) for 1000-day and 250-day windows, along with half-life of mean reversion and crossings
         
         if (isTRUE(eg_res$cointegrated)) {
+                
+                spread_lag <- spread[-length(spread)]
+                spread_diff <- diff(spread)
+                hl_model <- lm(spread_diff ~ spread_lag)
+                lambda <- coef(hl_model)[2]
+                half_life <- ifelse(!is.na(lambda) && lambda < 0, -log(2) / lambda, NA)
                 
                 spread_250 <- tail(spread, 250)
                 
@@ -323,6 +308,7 @@ for (i in 1:num_pairs) {
                 current_z <- NA
                 action_signal <- "None"
                 watch_list <- "None"
+                half_life <- NA
                 
         }
         
@@ -334,6 +320,7 @@ for (i in 1:num_pairs) {
                 buy_signal = action_signal,
                 watch_list = watch_list,
                 current_z_score = round(current_z, 2),
+                half_life_days = round(half_life),
                 r_squared = round(summary(pair_lm)$r.squared, 2),
                 cointegration_stat = round(eg_res$stat, 2),
                 is_cointegrated = eg_res$cointegrated)
@@ -530,4 +517,93 @@ commodity_chart_data <- prices_wide_commods |>
 write_json(commodity_chart_data, 
            "data/commodity_chart_data.json", 
            pretty = TRUE)
+
+## COMMODITY ELASTICITY ####
+
+# 1. Calculate Daily Log Returns
+# The model requires the daily rate of change, not absolute prices
+
+stock_returns <- log_prices_stocks |>
+        mutate(across(-date, ~ .x - lag(.x))) |>
+        drop_na()
+
+commod_returns <- log_commods |>
+        mutate(across(-date, ~ .x - lag(.x))) |>
+        drop_na()
+
+combined_returns <- stock_returns |>
+        left_join(commod_returns, by = "date") |>
+        drop_na()
+
+# 2. Run Single 250-Day Multivariate Regression per Stock
+
+# Isolate only the most recent 250 trading days
+recent_data <- tail(combined_returns, 250)
+beta_results <- list()
+
+for (target in target_stocks) {
+        
+        # Isolate target stock and macro drivers
+        model_data <- recent_data |> 
+                select(all_of(target), WTI, NATGAS, CAD_USD)
+        
+        # Standardize returns (Z-scores) to neutralize volatility multiplier
+        scaled_data <- as.data.frame(scale(model_data))
+        
+        # Run clean simultaneous regression on the standardized 250-day window
+        fit <- lm(as.formula(paste(target, "~ WTI + NATGAS + CAD_USD")), data = scaled_data)
+        
+        # Extract coefficients and append to list
+        beta_results[[target]] <- tibble(
+                ticker = target,
+                WTI_beta = coef(fit)["WTI"],
+                NG_beta  = coef(fit)["NATGAS"],
+                FX_beta  = coef(fit)["CAD_USD"]
+        )
+}
+
+# 3. Compile, Format, and Export the Data
+
+# Combine all tickers into one dataframe
+latest_betas <- bind_rows(beta_results)
+
+# Calculate percentage shares and sort for the UI
+dashboard_betas <- latest_betas |>
+        mutate(
+                Total_Abs_Beta = abs(WTI_beta) + abs(NG_beta) + abs(FX_beta),
+                WTI_Share = round((abs(WTI_beta) / Total_Abs_Beta) * 100, 1),
+                NG_Share  = round((abs(NG_beta) / Total_Abs_Beta) * 100, 1),
+                FX_Share  = round((abs(FX_beta) / Total_Abs_Beta) * 100, 1)
+        ) |>
+        arrange(desc(WTI_Share)) |>
+        select(ticker, WTI_Share, NG_Share, FX_Share)
+
+# Save the processed dashboard elasticity data
+write_json(dashboard_betas, 
+           "data/dashboard_betas.json", 
+           pretty = TRUE)
+
+## GIT FIX ####
+
+# PUSHING AFTER GITHUB ACTIONS PIPELINE RUNS
+
+# Open the Terminal window
+
+# Lock in local script edits:
+#    git add .
+#    git commit -m "Save local script updates"
+
+# Pull the automated commit from GitHub:
+#    git pull origin main
+
+# Git will likely flag a merge conflict 
+# Tell Git to just keep your local JSON files:
+#    git checkout --ours data/*.json
+#
+# Bundle the resolved conflict and push new files:
+#    git add data/
+#    git commit -m "Resolve auto-generated JSON data conflict"
+#    git push origin main
+
+
 
