@@ -15,7 +15,6 @@ library(slider)
 library(lubridate)
 library(zoo)
 library(tidyr)
-#library(forcats)
 
 ## BASIC SETTINGS ####
 
@@ -520,8 +519,7 @@ write_json(commodity_chart_data,
 
 ## COMMODITY ELASTICITY ####
 
-# 1. Calculate Daily Log Returns
-# The model requires the daily rate of change, not absolute prices
+# Calculate daily log returns
 
 stock_returns <- log_prices_stocks |>
         mutate(across(-date, ~ .x - lag(.x))) |>
@@ -535,50 +533,52 @@ combined_returns <- stock_returns |>
         left_join(commod_returns, by = "date") |>
         drop_na()
 
-# 2. Run Single 250-Day Multivariate Regression per Stock
+# Run 250-day multivariate regression
 
-# Isolate only the most recent 250 trading days
 recent_data <- tail(combined_returns, 250)
 beta_results <- list()
 
 for (target in target_stocks) {
         
-        # Isolate target stock and macro drivers
-        model_data <- recent_data |> 
-                select(all_of(target), WTI, NATGAS, CAD_USD)
+        # Shrink the data
         
-        # Standardize returns (Z-scores) to neutralize volatility multiplier
+        model_data <- recent_data |> 
+                select(all_of(target), WTI, NATGAS)
+        
+        # Center the data (z-scores)
+        
         scaled_data <- as.data.frame(scale(model_data))
         
-        # Run clean simultaneous regression on the standardized 250-day window
-        fit <- lm(as.formula(paste(target, "~ WTI + NATGAS + CAD_USD")), data = scaled_data)
+        # Run LM regression on the standardized 250-day window
+        
+        fit <- lm(as.formula(paste(target, "~ WTI + NATGAS")), 
+                  data = scaled_data)
         
         # Extract coefficients and append to list
-        beta_results[[target]] <- tibble(
-                ticker = target,
-                WTI_beta = coef(fit)["WTI"],
-                NG_beta  = coef(fit)["NATGAS"],
-                FX_beta  = coef(fit)["CAD_USD"]
-        )
+        beta_results[[target]] <- tibble(ticker = target,
+                                         WTI_beta = coef(fit)["WTI"],
+                                         NG_beta  = coef(fit)["NATGAS"],
+                                         R_squared = summary(fit)$r.squared)
+        
 }
 
-# 3. Compile, Format, and Export the Data
-
-# Combine all tickers into one dataframe
 latest_betas <- bind_rows(beta_results)
 
-# Calculate percentage shares and sort for the UI
-dashboard_betas <- latest_betas |>
-        mutate(
-                Total_Abs_Beta = abs(WTI_beta) + abs(NG_beta) + abs(FX_beta),
-                WTI_Share = round((abs(WTI_beta) / Total_Abs_Beta) * 100, 1),
-                NG_Share  = round((abs(NG_beta) / Total_Abs_Beta) * 100, 1),
-                FX_Share  = round((abs(FX_beta) / Total_Abs_Beta) * 100, 1)
-        ) |>
-        arrange(desc(WTI_Share)) |>
-        select(ticker, WTI_Share, NG_Share, FX_Share)
+# Prep the data for the app chart
 
-# Save the processed dashboard elasticity data
+dashboard_betas <- latest_betas |>
+        mutate(Total_Abs_Beta = abs(WTI_beta) + abs(NG_beta),
+               WTI_Share = round((abs(WTI_beta) / Total_Abs_Beta) * R_squared * 100, 1),
+               NG_Share  = round((abs(NG_beta) / Total_Abs_Beta) * R_squared * 100, 1),
+               Unexplained = round((1 - R_squared) * 100, 1)) |>
+        arrange(desc(WTI_Share)) |>
+        select(ticker, 
+               WTI_Share, 
+               NG_Share, 
+               Unexplained)
+
+# Save the data
+
 write_json(dashboard_betas, 
            "data/dashboard_betas.json", 
            pretty = TRUE)

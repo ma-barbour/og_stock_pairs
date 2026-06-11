@@ -498,7 +498,7 @@ function renderMacroDnaChart() {
         datasets: [
             { label: 'WTI', data: dnaData.map(d => d.WTI_Share), backgroundColor: '#fb923c', borderWidth: 0 },
             { label: 'NATGAS', data: dnaData.map(d => d.NG_Share), backgroundColor: '#3b82f6', borderWidth: 0 },
-            { label: 'FX', data: dnaData.map(d => d.FX_Share), backgroundColor: '#ffffff', borderWidth: 0 }
+            { label: 'UNEXPLAINED (R2)', data: dnaData.map(d => d.Unexplained), backgroundColor: '#374151', borderWidth: 0 }
         ]
     }, {
         type: 'bar',
@@ -511,10 +511,7 @@ function renderMacroDnaChart() {
                 stacked: true, 
                 max: 100, 
                 grid: { color: '#1f2937' }, 
-                ticks: { 
-                    color: '#6b7280', 
-                    callback: val => val + '%' 
-                } 
+                ticks: { color: '#6b7280', callback: val => val + '%' } 
             },
             y: { 
                 stacked: true, 
