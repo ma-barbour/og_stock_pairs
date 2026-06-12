@@ -4,27 +4,27 @@
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "ATH",
-    "current_z_score": -1.33,
-    "half_life_days": 16,
-    "r_squared": 0.86,
-    "cointegration_stat": -5.17
+    "current_z_score": -1.12,
+    "half_life_days": 15,
+    "r_squared": 0.87,
+    "cointegration_stat": -5.28
   },
   {
     "stock_A": "IMO",
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "IMO",
-    "current_z_score": -1.31,
-    "half_life_days": 21,
-    "r_squared": 0.83,
-    "cointegration_stat": -4.33
+    "current_z_score": -1.01,
+    "half_life_days": 20,
+    "r_squared": 0.84,
+    "cointegration_stat": -4.41
   },
   {
     "stock_A": "FRU",
     "stock_B": "SDE",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.92,
+    "current_z_score": 0.94,
     "half_life_days": 12,
     "r_squared": 0.95,
     "cointegration_stat": -4.16
@@ -34,149 +34,159 @@
     "stock_B": "WCP",
     "buy_signal": "None",
     "watch_list": "ATH",
-    "current_z_score": -1.23,
-    "half_life_days": 26,
-    "r_squared": 0.87,
-    "cointegration_stat": -4.04
+    "current_z_score": -1.17,
+    "half_life_days": 24,
+    "r_squared": 0.88,
+    "cointegration_stat": -4.07
   },
   {
     "stock_A": "KEL",
     "stock_B": "TVE",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.41,
+    "current_z_score": 0.5,
     "half_life_days": 17,
-    "r_squared": 0.77,
-    "cointegration_stat": -3.98
+    "r_squared": 0.78,
+    "cointegration_stat": -3.95
   },
   {
     "stock_A": "FRU",
     "stock_B": "HWX",
     "buy_signal": "None",
     "watch_list": "FRU",
-    "current_z_score": -1.86,
+    "current_z_score": -1.38,
     "half_life_days": 14,
     "r_squared": 0.96,
-    "cointegration_stat": -3.9
+    "cointegration_stat": -3.93
   },
   {
     "stock_A": "ATH",
     "stock_B": "CJ",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.26,
-    "half_life_days": 20,
+    "current_z_score": 0.31,
+    "half_life_days": 19,
     "r_squared": 0.93,
-    "cointegration_stat": -3.86
+    "cointegration_stat": -3.88
   },
   {
     "stock_A": "CJ",
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "CJ",
-    "current_z_score": -1.51,
+    "current_z_score": -1.28,
     "half_life_days": 21,
     "r_squared": 0.88,
-    "cointegration_stat": -3.77
+    "cointegration_stat": -3.82
   },
   {
     "stock_A": "SCR",
     "stock_B": "SU",
     "buy_signal": "None",
     "watch_list": "SU",
-    "current_z_score": 1.13,
-    "half_life_days": 22,
+    "current_z_score": 1.08,
+    "half_life_days": 21,
     "r_squared": 0.84,
-    "cointegration_stat": -3.75
+    "cointegration_stat": -3.77
   },
   {
     "stock_A": "POU",
     "stock_B": "PEY",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": -0.6,
+    "current_z_score": -0.73,
     "half_life_days": 25,
     "r_squared": 0.91,
-    "cointegration_stat": -3.56
+    "cointegration_stat": -3.67
   },
   {
     "stock_A": "CJ",
     "stock_B": "SDE",
     "buy_signal": "None",
-    "watch_list": "CJ",
-    "current_z_score": -1.13,
+    "watch_list": "None",
+    "current_z_score": -0.43,
     "half_life_days": 20,
     "r_squared": 0.96,
-    "cointegration_stat": -3.54
-  },
-  {
-    "stock_A": "CJ",
-    "stock_B": "TVE",
-    "buy_signal": "None",
-    "watch_list": "CJ",
-    "current_z_score": -1.71,
-    "half_life_days": 23,
-    "r_squared": 0.96,
-    "cointegration_stat": -3.52
-  },
-  {
-    "stock_A": "KEL",
-    "stock_B": "WCP",
-    "buy_signal": "None",
-    "watch_list": "None",
-    "current_z_score": 0.73,
-    "half_life_days": 21,
-    "r_squared": 0.77,
-    "cointegration_stat": -3.5
-  },
-  {
-    "stock_A": "SCR",
-    "stock_B": "WCP",
-    "buy_signal": "None",
-    "watch_list": "None",
-    "current_z_score": -0.84,
-    "half_life_days": 20,
-    "r_squared": 0.87,
-    "cointegration_stat": -3.49
-  },
-  {
-    "stock_A": "SU",
-    "stock_B": "WCP",
-    "buy_signal": "None",
-    "watch_list": "SU",
-    "current_z_score": -1.49,
-    "half_life_days": 26,
-    "r_squared": 0.89,
-    "cointegration_stat": -3.43
+    "cointegration_stat": -3.58
   },
   {
     "stock_A": "PEY",
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.16,
-    "half_life_days": 38,
+    "current_z_score": 0.04,
+    "half_life_days": 37,
     "r_squared": 0.71,
-    "cointegration_stat": -3.42
+    "cointegration_stat": -3.54
+  },
+  {
+    "stock_A": "SCR",
+    "stock_B": "WCP",
+    "buy_signal": "None",
+    "watch_list": "SCR",
+    "current_z_score": -1.05,
+    "half_life_days": 20,
+    "r_squared": 0.88,
+    "cointegration_stat": -3.51
+  },
+  {
+    "stock_A": "CJ",
+    "stock_B": "TVE",
+    "buy_signal": "None",
+    "watch_list": "CJ",
+    "current_z_score": -1.35,
+    "half_life_days": 23,
+    "r_squared": 0.96,
+    "cointegration_stat": -3.5
+  },
+  {
+    "stock_A": "KEL",
+    "stock_B": "WCP",
+    "buy_signal": "None",
+    "watch_list": "None",
+    "current_z_score": 0.58,
+    "half_life_days": 21,
+    "r_squared": 0.77,
+    "cointegration_stat": -3.49
   },
   {
     "stock_A": "HWX",
     "stock_B": "SDE",
     "buy_signal": "None",
     "watch_list": "SDE",
-    "current_z_score": 1.91,
+    "current_z_score": 1.74,
     "half_life_days": 20,
     "r_squared": 0.95,
+    "cointegration_stat": -3.43
+  },
+  {
+    "stock_A": "ATH",
+    "stock_B": "SDE",
+    "buy_signal": "None",
+    "watch_list": "None",
+    "current_z_score": -0.12,
+    "half_life_days": 28,
+    "r_squared": 0.87,
+    "cointegration_stat": -3.4
+  },
+  {
+    "stock_A": "SU",
+    "stock_B": "WCP",
+    "buy_signal": "None",
+    "watch_list": "SU",
+    "current_z_score": -1.5,
+    "half_life_days": 26,
+    "r_squared": 0.89,
     "cointegration_stat": -3.37
   },
   {
     "stock_A": "OVV",
     "stock_B": "SOIL",
     "buy_signal": "None",
-    "watch_list": "SOIL",
-    "current_z_score": 1.43,
+    "watch_list": "None",
+    "current_z_score": 0.35,
     "half_life_days": 20,
     "r_squared": 0.7,
-    "cointegration_stat": -3.37
+    "cointegration_stat": -3.35
   }
 ]
