@@ -491,7 +491,8 @@ pca_data <- bake(pca_prep, new_data = NULL) |>
         filter(date >= chart_start_date)
 
 pca_loadings <- tidy(pca_prep, id = "pca_step") |>
-        filter(component %in% c("PC1", "PC2")) |>
+        #filter(component %in% c("PC1", "PC2")) |>
+        filter(component %in% c("PC1", "PC2", "PC3")) |>
         pivot_wider(names_from = component, values_from = value)
 
 # Save the PCA data
@@ -510,6 +511,14 @@ pca_scatter_data <- pca_loadings |>
 
 write_json(pca_scatter_data, 
            "data/pca_scatter_data.json", 
+           pretty = TRUE)
+
+pca_upstream_risk_data <- pca_loadings |>
+        select(ticker = terms, PC2, PC3) |>
+        mutate(across(where(is.numeric), ~ round(.x, 4)))
+
+write_json(pca_upstream_risk_data, 
+           "data/pca_upstream_risk_data.json", 
            pretty = TRUE)
 
 ## COMMODITY CHART DATA ####

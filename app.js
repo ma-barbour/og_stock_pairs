@@ -1,21 +1,22 @@
 // 1. Globals with all datasets
-let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], missingData = [], dnaData = [];
+let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], pcaRiskData = [], missingData = [], dnaData = [];
 let charts = {}; 
 
 Chart.register(ChartDataLabels);
 
 async function init() {
     try {
-        // Fetch all 11 JSON endpoints
-        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resMissing, resDna] = await Promise.all([
+        // Fetch all 12 JSON endpoints
+        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resPcaRisk, resMissing, resDna] = await Promise.all([
             fetch('./data/valid_pairs_summary.json'), fetch('./data/sd_chart_data.json'),
             fetch('./data/price_chart_data.json'), fetch('./data/ratio_chart_data.json'),
             fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json'),
             fetch('./data/commodity_chart_data.json'), 
             fetch('./data/pca_chart_data.json'),
             fetch('./data/pca_scatter_data.json'),
+            fetch('./data/pca_upstream_risk_data.json'), // <-- New Endpoint
             fetch('./data/missing_data_check.json'),
-            fetch('./data/dashboard_betas.json') // <-- New endpoint added
+            fetch('./data/dashboard_betas.json')
         ]);
         
         summaryData = await resSum.json(); zHistory = await resZ.json();
@@ -24,6 +25,7 @@ async function init() {
         commodityData = await resCom.json(); 
         pcaLineData = await resPcaLine.json();
         pcaScatterData = await resPcaScatter.json();
+        pcaRiskData = await resPcaRisk.json(); // <-- New Data Assigned
         missingData = await resMissing.json();
         dnaData = await resDna.json();
 
@@ -110,6 +112,7 @@ function refreshDashboard(p1, p2) {
     renderPrimaryChart(p1); 
     renderPrimaryXegChart(p1);
     renderPcaScatterChart(p1, p2);
+    renderPcaRiskScatterChart(p1, p2);
 }
 
 function populateTable(data) {
@@ -487,12 +490,95 @@ function renderPcaScatterChart(p1 = null, p2 = null) {
             x: { 
                 title: { display: true, text: 'PC1 (MARKET TREND)', color: '#9ca3af' }, 
                 grid: { color: '#1f2937' }, 
-                ticks: { color: '#6b7280' } 
+                ticks: { color: '#6b7280' },
+                grace: '15%' 
             },
             y: { 
-                title: { display: true, text: 'PC2 (SECTOR ROTATION)', color: '#9ca3af' }, 
+                title: { display: true, text: 'PC2 (SECTOR)', color: '#9ca3af' }, 
                 grid: { color: '#1f2937' }, 
-                ticks: { color: '#6b7280' } 
+                ticks: { color: '#6b7280' },
+                grace: '15%' 
+            }
+        }
+    });
+}
+
+function renderPcaRiskScatterChart(p1 = null, p2 = null) {
+    if (pcaRiskData.length === 0) return;
+
+    let basePoints = [];
+    let highlightedPoints = [];
+
+    pcaRiskData.forEach(d => {
+        let pt = { x: d.PC2, y: d.PC3, ticker: d.ticker };
+        if (d.ticker === p1 || d.ticker === p2) {
+            highlightedPoints.push(pt);
+        } else {
+            basePoints.push(pt);
+        }
+    });
+
+    const scatterPoints = [...basePoints, ...highlightedPoints];
+
+    updateChart('pcaRiskScatterChart', {
+        datasets: [{
+            label: 'Stocks',
+            data: scatterPoints,
+            backgroundColor: scatterPoints.map(d => {
+                if (d.ticker === p1) return '#fb923c';
+                if (d.ticker === p2) return '#3b82f6';
+                return '#374151';
+            }),
+            borderColor: scatterPoints.map(d => (d.ticker === p1 || d.ticker === p2) ? '#ffffff' : '#4b5563'),
+            borderWidth: 1,
+            pointRadius: scatterPoints.map(d => (d.ticker === p1 || d.ticker === p2) ? 8 : 5),
+            pointHoverRadius: scatterPoints.map(d => (d.ticker === p1 || d.ticker === p2) ? 10 : 7)
+        }]
+    }, {
+        type: 'scatter',
+        customPlugins: typeof ChartDataLabels !== 'undefined' ? [ChartDataLabels] : [], 
+        plugins: {
+            legend: { display: false },
+            tooltip: { 
+                callbacks: { 
+                    label: (ctx) => ` ${ctx.raw.ticker}: PC2 ${ctx.raw.x.toFixed(2)} | PC3 ${ctx.raw.y.toFixed(2)}` 
+                } 
+            },
+            datalabels: {
+                display: true, 
+                color: (ctx) => {
+                    const t = ctx.dataset.data[ctx.dataIndex].ticker;
+                    if (t === p1) return '#fb923c';
+                    if (t === p2) return '#3b82f6';
+                    return '#ffffff';
+                }, 
+                textShadowColor: 'rgba(0, 0, 0, 0.8)', 
+                textShadowBlur: 4,
+                z: 100, 
+                align: 'right', 
+                offset: 6,
+                formatter: (value) => value.ticker,
+                font: { weight: 'bold', size: 10 }
+            },
+            annotation: {
+                annotations: {
+                    zeroX: { type: 'line', xMin: 0, xMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] },
+                    zeroY: { type: 'line', yMin: 0, yMax: 0, borderColor: '#6b7280', borderWidth: 1, borderDash: [4,4] }
+                }
+            }
+        },
+        scales: {
+            x: { 
+                title: { display: true, text: 'PC2 (SECTOR)', color: '#9ca3af' }, 
+                grid: { color: '#1f2937' }, 
+                ticks: { color: '#6b7280' },
+                grace: '15%' 
+            },
+            y: { 
+                title: { display: true, text: 'PC3 (UPSTREAM RISK)', color: '#9ca3af' }, 
+                grid: { color: '#1f2937' }, 
+                ticks: { color: '#6b7280' },
+                grace: '15%' 
             }
         }
     });
