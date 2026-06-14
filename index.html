@@ -38,8 +38,7 @@
                 
                 <div class="grid grid-cols-2 gap-4 bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
                     <div><label class="block text-[10px] font-bold text-gray-500 uppercase mb-1">Primary Stock</label><select id="primary-ticker" class="w-full bg-gray-800 border border-gray-700 text-white text-sm rounded-lg p-2 outline-none focus:border-cyan-400 transition-colors cursor-pointer"></select></div>
-                    <div><label class="block text-[10px] font-bold text-gray-500 uppercase mb-1">Cointegrated Partner</label><select id="secondary-ticker" class="w-full bg-gray-800 border border-gray-700 text-white text-sm rounded-lg p-2 outline-none focus:border-cyan-400 transition-colors cursor-pointer"></select></div>
-                </div>
+                    <div><label class="block text-[10px] font-bold text-gray-500 uppercase mb-1">Cointegrated Partner</label><select id="secondary-ticker" class="w-full bg-gray-800 border border-gray-700 text-white text-sm rounded-lg p-2 outline-none focus:border-cyan-400 transition-colors cursor-pointer"></select></div></div>
 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="zscore-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Z-Score Spread</h3><div class="relative w-full h-56"><canvas id="zScoreChart"></canvas></div></div>
                 
@@ -49,11 +48,11 @@
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="price-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="relative w-full h-56"><canvas id="priceChart"></canvas></div></div>
                 
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="volume-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Trade Volume</h3><div class="relative w-full h-48"><canvas id="volumeChart"></canvas></div></div>
+                
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="ratio-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price Ratio</h3><div class="relative w-full h-56"><canvas id="ratioChart"></canvas></div></div>
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price History</h3><div class="relative w-full h-56"><canvas id="primaryChart"></canvas></div></div>
-                
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="volume-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Trade Volume</h3><div class="relative w-full h-48"><canvas id="volumeChart"></canvas></div></div>
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 id="primary-xeg-header" class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Relative Performance vs Sector</h3><div class="relative w-full h-48"><canvas id="primaryXegChart"></canvas></div></div>
                 
@@ -63,25 +62,13 @@
                 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Energy Sector vs Market (Ratio & Volume)</h3><div class="relative w-full h-48"><canvas id="macroChart"></canvas></div></div>
                 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
-                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Market Trend & Sector Rotation</h3>
-                    <div class="relative w-full h-56"><canvas id="pcaLineChart"></canvas></div>
-                </div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Macro: Market Trend & Sector Rotation</h3><div class="relative w-full h-56"><canvas id="pcaLineChart"></canvas></div></div>
 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
-                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">PCA Clusters</h3>
-                    <div class="relative w-full h-64"><canvas id="pcaScatterChart"></canvas></div>
-                </div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">PCA Clusters</h3><div class="relative w-full h-64"><canvas id="pcaScatterChart"></canvas></div></div>
                 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
-                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Upstream Risk (PCA)</h3>
-                    <div class="relative w-full h-64"><canvas id="pcaRiskScatterChart"></canvas></div>
-                </div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Upstream Risk (PCA)</h3><div class="relative w-full h-64"><canvas id="pcaRiskScatterChart"></canvas></div></div>
 
-                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl">
-                    <h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price-Commodity Elasticity (250D LM Regression)</h3>
-                    <div class="relative w-full h-[650px]"><canvas id="macroDnaChart"></canvas></div>
-                </div>
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Price-Commodity Elasticity (250D LM Regression)</h3><div class="relative w-full h-[650px]"><canvas id="macroDnaChart"></canvas></div></div>
 
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 shadow-xl"><h3 class="text-xs font-bold text-gray-400 uppercase mb-2 tracking-wider">Predicted Price Change (250D Lasso Regression)</h3><div class="relative w-full h-56"><canvas id="predictionsChart"></canvas></div></div>
 
