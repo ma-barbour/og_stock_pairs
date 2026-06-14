@@ -605,6 +605,50 @@ write_json(dashboard_betas,
            "data/dashboard_betas.json", 
            pretty = TRUE)
 
+## VOLUME CHART DATA ####
+
+# Generate volume chart data for valid pairs
+
+stock_volume_data <- raw_prices_stocks |>
+        select(date, symbol, volume) |>
+        mutate(symbol = str_remove(symbol, "\\.TO")) |>
+        filter(symbol %in% unique_valid_tickers) |> 
+        filter(date < Sys.Date()) |>
+        group_by(symbol) |>
+        arrange(date) |>
+        mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
+        fill(everything(), .direction = "downup") |>
+        mutate(vol_sma_50 = slider::slide_dbl(volume, mean, .before = 49, .complete = TRUE),
+               rvol = round(volume / vol_sma_50, 2)) |>
+        ungroup() |>
+        filter(date >= chart_start_date) |>
+        select(date, symbol, rvol)
+
+# Generate chart data for XEG Sector ETF
+
+etf_volume_data <- raw_prices_etfs |>
+        select(date, symbol, volume) |>
+        mutate(symbol = str_remove(symbol, "\\.TO")) |>
+        filter(symbol == "XEG") |>
+        filter(date < Sys.Date()) |>
+        group_by(symbol) |>
+        arrange(date) |>
+        mutate(across(-date, ~ zoo::na.approx(.x, na.rm = FALSE))) |>
+        fill(everything(), .direction = "downup") |>
+        mutate(vol_sma_50 = slider::slide_dbl(volume, mean, .before = 49, .complete = TRUE),
+               rvol = round(volume / vol_sma_50, 2)) |>
+        ungroup() |>
+        filter(date >= chart_start_date) |>
+        select(date, symbol, rvol)
+
+# Save the volume data
+
+volume_chart_data <- bind_rows(stock_volume_data, etf_volume_data)
+
+write_json(volume_chart_data, 
+           "data/volume_chart_data.json", 
+           pretty = TRUE)
+
 ## GIT FIX ####
 
 # PUSHING AFTER GITHUB ACTIONS PIPELINE RUNS

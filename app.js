@@ -1,22 +1,24 @@
 // 1. Globals with all datasets
-let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], pcaRiskData = [], missingData = [], dnaData = [];
+let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], pcaRiskData = [], missingData = [], dnaData = [], volumeData = [];
 let charts = {}; 
 
 Chart.register(ChartDataLabels);
 
 async function init() {
     try {
-        // Fetch all 12 JSON endpoints
-        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resPcaRisk, resMissing, resDna] = await Promise.all([
+        // Fetch all 13 JSON endpoints
+        // FIXED: Added resVol to the end of this array to capture the 13th fetch
+        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resPcaRisk, resMissing, resDna, resVol] = await Promise.all([
             fetch('./data/valid_pairs_summary.json'), fetch('./data/sd_chart_data.json'),
             fetch('./data/price_chart_data.json'), fetch('./data/ratio_chart_data.json'),
             fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json'),
             fetch('./data/commodity_chart_data.json'), 
             fetch('./data/pca_chart_data.json'),
             fetch('./data/pca_scatter_data.json'),
-            fetch('./data/pca_upstream_risk_data.json'), // <-- New Endpoint
+            fetch('./data/pca_upstream_risk_data.json'), 
             fetch('./data/missing_data_check.json'),
-            fetch('./data/dashboard_betas.json')
+            fetch('./data/dashboard_betas.json'),
+            fetch('./data/volume_chart_data.json')
         ]);
         
         summaryData = await resSum.json(); zHistory = await resZ.json();
@@ -25,9 +27,10 @@ async function init() {
         commodityData = await resCom.json(); 
         pcaLineData = await resPcaLine.json();
         pcaScatterData = await resPcaScatter.json();
-        pcaRiskData = await resPcaRisk.json(); // <-- New Data Assigned
+        pcaRiskData = await resPcaRisk.json(); 
         missingData = await resMissing.json();
         dnaData = await resDna.json();
+        volumeData = await resVol.json(); // <-- Now resVol exists to be parsed
 
         // Handle the Data Updated timestamp
         if (priceHistory.length > 0) {
@@ -103,6 +106,7 @@ function refreshDashboard(p1, p2) {
     document.getElementById('primary-header').innerText = `Price History: ${p1}`;
     document.getElementById('primary-xeg-header').innerText = `Relative Performance vs Sector: ${p1} / XEG`;
     document.getElementById('histogram-header').innerText = `Actual & Normal Distribution: ${tA} vs ${tB}`;
+    document.getElementById('volume-header').innerText = `Trade Volume: ${tA} vs ${tB}`;
     
     renderZScoreChart(pairId, tA, tB); 
     renderSpreadHistogramChart(pairId);
@@ -113,6 +117,7 @@ function refreshDashboard(p1, p2) {
     renderPrimaryXegChart(p1);
     renderPcaScatterChart(p1, p2);
     renderPcaRiskScatterChart(p1, p2);
+    renderVolumeChart(p1, p2);
 }
 
 function populateTable(data) {
@@ -283,6 +288,86 @@ function renderPriceChart(p1, p2) {
     });
 }
 
+function renderVolumeChart(p1, p2) {
+    const d1 = volumeData.filter(v => v.symbol === p1);
+    const d2 = volumeData.filter(v => v.symbol === p2);
+
+    if (d1.length === 0 || d2.length === 0) return;
+
+    updateChart('volumeChart', {
+        labels: d1.map(v => v.date),
+        datasets: [
+            {
+                type: 'line', // Changed from bar to line
+                label: p1,
+                data: d1.map(v => v.rvol),
+                backgroundColor: 'rgba(251, 146, 60, 0.2)', // Lighter opacity for overlapping areas
+                borderColor: '#fb923c',
+                borderWidth: 1.5,
+                pointRadius: 0, // Hides the dots to remove horizontal clutter
+                fill: false,     // Creates the Area Chart effect
+                tension: 0.2    // Slightly smooths the daily jaggedness
+            },
+            {
+                type: 'line',
+                label: p2,
+                data: d2.map(v => v.rvol),
+                backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                borderColor: '#3b82f6',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false,
+                tension: 0.2
+            }
+        ]
+    }, {
+        plugins: {
+            legend: { display: true, position: 'top', labels: { color: '#9ca3af', usePointStyle: true, pointStyle: 'line'} },
+            annotation: {
+                annotations: {
+                    baseline: { 
+                        type: 'line', 
+                        yMin: 1.0, 
+                        yMax: 1.0, 
+                        borderColor: '#9ca3af', 
+                        borderWidth: 1.5, 
+                        borderDash: [4, 4],
+                        label: {
+                            display: true,
+                            content: '50-Day Average (1.0x)',
+                            position: 'start',
+                            backgroundColor: 'rgba(31, 41, 55, 0.8)',
+                            color: '#e5e7eb',
+                            font: { size: 10, weight: 'bold' }
+                        }
+                    }
+                }
+            },
+            tooltip: {
+                mode: 'index',
+                intersect: false,
+                callbacks: { label: (ctx) => ` ${ctx.dataset.label}: ${ctx.raw.toFixed(2)}x Vol` }
+            }
+        },
+        scales: {
+            x: {
+                grid: { display: false }
+            },
+            y: {
+                position: 'left',
+                max: 5.0, // <-- FIXES THE VERTICAL COMPRESSION
+                grid: { color: '#1f2937' },
+                ticks: {
+                    color: '#6b7280',
+                    stepSize: 1.0,
+                    // If a spike hits the 5.0 ceiling, label it with a '+' so you know it was capped
+                    callback: function(value) { return value === 5 ? '5.0x+' : value.toFixed(1) + 'x'; }
+                }
+            }
+        }
+    });
+}
+
 function renderRatioChart(pairId) {
     const d = ratioHistory.filter(v => v.ratio_id === pairId);
     if(d.length > 0) updateChart('ratioChart', { labels: d.map(v => v.date), datasets: [{ data: d.map(v => v.ratio), borderColor: '#ffffff', borderWidth: 2, pointRadius: 0 }] });
@@ -367,21 +452,88 @@ function renderCommodityRatioChart() {
 
 function renderMacroChart() {
     const ratioData = ratioHistory.filter(v => v.ratio_id === 'XEG_VCN');
-    if (ratioData.length === 0) return;
+    const xegVol = volumeData.filter(v => v.symbol === 'XEG');
+    
+    if (ratioData.length === 0 || xegVol.length === 0) return;
 
-    updateChart('macroChart', { 
-        labels: ratioData.map(v => v.date), 
+    // Create a date-lookup map to ensure volume perfectly aligns with the ratio dates
+    const xegVolMap = new Map(xegVol.map(v => [v.date, v.rvol]));
+    const alignedVolData = ratioData.map(v => xegVolMap.get(v.date) || null);
+
+    updateChart('macroChart', {
+        labels: ratioData.map(v => v.date),
         datasets: [
-            { 
-                label: 'XEG / VCN Ratio', 
-                data: ratioData.map(v => v.ratio), 
-                borderColor: '#ffffff', 
-                borderWidth: 2, 
-                pointRadius: 0
+            {
+                type: 'line',
+                label: 'XEG / VCN Ratio',
+                data: ratioData.map(v => v.ratio),
+                borderColor: '#fb923c',
+                borderWidth: 2,
+                pointRadius: 0,
+                yAxisID: 'y' // Left axis
+            },
+            {
+                type: 'line',
+                label: 'XEG Trade Volume (± 50D MA)',
+                data: alignedVolData,
+                backgroundColor: 'rgba(59, 130, 246, 0.2)', // Blue filled area
+                borderColor: '#3b82f6',
+                borderWidth: 1.5,
+                pointRadius: 0,
+                fill: false,
+                tension: 0.2,
+                yAxisID: 'y1' // Right axis
             }
-        ] 
+        ]
     }, {
-        plugins: { legend: { display: false, position: 'top', labels: { color: '#9ca3af', boxWidth: 20, boxHeight: 2 } } }
+        plugins: { 
+            legend: { 
+                display: true, 
+                position: 'top', 
+                labels: { color: '#9ca3af', boxWidth: 12, usePointStyle: true, pointStyle: 'line' } 
+            },
+            annotation: {
+                annotations: {
+                    baseline: { 
+                        type: 'line', 
+                        yScaleID: 'y1', // <-- CRITICAL: Forces annotation to the RVOL axis
+                        yMin: 1.0, 
+                        yMax: 1.0, 
+                        borderColor: '#9ca3af', 
+                        borderWidth: 1.5, 
+                        borderDash: [4, 4]
+                    }
+                }
+            },
+            tooltip: {
+                mode: 'index',
+                intersect: false,
+                callbacks: {
+                    label: function(ctx) {
+                        if (ctx.datasetIndex === 0) return ` Ratio: ${ctx.raw.toFixed(4)}`;
+                        return ` RVOL: ${ctx.raw.toFixed(2)}x`;
+                    }
+                }
+            }
+        },
+        scales: {
+            x: { grid: { display: false } },
+            y: {
+                position: 'left',
+                grid: { color: '#1f2937' },
+                ticks: { color: '#ffffff' }
+            },
+            y1: {
+                position: 'right',
+                max: 5.0, // Ceilings the volume spikes just like your other chart
+                grid: { display: false },
+                ticks: { 
+                    color: '#3b82f6',
+                    stepSize: 1.0,
+                    callback: function(value) { return value === 5 ? '5.0x+' : value.toFixed(1) + 'x'; }
+                }
+            }
+        }
     });
 }
 
