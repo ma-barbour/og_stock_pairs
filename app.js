@@ -521,7 +521,7 @@ function renderMacroChart() {
             y: {
                 position: 'left',
                 grid: { color: '#1f2937' },
-                ticks: { color: '#ffffff' }
+                ticks: { color: '#fb923c' }
             },
             y1: {
                 position: 'right',
