@@ -1,36 +1,35 @@
 // 1. Globals with all datasets
-let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], pcaRiskData = [], missingData = [], dnaData = [], volumeData = [];
-let charts = {}; 
-
-Chart.register(ChartDataLabels);
+let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], pcaRiskData = [], missingData = [], dnaData = [], volumeData = [], dividendData = [];
+let charts = {}; // <-- Restored this global variable!
 
 async function init() {
     try {
-        // Fetch all 13 JSON endpoints
-        // FIXED: Added resVol to the end of this array to capture the 13th fetch
-        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resPcaRisk, resMissing, resDna, resVol] = await Promise.all([
+        // Fetch all 14 JSON endpoints
+        const [resSum, resZ, resP, resR, resACF, resPred, resCom, resPcaLine, resPcaScatter, resPcaRisk, resMissing, resDna, resVol, resDiv] = await Promise.all([
             fetch('./data/valid_pairs_summary.json'), fetch('./data/sd_chart_data.json'),
             fetch('./data/price_chart_data.json'), fetch('./data/ratio_chart_data.json'),
             fetch('./data/acf_chart_data.json'), fetch('./data/price_predictions.json'),
-            fetch('./data/commodity_chart_data.json'), 
-            fetch('./data/pca_chart_data.json'),
-            fetch('./data/pca_scatter_data.json'),
-            fetch('./data/pca_upstream_risk_data.json'), 
-            fetch('./data/missing_data_check.json'),
-            fetch('./data/dashboard_betas.json'),
-            fetch('./data/volume_chart_data.json')
+            fetch('./data/commodity_chart_data.json'), fetch('./data/pca_chart_data.json'),
+            fetch('./data/pca_scatter_data.json'), fetch('./data/pca_upstream_risk_data.json'), 
+            fetch('./data/missing_data_check.json'), fetch('./data/dashboard_betas.json'),
+            fetch('./data/volume_chart_data.json'), fetch('./data/dividend_data.json') 
         ]);
         
-        summaryData = await resSum.json(); zHistory = await resZ.json();
-        priceHistory = await resP.json(); ratioHistory = await resR.json(); 
-        acfHistory = await resACF.json(); predictionsData = await resPred.json();
+        // Parse ALL the JSON (restored the deleted assignments)
+        summaryData = await resSum.json(); 
+        zHistory = await resZ.json();
+        priceHistory = await resP.json(); 
+        ratioHistory = await resR.json(); 
+        acfHistory = await resACF.json(); 
+        predictionsData = await resPred.json();
         commodityData = await resCom.json(); 
         pcaLineData = await resPcaLine.json();
         pcaScatterData = await resPcaScatter.json();
         pcaRiskData = await resPcaRisk.json(); 
         missingData = await resMissing.json();
         dnaData = await resDna.json();
-        volumeData = await resVol.json(); // <-- Now resVol exists to be parsed
+        volumeData = await resVol.json();
+        dividendData = await resDiv.json(); 
 
         // Handle the Data Updated timestamp
         if (priceHistory.length > 0) {
@@ -43,9 +42,11 @@ async function init() {
             document.getElementById('missing-data-warning').classList.remove('hidden');
         }
 
-        populateTable(summaryData); setupDropdowns();
+        populateTable(summaryData); 
+        setupDropdowns();
+        renderDividendTable(); 
         
-        // Render standalone macro charts in the background
+        // Render standalone macro charts (restored the deleted function calls)
         renderMomentumValueChart();
         renderCommodityRatioChart();
         renderMacroChart();
@@ -836,6 +837,33 @@ function renderMomentumValueChart() {
             x: { title: { display: true, text: 'ACTUAL PRICE VS MOVING AVERAGE (50D)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } },
             y: { title: { display: true, text: 'PREDICTED PRICE CHANGE (LASSO)', color: '#9ca3af' }, grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: val => val+'%' } }
         }
+    });
+}
+
+function renderDividendTable() {
+    const tbody = document.getElementById('dividend-body');
+    if (!tbody || dividendData.length === 0) return;
+    
+    tbody.innerHTML = '';
+
+    dividendData.forEach(row => {
+        const tr = document.createElement('tr');
+        tr.className = "hover:bg-gray-800 transition-colors group cursor-default";
+
+        // Highlight high yields (>= 5.0%), standard text for > 0%, and dim the non-payors
+        let yieldColor = "text-gray-600";
+        if (row.yield_pct >= 5.0) yieldColor = "text-cyan-400 font-bold";
+        else if (row.yield_pct > 0) yieldColor = "text-gray-200";
+
+        tr.innerHTML = `
+            <td class="py-3 text-center font-semibold text-gray-200">${row.symbol}</td>
+            <td class="py-3 text-center font-mono ${yieldColor}">${row.yield_pct.toFixed(2)}%</td>
+            <td class="py-3 text-center font-mono text-gray-400">$${row.current_price.toFixed(2)}</td>
+            <td class="py-3 text-center font-mono text-gray-400">$${row.annual_dividend.toFixed(2)}</td>
+            <td class="py-3 text-center font-mono text-gray-400">${row.dividend_frequency}</td>
+        `;
+        
+        tbody.appendChild(tr);
     });
 }
 

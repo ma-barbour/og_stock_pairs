@@ -104,6 +104,65 @@ prices_wide_commods <- raw_prices_commods |>
         filter(date < Sys.Date()) |>
         filter(date >= start_date)
 
+# Dividends
+
+# Create a safe fetch for the dividend data (handles non-payors)
+
+safe_tq_get <- possibly(tq_get, otherwise = tibble())
+
+dividend_summary <- map_dfr(stock_tickers, function(ticker) {
+        
+        df <- safe_tq_get(ticker, 
+                          get = "dividends", 
+                          from = Sys.Date() - 100)
+        
+        if (is.null(df) || nrow(df) == 0) {
+                
+                return(tibble(symbol = ticker,
+                              dividend_amount = 0,
+                              dividend_frequency = "None",
+                              annual_dividend = 0))
+                
+        }
+        
+        dividend_count <- nrow(df)
+        dividend_amount <- df |> 
+                arrange(desc(date)) |> 
+                slice(1) |> 
+                pull(value)
+        dividend_frequency <- case_when(dividend_count >= 3 ~ "Monthly",
+                                        dividend_count > 0 ~ "Quarterly",
+                                        TRUE ~ "None")
+        annual_dividend <- case_when(dividend_frequency == "Monthly" ~ dividend_amount * 12,
+                                     dividend_frequency == "Quarterly" ~ dividend_amount * 4,
+                                     TRUE ~ 0)
+        
+        return(tibble(symbol = ticker,
+                      dividend_amount,
+                      dividend_frequency,
+                      annual_dividend))
+        
+})
+
+latest_prices <- prices_wide_stocks |>
+        tail(1) |>
+        select(-date) |>
+        pivot_longer(cols = everything(), 
+                     names_to = "symbol", 
+                     values_to = "current_price")
+
+dividend_data <- dividend_summary |>
+        mutate(symbol = str_remove(symbol, "\\.TO")) |>
+        left_join(latest_prices, by = "symbol") |>
+        mutate(yield_pct = if_else(current_price > 0, 
+                                   round((annual_dividend / current_price) * 100, 2), 
+                                   0)) |>
+        arrange(desc(yield_pct))
+
+write_json(dividend_data, 
+           "data/dividend_data.json", 
+           pretty = TRUE)
+
 ## PRICE PREDICTIONS ####
 
 # Settings for regression model
