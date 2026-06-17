@@ -1,6 +1,8 @@
 // 1. Globals with all datasets
 let summaryData = [], zHistory = [], priceHistory = [], ratioHistory = [], acfHistory = [], predictionsData = [], commodityData = [], pcaLineData = [], pcaScatterData = [], pcaRiskData = [], missingData = [], dnaData = [], volumeData = [], dividendData = [];
-let charts = {}; // <-- Restored this global variable!
+let charts = {}; // 
+
+Chart.register(ChartDataLabels);
 
 async function init() {
     try {
