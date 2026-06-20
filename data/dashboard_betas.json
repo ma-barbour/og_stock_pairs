@@ -1,9 +1,9 @@
 [
   {
     "ticker": "CNQ",
-    "WTI_Share": 36.1,
-    "NG_Share": 0.9,
-    "Unexplained": 63
+    "WTI_Share": 36.3,
+    "NG_Share": 1,
+    "Unexplained": 62.6
   },
   {
     "ticker": "SOIL",
@@ -14,12 +14,12 @@
   {
     "ticker": "OVV",
     "WTI_Share": 29.2,
-    "NG_Share": 2.6,
-    "Unexplained": 68.2
+    "NG_Share": 2.7,
+    "Unexplained": 68.1
   },
   {
     "ticker": "SGY",
-    "WTI_Share": 28.7,
+    "WTI_Share": 28.6,
     "NG_Share": 1.4,
     "Unexplained": 70
   },
@@ -33,7 +33,7 @@
     "ticker": "CVE",
     "WTI_Share": 25.8,
     "NG_Share": 1.7,
-    "Unexplained": 72.6
+    "Unexplained": 72.5
   },
   {
     "ticker": "SU",
@@ -43,7 +43,7 @@
   },
   {
     "ticker": "OBE",
-    "WTI_Share": 24.8,
+    "WTI_Share": 24.7,
     "NG_Share": 1.3,
     "Unexplained": 74
   },
@@ -55,14 +55,14 @@
   },
   {
     "ticker": "CJ",
-    "WTI_Share": 23.2,
+    "WTI_Share": 23.1,
     "NG_Share": 6.6,
-    "Unexplained": 70.2
+    "Unexplained": 70.4
   },
   {
     "ticker": "POU",
     "WTI_Share": 22.3,
-    "NG_Share": 0.6,
+    "NG_Share": 0.5,
     "Unexplained": 77.2
   },
   {
@@ -75,13 +75,13 @@
     "ticker": "IPO",
     "WTI_Share": 20.9,
     "NG_Share": 1.5,
-    "Unexplained": 77.5
+    "Unexplained": 77.6
   },
   {
     "ticker": "TVE",
-    "WTI_Share": 20.9,
-    "NG_Share": 4.2,
-    "Unexplained": 74.9
+    "WTI_Share": 20.8,
+    "NG_Share": 4.1,
+    "Unexplained": 75.2
   },
   {
     "ticker": "TPZ",
@@ -92,25 +92,25 @@
   {
     "ticker": "SDE",
     "WTI_Share": 17.6,
-    "NG_Share": 3,
-    "Unexplained": 79.4
+    "NG_Share": 2.9,
+    "Unexplained": 79.5
   },
   {
     "ticker": "KEL",
     "WTI_Share": 17.5,
     "NG_Share": 2.5,
-    "Unexplained": 79.9
+    "Unexplained": 80
   },
   {
     "ticker": "PSK",
-    "WTI_Share": 16.3,
+    "WTI_Share": 16.4,
     "NG_Share": 1.1,
-    "Unexplained": 82.6
+    "Unexplained": 82.5
   },
   {
     "ticker": "BTE",
     "WTI_Share": 16.2,
-    "NG_Share": 0.9,
+    "NG_Share": 0.8,
     "Unexplained": 82.9
   },
   {
@@ -133,7 +133,7 @@
   },
   {
     "ticker": "TOU",
-    "WTI_Share": 12.2,
+    "WTI_Share": 12.1,
     "NG_Share": 6.6,
     "Unexplained": 81.2
   },
@@ -152,7 +152,7 @@
   {
     "ticker": "BIR",
     "WTI_Share": 10.7,
-    "NG_Share": 4.9,
-    "Unexplained": 84.4
+    "NG_Share": 4.8,
+    "Unexplained": 84.5
   }
 ]
