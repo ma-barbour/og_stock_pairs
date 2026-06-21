@@ -184,19 +184,9 @@
     "stock_B": "SOIL",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.52,
+    "current_z_score": 0.54,
     "half_life_days": 20,
     "r_squared": 0.71,
-    "cointegration_stat": -3.37
-  },
-  {
-    "stock_A": "OBE",
-    "stock_B": "OVV",
-    "buy_signal": "None",
-    "watch_list": "OBE",
-    "current_z_score": -1.04,
-    "half_life_days": 24,
-    "r_squared": 0.77,
     "cointegration_stat": -3.36
   },
   {
@@ -207,6 +197,16 @@
     "current_z_score": 0.44,
     "half_life_days": 20,
     "r_squared": 0.95,
+    "cointegration_stat": -3.35
+  },
+  {
+    "stock_A": "OBE",
+    "stock_B": "OVV",
+    "buy_signal": "None",
+    "watch_list": "OBE",
+    "current_z_score": -1.05,
+    "half_life_days": 24,
+    "r_squared": 0.77,
     "cointegration_stat": -3.35
   }
 ]
