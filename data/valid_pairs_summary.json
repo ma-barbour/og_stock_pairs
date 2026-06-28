@@ -142,9 +142,9 @@
   {
     "stock_A": "OVV",
     "stock_B": "SOIL",
-    "buy_signal": "SOIL",
+    "buy_signal": "None",
     "watch_list": "SOIL",
-    "current_z_score": 2.07,
+    "current_z_score": 1.76,
     "half_life_days": 20,
     "r_squared": 0.72,
     "cointegration_stat": -3.36

@@ -13,21 +13,21 @@
   },
   {
     "ticker": "OVV",
-    "WTI_Share": 28.7,
+    "WTI_Share": 28.9,
     "NG_Share": 2.4,
-    "Unexplained": 68.9
-  },
-  {
-    "ticker": "SGY",
-    "WTI_Share": 27.3,
-    "NG_Share": 1.8,
-    "Unexplained": 70.9
+    "Unexplained": 68.7
   },
   {
     "ticker": "WCP",
     "WTI_Share": 27.3,
     "NG_Share": 1.3,
     "Unexplained": 71.4
+  },
+  {
+    "ticker": "SGY",
+    "WTI_Share": 27.2,
+    "NG_Share": 1.8,
+    "Unexplained": 71
   },
   {
     "ticker": "CVE",
