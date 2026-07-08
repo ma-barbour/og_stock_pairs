@@ -1,184 +1,184 @@
 [
   {
     "ticker": "OBE",
-    "actual": 11.19,
-    "expected": 12.25,
-    "divergence_pct": 9.47,
-    "ranked_predictors": ["SOIL", "SGY", "CJ", "ATH", "BIR", "CAD_USD", "KEL", "WTI", "TOU", "PEY", "BTE"]
+    "actual": 11.56,
+    "expected": 12.65,
+    "divergence_pct": 9.46,
+    "ranked_predictors": ["SOIL", "CJ", "SGY", "ATH", "BIR", "CAD_USD", "KEL", "WTI", "TOU", "PEY", "BTE"]
   },
   {
     "ticker": "IPO",
-    "actual": 14.03,
-    "expected": 15.09,
-    "divergence_pct": 7.53,
-    "ranked_predictors": ["FRU", "IMO", "CVE", "AAV", "BIR", "KEL", "SCR", "BTE"]
-  },
-  {
-    "ticker": "SCR",
-    "actual": 36.4,
-    "expected": 38.59,
-    "divergence_pct": 6.02,
-    "ranked_predictors": ["CJ", "SGY", "SOIL", "WTI", "CAD_USD", "HWX", "BTE", "AAV", "BIR"]
+    "actual": 14.4,
+    "expected": 15.56,
+    "divergence_pct": 8.04,
+    "ranked_predictors": ["FRU", "IMO", "CVE", "AAV", "BIR", "KEL", "SCR", "SU"]
   },
   {
     "ticker": "BIR",
-    "actual": 6.29,
-    "expected": 6.6,
-    "divergence_pct": 4.99,
-    "ranked_predictors": ["PEY", "AAV", "KEL", "OBE", "NATGAS", "IPO", "CVE", "CAD_USD", "TOU"]
+    "actual": 6.33,
+    "expected": 6.7,
+    "divergence_pct": 5.82,
+    "ranked_predictors": ["PEY", "AAV", "KEL", "OBE", "NATGAS", "CVE", "IPO", "CAD_USD", "TOU"]
+  },
+  {
+    "ticker": "SCR",
+    "actual": 37.64,
+    "expected": 39.63,
+    "divergence_pct": 5.29,
+    "ranked_predictors": ["CJ", "SGY", "SOIL", "WTI", "CAD_USD", "HWX", "BTE", "AAV", "BIR"]
   },
   {
     "ticker": "TOU",
-    "actual": 59,
-    "expected": 61.41,
-    "divergence_pct": 4.08,
-    "ranked_predictors": ["POU", "AAV", "WTI", "BIR", "CAD_USD", "KEL"]
+    "actual": 60.28,
+    "expected": 62.33,
+    "divergence_pct": 3.4,
+    "ranked_predictors": ["POU", "AAV", "WTI", "BIR", "CAD_USD"]
   },
   {
     "ticker": "BTE",
-    "actual": 5.48,
-    "expected": 5.7,
-    "divergence_pct": 3.97,
-    "ranked_predictors": ["CJ", "TVE", "FRU", "IPO", "WTI", "BIR", "gas_oil_ratio", "HWX"]
+    "actual": 5.69,
+    "expected": 5.87,
+    "divergence_pct": 3.24,
+    "ranked_predictors": ["CJ", "TVE", "FRU", "IPO", "BIR", "WTI", "HWX", "gas_oil_ratio"]
   },
   {
     "ticker": "FRU",
-    "actual": 15.78,
-    "expected": 16.14,
-    "divergence_pct": 2.29,
-    "ranked_predictors": ["HWX", "PEY", "IPO", "SDE", "BTE"]
-  },
-  {
-    "ticker": "WCP",
-    "actual": 14.43,
-    "expected": 14.6,
-    "divergence_pct": 1.16,
-    "ranked_predictors": ["TVE", "CVE", "SGY", "TPZ", "HWX", "SCR", "SOIL", "AAV"]
+    "actual": 15.96,
+    "expected": 16.35,
+    "divergence_pct": 2.46,
+    "ranked_predictors": ["HWX", "PEY", "IPO", "SDE", "BTE", "CAD_USD"]
   },
   {
     "ticker": "CJ",
-    "actual": 10.34,
-    "expected": 10.44,
-    "divergence_pct": 0.94,
+    "actual": 10.61,
+    "expected": 10.74,
+    "divergence_pct": 1.19,
     "ranked_predictors": ["ATH", "BTE", "SDE", "POU", "SCR", "OBE"]
   },
   {
     "ticker": "CNQ",
-    "actual": 55.95,
-    "expected": 56.33,
-    "divergence_pct": 0.67,
-    "ranked_predictors": ["IMO", "PEY", "OVV", "WTI", "TPZ", "POU", "gas_oil_ratio", "TOU"]
+    "actual": 57.74,
+    "expected": 58.17,
+    "divergence_pct": 0.74,
+    "ranked_predictors": ["IMO", "PEY", "OVV", "WTI", "TPZ", "POU", "gas_oil_ratio", "TOU", "IPO"]
   },
   {
-    "ticker": "SGY",
-    "actual": 8.74,
-    "expected": 8.75,
-    "divergence_pct": 0.08,
-    "ranked_predictors": ["SOIL", "OBE", "WCP", "OVV", "SCR", "KEL", "AAV", "CAD_USD"]
-  },
-  {
-    "ticker": "PSK",
-    "actual": 31.32,
-    "expected": 31.32,
-    "divergence_pct": 0.01,
-    "ranked_predictors": ["CVE", "TVE", "HWX", "POU", "TPZ", "FRU", "ATH", "OBE", "IPO", "KEL"]
+    "ticker": "WCP",
+    "actual": 14.87,
+    "expected": 14.97,
+    "divergence_pct": 0.68,
+    "ranked_predictors": ["TVE", "CVE", "SGY", "TPZ", "HWX", "SCR", "SOIL", "AAV"]
   },
   {
     "ticker": "HWX",
-    "actual": 11.47,
-    "expected": 11.42,
-    "divergence_pct": -0.4,
+    "actual": 11.7,
+    "expected": 11.73,
+    "divergence_pct": 0.27,
     "ranked_predictors": ["FRU", "TVE", "PEY", "TPZ", "KEL", "CAD_USD", "SCR", "SU", "AAV"]
   },
   {
+    "ticker": "PSK",
+    "actual": 31.86,
+    "expected": 31.89,
+    "divergence_pct": 0.08,
+    "ranked_predictors": ["TVE", "CVE", "POU", "TPZ", "HWX", "FRU", "ATH", "IPO", "OBE", "KEL", "SU", "WCP"]
+  },
+  {
     "ticker": "TPZ",
-    "actual": 29.86,
-    "expected": 29.71,
-    "divergence_pct": -0.52,
-    "ranked_predictors": ["HWX", "WCP", "KEL", "POU", "TOU", "CNQ", "SCR"]
+    "actual": 30.45,
+    "expected": 30.17,
+    "divergence_pct": -0.9,
+    "ranked_predictors": ["HWX", "WCP", "KEL", "POU", "TOU", "SCR", "CNQ"]
   },
   {
     "ticker": "ATH",
-    "actual": 9.94,
-    "expected": 9.83,
-    "divergence_pct": -1.06,
-    "ranked_predictors": ["CJ", "CVE", "SOIL", "OBE", "IMO", "NATGAS", "SGY"]
+    "actual": 10.28,
+    "expected": 10.17,
+    "divergence_pct": -1.08,
+    "ranked_predictors": ["CJ", "CVE", "SOIL", "OBE", "IMO", "SGY", "NATGAS"]
+  },
+  {
+    "ticker": "SGY",
+    "actual": 9.01,
+    "expected": 8.91,
+    "divergence_pct": -1.11,
+    "ranked_predictors": ["SOIL", "OBE", "WCP", "OVV", "SCR", "KEL", "AAV", "CAD_USD"]
   },
   {
     "ticker": "SU",
-    "actual": 78.02,
-    "expected": 77.09,
-    "divergence_pct": -1.19,
-    "ranked_predictors": ["IMO", "HWX", "BTE", "WTI", "SOIL", "CAD_USD", "IPO", "AAV", "gas_oil_ratio"]
-  },
-  {
-    "ticker": "AAV",
-    "actual": 10.54,
-    "expected": 10.4,
-    "divergence_pct": -1.31,
-    "ranked_predictors": ["TOU", "SOIL", "HWX", "BIR", "CAD_USD", "SGY", "gas_oil_ratio", "NATGAS", "KEL"]
+    "actual": 80.49,
+    "expected": 79.2,
+    "divergence_pct": -1.6,
+    "ranked_predictors": ["HWX", "IMO", "BTE", "WTI", "SOIL", "CAD_USD", "IPO", "gas_oil_ratio", "AAV", "SDE"]
   },
   {
     "ticker": "IMO",
-    "actual": 160.59,
-    "expected": 157.42,
-    "divergence_pct": -1.97,
+    "actual": 165.41,
+    "expected": 161.52,
+    "divergence_pct": -2.35,
     "ranked_predictors": ["IPO", "CNQ", "SU", "CVE", "OVV", "BIR", "CAD_USD", "ATH"]
   },
   {
-    "ticker": "PEY",
-    "actual": 23.75,
-    "expected": 23.09,
-    "divergence_pct": -2.8,
-    "ranked_predictors": ["FRU", "BIR", "CNQ"]
-  },
-  {
     "ticker": "CVE",
-    "actual": 34.58,
-    "expected": 33.53,
-    "divergence_pct": -3.04,
+    "actual": 35.8,
+    "expected": 34.74,
+    "divergence_pct": -2.96,
     "ranked_predictors": ["ATH", "IMO", "WCP", "IPO", "SOIL", "SCR", "OBE", "PSK", "BIR", "CAD_USD"]
   },
   {
+    "ticker": "AAV",
+    "actual": 10.78,
+    "expected": 10.45,
+    "divergence_pct": -3.09,
+    "ranked_predictors": ["TOU", "HWX", "SOIL", "BIR", "SGY", "CAD_USD", "gas_oil_ratio", "NATGAS"]
+  },
+  {
+    "ticker": "PEY",
+    "actual": 24.29,
+    "expected": 23.49,
+    "divergence_pct": -3.31,
+    "ranked_predictors": ["FRU", "BIR", "CNQ", "HWX"]
+  },
+  {
     "ticker": "POU",
-    "actual": 27.64,
-    "expected": 26.63,
-    "divergence_pct": -3.65,
+    "actual": 28.72,
+    "expected": 27.47,
+    "divergence_pct": -4.35,
     "ranked_predictors": ["PSK", "CJ", "TOU", "PEY", "TPZ", "SCR", "SGY", "OBE"]
   },
   {
-    "ticker": "SDE",
-    "actual": 11.35,
-    "expected": 10.63,
-    "divergence_pct": -6.38,
-    "ranked_predictors": ["CJ", "PEY", "FRU", "TVE", "BTE", "SU", "IPO", "IMO", "CAD_USD", "TOU"]
-  },
-  {
     "ticker": "KEL",
-    "actual": 9.08,
-    "expected": 8.46,
-    "divergence_pct": -6.81,
+    "actual": 9.19,
+    "expected": 8.72,
+    "divergence_pct": -5.11,
     "ranked_predictors": ["TPZ", "SGY", "OVV", "BIR", "OBE", "CAD_USD", "WTI"]
   },
   {
+    "ticker": "SDE",
+    "actual": 11.82,
+    "expected": 11.19,
+    "divergence_pct": -5.32,
+    "ranked_predictors": ["CJ", "TVE", "PEY", "FRU", "BTE", "SU", "IPO", "IMO", "CAD_USD", "TOU"]
+  },
+  {
     "ticker": "OVV",
-    "actual": 75.64,
-    "expected": 70.16,
-    "divergence_pct": -7.25,
+    "actual": 78.05,
+    "expected": 72.18,
+    "divergence_pct": -7.52,
     "ranked_predictors": ["CNQ", "SGY", "gas_oil_ratio", "SOIL", "KEL", "IMO", "WTI"]
   },
   {
     "ticker": "SOIL",
-    "actual": 5.26,
-    "expected": 4.8,
-    "divergence_pct": -8.72,
-    "ranked_predictors": ["OBE", "WTI", "CVE", "OVV", "SCR", "SGY", "CAD_USD", "WCP", "AAV", "BIR"]
+    "actual": 5.52,
+    "expected": 5.05,
+    "divergence_pct": -8.43,
+    "ranked_predictors": ["OBE", "WTI", "OVV", "CVE", "SCR", "SGY", "CAD_USD", "WCP", "AAV", "BIR"]
   },
   {
     "ticker": "TVE",
-    "actual": 12.52,
-    "expected": 11.18,
-    "divergence_pct": -10.74,
+    "actual": 12.86,
+    "expected": 11.58,
+    "divergence_pct": -9.94,
     "ranked_predictors": ["HWX", "BTE", "PSK", "WCP", "SDE", "CAD_USD", "AAV", "NATGAS", "ATH", "gas_oil_ratio"]
   }
 ]
