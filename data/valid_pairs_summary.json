@@ -17,7 +17,7 @@
     "current_z_score": -0.59,
     "half_life_days": 12,
     "r_squared": 0.95,
-    "cointegration_stat": -4.17
+    "cointegration_stat": -4.19
   },
   {
     "stock_A": "ATH",
@@ -25,9 +25,9 @@
     "buy_signal": "None",
     "watch_list": "CJ",
     "current_z_score": 1.56,
-    "half_life_days": 18,
+    "half_life_days": 17,
     "r_squared": 0.95,
-    "cointegration_stat": -3.99
+    "cointegration_stat": -4.12
   },
   {
     "stock_A": "ATH",
@@ -40,6 +40,16 @@
     "cointegration_stat": -3.93
   },
   {
+    "stock_A": "ATH",
+    "stock_B": "WCP",
+    "buy_signal": "None",
+    "watch_list": "None",
+    "current_z_score": -0.39,
+    "half_life_days": 22,
+    "r_squared": 0.92,
+    "cointegration_stat": -3.78
+  },
+  {
     "stock_A": "KEL",
     "stock_B": "SU",
     "buy_signal": "None",
@@ -47,17 +57,17 @@
     "current_z_score": -0.22,
     "half_life_days": 20,
     "r_squared": 0.75,
-    "cointegration_stat": -3.78
+    "cointegration_stat": -3.77
   },
   {
-    "stock_A": "ATH",
+    "stock_A": "KEL",
     "stock_B": "WCP",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": -0.39,
-    "half_life_days": 23,
-    "r_squared": 0.92,
-    "cointegration_stat": -3.75
+    "current_z_score": 0.54,
+    "half_life_days": 20,
+    "r_squared": 0.8,
+    "cointegration_stat": -3.65
   },
   {
     "stock_A": "SU",
@@ -67,16 +77,6 @@
     "current_z_score": 0.92,
     "half_life_days": 21,
     "r_squared": 0.92,
-    "cointegration_stat": -3.7
-  },
-  {
-    "stock_A": "KEL",
-    "stock_B": "WCP",
-    "buy_signal": "None",
-    "watch_list": "None",
-    "current_z_score": 0.54,
-    "half_life_days": 21,
-    "r_squared": 0.8,
     "cointegration_stat": -3.64
   },
   {
@@ -85,7 +85,7 @@
     "buy_signal": "None",
     "watch_list": "CJ",
     "current_z_score": -1.29,
-    "half_life_days": 23,
+    "half_life_days": 22,
     "r_squared": 0.97,
     "cointegration_stat": -3.6
   },
@@ -97,7 +97,7 @@
     "current_z_score": -1.89,
     "half_life_days": 15,
     "r_squared": 0.96,
-    "cointegration_stat": -3.58
+    "cointegration_stat": -3.57
   },
   {
     "stock_A": "CJ",
@@ -107,7 +107,7 @@
     "current_z_score": -1.66,
     "half_life_days": 19,
     "r_squared": 0.96,
-    "cointegration_stat": -3.57
+    "cointegration_stat": -3.53
   },
   {
     "stock_A": "KEL",
@@ -117,7 +117,7 @@
     "current_z_score": 0.68,
     "half_life_days": 21,
     "r_squared": 0.76,
-    "cointegration_stat": -3.47
+    "cointegration_stat": -3.48
   },
   {
     "stock_A": "CVE",
@@ -127,7 +127,7 @@
     "current_z_score": 2.08,
     "half_life_days": 19,
     "r_squared": 0.91,
-    "cointegration_stat": -3.44
+    "cointegration_stat": -3.45
   },
   {
     "stock_A": "ATH",
@@ -157,7 +157,7 @@
     "current_z_score": -1.22,
     "half_life_days": 21,
     "r_squared": 0.89,
-    "cointegration_stat": -3.42
+    "cointegration_stat": -3.43
   },
   {
     "stock_A": "OVV",
@@ -167,7 +167,7 @@
     "current_z_score": 2.12,
     "half_life_days": 20,
     "r_squared": 0.73,
-    "cointegration_stat": -3.41
+    "cointegration_stat": -3.42
   },
   {
     "stock_A": "IMO",
@@ -175,8 +175,8 @@
     "buy_signal": "None",
     "watch_list": "None",
     "current_z_score": 0.41,
-    "half_life_days": 29,
-    "r_squared": 0.7,
+    "half_life_days": 28,
+    "r_squared": 0.71,
     "cointegration_stat": -3.4
   },
   {
@@ -187,16 +187,6 @@
     "current_z_score": 1.32,
     "half_life_days": 24,
     "r_squared": 0.88,
-    "cointegration_stat": -3.4
-  },
-  {
-    "stock_A": "KEL",
-    "stock_B": "POU",
-    "buy_signal": "None",
-    "watch_list": "None",
-    "current_z_score": 0.56,
-    "half_life_days": 23,
-    "r_squared": 0.74,
-    "cointegration_stat": -3.38
+    "cointegration_stat": -3.37
   }
 ]
