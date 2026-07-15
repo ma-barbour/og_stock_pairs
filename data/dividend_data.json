@@ -4,16 +4,16 @@
     "dividend_amount": 0.09,
     "dividend_frequency": "Monthly",
     "annual_dividend": 1.08,
-    "current_price": 15.03,
-    "yield_pct": 7.19
+    "current_price": 15.09,
+    "yield_pct": 7.16
   },
   {
     "symbol": "CJ",
     "dividend_amount": 0.06,
     "dividend_frequency": "Monthly",
     "annual_dividend": 0.72,
-    "current_price": 10.89,
-    "yield_pct": 6.61
+    "current_price": 10.87,
+    "yield_pct": 6.62
   },
   {
     "symbol": "FRU",
@@ -52,8 +52,8 @@
     "dividend_amount": 0.35,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 1.4,
-    "current_price": 31.43,
-    "yield_pct": 4.45
+    "current_price": 31.16,
+    "yield_pct": 4.49
   },
   {
     "symbol": "CNQ",
@@ -84,8 +84,8 @@
     "dividend_amount": 0.265,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 1.06,
-    "current_price": 33.21,
-    "yield_pct": 3.19
+    "current_price": 33.33,
+    "yield_pct": 3.18
   },
   {
     "symbol": "SCR",
@@ -180,7 +180,7 @@
     "dividend_amount": 0,
     "dividend_frequency": "None",
     "annual_dividend": 0,
-    "current_price": 9.75,
+    "current_price": 9.67,
     "yield_pct": 0
   },
   {
