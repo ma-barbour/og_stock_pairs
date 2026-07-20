@@ -9,15 +9,15 @@
   {
     "ticker": "SOIL",
     "actual": 5.58,
-    "expected": 5.93,
-    "divergence_pct": 6.32,
+    "expected": 5.94,
+    "divergence_pct": 6.36,
     "ranked_predictors": ["OBE", "WTI", "OVV", "CVE", "SCR", "SGY", "CAD_USD", "WCP", "AAV", "BIR", "TVE"]
   },
   {
     "ticker": "SDE",
     "actual": 11.48,
     "expected": 11.82,
-    "divergence_pct": 2.97,
+    "divergence_pct": 2.98,
     "ranked_predictors": ["CJ", "PEY", "TVE", "FRU", "SU", "BTE", "IMO", "CAD_USD"]
   },
   {
@@ -45,7 +45,7 @@
     "ticker": "BIR",
     "actual": 6.3,
     "expected": 6.41,
-    "divergence_pct": 1.72,
+    "divergence_pct": 1.71,
     "ranked_predictors": ["PEY", "AAV", "CVE", "NATGAS", "KEL", "OBE", "CAD_USD", "TOU"]
   },
   {
@@ -58,15 +58,15 @@
   {
     "ticker": "SCR",
     "actual": 39.5,
-    "expected": 39.81,
-    "divergence_pct": 0.79,
+    "expected": 39.82,
+    "divergence_pct": 0.82,
     "ranked_predictors": ["CJ", "SOIL", "SGY", "WTI", "HWX", "CAD_USD", "BIR", "AAV", "BTE"]
   },
   {
     "ticker": "OBE",
     "actual": 13.49,
-    "expected": 13.52,
-    "divergence_pct": 0.19,
+    "expected": 13.51,
+    "divergence_pct": 0.15,
     "ranked_predictors": ["CJ", "SOIL", "SGY", "CAD_USD", "BIR", "WTI", "PEY", "ATH", "TOU", "BTE"]
   },
   {
@@ -122,21 +122,21 @@
     "ticker": "AAV",
     "actual": 10.5,
     "expected": 10.35,
-    "divergence_pct": -1.43,
+    "divergence_pct": -1.41,
     "ranked_predictors": ["TOU", "HWX", "SOIL", "BIR", "CAD_USD", "SGY", "gas_oil_ratio", "WCP", "NATGAS"]
   },
   {
     "ticker": "HWX",
     "actual": 12.77,
     "expected": 12.59,
-    "divergence_pct": -1.43,
+    "divergence_pct": -1.44,
     "ranked_predictors": ["FRU", "TVE", "PEY", "TPZ", "KEL", "SCR", "SU", "CAD_USD", "AAV"]
   },
   {
     "ticker": "SGY",
     "actual": 9.45,
     "expected": 9.29,
-    "divergence_pct": -1.7,
+    "divergence_pct": -1.69,
     "ranked_predictors": ["SOIL", "OBE", "OVV", "KEL", "WCP", "SCR", "CAD_USD", "AAV"]
   },
   {
@@ -150,7 +150,7 @@
     "ticker": "TVE",
     "actual": 13.21,
     "expected": 12.8,
-    "divergence_pct": -3.09,
+    "divergence_pct": -3.07,
     "ranked_predictors": ["HWX", "PSK", "BTE", "WCP", "SDE", "CAD_USD", "AAV", "gas_oil_ratio", "TOU"]
   },
   {
@@ -164,7 +164,7 @@
     "ticker": "CVE",
     "actual": 39.2,
     "expected": 37.6,
-    "divergence_pct": -4.09,
+    "divergence_pct": -4.08,
     "ranked_predictors": ["ATH", "IMO", "WCP", "PSK", "SOIL", "SCR", "IPO", "BIR", "CAD_USD", "OBE"]
   },
   {
