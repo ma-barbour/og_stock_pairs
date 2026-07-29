@@ -28082,107 +28082,107 @@
   {
     "date": "2026-07-24",
     "symbol": "ATH",
-    "rvol": 1.19
+    "rvol": 1.47
   },
   {
     "date": "2026-07-24",
     "symbol": "CJ",
-    "rvol": 1.06
+    "rvol": 1.39
   },
   {
     "date": "2026-07-24",
     "symbol": "FRU",
-    "rvol": 0.84
+    "rvol": 1.12
   },
   {
     "date": "2026-07-24",
     "symbol": "HWX",
-    "rvol": 1.85
+    "rvol": 1.51
   },
   {
     "date": "2026-07-24",
     "symbol": "IMO",
-    "rvol": 0.95
+    "rvol": 1.13
   },
   {
     "date": "2026-07-24",
     "symbol": "KEL",
-    "rvol": 1.27
-  },
-  {
-    "date": "2026-07-24",
-    "symbol": "OBE",
     "rvol": 0.93
   },
   {
     "date": "2026-07-24",
+    "symbol": "OBE",
+    "rvol": 1.54
+  },
+  {
+    "date": "2026-07-24",
     "symbol": "POU",
-    "rvol": 0.75
+    "rvol": 0.8
   },
   {
     "date": "2026-07-24",
     "symbol": "PEY",
-    "rvol": 1.24
+    "rvol": 1.52
   },
   {
     "date": "2026-07-24",
     "symbol": "SOIL",
-    "rvol": 0.81
+    "rvol": 0.78
   },
   {
     "date": "2026-07-24",
     "symbol": "SDE",
-    "rvol": 0.61
+    "rvol": 0.6
   },
   {
     "date": "2026-07-24",
     "symbol": "SCR",
-    "rvol": 0.79
+    "rvol": 1.02
   },
   {
     "date": "2026-07-24",
     "symbol": "SGY",
-    "rvol": 0.96
+    "rvol": 1.36
   },
   {
     "date": "2026-07-24",
     "symbol": "SU",
-    "rvol": 0.4
+    "rvol": 0.61
   },
   {
     "date": "2026-07-24",
     "symbol": "TVE",
-    "rvol": 0.72
+    "rvol": 1.19
   },
   {
     "date": "2026-07-24",
     "symbol": "WCP",
-    "rvol": 0.86
+    "rvol": 1.41
   },
   {
     "date": "2026-07-27",
     "symbol": "ATH",
-    "rvol": 2.06
+    "rvol": 2.05
   },
   {
     "date": "2026-07-27",
     "symbol": "CJ",
-    "rvol": 0.83
+    "rvol": 0.82
   },
   {
     "date": "2026-07-27",
     "symbol": "FRU",
-    "rvol": 1.32
+    "rvol": 1.31
   },
   {
     "date": "2026-07-27",
     "symbol": "HWX",
-    "rvol": 2.1
+    "rvol": 2.11
   },
   {
     "date": "2026-07-27",
     "symbol": "IMO",
-    "rvol": 1.13
+    "rvol": 1.12
   },
   {
     "date": "2026-07-27",
@@ -28192,7 +28192,7 @@
   {
     "date": "2026-07-27",
     "symbol": "OBE",
-    "rvol": 1.48
+    "rvol": 1.47
   },
   {
     "date": "2026-07-27",
@@ -28202,7 +28202,7 @@
   {
     "date": "2026-07-27",
     "symbol": "PEY",
-    "rvol": 1.58
+    "rvol": 1.57
   },
   {
     "date": "2026-07-27",
@@ -28222,7 +28222,7 @@
   {
     "date": "2026-07-27",
     "symbol": "SGY",
-    "rvol": 1.16
+    "rvol": 1.15
   },
   {
     "date": "2026-07-27",
@@ -28232,12 +28232,92 @@
   {
     "date": "2026-07-27",
     "symbol": "TVE",
-    "rvol": 1.13
+    "rvol": 1.12
   },
   {
     "date": "2026-07-27",
     "symbol": "WCP",
-    "rvol": 1.45
+    "rvol": 1.44
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "ATH",
+    "rvol": 1.4
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "CJ",
+    "rvol": 1.57
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "FRU",
+    "rvol": 0.8
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "HWX",
+    "rvol": 0.67
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "IMO",
+    "rvol": 1.11
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "KEL",
+    "rvol": 0.96
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "OBE",
+    "rvol": 0.66
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "POU",
+    "rvol": 0.56
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "PEY",
+    "rvol": 1
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "SOIL",
+    "rvol": 0.65
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "SDE",
+    "rvol": 0.62
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "SCR",
+    "rvol": 1.81
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "SGY",
+    "rvol": 0.74
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "SU",
+    "rvol": 0.4
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "TVE",
+    "rvol": 0.97
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "WCP",
+    "rvol": 0.93
   },
   {
     "date": "2025-03-03",
@@ -29997,11 +30077,16 @@
   {
     "date": "2026-07-24",
     "symbol": "XEG",
-    "rvol": 1.08
+    "rvol": 1.28
   },
   {
     "date": "2026-07-27",
     "symbol": "XEG",
-    "rvol": 1.21
+    "rvol": 1.2
+  },
+  {
+    "date": "2026-07-28",
+    "symbol": "XEG",
+    "rvol": 1.47
   }
 ]
