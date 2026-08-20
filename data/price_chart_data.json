@@ -43472,127 +43472,379 @@
   {
     "date": "2026-08-17",
     "symbol": "ATH",
-    "adjusted": 10.56,
-    "sma_20": 10.48,
-    "sma_50": 10.62
+    "adjusted": 10.92,
+    "sma_20": 10.5,
+    "sma_50": 10.63
   },
   {
     "date": "2026-08-17",
     "symbol": "CJ",
-    "adjusted": 11.45,
-    "sma_20": 11.23,
-    "sma_50": 11.03
+    "adjusted": 11.76,
+    "sma_20": 11.25,
+    "sma_50": 11.04
   },
   {
     "date": "2026-08-17",
     "symbol": "FRU",
-    "adjusted": 17.19,
-    "sma_20": 16.94,
+    "adjusted": 17.46,
+    "sma_20": 16.95,
     "sma_50": 16.61
   },
   {
     "date": "2026-08-17",
     "symbol": "HWX",
-    "adjusted": 13.29,
-    "sma_20": 13.13,
-    "sma_50": 12.65
+    "adjusted": 13.67,
+    "sma_20": 13.15,
+    "sma_50": 12.66
   },
   {
     "date": "2026-08-17",
     "symbol": "IMO",
-    "adjusted": 185.14,
-    "sma_20": 179.51,
-    "sma_50": 171.23
+    "adjusted": 187.2,
+    "sma_20": 179.61,
+    "sma_50": 171.27
   },
   {
     "date": "2026-08-17",
     "symbol": "KEL",
-    "adjusted": 9.54,
-    "sma_20": 9.69,
-    "sma_50": 9.44
+    "adjusted": 9.7,
+    "sma_20": 9.7,
+    "sma_50": 9.45
   },
   {
     "date": "2026-08-17",
     "symbol": "OBE",
-    "adjusted": 14.81,
-    "sma_20": 14.19,
-    "sma_50": 13.5
+    "adjusted": 16.05,
+    "sma_20": 14.25,
+    "sma_50": 13.53
   },
   {
     "date": "2026-08-17",
     "symbol": "POU",
-    "adjusted": 31.85,
-    "sma_20": 30.05,
-    "sma_50": 28.86
+    "adjusted": 32.34,
+    "sma_20": 30.08,
+    "sma_50": 28.87
   },
   {
     "date": "2026-08-17",
     "symbol": "PEY",
-    "adjusted": 24.48,
+    "adjusted": 24.51,
     "sma_20": 25.1,
     "sma_50": 24.61
   },
   {
     "date": "2026-08-17",
     "symbol": "PSK",
-    "adjusted": 34.86,
-    "sma_20": 34.49,
-    "sma_50": 33.41
+    "adjusted": 35.33,
+    "sma_20": 34.52,
+    "sma_50": 33.42
   },
   {
     "date": "2026-08-17",
     "symbol": "SOIL",
-    "adjusted": 5.84,
-    "sma_20": 5.55,
+    "adjusted": 6.15,
+    "sma_20": 5.56,
     "sma_50": 5.75
   },
   {
     "date": "2026-08-17",
     "symbol": "SDE",
-    "adjusted": 12.15,
-    "sma_20": 11.72,
-    "sma_50": 11.64
+    "adjusted": 12.77,
+    "sma_20": 11.75,
+    "sma_50": 11.65
   },
   {
     "date": "2026-08-17",
     "symbol": "SCR",
-    "adjusted": 43.25,
-    "sma_20": 41.39,
-    "sma_50": 41.01
+    "adjusted": 43.98,
+    "sma_20": 41.43,
+    "sma_50": 41.03
   },
   {
     "date": "2026-08-17",
     "symbol": "SGY",
-    "adjusted": 10.6,
-    "sma_20": 10.13,
-    "sma_50": 9.72
+    "adjusted": 11.13,
+    "sma_20": 10.16,
+    "sma_50": 9.73
   },
   {
     "date": "2026-08-17",
     "symbol": "SU",
-    "adjusted": 91.44,
-    "sma_20": 90.18,
-    "sma_50": 85.26
+    "adjusted": 92.59,
+    "sma_20": 90.24,
+    "sma_50": 85.28
   },
   {
     "date": "2026-08-17",
     "symbol": "TVE",
-    "adjusted": 13.22,
-    "sma_20": 13.08,
-    "sma_50": 12.91
+    "adjusted": 13.54,
+    "sma_20": 13.1,
+    "sma_50": 12.92
   },
   {
     "date": "2026-08-17",
     "symbol": "TPZ",
-    "adjusted": 30.75,
-    "sma_20": 31.36,
+    "adjusted": 31.02,
+    "sma_20": 31.37,
     "sma_50": 31.1
   },
   {
     "date": "2026-08-17",
     "symbol": "WCP",
-    "adjusted": 17.07,
-    "sma_20": 16.4,
-    "sma_50": 15.85
+    "adjusted": 17.53,
+    "sma_20": 16.42,
+    "sma_50": 15.86
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "ATH",
+    "adjusted": 10.81,
+    "sma_20": 10.5,
+    "sma_50": 10.61
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "CJ",
+    "adjusted": 11.71,
+    "sma_20": 11.3,
+    "sma_50": 11.04
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "FRU",
+    "adjusted": 17.5,
+    "sma_20": 17,
+    "sma_50": 16.62
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "HWX",
+    "adjusted": 13.79,
+    "sma_20": 13.19,
+    "sma_50": 12.68
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "IMO",
+    "adjusted": 188.55,
+    "sma_20": 180.42,
+    "sma_50": 171.65
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "KEL",
+    "adjusted": 9.69,
+    "sma_20": 9.7,
+    "sma_50": 9.44
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "OBE",
+    "adjusted": 16.15,
+    "sma_20": 14.39,
+    "sma_50": 13.54
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "POU",
+    "adjusted": 32.32,
+    "sma_20": 30.27,
+    "sma_50": 28.92
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "PEY",
+    "adjusted": 24.96,
+    "sma_20": 25.14,
+    "sma_50": 24.61
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "PSK",
+    "adjusted": 35.61,
+    "sma_20": 34.57,
+    "sma_50": 33.46
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "SOIL",
+    "adjusted": 6.1,
+    "sma_20": 5.59,
+    "sma_50": 5.73
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "SDE",
+    "adjusted": 13.17,
+    "sma_20": 11.84,
+    "sma_50": 11.68
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "SCR",
+    "adjusted": 44.56,
+    "sma_20": 41.68,
+    "sma_50": 40.97
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "SGY",
+    "adjusted": 11,
+    "sma_20": 10.24,
+    "sma_50": 9.75
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "SU",
+    "adjusted": 94.21,
+    "sma_20": 90.57,
+    "sma_50": 85.43
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "TVE",
+    "adjusted": 13.79,
+    "sma_20": 13.13,
+    "sma_50": 12.93
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "TPZ",
+    "adjusted": 31.31,
+    "sma_20": 31.34,
+    "sma_50": 31.09
+  },
+  {
+    "date": "2026-08-18",
+    "symbol": "WCP",
+    "adjusted": 17.73,
+    "sma_20": 16.51,
+    "sma_50": 15.89
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "ATH",
+    "adjusted": 10.69,
+    "sma_20": 10.5,
+    "sma_50": 10.59
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "CJ",
+    "adjusted": 11.78,
+    "sma_20": 11.34,
+    "sma_50": 11.04
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "FRU",
+    "adjusted": 17.59,
+    "sma_20": 17.05,
+    "sma_50": 16.63
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "HWX",
+    "adjusted": 13.74,
+    "sma_20": 13.23,
+    "sma_50": 12.69
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "IMO",
+    "adjusted": 188.03,
+    "sma_20": 181.04,
+    "sma_50": 171.99
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "KEL",
+    "adjusted": 9.7,
+    "sma_20": 9.7,
+    "sma_50": 9.44
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "OBE",
+    "adjusted": 16.15,
+    "sma_20": 14.49,
+    "sma_50": 13.54
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "POU",
+    "adjusted": 32.26,
+    "sma_20": 30.43,
+    "sma_50": 28.97
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "PEY",
+    "adjusted": 25.06,
+    "sma_20": 25.15,
+    "sma_50": 24.6
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "PSK",
+    "adjusted": 35.75,
+    "sma_20": 34.63,
+    "sma_50": 33.48
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "SOIL",
+    "adjusted": 6.15,
+    "sma_20": 5.61,
+    "sma_50": 5.71
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "SDE",
+    "adjusted": 12.89,
+    "sma_20": 11.89,
+    "sma_50": 11.67
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "SCR",
+    "adjusted": 44.28,
+    "sma_20": 41.85,
+    "sma_50": 40.91
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "SGY",
+    "adjusted": 11.05,
+    "sma_20": 10.3,
+    "sma_50": 9.76
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "SU",
+    "adjusted": 93.3,
+    "sma_20": 90.74,
+    "sma_50": 85.53
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "TVE",
+    "adjusted": 13.57,
+    "sma_20": 13.15,
+    "sma_50": 12.92
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "TPZ",
+    "adjusted": 31.33,
+    "sma_20": 31.3,
+    "sma_50": 31.06
+  },
+  {
+    "date": "2026-08-19",
+    "symbol": "WCP",
+    "adjusted": 17.75,
+    "sma_20": 16.59,
+    "sma_50": 15.91
   }
 ]
