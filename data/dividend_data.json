@@ -160,6 +160,14 @@
     "yield_pct": 1.14
   },
   {
+    "symbol": "AAV",
+    "dividend_amount": 0,
+    "dividend_frequency": "None",
+    "annual_dividend": 0,
+    "current_price": 11.21,
+    "yield_pct": 0
+  },
+  {
     "symbol": "ATH",
     "dividend_amount": 0,
     "dividend_frequency": "None",
@@ -198,11 +206,5 @@
     "annual_dividend": 0,
     "current_price": 13.53,
     "yield_pct": 0
-  },
-  {
-    "symbol": "AAV",
-    "dividend_amount": 0,
-    "dividend_frequency": "None",
-    "annual_dividend": 0
   }
 ]
