@@ -3323,16 +3323,24 @@
     "date": "2026-08-28",
     "WTI": 83.4,
     "NATGAS": 2.888,
-    "CAD_USD": 0.7217,
+    "CAD_USD": 0.7207,
     "gas_oil_ratio": 0.0346,
     "WTI_12": 73.07
   },
   {
     "date": "2026-08-30",
-    "WTI": 83.4,
-    "NATGAS": 2.888,
-    "CAD_USD": 0.7215,
-    "gas_oil_ratio": 0.0346,
-    "WTI_12": 73.07
+    "WTI": 84.58,
+    "NATGAS": 2.9115,
+    "CAD_USD": 0.7195,
+    "gas_oil_ratio": 0.0344,
+    "WTI_12": 73.535
+  },
+  {
+    "date": "2026-08-31",
+    "WTI": 85.76,
+    "NATGAS": 2.935,
+    "CAD_USD": 0.72,
+    "gas_oil_ratio": 0.0342,
+    "WTI_12": 74
   }
 ]
