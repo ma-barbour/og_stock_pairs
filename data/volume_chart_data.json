@@ -26552,47 +26552,47 @@
   {
     "date": "2026-08-28",
     "symbol": "ATH",
-    "rvol": 0.66
+    "rvol": 1.06
   },
   {
     "date": "2026-08-28",
     "symbol": "CJ",
-    "rvol": 0.76
+    "rvol": 0.97
   },
   {
     "date": "2026-08-28",
     "symbol": "FRU",
-    "rvol": 0.52
+    "rvol": 0.8
   },
   {
     "date": "2026-08-28",
     "symbol": "HWX",
-    "rvol": 1.53
+    "rvol": 1.45
   },
   {
     "date": "2026-08-28",
     "symbol": "IMO",
-    "rvol": 0.92
+    "rvol": 1.15
   },
   {
     "date": "2026-08-28",
     "symbol": "KEL",
-    "rvol": 0.58
+    "rvol": 1.44
   },
   {
     "date": "2026-08-28",
     "symbol": "OBE",
-    "rvol": 1.11
+    "rvol": 0.75
   },
   {
     "date": "2026-08-28",
     "symbol": "OVV",
-    "rvol": 0.63
+    "rvol": 0.5
   },
   {
     "date": "2026-08-28",
     "symbol": "SOIL",
-    "rvol": 0.96
+    "rvol": 1.06
   },
   {
     "date": "2026-08-28",
@@ -26602,42 +26602,42 @@
   {
     "date": "2026-08-28",
     "symbol": "SCR",
-    "rvol": 0.92
+    "rvol": 1.08
   },
   {
     "date": "2026-08-28",
     "symbol": "SGY",
-    "rvol": 0.63
+    "rvol": 0.75
   },
   {
     "date": "2026-08-28",
     "symbol": "SU",
-    "rvol": 2.22
+    "rvol": 1.06
   },
   {
     "date": "2026-08-28",
     "symbol": "TVE",
-    "rvol": 0.58
+    "rvol": 1.09
   },
   {
     "date": "2026-08-28",
     "symbol": "WCP",
-    "rvol": 0.74
-  },
-  {
-    "date": "2026-08-31",
-    "symbol": "ATH",
-    "rvol": 1.04
-  },
-  {
-    "date": "2026-08-31",
-    "symbol": "CJ",
     "rvol": 1.2
   },
   {
     "date": "2026-08-31",
+    "symbol": "ATH",
+    "rvol": 1.03
+  },
+  {
+    "date": "2026-08-31",
+    "symbol": "CJ",
+    "rvol": 1.19
+  },
+  {
+    "date": "2026-08-31",
     "symbol": "FRU",
-    "rvol": 0.89
+    "rvol": 0.88
   },
   {
     "date": "2026-08-31",
@@ -26647,12 +26647,12 @@
   {
     "date": "2026-08-31",
     "symbol": "IMO",
-    "rvol": 1.26
+    "rvol": 1.25
   },
   {
     "date": "2026-08-31",
     "symbol": "KEL",
-    "rvol": 0.9
+    "rvol": 0.88
   },
   {
     "date": "2026-08-31",
@@ -26677,7 +26677,7 @@
   {
     "date": "2026-08-31",
     "symbol": "SCR",
-    "rvol": 1.77
+    "rvol": 1.76
   },
   {
     "date": "2026-08-31",
@@ -26687,17 +26687,92 @@
   {
     "date": "2026-08-31",
     "symbol": "SU",
-    "rvol": 1.46
+    "rvol": 1.49
   },
   {
     "date": "2026-08-31",
     "symbol": "TVE",
-    "rvol": 0.71
+    "rvol": 0.7
   },
   {
     "date": "2026-08-31",
     "symbol": "WCP",
-    "rvol": 1.34
+    "rvol": 1.32
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "ATH",
+    "rvol": 1
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "CJ",
+    "rvol": 1.57
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "FRU",
+    "rvol": 0.92
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "HWX",
+    "rvol": 0.98
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "IMO",
+    "rvol": 1.39
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "KEL",
+    "rvol": 0.96
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "OBE",
+    "rvol": 1
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "OVV",
+    "rvol": 0.7
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "SOIL",
+    "rvol": 0.8
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "SDE",
+    "rvol": 1.41
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "SCR",
+    "rvol": 0.7
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "SGY",
+    "rvol": 0.89
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "SU",
+    "rvol": 2.63
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "TVE",
+    "rvol": 1.1
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "WCP",
+    "rvol": 1.44
   },
   {
     "date": "2025-04-01",
@@ -28472,11 +28547,16 @@
   {
     "date": "2026-08-28",
     "symbol": "XEG",
-    "rvol": 0.72
+    "rvol": 0.51
   },
   {
     "date": "2026-08-31",
     "symbol": "XEG",
     "rvol": 0.38
+  },
+  {
+    "date": "2026-09-01",
+    "symbol": "XEG",
+    "rvol": 1.43
   }
 ]
