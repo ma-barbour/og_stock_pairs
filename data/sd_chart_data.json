@@ -71,7 +71,7 @@
   },
   {
     "date": "2025-04-22",
-    "dynamic_z": -0.0467,
+    "dynamic_z": -0.0468,
     "pair_id": "ATH_CJ"
   },
   {
@@ -221,7 +221,7 @@
   },
   {
     "date": "2025-06-04",
-    "dynamic_z": -0.0082,
+    "dynamic_z": -0.0083,
     "pair_id": "ATH_CJ"
   },
   {
@@ -561,7 +561,7 @@
   },
   {
     "date": "2025-09-11",
-    "dynamic_z": 1.8902,
+    "dynamic_z": 1.8903,
     "pair_id": "ATH_CJ"
   },
   {
@@ -1251,7 +1251,7 @@
   },
   {
     "date": "2026-03-31",
-    "dynamic_z": 1.1719,
+    "dynamic_z": 1.1718,
     "pair_id": "ATH_CJ"
   },
   {
@@ -1787,6 +1787,11 @@
   {
     "date": "2026-09-02",
     "dynamic_z": -0.8801,
+    "pair_id": "ATH_CJ"
+  },
+  {
+    "date": "2026-09-03",
+    "dynamic_z": -0.8853,
     "pair_id": "ATH_CJ"
   },
   {
@@ -3580,6 +3585,11 @@
     "pair_id": "ATH_KEL"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": -0.4095,
+    "pair_id": "ATH_KEL"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 1.6706,
     "pair_id": "ATH_SDE"
@@ -5367,6 +5377,11 @@
   {
     "date": "2026-09-02",
     "dynamic_z": -1.3043,
+    "pair_id": "ATH_SDE"
+  },
+  {
+    "date": "2026-09-03",
+    "dynamic_z": -1.1293,
     "pair_id": "ATH_SDE"
   },
   {
@@ -7160,1794 +7175,9 @@
     "pair_id": "ATH_SCR"
   },
   {
-    "date": "2025-04-01",
-    "dynamic_z": -0.0154,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-02",
-    "dynamic_z": 0.0034,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-03",
-    "dynamic_z": -0.6422,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-04",
-    "dynamic_z": -2.8453,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-07",
-    "dynamic_z": -4.1678,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-08",
-    "dynamic_z": -4.2788,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-09",
-    "dynamic_z": -2.4934,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-10",
-    "dynamic_z": -3.045,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-11",
-    "dynamic_z": -2.1667,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-14",
-    "dynamic_z": -1.5073,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-15",
-    "dynamic_z": -0.978,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-16",
-    "dynamic_z": -0.4288,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-17",
-    "dynamic_z": 1.1666,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-21",
-    "dynamic_z": 0.696,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-22",
-    "dynamic_z": 0.1519,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-23",
-    "dynamic_z": 0.2582,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-24",
-    "dynamic_z": 0.1218,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-25",
-    "dynamic_z": 0.0604,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-28",
-    "dynamic_z": 0.0581,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-29",
-    "dynamic_z": -0.1991,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-04-30",
-    "dynamic_z": -0.7138,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-01",
-    "dynamic_z": -0.8763,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-02",
-    "dynamic_z": -1.0941,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-05",
-    "dynamic_z": -1.5491,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-06",
-    "dynamic_z": -1.3515,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-07",
-    "dynamic_z": -1.3367,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-08",
-    "dynamic_z": -0.8615,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-09",
-    "dynamic_z": -0.762,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-12",
-    "dynamic_z": -0.7765,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-13",
-    "dynamic_z": -0.4246,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-14",
-    "dynamic_z": -0.0749,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-15",
-    "dynamic_z": -0.3323,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-16",
-    "dynamic_z": -0.1669,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-20",
-    "dynamic_z": 0.2218,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-21",
-    "dynamic_z": 0.2532,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-22",
-    "dynamic_z": 0.3165,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-23",
-    "dynamic_z": 0.6977,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-26",
-    "dynamic_z": 1.0647,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-27",
-    "dynamic_z": 0.7761,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-28",
-    "dynamic_z": 0.8615,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-29",
-    "dynamic_z": 0.9337,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-05-30",
-    "dynamic_z": 0.8078,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-02",
-    "dynamic_z": 0.6558,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-03",
-    "dynamic_z": 0.7603,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-04",
-    "dynamic_z": 1.011,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-05",
-    "dynamic_z": 0.7238,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-06",
-    "dynamic_z": 0.7485,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-09",
-    "dynamic_z": 1.0433,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-10",
-    "dynamic_z": 0.5317,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-11",
-    "dynamic_z": 0.5246,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-12",
-    "dynamic_z": 0.3623,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-13",
-    "dynamic_z": 0.2897,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-16",
-    "dynamic_z": 0.384,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-17",
-    "dynamic_z": 0.6283,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-18",
-    "dynamic_z": 0.9413,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-19",
-    "dynamic_z": 0.8467,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-20",
-    "dynamic_z": 0.8371,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-23",
-    "dynamic_z": 0.7871,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-24",
-    "dynamic_z": 0.3366,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-25",
-    "dynamic_z": -0.1747,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-26",
-    "dynamic_z": -0.1945,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-27",
-    "dynamic_z": 0.4395,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-06-30",
-    "dynamic_z": 0.5294,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-02",
-    "dynamic_z": 0.1281,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-03",
-    "dynamic_z": -0.1253,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-04",
-    "dynamic_z": 0.11,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-07",
-    "dynamic_z": 0.2358,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-08",
-    "dynamic_z": 0.4849,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-09",
-    "dynamic_z": 0.9362,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-10",
-    "dynamic_z": 0.3276,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-11",
-    "dynamic_z": -0.0735,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-14",
-    "dynamic_z": -0.1299,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-15",
-    "dynamic_z": 0.3109,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-16",
-    "dynamic_z": 0.2559,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-17",
-    "dynamic_z": 0.5707,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-18",
-    "dynamic_z": 0.5501,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-21",
-    "dynamic_z": 0.7676,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-22",
-    "dynamic_z": 0.4973,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-23",
-    "dynamic_z": 0.7098,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-24",
-    "dynamic_z": 0.9356,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-25",
-    "dynamic_z": 0.7352,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-28",
-    "dynamic_z": 0.5838,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-29",
-    "dynamic_z": 0.5291,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-30",
-    "dynamic_z": 1.0354,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-07-31",
-    "dynamic_z": 0.3046,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-01",
-    "dynamic_z": -0.408,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-05",
-    "dynamic_z": -1.4235,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-06",
-    "dynamic_z": -1.7822,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-07",
-    "dynamic_z": -1.2701,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-08",
-    "dynamic_z": -1.498,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-11",
-    "dynamic_z": 0.2453,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-12",
-    "dynamic_z": 0.4739,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-13",
-    "dynamic_z": 0.1007,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-14",
-    "dynamic_z": 0.0824,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-15",
-    "dynamic_z": -0.7535,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-18",
-    "dynamic_z": -0.3693,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-19",
-    "dynamic_z": -0.0198,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-20",
-    "dynamic_z": -0.3468,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-21",
-    "dynamic_z": -0.1024,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-22",
-    "dynamic_z": -0.2893,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-25",
-    "dynamic_z": -0.5685,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-26",
-    "dynamic_z": -0.3336,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-27",
-    "dynamic_z": -1.728,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-28",
-    "dynamic_z": -2.0213,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-08-29",
-    "dynamic_z": -2.5904,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-02",
-    "dynamic_z": -1.3445,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-03",
-    "dynamic_z": -1.1898,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-04",
-    "dynamic_z": 0.0394,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-05",
-    "dynamic_z": -1.0678,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-08",
-    "dynamic_z": -1.214,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-09",
-    "dynamic_z": -1.6271,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-10",
-    "dynamic_z": -1.904,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-11",
-    "dynamic_z": -2.0067,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-12",
-    "dynamic_z": -0.9142,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-15",
-    "dynamic_z": -1.513,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-16",
-    "dynamic_z": -0.9907,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-17",
-    "dynamic_z": -0.195,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-18",
-    "dynamic_z": 0.1883,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-19",
-    "dynamic_z": 0.9515,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-22",
-    "dynamic_z": 1.3335,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-23",
-    "dynamic_z": 1.3907,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-24",
-    "dynamic_z": 1.3295,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-25",
-    "dynamic_z": 1.5435,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-26",
-    "dynamic_z": 1.8092,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-29",
-    "dynamic_z": 1.9142,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-09-30",
-    "dynamic_z": 1.5621,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-01",
-    "dynamic_z": 2.2133,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-02",
-    "dynamic_z": 1.7093,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-03",
-    "dynamic_z": 2.1779,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-06",
-    "dynamic_z": 2.6346,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-07",
-    "dynamic_z": 2.9081,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-08",
-    "dynamic_z": 4.0059,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-09",
-    "dynamic_z": 2.8363,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-10",
-    "dynamic_z": 1.7309,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-14",
-    "dynamic_z": 0.8367,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-15",
-    "dynamic_z": 1.7191,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-16",
-    "dynamic_z": 1.4663,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-17",
-    "dynamic_z": 1.3066,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-20",
-    "dynamic_z": 0.5803,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-21",
-    "dynamic_z": 1.0318,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-22",
-    "dynamic_z": 0.8623,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-23",
-    "dynamic_z": 0.5798,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-24",
-    "dynamic_z": 0.2993,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-27",
-    "dynamic_z": 0.4362,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-28",
-    "dynamic_z": 0.2819,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-29",
-    "dynamic_z": 0.3009,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-30",
-    "dynamic_z": 0.1626,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-10-31",
-    "dynamic_z": 1.3745,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-03",
-    "dynamic_z": 1.0088,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-04",
-    "dynamic_z": 0.704,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-05",
-    "dynamic_z": 1.0477,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-06",
-    "dynamic_z": 0.5138,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-07",
-    "dynamic_z": 0.711,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-10",
-    "dynamic_z": 0.7477,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-11",
-    "dynamic_z": 1.7872,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-12",
-    "dynamic_z": 0.8403,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-13",
-    "dynamic_z": 0.2508,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-14",
-    "dynamic_z": 0.1181,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-17",
-    "dynamic_z": -0.1017,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-18",
-    "dynamic_z": 0.1961,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-19",
-    "dynamic_z": 0.8217,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-20",
-    "dynamic_z": 0.8968,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-21",
-    "dynamic_z": 0.7779,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-24",
-    "dynamic_z": 0.878,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-25",
-    "dynamic_z": 0.0944,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-26",
-    "dynamic_z": -0.2061,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-27",
-    "dynamic_z": -0.3964,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-11-28",
-    "dynamic_z": -0.2203,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-01",
-    "dynamic_z": 0.0692,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-02",
-    "dynamic_z": 1.3141,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-03",
-    "dynamic_z": 1.2126,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-04",
-    "dynamic_z": 2.329,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-05",
-    "dynamic_z": 3.1062,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-08",
-    "dynamic_z": 3.3592,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-09",
-    "dynamic_z": 2.8209,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-10",
-    "dynamic_z": 2.3329,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-11",
-    "dynamic_z": 1.7517,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-12",
-    "dynamic_z": 1.9402,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-15",
-    "dynamic_z": 2.1412,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-16",
-    "dynamic_z": 2.5912,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-17",
-    "dynamic_z": 2.6357,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-18",
-    "dynamic_z": 2.5843,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-19",
-    "dynamic_z": 2.2815,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-22",
-    "dynamic_z": 2.1519,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-23",
-    "dynamic_z": 2.1124,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-24",
-    "dynamic_z": 1.9272,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-29",
-    "dynamic_z": 1.7319,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-30",
-    "dynamic_z": 1.4434,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2025-12-31",
-    "dynamic_z": 1.1789,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-02",
-    "dynamic_z": 0.8569,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-05",
-    "dynamic_z": 0.3683,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-06",
-    "dynamic_z": 0.0535,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-07",
-    "dynamic_z": -0.5414,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-08",
-    "dynamic_z": -0.458,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-09",
-    "dynamic_z": -0.3096,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-12",
-    "dynamic_z": -0.5173,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-13",
-    "dynamic_z": -0.4592,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-14",
-    "dynamic_z": -1.2661,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-15",
-    "dynamic_z": -1.0391,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-16",
-    "dynamic_z": -0.8981,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-19",
-    "dynamic_z": -0.7776,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-20",
-    "dynamic_z": -0.6661,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-21",
-    "dynamic_z": -0.4298,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-22",
-    "dynamic_z": -0.7886,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-23",
-    "dynamic_z": -0.9664,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-26",
-    "dynamic_z": -0.4661,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-27",
-    "dynamic_z": -0.2122,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-28",
-    "dynamic_z": -0.3492,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-29",
-    "dynamic_z": -1.1844,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-01-30",
-    "dynamic_z": -1.0234,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-02",
-    "dynamic_z": -1.5086,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-03",
-    "dynamic_z": -1.2017,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-04",
-    "dynamic_z": -1.0215,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-05",
-    "dynamic_z": -1.4417,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-06",
-    "dynamic_z": -1.2845,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-09",
-    "dynamic_z": -1.0595,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-10",
-    "dynamic_z": -1.1631,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-11",
-    "dynamic_z": -1.2583,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-12",
-    "dynamic_z": -1.6589,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-13",
-    "dynamic_z": -1.64,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-17",
-    "dynamic_z": -1.239,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-18",
-    "dynamic_z": -0.9269,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-19",
-    "dynamic_z": -0.9021,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-20",
-    "dynamic_z": -0.7329,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-23",
-    "dynamic_z": -0.5663,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-24",
-    "dynamic_z": -0.4144,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-25",
-    "dynamic_z": -0.809,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-26",
-    "dynamic_z": -0.7315,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-02-27",
-    "dynamic_z": -0.4228,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-02",
-    "dynamic_z": -0.5205,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-03",
-    "dynamic_z": -0.4838,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-04",
-    "dynamic_z": -0.3607,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-05",
-    "dynamic_z": -0.1488,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-06",
-    "dynamic_z": -0.1092,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-09",
-    "dynamic_z": -0.2957,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-10",
-    "dynamic_z": -0.0366,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-11",
-    "dynamic_z": 0.1743,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-12",
-    "dynamic_z": 0.0807,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-13",
-    "dynamic_z": -0.1708,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-16",
-    "dynamic_z": 0.0709,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-17",
-    "dynamic_z": 0.1416,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-18",
-    "dynamic_z": 0.3944,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-19",
-    "dynamic_z": 0.4222,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-20",
-    "dynamic_z": 0.5985,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-23",
-    "dynamic_z": 0.381,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-24",
-    "dynamic_z": 0.5503,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-25",
-    "dynamic_z": 0.02,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-26",
-    "dynamic_z": 0.2617,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-27",
-    "dynamic_z": 0.8132,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-30",
-    "dynamic_z": 1.5789,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-03-31",
-    "dynamic_z": 1.0039,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-01",
-    "dynamic_z": -1.3827,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-02",
-    "dynamic_z": -0.4194,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-06",
-    "dynamic_z": 0.4848,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-07",
-    "dynamic_z": 2.3156,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-08",
-    "dynamic_z": -0.1822,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-09",
-    "dynamic_z": -0.254,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-10",
-    "dynamic_z": 0.8564,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-13",
-    "dynamic_z": 1.1244,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-14",
-    "dynamic_z": 0.5619,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-15",
-    "dynamic_z": 0.8582,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-16",
-    "dynamic_z": 1.3083,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-17",
-    "dynamic_z": 0.6174,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-20",
-    "dynamic_z": 1.5129,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-21",
-    "dynamic_z": 1.8656,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-22",
-    "dynamic_z": 2.601,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-23",
-    "dynamic_z": 2.5339,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-24",
-    "dynamic_z": 2.2069,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-27",
-    "dynamic_z": 2.2644,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-28",
-    "dynamic_z": 2.111,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-29",
-    "dynamic_z": 2.0497,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-04-30",
-    "dynamic_z": 1.6975,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-01",
-    "dynamic_z": 2.2704,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-04",
-    "dynamic_z": 1.9745,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-05",
-    "dynamic_z": 1.68,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-06",
-    "dynamic_z": 1.448,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-07",
-    "dynamic_z": 1.5033,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-08",
-    "dynamic_z": 1.4933,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-11",
-    "dynamic_z": 0.8342,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-12",
-    "dynamic_z": 0.5086,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-13",
-    "dynamic_z": 0.4357,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-14",
-    "dynamic_z": 0.2171,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-15",
-    "dynamic_z": 0.486,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-19",
-    "dynamic_z": 0.1734,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-20",
-    "dynamic_z": 0.2604,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-21",
-    "dynamic_z": -0.3927,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-22",
-    "dynamic_z": -0.5046,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-25",
-    "dynamic_z": -0.786,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-26",
-    "dynamic_z": -0.7341,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-27",
-    "dynamic_z": -0.2992,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-28",
-    "dynamic_z": 0.4733,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-05-29",
-    "dynamic_z": 1.1005,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-01",
-    "dynamic_z": 0.7619,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-02",
-    "dynamic_z": 0.093,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-03",
-    "dynamic_z": -0.2721,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-04",
-    "dynamic_z": -0.3303,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-05",
-    "dynamic_z": 0.1169,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-08",
-    "dynamic_z": 0.4609,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-09",
-    "dynamic_z": 0.6436,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-10",
-    "dynamic_z": 1.0883,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-11",
-    "dynamic_z": 0.5703,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-12",
-    "dynamic_z": -0.645,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-15",
-    "dynamic_z": -1.5057,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-16",
-    "dynamic_z": -1.0115,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-17",
-    "dynamic_z": -0.2691,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-18",
-    "dynamic_z": -0.3105,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-19",
-    "dynamic_z": 0.4782,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-22",
-    "dynamic_z": -0.8969,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-23",
-    "dynamic_z": -1.2052,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-24",
-    "dynamic_z": -1.3547,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-25",
-    "dynamic_z": -0.9784,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-26",
-    "dynamic_z": -0.8024,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-29",
-    "dynamic_z": -1.0364,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-06-30",
-    "dynamic_z": -0.5883,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-02",
-    "dynamic_z": -1.6598,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-03",
-    "dynamic_z": -1.7106,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-06",
-    "dynamic_z": -2.8283,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-07",
-    "dynamic_z": -2.8636,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-08",
-    "dynamic_z": -2.9869,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-09",
-    "dynamic_z": -3.2115,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-10",
-    "dynamic_z": -3.0791,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-13",
-    "dynamic_z": -2.6412,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-14",
-    "dynamic_z": -2.2034,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-15",
-    "dynamic_z": -1.9128,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-16",
-    "dynamic_z": -1.8598,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-17",
-    "dynamic_z": -2.0659,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-20",
-    "dynamic_z": -2.046,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-21",
-    "dynamic_z": -1.7279,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-22",
-    "dynamic_z": -1.4887,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-23",
-    "dynamic_z": -1.0491,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-24",
-    "dynamic_z": -1.3239,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-27",
-    "dynamic_z": -1.4659,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-28",
-    "dynamic_z": -1.6178,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-29",
-    "dynamic_z": -1.1499,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-30",
-    "dynamic_z": -0.8316,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-07-31",
-    "dynamic_z": -1.0438,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-04",
-    "dynamic_z": -1.5613,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-05",
-    "dynamic_z": -1.802,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-06",
-    "dynamic_z": -1.4076,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-07",
-    "dynamic_z": -1.2229,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-10",
-    "dynamic_z": -1.0012,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-11",
-    "dynamic_z": -0.8514,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-12",
-    "dynamic_z": -1.0356,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-13",
-    "dynamic_z": -1.3383,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-14",
-    "dynamic_z": -1.1134,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-17",
-    "dynamic_z": -0.7642,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-18",
-    "dynamic_z": -0.9126,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-19",
-    "dynamic_z": -0.7319,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-20",
-    "dynamic_z": -0.3057,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-21",
-    "dynamic_z": -0.4317,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-24",
-    "dynamic_z": -0.5305,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-25",
-    "dynamic_z": -0.1915,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-26",
-    "dynamic_z": 0.1475,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-27",
-    "dynamic_z": 0.5482,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-28",
-    "dynamic_z": 0.1625,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-08-31",
-    "dynamic_z": 0.3378,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-09-01",
-    "dynamic_z": 0.3005,
-    "pair_id": "CJ_IMO"
-  },
-  {
-    "date": "2026-09-02",
-    "dynamic_z": 0.3573,
-    "pair_id": "CJ_IMO"
+    "date": "2026-09-03",
+    "dynamic_z": -0.0437,
+    "pair_id": "ATH_SCR"
   },
   {
     "date": "2025-04-01",
@@ -8996,12 +7226,12 @@
   },
   {
     "date": "2025-04-14",
-    "dynamic_z": -1.3317,
+    "dynamic_z": -1.3316,
     "pair_id": "CJ_KEL"
   },
   {
     "date": "2025-04-15",
-    "dynamic_z": -1.0424,
+    "dynamic_z": -1.0423,
     "pair_id": "CJ_KEL"
   },
   {
@@ -9026,7 +7256,7 @@
   },
   {
     "date": "2025-04-23",
-    "dynamic_z": 1.3838,
+    "dynamic_z": 1.3837,
     "pair_id": "CJ_KEL"
   },
   {
@@ -9066,7 +7296,7 @@
   },
   {
     "date": "2025-05-05",
-    "dynamic_z": -0.8224,
+    "dynamic_z": -0.8225,
     "pair_id": "CJ_KEL"
   },
   {
@@ -9291,7 +7521,7 @@
   },
   {
     "date": "2025-07-09",
-    "dynamic_z": 0.6072,
+    "dynamic_z": 0.6071,
     "pair_id": "CJ_KEL"
   },
   {
@@ -9346,7 +7576,7 @@
   },
   {
     "date": "2025-07-24",
-    "dynamic_z": 2.8335,
+    "dynamic_z": 2.8336,
     "pair_id": "CJ_KEL"
   },
   {
@@ -9436,7 +7666,7 @@
   },
   {
     "date": "2025-08-20",
-    "dynamic_z": 1.9511,
+    "dynamic_z": 1.951,
     "pair_id": "CJ_KEL"
   },
   {
@@ -10086,7 +8316,7 @@
   },
   {
     "date": "2026-02-26",
-    "dynamic_z": -0.0945,
+    "dynamic_z": -0.0944,
     "pair_id": "CJ_KEL"
   },
   {
@@ -10236,7 +8466,7 @@
   },
   {
     "date": "2026-04-10",
-    "dynamic_z": 3.2001,
+    "dynamic_z": 3.2,
     "pair_id": "CJ_KEL"
   },
   {
@@ -10341,7 +8571,7 @@
   },
   {
     "date": "2026-05-11",
-    "dynamic_z": -0.4851,
+    "dynamic_z": -0.485,
     "pair_id": "CJ_KEL"
   },
   {
@@ -10740,6 +8970,11 @@
     "pair_id": "CJ_KEL"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 0.3588,
+    "pair_id": "CJ_KEL"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.5385,
     "pair_id": "CJ_SDE"
@@ -10951,7 +9186,7 @@
   },
   {
     "date": "2025-06-02",
-    "dynamic_z": 0.3961,
+    "dynamic_z": 0.3962,
     "pair_id": "CJ_SDE"
   },
   {
@@ -11141,7 +9376,7 @@
   },
   {
     "date": "2025-07-25",
-    "dynamic_z": -0.6361,
+    "dynamic_z": -0.6362,
     "pair_id": "CJ_SDE"
   },
   {
@@ -11156,7 +9391,7 @@
   },
   {
     "date": "2025-07-30",
-    "dynamic_z": -0.2522,
+    "dynamic_z": -0.2521,
     "pair_id": "CJ_SDE"
   },
   {
@@ -11311,7 +9546,7 @@
   },
   {
     "date": "2025-09-15",
-    "dynamic_z": 1.2736,
+    "dynamic_z": 1.2737,
     "pair_id": "CJ_SDE"
   },
   {
@@ -11391,7 +9626,7 @@
   },
   {
     "date": "2025-10-07",
-    "dynamic_z": 1.9658,
+    "dynamic_z": 1.9659,
     "pair_id": "CJ_SDE"
   },
   {
@@ -11441,7 +9676,7 @@
   },
   {
     "date": "2025-10-22",
-    "dynamic_z": 0.2203,
+    "dynamic_z": 0.2202,
     "pair_id": "CJ_SDE"
   },
   {
@@ -11506,7 +9741,7 @@
   },
   {
     "date": "2025-11-10",
-    "dynamic_z": -0.8497,
+    "dynamic_z": -0.8496,
     "pair_id": "CJ_SDE"
   },
   {
@@ -11826,7 +10061,7 @@
   },
   {
     "date": "2026-02-11",
-    "dynamic_z": 1.3027,
+    "dynamic_z": 1.3026,
     "pair_id": "CJ_SDE"
   },
   {
@@ -12116,7 +10351,7 @@
   },
   {
     "date": "2026-05-06",
-    "dynamic_z": 0.7029,
+    "dynamic_z": 0.703,
     "pair_id": "CJ_SDE"
   },
   {
@@ -12281,7 +10516,7 @@
   },
   {
     "date": "2026-06-23",
-    "dynamic_z": -1.6222,
+    "dynamic_z": -1.6221,
     "pair_id": "CJ_SDE"
   },
   {
@@ -12530,6 +10765,11 @@
     "pair_id": "CJ_SDE"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": -0.9582,
+    "pair_id": "CJ_SDE"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.1655,
     "pair_id": "CJ_SCR"
@@ -12591,7 +10831,7 @@
   },
   {
     "date": "2025-04-17",
-    "dynamic_z": 0.4428,
+    "dynamic_z": 0.4427,
     "pair_id": "CJ_SCR"
   },
   {
@@ -12646,7 +10886,7 @@
   },
   {
     "date": "2025-05-05",
-    "dynamic_z": -0.9183,
+    "dynamic_z": -0.9184,
     "pair_id": "CJ_SCR"
   },
   {
@@ -12751,7 +10991,7 @@
   },
   {
     "date": "2025-06-04",
-    "dynamic_z": 0.2145,
+    "dynamic_z": 0.2146,
     "pair_id": "CJ_SCR"
   },
   {
@@ -12821,7 +11061,7 @@
   },
   {
     "date": "2025-06-24",
-    "dynamic_z": 0.5534,
+    "dynamic_z": 0.5535,
     "pair_id": "CJ_SCR"
   },
   {
@@ -12916,7 +11156,7 @@
   },
   {
     "date": "2025-07-22",
-    "dynamic_z": -0.7572,
+    "dynamic_z": -0.7573,
     "pair_id": "CJ_SCR"
   },
   {
@@ -12976,7 +11216,7 @@
   },
   {
     "date": "2025-08-08",
-    "dynamic_z": -0.6178,
+    "dynamic_z": -0.6179,
     "pair_id": "CJ_SCR"
   },
   {
@@ -13046,7 +11286,7 @@
   },
   {
     "date": "2025-08-28",
-    "dynamic_z": -0.454,
+    "dynamic_z": -0.4541,
     "pair_id": "CJ_SCR"
   },
   {
@@ -13316,7 +11556,7 @@
   },
   {
     "date": "2025-11-14",
-    "dynamic_z": 0.7006,
+    "dynamic_z": 0.7005,
     "pair_id": "CJ_SCR"
   },
   {
@@ -13406,7 +11646,7 @@
   },
   {
     "date": "2025-12-10",
-    "dynamic_z": -1.9388,
+    "dynamic_z": -1.9389,
     "pair_id": "CJ_SCR"
   },
   {
@@ -13496,7 +11736,7 @@
   },
   {
     "date": "2026-01-08",
-    "dynamic_z": 1.5117,
+    "dynamic_z": 1.5118,
     "pair_id": "CJ_SCR"
   },
   {
@@ -13776,7 +12016,7 @@
   },
   {
     "date": "2026-03-30",
-    "dynamic_z": -2.1158,
+    "dynamic_z": -2.1159,
     "pair_id": "CJ_SCR"
   },
   {
@@ -13821,7 +12061,7 @@
   },
   {
     "date": "2026-04-13",
-    "dynamic_z": -0.6962,
+    "dynamic_z": -0.6963,
     "pair_id": "CJ_SCR"
   },
   {
@@ -13946,7 +12186,7 @@
   },
   {
     "date": "2026-05-19",
-    "dynamic_z": -1.9271,
+    "dynamic_z": -1.927,
     "pair_id": "CJ_SCR"
   },
   {
@@ -14320,6 +12560,11 @@
     "pair_id": "CJ_SCR"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 1.6265,
+    "pair_id": "CJ_SCR"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.7601,
     "pair_id": "CJ_TVE"
@@ -14426,12 +12671,12 @@
   },
   {
     "date": "2025-05-01",
-    "dynamic_z": 0.2616,
+    "dynamic_z": 0.2617,
     "pair_id": "CJ_TVE"
   },
   {
     "date": "2025-05-02",
-    "dynamic_z": -0.1537,
+    "dynamic_z": -0.1538,
     "pair_id": "CJ_TVE"
   },
   {
@@ -14601,7 +12846,7 @@
   },
   {
     "date": "2025-06-20",
-    "dynamic_z": 0.8194,
+    "dynamic_z": 0.8193,
     "pair_id": "CJ_TVE"
   },
   {
@@ -14651,7 +12896,7 @@
   },
   {
     "date": "2025-07-07",
-    "dynamic_z": -0.5041,
+    "dynamic_z": -0.5042,
     "pair_id": "CJ_TVE"
   },
   {
@@ -14926,7 +13171,7 @@
   },
   {
     "date": "2025-09-24",
-    "dynamic_z": 0.1333,
+    "dynamic_z": 0.1334,
     "pair_id": "CJ_TVE"
   },
   {
@@ -15311,7 +13556,7 @@
   },
   {
     "date": "2026-01-15",
-    "dynamic_z": -1.6093,
+    "dynamic_z": -1.6094,
     "pair_id": "CJ_TVE"
   },
   {
@@ -15461,7 +13706,7 @@
   },
   {
     "date": "2026-02-27",
-    "dynamic_z": 1.4498,
+    "dynamic_z": 1.4497,
     "pair_id": "CJ_TVE"
   },
   {
@@ -15621,7 +13866,7 @@
   },
   {
     "date": "2026-04-15",
-    "dynamic_z": 0.1199,
+    "dynamic_z": 0.1198,
     "pair_id": "CJ_TVE"
   },
   {
@@ -15661,7 +13906,7 @@
   },
   {
     "date": "2026-04-27",
-    "dynamic_z": -0.9365,
+    "dynamic_z": -0.9364,
     "pair_id": "CJ_TVE"
   },
   {
@@ -16110,6 +14355,11 @@
     "pair_id": "CJ_TVE"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 1.3653,
+    "pair_id": "CJ_TVE"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 1.4445,
     "pair_id": "FRU_HWX"
@@ -16206,7 +14456,7 @@
   },
   {
     "date": "2025-04-29",
-    "dynamic_z": 0.3029,
+    "dynamic_z": 0.303,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16306,7 +14556,7 @@
   },
   {
     "date": "2025-05-28",
-    "dynamic_z": 0.9557,
+    "dynamic_z": 0.9556,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16341,7 +14591,7 @@
   },
   {
     "date": "2025-06-06",
-    "dynamic_z": -0.2381,
+    "dynamic_z": -0.2382,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16356,12 +14606,12 @@
   },
   {
     "date": "2025-06-11",
-    "dynamic_z": 0.1157,
+    "dynamic_z": 0.1156,
     "pair_id": "FRU_HWX"
   },
   {
     "date": "2025-06-12",
-    "dynamic_z": 0.2728,
+    "dynamic_z": 0.2729,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16451,7 +14701,7 @@
   },
   {
     "date": "2025-07-09",
-    "dynamic_z": 0.0791,
+    "dynamic_z": 0.079,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16466,12 +14716,12 @@
   },
   {
     "date": "2025-07-14",
-    "dynamic_z": -0.1649,
+    "dynamic_z": -0.1648,
     "pair_id": "FRU_HWX"
   },
   {
     "date": "2025-07-15",
-    "dynamic_z": 0.2905,
+    "dynamic_z": 0.2904,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16656,7 +14906,7 @@
   },
   {
     "date": "2025-09-08",
-    "dynamic_z": 1.6007,
+    "dynamic_z": 1.6008,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16701,7 +14951,7 @@
   },
   {
     "date": "2025-09-19",
-    "dynamic_z": -1.0572,
+    "dynamic_z": -1.0573,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16726,7 +14976,7 @@
   },
   {
     "date": "2025-09-26",
-    "dynamic_z": -0.3023,
+    "dynamic_z": -0.3024,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16816,7 +15066,7 @@
   },
   {
     "date": "2025-10-23",
-    "dynamic_z": 0.9224,
+    "dynamic_z": 0.9225,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16881,7 +15131,7 @@
   },
   {
     "date": "2025-11-11",
-    "dynamic_z": -0.5563,
+    "dynamic_z": -0.5564,
     "pair_id": "FRU_HWX"
   },
   {
@@ -16976,7 +15226,7 @@
   },
   {
     "date": "2025-12-08",
-    "dynamic_z": -0.5603,
+    "dynamic_z": -0.5602,
     "pair_id": "FRU_HWX"
   },
   {
@@ -17341,7 +15591,7 @@
   },
   {
     "date": "2026-03-25",
-    "dynamic_z": -0.1703,
+    "dynamic_z": -0.1702,
     "pair_id": "FRU_HWX"
   },
   {
@@ -17526,7 +15776,7 @@
   },
   {
     "date": "2026-05-19",
-    "dynamic_z": -0.7935,
+    "dynamic_z": -0.7936,
     "pair_id": "FRU_HWX"
   },
   {
@@ -17616,7 +15866,7 @@
   },
   {
     "date": "2026-06-12",
-    "dynamic_z": -1.07,
+    "dynamic_z": -1.0699,
     "pair_id": "FRU_HWX"
   },
   {
@@ -17651,7 +15901,7 @@
   },
   {
     "date": "2026-06-23",
-    "dynamic_z": -2.8926,
+    "dynamic_z": -2.8925,
     "pair_id": "FRU_HWX"
   },
   {
@@ -17900,6 +16150,11 @@
     "pair_id": "FRU_HWX"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 0.9768,
+    "pair_id": "FRU_HWX"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 1.846,
     "pair_id": "FRU_SDE"
@@ -18016,7 +16271,7 @@
   },
   {
     "date": "2025-05-05",
-    "dynamic_z": -0.1371,
+    "dynamic_z": -0.137,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18061,7 +16316,7 @@
   },
   {
     "date": "2025-05-16",
-    "dynamic_z": 2.0336,
+    "dynamic_z": 2.0337,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18721,7 +16976,7 @@
   },
   {
     "date": "2025-11-25",
-    "dynamic_z": -0.2218,
+    "dynamic_z": -0.2219,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18761,7 +17016,7 @@
   },
   {
     "date": "2025-12-05",
-    "dynamic_z": 0.351,
+    "dynamic_z": 0.3509,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18786,7 +17041,7 @@
   },
   {
     "date": "2025-12-12",
-    "dynamic_z": 0.6655,
+    "dynamic_z": 0.6656,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18816,7 +17071,7 @@
   },
   {
     "date": "2025-12-22",
-    "dynamic_z": 1.3082,
+    "dynamic_z": 1.3083,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18876,7 +17131,7 @@
   },
   {
     "date": "2026-01-12",
-    "dynamic_z": -0.506,
+    "dynamic_z": -0.5061,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18971,7 +17226,7 @@
   },
   {
     "date": "2026-02-06",
-    "dynamic_z": -0.5465,
+    "dynamic_z": -0.5466,
     "pair_id": "FRU_SDE"
   },
   {
@@ -18996,7 +17251,7 @@
   },
   {
     "date": "2026-02-13",
-    "dynamic_z": 0.2863,
+    "dynamic_z": 0.2862,
     "pair_id": "FRU_SDE"
   },
   {
@@ -19056,7 +17311,7 @@
   },
   {
     "date": "2026-03-04",
-    "dynamic_z": -0.8482,
+    "dynamic_z": -0.8481,
     "pair_id": "FRU_SDE"
   },
   {
@@ -19111,7 +17366,7 @@
   },
   {
     "date": "2026-03-19",
-    "dynamic_z": -2.5261,
+    "dynamic_z": -2.5262,
     "pair_id": "FRU_SDE"
   },
   {
@@ -19121,7 +17376,7 @@
   },
   {
     "date": "2026-03-23",
-    "dynamic_z": -2.0386,
+    "dynamic_z": -2.0387,
     "pair_id": "FRU_SDE"
   },
   {
@@ -19516,7 +17771,7 @@
   },
   {
     "date": "2026-07-15",
-    "dynamic_z": 0.2058,
+    "dynamic_z": 0.2059,
     "pair_id": "FRU_SDE"
   },
   {
@@ -19687,6 +17942,11 @@
   {
     "date": "2026-09-02",
     "dynamic_z": 0.52,
+    "pair_id": "FRU_SDE"
+  },
+  {
+    "date": "2026-09-03",
+    "dynamic_z": 0.5149,
     "pair_id": "FRU_SDE"
   },
   {
@@ -20311,7 +18571,7 @@
   },
   {
     "date": "2025-09-29",
-    "dynamic_z": 0.3669,
+    "dynamic_z": 0.367,
     "pair_id": "IMO_KEL"
   },
   {
@@ -20776,7 +19036,7 @@
   },
   {
     "date": "2026-02-11",
-    "dynamic_z": 1.5479,
+    "dynamic_z": 1.548,
     "pair_id": "IMO_KEL"
   },
   {
@@ -21036,7 +19296,7 @@
   },
   {
     "date": "2026-04-28",
-    "dynamic_z": -3.0973,
+    "dynamic_z": -3.0972,
     "pair_id": "IMO_KEL"
   },
   {
@@ -21480,6 +19740,11 @@
     "pair_id": "IMO_KEL"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": -0.2238,
+    "pair_id": "IMO_KEL"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 1.5937,
     "pair_id": "IMO_TVE"
@@ -21626,7 +19891,7 @@
   },
   {
     "date": "2025-05-13",
-    "dynamic_z": 1.1151,
+    "dynamic_z": 1.115,
     "pair_id": "IMO_TVE"
   },
   {
@@ -21736,7 +20001,7 @@
   },
   {
     "date": "2025-06-13",
-    "dynamic_z": 1.0795,
+    "dynamic_z": 1.0794,
     "pair_id": "IMO_TVE"
   },
   {
@@ -23267,6 +21532,11 @@
   {
     "date": "2026-09-02",
     "dynamic_z": 0.3184,
+    "pair_id": "IMO_TVE"
+  },
+  {
+    "date": "2026-09-03",
+    "dynamic_z": 0.1972,
     "pair_id": "IMO_TVE"
   },
   {
@@ -25060,6 +23330,11 @@
     "pair_id": "KEL_SCR"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 0.92,
+    "pair_id": "KEL_SCR"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.0725,
     "pair_id": "KEL_SU"
@@ -25481,7 +23756,7 @@
   },
   {
     "date": "2025-07-31",
-    "dynamic_z": -2.2082,
+    "dynamic_z": -2.2083,
     "pair_id": "KEL_SU"
   },
   {
@@ -26850,6 +25125,11 @@
     "pair_id": "KEL_SU"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": -0.0955,
+    "pair_id": "KEL_SU"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.6352,
     "pair_id": "KEL_TVE"
@@ -26996,7 +25276,7 @@
   },
   {
     "date": "2025-05-13",
-    "dynamic_z": -1.4229,
+    "dynamic_z": -1.423,
     "pair_id": "KEL_TVE"
   },
   {
@@ -28640,1794 +26920,9 @@
     "pair_id": "KEL_TVE"
   },
   {
-    "date": "2025-04-01",
-    "dynamic_z": 0.3342,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-02",
-    "dynamic_z": 0.263,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-03",
-    "dynamic_z": -0.9569,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-04",
-    "dynamic_z": -1.8519,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-07",
-    "dynamic_z": -1.7827,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-08",
-    "dynamic_z": -2.3688,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-09",
-    "dynamic_z": -1.8448,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-10",
-    "dynamic_z": -1.9969,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-11",
-    "dynamic_z": -2.0697,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-14",
-    "dynamic_z": -1.6743,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-15",
-    "dynamic_z": -1.9013,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-16",
-    "dynamic_z": -1.3046,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-17",
-    "dynamic_z": -1.2711,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-21",
-    "dynamic_z": -1.0905,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-22",
-    "dynamic_z": -0.8181,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-23",
-    "dynamic_z": -1.0416,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-24",
-    "dynamic_z": -0.5449,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-25",
-    "dynamic_z": -0.3108,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-28",
-    "dynamic_z": -0.2558,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-29",
-    "dynamic_z": -0.7442,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-04-30",
-    "dynamic_z": -0.9328,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-01",
-    "dynamic_z": -0.6857,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-02",
-    "dynamic_z": -0.5051,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-05",
-    "dynamic_z": -1.433,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-06",
-    "dynamic_z": -1.3772,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-07",
-    "dynamic_z": -1.2001,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-08",
-    "dynamic_z": -0.7315,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-09",
-    "dynamic_z": -0.5874,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-12",
-    "dynamic_z": -0.5192,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-13",
-    "dynamic_z": -0.5775,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-14",
-    "dynamic_z": -0.5107,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-15",
-    "dynamic_z": -0.2439,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-16",
-    "dynamic_z": 0.0096,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-20",
-    "dynamic_z": 0.2158,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-21",
-    "dynamic_z": 0.8404,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-22",
-    "dynamic_z": 0.7224,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-23",
-    "dynamic_z": 0.881,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-26",
-    "dynamic_z": 1.0186,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-27",
-    "dynamic_z": 0.7371,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-28",
-    "dynamic_z": 0.6865,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-29",
-    "dynamic_z": 0.4548,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-05-30",
-    "dynamic_z": 0.276,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-02",
-    "dynamic_z": 0.5612,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-03",
-    "dynamic_z": 0.324,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-04",
-    "dynamic_z": -0.0342,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-05",
-    "dynamic_z": 0.1644,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-06",
-    "dynamic_z": 0.4313,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-09",
-    "dynamic_z": 0.643,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-10",
-    "dynamic_z": 0.6235,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-11",
-    "dynamic_z": 0.6394,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-12",
-    "dynamic_z": 0.4498,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-13",
-    "dynamic_z": 0.0696,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-16",
-    "dynamic_z": 1.1338,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-17",
-    "dynamic_z": 0.6718,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-18",
-    "dynamic_z": 1.3669,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-19",
-    "dynamic_z": 1.156,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-20",
-    "dynamic_z": 1.0647,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-23",
-    "dynamic_z": 1.5276,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-24",
-    "dynamic_z": 1.4889,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-25",
-    "dynamic_z": 1.3334,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-26",
-    "dynamic_z": 1.1438,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-27",
-    "dynamic_z": 1.3627,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-06-30",
-    "dynamic_z": 1.2177,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-02",
-    "dynamic_z": 1.5597,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-03",
-    "dynamic_z": 1.5068,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-04",
-    "dynamic_z": 1.3534,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-07",
-    "dynamic_z": 1.0421,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-08",
-    "dynamic_z": 1.4171,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-09",
-    "dynamic_z": 1.373,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-10",
-    "dynamic_z": 1.2323,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-11",
-    "dynamic_z": 2.0369,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-14",
-    "dynamic_z": 1.7336,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-15",
-    "dynamic_z": 1.665,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-16",
-    "dynamic_z": 1.7373,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-17",
-    "dynamic_z": 1.8759,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-18",
-    "dynamic_z": 1.6211,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-21",
-    "dynamic_z": 1.4606,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-22",
-    "dynamic_z": 0.7962,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-23",
-    "dynamic_z": 0.4809,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-24",
-    "dynamic_z": 0.1224,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-25",
-    "dynamic_z": 0.1573,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-28",
-    "dynamic_z": -0.8113,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-29",
-    "dynamic_z": -1.0584,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-30",
-    "dynamic_z": -0.8175,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-07-31",
-    "dynamic_z": -0.222,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-01",
-    "dynamic_z": 0.2202,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-05",
-    "dynamic_z": -1.0436,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-06",
-    "dynamic_z": -1.3969,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-07",
-    "dynamic_z": -2.2264,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-08",
-    "dynamic_z": -1.7572,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-11",
-    "dynamic_z": -1.0473,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-12",
-    "dynamic_z": -0.9654,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-13",
-    "dynamic_z": -0.6466,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-14",
-    "dynamic_z": -0.973,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-15",
-    "dynamic_z": -0.9957,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-18",
-    "dynamic_z": -1.0114,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-19",
-    "dynamic_z": -1.4772,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-20",
-    "dynamic_z": -1.2543,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-21",
-    "dynamic_z": -1.5952,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-22",
-    "dynamic_z": -0.6496,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-25",
-    "dynamic_z": -0.4014,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-26",
-    "dynamic_z": 0.6448,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-27",
-    "dynamic_z": -0.9783,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-28",
-    "dynamic_z": -0.9389,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-08-29",
-    "dynamic_z": -0.9792,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-02",
-    "dynamic_z": -1.0971,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-03",
-    "dynamic_z": -1.2558,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-04",
-    "dynamic_z": -0.6574,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-05",
-    "dynamic_z": -0.7983,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-08",
-    "dynamic_z": -1.2853,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-09",
-    "dynamic_z": -0.9427,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-10",
-    "dynamic_z": -1.9229,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-11",
-    "dynamic_z": -1.8295,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-12",
-    "dynamic_z": -1.9516,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-15",
-    "dynamic_z": -1.474,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-16",
-    "dynamic_z": -2.2177,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-17",
-    "dynamic_z": -1.5713,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-18",
-    "dynamic_z": -1.4564,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-19",
-    "dynamic_z": -1.1953,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-22",
-    "dynamic_z": -1.003,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-23",
-    "dynamic_z": -1.2993,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-24",
-    "dynamic_z": -1.3324,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-25",
-    "dynamic_z": -1.6908,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-26",
-    "dynamic_z": -1.5953,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-29",
-    "dynamic_z": -1.5563,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-09-30",
-    "dynamic_z": -1.0049,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-01",
-    "dynamic_z": -1.1108,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-02",
-    "dynamic_z": -1.1603,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-03",
-    "dynamic_z": -1.2531,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-06",
-    "dynamic_z": -1.103,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-07",
-    "dynamic_z": -0.4625,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-08",
-    "dynamic_z": -0.2782,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-09",
-    "dynamic_z": -0.3603,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-10",
-    "dynamic_z": -1.2955,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-14",
-    "dynamic_z": -1.8635,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-15",
-    "dynamic_z": -1.9314,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-16",
-    "dynamic_z": -1.403,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-17",
-    "dynamic_z": -1.6469,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-20",
-    "dynamic_z": -2.3916,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-21",
-    "dynamic_z": -1.7761,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-22",
-    "dynamic_z": -1.5136,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-23",
-    "dynamic_z": -0.9931,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-24",
-    "dynamic_z": -0.9388,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-27",
-    "dynamic_z": -1.1269,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-28",
-    "dynamic_z": -1.695,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-29",
-    "dynamic_z": -1.5145,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-30",
-    "dynamic_z": -0.8182,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-10-31",
-    "dynamic_z": 0.9764,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-03",
-    "dynamic_z": 1.6579,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-04",
-    "dynamic_z": 2.0573,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-05",
-    "dynamic_z": 3.4331,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-06",
-    "dynamic_z": 2.8342,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-07",
-    "dynamic_z": 3.2807,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-10",
-    "dynamic_z": 2.508,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-11",
-    "dynamic_z": 3.0231,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-12",
-    "dynamic_z": 2.0388,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-13",
-    "dynamic_z": 1.6091,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-14",
-    "dynamic_z": 0.9795,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-17",
-    "dynamic_z": 0.0725,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-18",
-    "dynamic_z": 0.2126,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-19",
-    "dynamic_z": 0.0949,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-20",
-    "dynamic_z": -0.0842,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-21",
-    "dynamic_z": 0.0537,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-24",
-    "dynamic_z": 0.6843,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-25",
-    "dynamic_z": -0.235,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-26",
-    "dynamic_z": 0.1047,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-27",
-    "dynamic_z": 0.1373,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-11-28",
-    "dynamic_z": 0.6435,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-01",
-    "dynamic_z": 0.6867,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-02",
-    "dynamic_z": 0.6828,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-03",
-    "dynamic_z": 0.7499,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-04",
-    "dynamic_z": 0.6216,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-05",
-    "dynamic_z": 0.4471,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-08",
-    "dynamic_z": 0.4286,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-09",
-    "dynamic_z": 0.1705,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-10",
-    "dynamic_z": -0.3229,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-11",
-    "dynamic_z": -0.2195,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-12",
-    "dynamic_z": -0.4801,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-15",
-    "dynamic_z": -0.0891,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-16",
-    "dynamic_z": 0.1316,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-17",
-    "dynamic_z": 0.3854,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-18",
-    "dynamic_z": 0.4902,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-19",
-    "dynamic_z": 1.2599,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-22",
-    "dynamic_z": 0.7856,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-23",
-    "dynamic_z": 0.9175,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-24",
-    "dynamic_z": 0.5779,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-29",
-    "dynamic_z": 0.7906,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-30",
-    "dynamic_z": 0.8514,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2025-12-31",
-    "dynamic_z": 0.6681,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-02",
-    "dynamic_z": 1.0061,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-05",
-    "dynamic_z": 0.7351,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-06",
-    "dynamic_z": 0.394,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-07",
-    "dynamic_z": 0.4793,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-08",
-    "dynamic_z": 0.2813,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-09",
-    "dynamic_z": 0.0804,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-12",
-    "dynamic_z": 0.3352,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-13",
-    "dynamic_z": 0.6394,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-14",
-    "dynamic_z": 0.8246,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-15",
-    "dynamic_z": 0.77,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-16",
-    "dynamic_z": 0.5714,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-19",
-    "dynamic_z": 0.6924,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-20",
-    "dynamic_z": 1.0336,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-21",
-    "dynamic_z": 0.4512,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-22",
-    "dynamic_z": -0.0952,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-23",
-    "dynamic_z": -0.3709,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-26",
-    "dynamic_z": -0.8261,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-27",
-    "dynamic_z": -0.5152,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-28",
-    "dynamic_z": -0.8256,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-29",
-    "dynamic_z": -0.3639,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-01-30",
-    "dynamic_z": -1.2236,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-02",
-    "dynamic_z": -1.456,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-03",
-    "dynamic_z": -0.6065,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-04",
-    "dynamic_z": 0.1324,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-05",
-    "dynamic_z": -0.3287,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-06",
-    "dynamic_z": 0.7352,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-09",
-    "dynamic_z": 1.4011,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-10",
-    "dynamic_z": 2.0656,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-11",
-    "dynamic_z": 2.5175,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-12",
-    "dynamic_z": 0.9878,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-13",
-    "dynamic_z": 1.4303,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-17",
-    "dynamic_z": 1.1732,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-18",
-    "dynamic_z": 1.3791,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-19",
-    "dynamic_z": 1.6839,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-20",
-    "dynamic_z": 0.1656,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-23",
-    "dynamic_z": -0.1404,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-24",
-    "dynamic_z": -1.073,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-25",
-    "dynamic_z": -1.4016,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-26",
-    "dynamic_z": -1.2092,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-02-27",
-    "dynamic_z": -0.3213,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-02",
-    "dynamic_z": -0.6457,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-03",
-    "dynamic_z": 0.3172,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-04",
-    "dynamic_z": 0.4032,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-05",
-    "dynamic_z": -0.2406,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-06",
-    "dynamic_z": 0.3772,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-09",
-    "dynamic_z": -0.5687,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-10",
-    "dynamic_z": 0.9045,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-11",
-    "dynamic_z": 1.6423,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-12",
-    "dynamic_z": 1.573,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-13",
-    "dynamic_z": 2.1098,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-16",
-    "dynamic_z": 1.3118,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-17",
-    "dynamic_z": 1.0253,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-18",
-    "dynamic_z": 0.935,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-19",
-    "dynamic_z": 0.6728,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-20",
-    "dynamic_z": 0.0258,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-23",
-    "dynamic_z": -0.3146,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-24",
-    "dynamic_z": 0.8199,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-25",
-    "dynamic_z": 1.4399,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-26",
-    "dynamic_z": 1.0599,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-27",
-    "dynamic_z": 0.567,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-30",
-    "dynamic_z": 0.4697,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-03-31",
-    "dynamic_z": 1.4188,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-01",
-    "dynamic_z": -0.4644,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-02",
-    "dynamic_z": -0.7478,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-06",
-    "dynamic_z": -0.3745,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-07",
-    "dynamic_z": 0.5324,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-08",
-    "dynamic_z": -0.1416,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-09",
-    "dynamic_z": -0.0168,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-10",
-    "dynamic_z": -0.492,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-13",
-    "dynamic_z": -0.1687,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-14",
-    "dynamic_z": -1.3462,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-15",
-    "dynamic_z": -0.6469,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-16",
-    "dynamic_z": -1.0494,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-17",
-    "dynamic_z": -1.3929,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-20",
-    "dynamic_z": -1.3599,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-21",
-    "dynamic_z": -1.2014,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-22",
-    "dynamic_z": -1.0034,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-23",
-    "dynamic_z": -1.1506,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-24",
-    "dynamic_z": -0.4613,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-27",
-    "dynamic_z": 3.0044,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-28",
-    "dynamic_z": 3.1041,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-29",
-    "dynamic_z": 2.2786,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-04-30",
-    "dynamic_z": 2.097,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-01",
-    "dynamic_z": 1.94,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-04",
-    "dynamic_z": 2.1436,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-05",
-    "dynamic_z": 1.6505,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-06",
-    "dynamic_z": 0.1388,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-07",
-    "dynamic_z": 0.4765,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-08",
-    "dynamic_z": 0.8508,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-11",
-    "dynamic_z": 0.5605,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-12",
-    "dynamic_z": -0.1961,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-13",
-    "dynamic_z": 0.0136,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-14",
-    "dynamic_z": -0.1115,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-15",
-    "dynamic_z": -0.3142,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-19",
-    "dynamic_z": -0.251,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-20",
-    "dynamic_z": -0.5586,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-21",
-    "dynamic_z": -0.4631,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-22",
-    "dynamic_z": -0.5607,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-25",
-    "dynamic_z": -1.0587,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-26",
-    "dynamic_z": -1.1696,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-27",
-    "dynamic_z": -1.3003,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-28",
-    "dynamic_z": -1.0652,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-05-29",
-    "dynamic_z": -1.3543,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-01",
-    "dynamic_z": -0.8184,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-02",
-    "dynamic_z": -0.1722,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-03",
-    "dynamic_z": 0.47,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-04",
-    "dynamic_z": 0.2365,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-05",
-    "dynamic_z": -0.361,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-08",
-    "dynamic_z": -0.1107,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-09",
-    "dynamic_z": -0.3193,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-10",
-    "dynamic_z": 0.4458,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-11",
-    "dynamic_z": 0.3413,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-12",
-    "dynamic_z": -0.0826,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-15",
-    "dynamic_z": 0.1885,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-16",
-    "dynamic_z": -0.1276,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-17",
-    "dynamic_z": -0.6401,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-18",
-    "dynamic_z": -1.0762,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-19",
-    "dynamic_z": -0.3841,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-22",
-    "dynamic_z": -1.3908,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-23",
-    "dynamic_z": -0.9854,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-24",
-    "dynamic_z": -0.4228,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-25",
-    "dynamic_z": -0.4395,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-26",
-    "dynamic_z": -0.2165,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-29",
-    "dynamic_z": 0.4628,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-06-30",
-    "dynamic_z": 0.1238,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-02",
-    "dynamic_z": 0.5513,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-03",
-    "dynamic_z": 0.5164,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-06",
-    "dynamic_z": 0.799,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-07",
-    "dynamic_z": 0.2582,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-08",
-    "dynamic_z": -0.3539,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-09",
-    "dynamic_z": 0.0183,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-10",
-    "dynamic_z": -0.2087,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-13",
-    "dynamic_z": 0.3849,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-14",
-    "dynamic_z": 0.475,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-15",
-    "dynamic_z": 0.1226,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-16",
-    "dynamic_z": -0.5355,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-17",
-    "dynamic_z": -1.303,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-20",
-    "dynamic_z": -1.0557,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-21",
-    "dynamic_z": -0.8486,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-22",
-    "dynamic_z": -0.2445,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-23",
-    "dynamic_z": -0.2183,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-24",
-    "dynamic_z": -0.3782,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-27",
-    "dynamic_z": -0.4072,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-28",
-    "dynamic_z": -0.8587,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-29",
-    "dynamic_z": -1.2416,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-30",
-    "dynamic_z": -0.0621,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-07-31",
-    "dynamic_z": 1.4065,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-04",
-    "dynamic_z": 0.8234,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-05",
-    "dynamic_z": 1.8437,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-06",
-    "dynamic_z": 2.9372,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-07",
-    "dynamic_z": 2.25,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-10",
-    "dynamic_z": 1.7483,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-11",
-    "dynamic_z": 1.2523,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-12",
-    "dynamic_z": 1.3908,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-13",
-    "dynamic_z": 1.112,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-14",
-    "dynamic_z": 0.8424,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-17",
-    "dynamic_z": 0.9305,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-18",
-    "dynamic_z": 0.3368,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-19",
-    "dynamic_z": 0.299,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-20",
-    "dynamic_z": 0.3334,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-21",
-    "dynamic_z": 0.6136,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-24",
-    "dynamic_z": 1.5304,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-25",
-    "dynamic_z": 1.5704,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-26",
-    "dynamic_z": 2.1384,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-27",
-    "dynamic_z": 2.3718,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-28",
-    "dynamic_z": 2.5708,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-08-31",
-    "dynamic_z": 1.4874,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-09-01",
-    "dynamic_z": 1.549,
-    "pair_id": "KEL_TPZ"
-  },
-  {
-    "date": "2026-09-02",
-    "dynamic_z": 1.2697,
-    "pair_id": "KEL_TPZ"
+    "date": "2026-09-03",
+    "dynamic_z": 1.0707,
+    "pair_id": "KEL_TVE"
   },
   {
     "date": "2025-04-01",
@@ -30521,7 +27016,7 @@
   },
   {
     "date": "2025-04-28",
-    "dynamic_z": 0.1748,
+    "dynamic_z": 0.1749,
     "pair_id": "KEL_WCP"
   },
   {
@@ -30541,7 +27036,7 @@
   },
   {
     "date": "2025-05-02",
-    "dynamic_z": 0.3109,
+    "dynamic_z": 0.3108,
     "pair_id": "KEL_WCP"
   },
   {
@@ -30771,7 +27266,7 @@
   },
   {
     "date": "2025-07-09",
-    "dynamic_z": -1.0342,
+    "dynamic_z": -1.0343,
     "pair_id": "KEL_WCP"
   },
   {
@@ -31226,7 +27721,7 @@
   },
   {
     "date": "2025-11-18",
-    "dynamic_z": 1.3544,
+    "dynamic_z": 1.3545,
     "pair_id": "KEL_WCP"
   },
   {
@@ -31406,7 +27901,7 @@
   },
   {
     "date": "2026-01-12",
-    "dynamic_z": 0.0417,
+    "dynamic_z": 0.0416,
     "pair_id": "KEL_WCP"
   },
   {
@@ -31451,7 +27946,7 @@
   },
   {
     "date": "2026-01-23",
-    "dynamic_z": -0.8304,
+    "dynamic_z": -0.8303,
     "pair_id": "KEL_WCP"
   },
   {
@@ -31831,7 +28326,7 @@
   },
   {
     "date": "2026-05-13",
-    "dynamic_z": -0.002,
+    "dynamic_z": -0.0021,
     "pair_id": "KEL_WCP"
   },
   {
@@ -31876,7 +28371,7 @@
   },
   {
     "date": "2026-05-27",
-    "dynamic_z": -1.2602,
+    "dynamic_z": -1.2601,
     "pair_id": "KEL_WCP"
   },
   {
@@ -32217,6 +28712,11 @@
   {
     "date": "2026-09-02",
     "dynamic_z": 0.7886,
+    "pair_id": "KEL_WCP"
+  },
+  {
+    "date": "2026-09-03",
+    "dynamic_z": 0.2434,
     "pair_id": "KEL_WCP"
   },
   {
@@ -34010,6 +30510,11 @@
     "pair_id": "OBE_OVV"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 1.306,
+    "pair_id": "OBE_OVV"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 1.819,
     "pair_id": "OBE_SOIL"
@@ -35800,6 +32305,11 @@
     "pair_id": "OBE_SOIL"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 0.5877,
+    "pair_id": "OBE_SOIL"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.0251,
     "pair_id": "SCR_SGY"
@@ -35931,7 +32441,7 @@
   },
   {
     "date": "2025-05-08",
-    "dynamic_z": 1.9919,
+    "dynamic_z": 1.992,
     "pair_id": "SCR_SGY"
   },
   {
@@ -35951,7 +32461,7 @@
   },
   {
     "date": "2025-05-14",
-    "dynamic_z": 0.9149,
+    "dynamic_z": 0.9148,
     "pair_id": "SCR_SGY"
   },
   {
@@ -36036,7 +32546,7 @@
   },
   {
     "date": "2025-06-09",
-    "dynamic_z": 0.6922,
+    "dynamic_z": 0.6923,
     "pair_id": "SCR_SGY"
   },
   {
@@ -36471,7 +32981,7 @@
   },
   {
     "date": "2025-10-14",
-    "dynamic_z": 0.3013,
+    "dynamic_z": 0.3014,
     "pair_id": "SCR_SGY"
   },
   {
@@ -36691,7 +33201,7 @@
   },
   {
     "date": "2025-12-15",
-    "dynamic_z": 0.7718,
+    "dynamic_z": 0.7717,
     "pair_id": "SCR_SGY"
   },
   {
@@ -36726,7 +33236,7 @@
   },
   {
     "date": "2025-12-24",
-    "dynamic_z": -1.277,
+    "dynamic_z": -1.2771,
     "pair_id": "SCR_SGY"
   },
   {
@@ -37590,6 +34100,11 @@
     "pair_id": "SCR_SGY"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": 0.4715,
+    "pair_id": "SCR_SGY"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.7297,
     "pair_id": "SCR_WCP"
@@ -38001,7 +34516,7 @@
   },
   {
     "date": "2025-07-29",
-    "dynamic_z": -1.3499,
+    "dynamic_z": -1.3498,
     "pair_id": "SCR_WCP"
   },
   {
@@ -38231,7 +34746,7 @@
   },
   {
     "date": "2025-10-03",
-    "dynamic_z": -0.0441,
+    "dynamic_z": -0.0442,
     "pair_id": "SCR_WCP"
   },
   {
@@ -38276,7 +34791,7 @@
   },
   {
     "date": "2025-10-17",
-    "dynamic_z": -0.4022,
+    "dynamic_z": -0.4023,
     "pair_id": "SCR_WCP"
   },
   {
@@ -38761,7 +35276,7 @@
   },
   {
     "date": "2026-03-09",
-    "dynamic_z": 2.7253,
+    "dynamic_z": 2.7254,
     "pair_id": "SCR_WCP"
   },
   {
@@ -38986,7 +35501,7 @@
   },
   {
     "date": "2026-05-12",
-    "dynamic_z": -0.7617,
+    "dynamic_z": -0.7618,
     "pair_id": "SCR_WCP"
   },
   {
@@ -39380,6 +35895,11 @@
     "pair_id": "SCR_WCP"
   },
   {
+    "date": "2026-09-03",
+    "dynamic_z": -0.27,
+    "pair_id": "SCR_WCP"
+  },
+  {
     "date": "2025-04-01",
     "dynamic_z": 0.5682,
     "pair_id": "SU_WCP"
@@ -39726,7 +36246,7 @@
   },
   {
     "date": "2025-07-10",
-    "dynamic_z": 0.4261,
+    "dynamic_z": 0.426,
     "pair_id": "SU_WCP"
   },
   {
@@ -40071,7 +36591,7 @@
   },
   {
     "date": "2025-10-20",
-    "dynamic_z": -1.2533,
+    "dynamic_z": -1.2532,
     "pair_id": "SU_WCP"
   },
   {
@@ -40391,7 +36911,7 @@
   },
   {
     "date": "2026-01-21",
-    "dynamic_z": 1.2695,
+    "dynamic_z": 1.2694,
     "pair_id": "SU_WCP"
   },
   {
@@ -40716,7 +37236,7 @@
   },
   {
     "date": "2026-04-24",
-    "dynamic_z": -0.4055,
+    "dynamic_z": -0.4056,
     "pair_id": "SU_WCP"
   },
   {
@@ -40856,7 +37376,7 @@
   },
   {
     "date": "2026-06-04",
-    "dynamic_z": -1.5767,
+    "dynamic_z": -1.5766,
     "pair_id": "SU_WCP"
   },
   {
@@ -41167,6 +37687,11 @@
   {
     "date": "2026-09-02",
     "dynamic_z": 0.2507,
+    "pair_id": "SU_WCP"
+  },
+  {
+    "date": "2026-09-03",
+    "dynamic_z": 0.21,
     "pair_id": "SU_WCP"
   }
 ]
