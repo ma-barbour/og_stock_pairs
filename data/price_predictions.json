@@ -2,22 +2,22 @@
   {
     "ticker": "IMO",
     "actual": 177.99,
-    "expected": 186.14,
-    "divergence_pct": 4.58,
+    "expected": 186.16,
+    "divergence_pct": 4.59,
     "ranked_predictors": ["CNQ", "SU", "CVE", "OVV", "IPO", "ATH", "BIR", "CAD_USD", "NATGAS"]
   },
   {
     "ticker": "TVE",
     "actual": 13.36,
-    "expected": 13.89,
-    "divergence_pct": 4,
+    "expected": 13.91,
+    "divergence_pct": 4.14,
     "ranked_predictors": ["HWX", "BTE", "PSK", "WCP", "CAD_USD", "ATH", "AAV", "SDE", "NATGAS", "POU"]
   },
   {
     "ticker": "ATH",
     "actual": 10.86,
     "expected": 11.25,
-    "divergence_pct": 3.56,
+    "divergence_pct": 3.57,
     "ranked_predictors": ["CJ", "SOIL", "IMO", "AAV", "TOU", "NATGAS", "CAD_USD"]
   },
   {
@@ -30,8 +30,8 @@
   {
     "ticker": "SCR",
     "actual": 43.11,
-    "expected": 44.32,
-    "divergence_pct": 2.8,
+    "expected": 44.37,
+    "divergence_pct": 2.93,
     "ranked_predictors": ["SGY", "WTI", "CJ", "SOIL", "HWX", "CAD_USD", "BIR", "POU", "BTE", "FRU", "IPO"]
   },
   {
@@ -45,7 +45,7 @@
     "ticker": "BIR",
     "actual": 6.5,
     "expected": 6.61,
-    "divergence_pct": 1.69,
+    "divergence_pct": 1.67,
     "ranked_predictors": ["PEY", "AAV", "NATGAS", "OBE", "CVE", "TOU", "SGY", "BTE", "CAD_USD"]
   },
   {
@@ -72,15 +72,15 @@
   {
     "ticker": "OVV",
     "actual": 89.57,
-    "expected": 89.41,
-    "divergence_pct": -0.18,
+    "expected": 89.42,
+    "divergence_pct": -0.17,
     "ranked_predictors": ["SGY", "CNQ", "IMO", "gas_oil_ratio", "KEL", "CVE", "NATGAS", "CAD_USD"]
   },
   {
     "ticker": "OBE",
     "actual": 16.41,
-    "expected": 16.37,
-    "divergence_pct": -0.25,
+    "expected": 16.34,
+    "divergence_pct": -0.43,
     "ranked_predictors": ["CJ", "SOIL", "SGY", "CAD_USD", "BIR", "PEY", "WTI", "TOU", "BTE", "ATH"]
   },
   {
@@ -93,8 +93,8 @@
   {
     "ticker": "FRU",
     "actual": 17.6,
-    "expected": 17.5,
-    "divergence_pct": -0.59,
+    "expected": 17.49,
+    "divergence_pct": -0.61,
     "ranked_predictors": ["HWX", "PEY", "SDE", "POU", "IPO", "CAD_USD", "AAV", "OBE"]
   },
   {
@@ -105,18 +105,18 @@
     "ranked_predictors": ["BTE", "ATH", "SDE", "POU", "OBE", "SCR", "SGY", "CVE"]
   },
   {
+    "ticker": "SOIL",
+    "actual": 6.44,
+    "expected": 6.37,
+    "divergence_pct": -1.15,
+    "ranked_predictors": ["OBE", "ATH", "WTI", "OVV", "SCR", "AAV", "CAD_USD", "WCP", "PEY", "IPO", "TOU", "BIR"]
+  },
+  {
     "ticker": "SU",
     "actual": 93.14,
     "expected": 91.99,
     "divergence_pct": -1.23,
     "ranked_predictors": ["IMO", "HWX", "BTE", "WTI", "SOIL", "gas_oil_ratio", "PSK", "OVV", "KEL"]
-  },
-  {
-    "ticker": "SOIL",
-    "actual": 6.44,
-    "expected": 6.35,
-    "divergence_pct": -1.34,
-    "ranked_predictors": ["OBE", "ATH", "WTI", "OVV", "SCR", "AAV", "CAD_USD", "WCP", "PEY", "IPO", "TOU", "BIR"]
   },
   {
     "ticker": "PSK",
@@ -156,29 +156,29 @@
   {
     "ticker": "CVE",
     "actual": 44.83,
-    "expected": 43.49,
-    "divergence_pct": -2.99,
+    "expected": 43.5,
+    "divergence_pct": -2.97,
     "ranked_predictors": ["SGY", "IMO", "WCP", "PSK", "SOIL", "SCR", "BIR", "CAD_USD", "OBE", "NATGAS"]
-  },
-  {
-    "ticker": "IPO",
-    "actual": 17.73,
-    "expected": 16.99,
-    "divergence_pct": -4.19,
-    "ranked_predictors": ["CNQ", "FRU", "IMO", "WTI", "CAD_USD", "TOU", "SOIL"]
   },
   {
     "ticker": "SGY",
     "actual": 11.16,
-    "expected": 10.69,
-    "divergence_pct": -4.19,
+    "expected": 10.7,
+    "divergence_pct": -4.14,
     "ranked_predictors": ["WCP", "OBE", "CVE", "OVV", "SCR", "CAD_USD", "AAV", "BIR", "POU"]
+  },
+  {
+    "ticker": "IPO",
+    "actual": 17.73,
+    "expected": 16.98,
+    "divergence_pct": -4.25,
+    "ranked_predictors": ["CNQ", "FRU", "IMO", "WTI", "CAD_USD", "TOU", "SOIL"]
   },
   {
     "ticker": "AAV",
     "actual": 11.06,
-    "expected": 10.41,
-    "divergence_pct": -5.87,
+    "expected": 10.42,
+    "divergence_pct": -5.83,
     "ranked_predictors": ["BIR", "ATH", "PEY", "BTE", "CAD_USD", "TOU", "SDE", "SGY"]
   }
 ]
