@@ -18160,7 +18160,7 @@
   {
     "date": "2026-01-08",
     "symbol": "WCP",
-    "adjusted": 10.58,
+    "adjusted": 10.59,
     "sma_20": 10.97,
     "sma_50": 10.81
   },
@@ -36647,106 +36647,211 @@
   {
     "date": "2026-09-22",
     "symbol": "ATH",
-    "adjusted": 10.1,
+    "adjusted": 10.09,
     "sma_20": 10.75,
     "sma_50": 10.67
   },
   {
     "date": "2026-09-22",
     "symbol": "CJ",
-    "adjusted": 12.13,
-    "sma_20": 12.13,
-    "sma_50": 11.59
+    "adjusted": 12.05,
+    "sma_20": 12.12,
+    "sma_50": 11.58
   },
   {
     "date": "2026-09-22",
     "symbol": "FRU",
-    "adjusted": 17.01,
-    "sma_20": 17.56,
+    "adjusted": 16.9,
+    "sma_20": 17.55,
     "sma_50": 17.16
   },
   {
     "date": "2026-09-22",
     "symbol": "HWX",
-    "adjusted": 13.5,
+    "adjusted": 13.41,
     "sma_20": 14.07,
     "sma_50": 13.55
   },
   {
     "date": "2026-09-22",
     "symbol": "IMO",
-    "adjusted": 177.58,
-    "sma_20": 181.66,
-    "sma_50": 180.03
+    "adjusted": 176.63,
+    "sma_20": 181.62,
+    "sma_50": 180.01
   },
   {
     "date": "2026-09-22",
     "symbol": "KEL",
-    "adjusted": 10.52,
+    "adjusted": 10.53,
     "sma_20": 10.66,
     "sma_50": 10.11
   },
   {
     "date": "2026-09-22",
     "symbol": "OBE",
-    "adjusted": 16.28,
-    "sma_20": 16.66,
+    "adjusted": 16.05,
+    "sma_20": 16.64,
     "sma_50": 15.28
   },
   {
     "date": "2026-09-22",
     "symbol": "OVV",
-    "adjusted": 84.49,
+    "adjusted": 84.36,
     "sma_20": 89.01,
     "sma_50": 86.77
   },
   {
     "date": "2026-09-22",
     "symbol": "SOIL",
-    "adjusted": 6.71,
+    "adjusted": 6.73,
     "sma_20": 6.69,
     "sma_50": 6.07
   },
   {
     "date": "2026-09-22",
     "symbol": "SDE",
-    "adjusted": 12.75,
+    "adjusted": 12.84,
     "sma_20": 13.28,
-    "sma_50": 12.47
+    "sma_50": 12.48
   },
   {
     "date": "2026-09-22",
     "symbol": "SCR",
-    "adjusted": 40.7,
-    "sma_20": 43.05,
-    "sma_50": 42.02
+    "adjusted": 40.06,
+    "sma_20": 43.02,
+    "sma_50": 42.01
   },
   {
     "date": "2026-09-22",
     "symbol": "SGY",
-    "adjusted": 11.47,
+    "adjusted": 11.44,
     "sma_20": 11.54,
     "sma_50": 10.7
   },
   {
     "date": "2026-09-22",
     "symbol": "SU",
-    "adjusted": 94.49,
-    "sma_20": 94.29,
-    "sma_50": 91.46
+    "adjusted": 95.12,
+    "sma_20": 94.32,
+    "sma_50": 91.47
   },
   {
     "date": "2026-09-22",
     "symbol": "TVE",
-    "adjusted": 13.26,
-    "sma_20": 13.55,
+    "adjusted": 13.12,
+    "sma_20": 13.54,
     "sma_50": 13.3
   },
   {
     "date": "2026-09-22",
     "symbol": "WCP",
-    "adjusted": 18.3,
+    "adjusted": 18.28,
     "sma_20": 18.31,
     "sma_50": 17.22
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "ATH",
+    "adjusted": 10.08,
+    "sma_20": 10.73,
+    "sma_50": 10.65
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "CJ",
+    "adjusted": 11.97,
+    "sma_20": 12.14,
+    "sma_50": 11.61
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "FRU",
+    "adjusted": 16.8,
+    "sma_20": 17.52,
+    "sma_50": 17.17
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "HWX",
+    "adjusted": 13.31,
+    "sma_20": 14.03,
+    "sma_50": 13.56
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "IMO",
+    "adjusted": 175.68,
+    "sma_20": 181.35,
+    "sma_50": 180.04
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "KEL",
+    "adjusted": 10.53,
+    "sma_20": 10.67,
+    "sma_50": 10.12
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "OBE",
+    "adjusted": 15.81,
+    "sma_20": 16.67,
+    "sma_50": 15.34
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "OVV",
+    "adjusted": 84.24,
+    "sma_20": 88.78,
+    "sma_50": 86.86
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "SOIL",
+    "adjusted": 6.75,
+    "sma_20": 6.73,
+    "sma_50": 6.09
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "SDE",
+    "adjusted": 12.94,
+    "sma_20": 13.28,
+    "sma_50": 12.5
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "SCR",
+    "adjusted": 39.42,
+    "sma_20": 42.91,
+    "sma_50": 41.99
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "SGY",
+    "adjusted": 11.41,
+    "sma_20": 11.57,
+    "sma_50": 10.75
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "SU",
+    "adjusted": 95.76,
+    "sma_20": 94.62,
+    "sma_50": 91.66
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "TVE",
+    "adjusted": 12.99,
+    "sma_20": 13.53,
+    "sma_50": 13.3
+  },
+  {
+    "date": "2026-09-23",
+    "symbol": "WCP",
+    "adjusted": 18.26,
+    "sma_20": 18.35,
+    "sma_50": 17.27
   }
 ]
