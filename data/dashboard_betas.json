@@ -7,7 +7,7 @@
   },
   {
     "ticker": "SOIL",
-    "WTI_Share": 36.7,
+    "WTI_Share": 36.8,
     "NG_Share": 1.2,
     "Unexplained": 62
   },
@@ -20,7 +20,7 @@
   {
     "ticker": "OVV",
     "WTI_Share": 30.9,
-    "NG_Share": 3.5,
+    "NG_Share": 3.6,
     "Unexplained": 65.5
   },
   {
@@ -43,7 +43,7 @@
   },
   {
     "ticker": "ATH",
-    "WTI_Share": 27.9,
+    "WTI_Share": 28,
     "NG_Share": 0.9,
     "Unexplained": 71.2
   },
@@ -61,19 +61,19 @@
   },
   {
     "ticker": "POU",
-    "WTI_Share": 25.8,
+    "WTI_Share": 26,
     "NG_Share": 0.3,
-    "Unexplained": 73.9
+    "Unexplained": 73.8
   },
   {
     "ticker": "CJ",
     "WTI_Share": 25.3,
-    "NG_Share": 6.9,
+    "NG_Share": 6.8,
     "Unexplained": 67.8
   },
   {
     "ticker": "IPO",
-    "WTI_Share": 24.1,
+    "WTI_Share": 24,
     "NG_Share": 1.2,
     "Unexplained": 74.7
   },
@@ -85,26 +85,26 @@
   },
   {
     "ticker": "TPZ",
-    "WTI_Share": 21.1,
+    "WTI_Share": 21.2,
     "NG_Share": 4.3,
-    "Unexplained": 74.6
+    "Unexplained": 74.5
   },
   {
     "ticker": "SDE",
-    "WTI_Share": 20.6,
-    "NG_Share": 3.7,
-    "Unexplained": 75.7
+    "WTI_Share": 20.7,
+    "NG_Share": 3.8,
+    "Unexplained": 75.5
   },
   {
     "ticker": "BTE",
-    "WTI_Share": 20.4,
-    "NG_Share": 1.2,
+    "WTI_Share": 20.3,
+    "NG_Share": 1.3,
     "Unexplained": 78.4
   },
   {
     "ticker": "PSK",
-    "WTI_Share": 19.4,
-    "NG_Share": 1.3,
+    "WTI_Share": 19.5,
+    "NG_Share": 1.4,
     "Unexplained": 79.2
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "ticker": "KEL",
-    "WTI_Share": 18.1,
+    "WTI_Share": 18,
     "NG_Share": 2.6,
     "Unexplained": 79.3
   },
@@ -139,7 +139,7 @@
   },
   {
     "ticker": "PEY",
-    "WTI_Share": 14.3,
+    "WTI_Share": 14.2,
     "NG_Share": 5.5,
     "Unexplained": 80.3
   },
@@ -152,7 +152,7 @@
   {
     "ticker": "BIR",
     "WTI_Share": 12.8,
-    "NG_Share": 5.3,
+    "NG_Share": 5.4,
     "Unexplained": 81.8
   }
 ]
