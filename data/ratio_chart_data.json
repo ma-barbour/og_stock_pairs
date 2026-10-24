@@ -1750,6 +1750,11 @@
     "ratio": 0.8915
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "ATH_CJ",
+    "ratio": 0.8809
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "KEL_SU",
     "ratio": 0.1443
@@ -3498,6 +3503,11 @@
     "date": "2026-10-22",
     "ratio_id": "KEL_SU",
     "ratio": 0.1067
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "KEL_SU",
+    "ratio": 0.1053
   },
   {
     "date": "2025-06-02",
@@ -5250,6 +5260,11 @@
     "ratio": 1.2073
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "FRU_SDE",
+    "ratio": 1.1883
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "KEL_TVE",
     "ratio": 1.5822
@@ -6998,6 +7013,11 @@
     "date": "2026-10-22",
     "ratio_id": "KEL_TVE",
     "ratio": 0.7891
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "KEL_TVE",
+    "ratio": 0.7776
   },
   {
     "date": "2025-06-02",
@@ -8750,6 +8770,11 @@
     "ratio": 0.5709
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "KEL_WCP",
+    "ratio": 0.5732
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "IMO_TVE",
     "ratio": 22.1344
@@ -8967,7 +8992,7 @@
   {
     "date": "2025-08-01",
     "ratio_id": "IMO_TVE",
-    "ratio": 21.5053
+    "ratio": 21.5054
   },
   {
     "date": "2025-08-05",
@@ -9092,7 +9117,7 @@
   {
     "date": "2025-09-09",
     "ratio_id": "IMO_TVE",
-    "ratio": 22.6059
+    "ratio": 22.6058
   },
   {
     "date": "2025-09-10",
@@ -9172,7 +9197,7 @@
   {
     "date": "2025-10-01",
     "ratio_id": "IMO_TVE",
-    "ratio": 20.4894
+    "ratio": 20.4893
   },
   {
     "date": "2025-10-02",
@@ -9197,7 +9222,7 @@
   {
     "date": "2025-10-08",
     "ratio_id": "IMO_TVE",
-    "ratio": 19.6085
+    "ratio": 19.6086
   },
   {
     "date": "2025-10-09",
@@ -9362,7 +9387,7 @@
   {
     "date": "2025-11-25",
     "ratio_id": "IMO_TVE",
-    "ratio": 18.2989
+    "ratio": 18.299
   },
   {
     "date": "2025-11-26",
@@ -9447,7 +9472,7 @@
   {
     "date": "2025-12-18",
     "ratio_id": "IMO_TVE",
-    "ratio": 15.4674
+    "ratio": 15.4675
   },
   {
     "date": "2025-12-19",
@@ -9562,7 +9587,7 @@
   {
     "date": "2026-01-23",
     "ratio_id": "IMO_TVE",
-    "ratio": 15.7061
+    "ratio": 15.7062
   },
   {
     "date": "2026-01-26",
@@ -10498,6 +10523,11 @@
     "date": "2026-10-22",
     "ratio_id": "IMO_TVE",
     "ratio": 12.613
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "IMO_TVE",
+    "ratio": 12.5312
   },
   {
     "date": "2025-06-02",
@@ -12250,6 +12280,11 @@
     "ratio": 0.0645
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "ATH_IMO",
+    "ratio": 0.0635
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "ATH_SCR",
     "ratio": 0.2493
@@ -14000,6 +14035,11 @@
     "ratio": 0.278
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "ATH_SCR",
+    "ratio": 0.2716
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "IMO_KEL",
     "ratio": 13.9895
@@ -14207,7 +14247,7 @@
   {
     "date": "2025-07-30",
     "ratio_id": "IMO_KEL",
-    "ratio": 15.2116
+    "ratio": 15.2117
   },
   {
     "date": "2025-07-31",
@@ -14417,7 +14457,7 @@
   {
     "date": "2025-09-30",
     "ratio_id": "IMO_KEL",
-    "ratio": 17.9687
+    "ratio": 17.9686
   },
   {
     "date": "2025-10-01",
@@ -14602,7 +14642,7 @@
   {
     "date": "2025-11-21",
     "ratio_id": "IMO_KEL",
-    "ratio": 18.0981
+    "ratio": 18.0982
   },
   {
     "date": "2025-11-24",
@@ -15748,6 +15788,11 @@
     "date": "2026-10-22",
     "ratio_id": "IMO_KEL",
     "ratio": 15.9844
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "IMO_KEL",
+    "ratio": 16.1161
   },
   {
     "date": "2025-06-02",
@@ -17500,1754 +17545,9 @@
     "ratio": 0.0723
   },
   {
-    "date": "2025-06-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.89
-  },
-  {
-    "date": "2025-06-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.885
-  },
-  {
-    "date": "2025-06-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8858
-  },
-  {
-    "date": "2025-06-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8678
-  },
-  {
-    "date": "2025-06-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8445
-  },
-  {
-    "date": "2025-06-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.822
-  },
-  {
-    "date": "2025-06-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.823
-  },
-  {
-    "date": "2025-06-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8177
-  },
-  {
-    "date": "2025-06-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8383
-  },
-  {
-    "date": "2025-06-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8072
-  },
-  {
-    "date": "2025-06-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7972
-  },
-  {
-    "date": "2025-06-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7833
-  },
-  {
-    "date": "2025-06-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7914
-  },
-  {
-    "date": "2025-06-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7853
-  },
-  {
-    "date": "2025-06-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7991
-  },
-  {
-    "date": "2025-06-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8053
-  },
-  {
-    "date": "2025-06-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8116
-  },
-  {
-    "date": "2025-06-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8143
-  },
-  {
-    "date": "2025-06-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8267
-  },
-  {
-    "date": "2025-06-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8267
-  },
-  {
-    "date": "2025-06-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8404
-  },
-  {
-    "date": "2025-07-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8337
-  },
-  {
-    "date": "2025-07-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8345
-  },
-  {
-    "date": "2025-07-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8502
-  },
-  {
-    "date": "2025-07-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8555
-  },
-  {
-    "date": "2025-07-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8223
-  },
-  {
-    "date": "2025-07-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.817
-  },
-  {
-    "date": "2025-07-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8209
-  },
-  {
-    "date": "2025-07-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7963
-  },
-  {
-    "date": "2025-07-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7947
-  },
-  {
-    "date": "2025-07-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8179
-  },
-  {
-    "date": "2025-07-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8174
-  },
-  {
-    "date": "2025-07-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8398
-  },
-  {
-    "date": "2025-07-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7946
-  },
-  {
-    "date": "2025-07-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7973
-  },
-  {
-    "date": "2025-07-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.767
-  },
-  {
-    "date": "2025-07-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7686
-  },
-  {
-    "date": "2025-07-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7719
-  },
-  {
-    "date": "2025-07-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7991
-  },
-  {
-    "date": "2025-07-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7875
-  },
-  {
-    "date": "2025-07-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7893
-  },
-  {
-    "date": "2025-07-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8057
-  },
-  {
-    "date": "2025-07-31",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7937
-  },
-  {
-    "date": "2025-08-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7964
-  },
-  {
-    "date": "2025-08-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8324
-  },
-  {
-    "date": "2025-08-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8375
-  },
-  {
-    "date": "2025-08-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8577
-  },
-  {
-    "date": "2025-08-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8646
-  },
-  {
-    "date": "2025-08-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8589
-  },
-  {
-    "date": "2025-08-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8395
-  },
-  {
-    "date": "2025-08-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8514
-  },
-  {
-    "date": "2025-08-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8874
-  },
-  {
-    "date": "2025-08-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8985
-  },
-  {
-    "date": "2025-08-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8914
-  },
-  {
-    "date": "2025-08-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8936
-  },
-  {
-    "date": "2025-08-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9036
-  },
-  {
-    "date": "2025-08-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8971
-  },
-  {
-    "date": "2025-08-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9005
-  },
-  {
-    "date": "2025-08-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9154
-  },
-  {
-    "date": "2025-08-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9733
-  },
-  {
-    "date": "2025-08-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9483
-  },
-  {
-    "date": "2025-08-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.954
-  },
-  {
-    "date": "2025-08-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9282
-  },
-  {
-    "date": "2025-09-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9071
-  },
-  {
-    "date": "2025-09-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9206
-  },
-  {
-    "date": "2025-09-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9266
-  },
-  {
-    "date": "2025-09-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9466
-  },
-  {
-    "date": "2025-09-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.948
-  },
-  {
-    "date": "2025-09-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8817
-  },
-  {
-    "date": "2025-09-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8396
-  },
-  {
-    "date": "2025-09-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8202
-  },
-  {
-    "date": "2025-09-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8162
-  },
-  {
-    "date": "2025-09-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.824
-  },
-  {
-    "date": "2025-09-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.808
-  },
-  {
-    "date": "2025-09-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7222
-  },
-  {
-    "date": "2025-09-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7337
-  },
-  {
-    "date": "2025-09-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.76
-  },
-  {
-    "date": "2025-09-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7327
-  },
-  {
-    "date": "2025-09-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7364
-  },
-  {
-    "date": "2025-09-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7658
-  },
-  {
-    "date": "2025-09-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7713
-  },
-  {
-    "date": "2025-09-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7575
-  },
-  {
-    "date": "2025-09-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.756
-  },
-  {
-    "date": "2025-09-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7869
-  },
-  {
-    "date": "2025-10-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7938
-  },
-  {
-    "date": "2025-10-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7979
-  },
-  {
-    "date": "2025-10-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7932
-  },
-  {
-    "date": "2025-10-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7747
-  },
-  {
-    "date": "2025-10-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7789
-  },
-  {
-    "date": "2025-10-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7666
-  },
-  {
-    "date": "2025-10-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7793
-  },
-  {
-    "date": "2025-10-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8265
-  },
-  {
-    "date": "2025-10-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.858
-  },
-  {
-    "date": "2025-10-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8581
-  },
-  {
-    "date": "2025-10-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8935
-  },
-  {
-    "date": "2025-10-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.896
-  },
-  {
-    "date": "2025-10-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.9098
-  },
-  {
-    "date": "2025-10-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.914
-  },
-  {
-    "date": "2025-10-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8668
-  },
-  {
-    "date": "2025-10-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8593
-  },
-  {
-    "date": "2025-10-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8585
-  },
-  {
-    "date": "2025-10-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8783
-  },
-  {
-    "date": "2025-10-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8731
-  },
-  {
-    "date": "2025-10-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.872
-  },
-  {
-    "date": "2025-10-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8904
-  },
-  {
-    "date": "2025-10-31",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8794
-  },
-  {
-    "date": "2025-11-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8627
-  },
-  {
-    "date": "2025-11-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8625
-  },
-  {
-    "date": "2025-11-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8308
-  },
-  {
-    "date": "2025-11-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8605
-  },
-  {
-    "date": "2025-11-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.8002
-  },
-  {
-    "date": "2025-11-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7602
-  },
-  {
-    "date": "2025-11-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7642
-  },
-  {
-    "date": "2025-11-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7581
-  },
-  {
-    "date": "2025-11-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7781
-  },
-  {
-    "date": "2025-11-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7666
-  },
-  {
-    "date": "2025-11-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.772
-  },
-  {
-    "date": "2025-11-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.7323
-  },
-  {
-    "date": "2025-11-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6674
-  },
-  {
-    "date": "2025-11-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6615
-  },
-  {
-    "date": "2025-11-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6807
-  },
-  {
-    "date": "2025-11-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6765
-  },
-  {
-    "date": "2025-11-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6694
-  },
-  {
-    "date": "2025-11-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6659
-  },
-  {
-    "date": "2025-11-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6651
-  },
-  {
-    "date": "2025-11-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6471
-  },
-  {
-    "date": "2025-12-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6299
-  },
-  {
-    "date": "2025-12-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6094
-  },
-  {
-    "date": "2025-12-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6044
-  },
-  {
-    "date": "2025-12-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5733
-  },
-  {
-    "date": "2025-12-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5835
-  },
-  {
-    "date": "2025-12-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6153
-  },
-  {
-    "date": "2025-12-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6163
-  },
-  {
-    "date": "2025-12-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6224
-  },
-  {
-    "date": "2025-12-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6601
-  },
-  {
-    "date": "2025-12-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6535
-  },
-  {
-    "date": "2025-12-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6568
-  },
-  {
-    "date": "2025-12-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6723
-  },
-  {
-    "date": "2025-12-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6518
-  },
-  {
-    "date": "2025-12-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6346
-  },
-  {
-    "date": "2025-12-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6224
-  },
-  {
-    "date": "2025-12-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6273
-  },
-  {
-    "date": "2025-12-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6087
-  },
-  {
-    "date": "2025-12-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5972
-  },
-  {
-    "date": "2025-12-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5919
-  },
-  {
-    "date": "2025-12-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5922
-  },
-  {
-    "date": "2025-12-31",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5893
-  },
-  {
-    "date": "2026-01-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5671
-  },
-  {
-    "date": "2026-01-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6101
-  },
-  {
-    "date": "2026-01-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5975
-  },
-  {
-    "date": "2026-01-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.6079
-  },
-  {
-    "date": "2026-01-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5867
-  },
-  {
-    "date": "2026-01-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5527
-  },
-  {
-    "date": "2026-01-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5805
-  },
-  {
-    "date": "2026-01-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5424
-  },
-  {
-    "date": "2026-01-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.543
-  },
-  {
-    "date": "2026-01-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.5176
-  },
-  {
-    "date": "2026-01-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4899
-  },
-  {
-    "date": "2026-01-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.472
-  },
-  {
-    "date": "2026-01-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4603
-  },
-  {
-    "date": "2026-01-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4542
-  },
-  {
-    "date": "2026-01-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.466
-  },
-  {
-    "date": "2026-01-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4503
-  },
-  {
-    "date": "2026-01-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4486
-  },
-  {
-    "date": "2026-01-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.435
-  },
-  {
-    "date": "2026-01-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4313
-  },
-  {
-    "date": "2026-01-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4498
-  },
-  {
-    "date": "2026-01-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4677
-  },
-  {
-    "date": "2026-02-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4591
-  },
-  {
-    "date": "2026-02-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4315
-  },
-  {
-    "date": "2026-02-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4259
-  },
-  {
-    "date": "2026-02-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4347
-  },
-  {
-    "date": "2026-02-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4218
-  },
-  {
-    "date": "2026-02-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4058
-  },
-  {
-    "date": "2026-02-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4105
-  },
-  {
-    "date": "2026-02-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4019
-  },
-  {
-    "date": "2026-02-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.439
-  },
-  {
-    "date": "2026-02-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4363
-  },
-  {
-    "date": "2026-02-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4677
-  },
-  {
-    "date": "2026-02-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4425
-  },
-  {
-    "date": "2026-02-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4419
-  },
-  {
-    "date": "2026-02-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4435
-  },
-  {
-    "date": "2026-02-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4298
-  },
-  {
-    "date": "2026-02-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4412
-  },
-  {
-    "date": "2026-02-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4178
-  },
-  {
-    "date": "2026-02-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4155
-  },
-  {
-    "date": "2026-02-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3875
-  },
-  {
-    "date": "2026-03-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3577
-  },
-  {
-    "date": "2026-03-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4065
-  },
-  {
-    "date": "2026-03-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4036
-  },
-  {
-    "date": "2026-03-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4242
-  },
-  {
-    "date": "2026-03-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4406
-  },
-  {
-    "date": "2026-03-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4307
-  },
-  {
-    "date": "2026-03-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.379
-  },
-  {
-    "date": "2026-03-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3866
-  },
-  {
-    "date": "2026-03-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3335
-  },
-  {
-    "date": "2026-03-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3455
-  },
-  {
-    "date": "2026-03-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3715
-  },
-  {
-    "date": "2026-03-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3673
-  },
-  {
-    "date": "2026-03-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3882
-  },
-  {
-    "date": "2026-03-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3396
-  },
-  {
-    "date": "2026-03-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3556
-  },
-  {
-    "date": "2026-03-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3458
-  },
-  {
-    "date": "2026-03-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3627
-  },
-  {
-    "date": "2026-03-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3669
-  },
-  {
-    "date": "2026-03-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3607
-  },
-  {
-    "date": "2026-03-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.325
-  },
-  {
-    "date": "2026-03-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3279
-  },
-  {
-    "date": "2026-03-31",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3348
-  },
-  {
-    "date": "2026-04-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3707
-  },
-  {
-    "date": "2026-04-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3491
-  },
-  {
-    "date": "2026-04-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.332
-  },
-  {
-    "date": "2026-04-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.337
-  },
-  {
-    "date": "2026-04-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.397
-  },
-  {
-    "date": "2026-04-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4032
-  },
-  {
-    "date": "2026-04-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4042
-  },
-  {
-    "date": "2026-04-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3773
-  },
-  {
-    "date": "2026-04-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3864
-  },
-  {
-    "date": "2026-04-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3811
-  },
-  {
-    "date": "2026-04-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3914
-  },
-  {
-    "date": "2026-04-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4234
-  },
-  {
-    "date": "2026-04-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4174
-  },
-  {
-    "date": "2026-04-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.4148
-  },
-  {
-    "date": "2026-04-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3727
-  },
-  {
-    "date": "2026-04-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3736
-  },
-  {
-    "date": "2026-04-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3501
-  },
-  {
-    "date": "2026-04-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3086
-  },
-  {
-    "date": "2026-04-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3216
-  },
-  {
-    "date": "2026-04-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3242
-  },
-  {
-    "date": "2026-04-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3304
-  },
-  {
-    "date": "2026-05-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.32
-  },
-  {
-    "date": "2026-05-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3307
-  },
-  {
-    "date": "2026-05-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3326
-  },
-  {
-    "date": "2026-05-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3541
-  },
-  {
-    "date": "2026-05-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.352
-  },
-  {
-    "date": "2026-05-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3699
-  },
-  {
-    "date": "2026-05-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3512
-  },
-  {
-    "date": "2026-05-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3571
-  },
-  {
-    "date": "2026-05-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3454
-  },
-  {
-    "date": "2026-05-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3534
-  },
-  {
-    "date": "2026-05-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3289
-  },
-  {
-    "date": "2026-05-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.304
-  },
-  {
-    "date": "2026-05-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3272
-  },
-  {
-    "date": "2026-05-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3475
-  },
-  {
-    "date": "2026-05-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3519
-  },
-  {
-    "date": "2026-05-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3876
-  },
-  {
-    "date": "2026-05-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3887
-  },
-  {
-    "date": "2026-05-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3834
-  },
-  {
-    "date": "2026-05-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3562
-  },
-  {
-    "date": "2026-05-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3477
-  },
-  {
-    "date": "2026-06-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3449
-  },
-  {
-    "date": "2026-06-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3433
-  },
-  {
-    "date": "2026-06-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3376
-  },
-  {
-    "date": "2026-06-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2959
-  },
-  {
-    "date": "2026-06-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3271
-  },
-  {
-    "date": "2026-06-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2981
-  },
-  {
-    "date": "2026-06-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3182
-  },
-  {
-    "date": "2026-06-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2948
-  },
-  {
-    "date": "2026-06-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3053
-  },
-  {
-    "date": "2026-06-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.322
-  },
-  {
-    "date": "2026-06-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3294
-  },
-  {
-    "date": "2026-06-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3396
-  },
-  {
-    "date": "2026-06-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3447
-  },
-  {
-    "date": "2026-06-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3566
-  },
-  {
-    "date": "2026-06-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3378
-  },
-  {
-    "date": "2026-06-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3479
-  },
-  {
-    "date": "2026-06-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3119
-  },
-  {
-    "date": "2026-06-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3343
-  },
-  {
-    "date": "2026-06-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3473
-  },
-  {
-    "date": "2026-06-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3437
-  },
-  {
-    "date": "2026-06-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3438
-  },
-  {
-    "date": "2026-06-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3542
-  },
-  {
-    "date": "2026-07-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3447
-  },
-  {
-    "date": "2026-07-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3434
-  },
-  {
-    "date": "2026-07-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3664
-  },
-  {
-    "date": "2026-07-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3548
-  },
-  {
-    "date": "2026-07-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3162
-  },
-  {
-    "date": "2026-07-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3311
-  },
-  {
-    "date": "2026-07-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3038
-  },
-  {
-    "date": "2026-07-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2849
-  },
-  {
-    "date": "2026-07-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2871
-  },
-  {
-    "date": "2026-07-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3018
-  },
-  {
-    "date": "2026-07-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3116
-  },
-  {
-    "date": "2026-07-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2973
-  },
-  {
-    "date": "2026-07-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2744
-  },
-  {
-    "date": "2026-07-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2899
-  },
-  {
-    "date": "2026-07-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2883
-  },
-  {
-    "date": "2026-07-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2807
-  },
-  {
-    "date": "2026-07-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2505
-  },
-  {
-    "date": "2026-07-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2595
-  },
-  {
-    "date": "2026-07-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2624
-  },
-  {
-    "date": "2026-07-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2467
-  },
-  {
-    "date": "2026-07-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2832
-  },
-  {
-    "date": "2026-07-31",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.29
-  },
-  {
-    "date": "2026-08-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3174
-  },
-  {
-    "date": "2026-08-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3363
-  },
-  {
-    "date": "2026-08-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3404
-  },
-  {
-    "date": "2026-08-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3188
-  },
-  {
-    "date": "2026-08-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2953
-  },
-  {
-    "date": "2026-08-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2849
-  },
-  {
-    "date": "2026-08-12",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2783
-  },
-  {
-    "date": "2026-08-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.292
-  },
-  {
-    "date": "2026-08-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2914
-  },
-  {
-    "date": "2026-08-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2752
-  },
-  {
-    "date": "2026-08-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.267
-  },
-  {
-    "date": "2026-08-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2782
-  },
-  {
-    "date": "2026-08-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2599
-  },
-  {
-    "date": "2026-08-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2449
-  },
-  {
-    "date": "2026-08-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2461
-  },
-  {
-    "date": "2026-08-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2502
-  },
-  {
-    "date": "2026-08-26",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2427
-  },
-  {
-    "date": "2026-08-27",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2192
-  },
-  {
-    "date": "2026-08-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2274
-  },
-  {
-    "date": "2026-08-31",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2215
-  },
-  {
-    "date": "2026-09-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2237
-  },
-  {
-    "date": "2026-09-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2371
-  },
-  {
-    "date": "2026-09-03",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2406
-  },
-  {
-    "date": "2026-09-04",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2421
-  },
-  {
-    "date": "2026-09-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2568
-  },
-  {
-    "date": "2026-09-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2932
-  },
-  {
-    "date": "2026-09-10",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2865
-  },
-  {
-    "date": "2026-09-11",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.3
-  },
-  {
-    "date": "2026-09-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2673
-  },
-  {
-    "date": "2026-09-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2327
-  },
-  {
-    "date": "2026-09-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2512
-  },
-  {
-    "date": "2026-09-17",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2779
-  },
-  {
-    "date": "2026-09-18",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2496
-  },
-  {
-    "date": "2026-09-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2645
-  },
-  {
-    "date": "2026-09-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2784
-  },
-  {
-    "date": "2026-09-23",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2667
-  },
-  {
-    "date": "2026-09-24",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2558
-  },
-  {
-    "date": "2026-09-25",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2578
-  },
-  {
-    "date": "2026-09-28",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2485
-  },
-  {
-    "date": "2026-09-29",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2392
-  },
-  {
-    "date": "2026-09-30",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2309
-  },
-  {
-    "date": "2026-10-01",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2222
-  },
-  {
-    "date": "2026-10-02",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.214
-  },
-  {
-    "date": "2026-10-05",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2167
-  },
-  {
-    "date": "2026-10-06",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2363
-  },
-  {
-    "date": "2026-10-07",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2263
-  },
-  {
-    "date": "2026-10-08",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2147
-  },
-  {
-    "date": "2026-10-09",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2135
-  },
-  {
-    "date": "2026-10-13",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.201
-  },
-  {
-    "date": "2026-10-14",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2035
-  },
-  {
-    "date": "2026-10-15",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2034
-  },
-  {
-    "date": "2026-10-16",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.1977
-  },
-  {
-    "date": "2026-10-19",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.1788
-  },
-  {
-    "date": "2026-10-20",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.2049
-  },
-  {
-    "date": "2026-10-21",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.1918
-  },
-  {
-    "date": "2026-10-22",
-    "ratio_id": "FRU_HWX",
-    "ratio": 1.1901
+    "date": "2026-10-23",
+    "ratio_id": "CJ_IMO",
+    "ratio": 0.0721
   },
   {
     "date": "2025-06-02",
@@ -21000,6 +19300,1766 @@
     "ratio": 2.7687
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "CVE_OBE",
+    "ratio": 2.7255
+  },
+  {
+    "date": "2025-06-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.89
+  },
+  {
+    "date": "2025-06-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.885
+  },
+  {
+    "date": "2025-06-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8858
+  },
+  {
+    "date": "2025-06-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8678
+  },
+  {
+    "date": "2025-06-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8445
+  },
+  {
+    "date": "2025-06-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.822
+  },
+  {
+    "date": "2025-06-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.823
+  },
+  {
+    "date": "2025-06-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8177
+  },
+  {
+    "date": "2025-06-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8383
+  },
+  {
+    "date": "2025-06-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8072
+  },
+  {
+    "date": "2025-06-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7972
+  },
+  {
+    "date": "2025-06-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7833
+  },
+  {
+    "date": "2025-06-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7914
+  },
+  {
+    "date": "2025-06-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7853
+  },
+  {
+    "date": "2025-06-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7991
+  },
+  {
+    "date": "2025-06-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8053
+  },
+  {
+    "date": "2025-06-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8116
+  },
+  {
+    "date": "2025-06-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8143
+  },
+  {
+    "date": "2025-06-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8267
+  },
+  {
+    "date": "2025-06-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8267
+  },
+  {
+    "date": "2025-06-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8404
+  },
+  {
+    "date": "2025-07-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8337
+  },
+  {
+    "date": "2025-07-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8345
+  },
+  {
+    "date": "2025-07-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8502
+  },
+  {
+    "date": "2025-07-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8555
+  },
+  {
+    "date": "2025-07-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8223
+  },
+  {
+    "date": "2025-07-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.817
+  },
+  {
+    "date": "2025-07-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8209
+  },
+  {
+    "date": "2025-07-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7963
+  },
+  {
+    "date": "2025-07-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7947
+  },
+  {
+    "date": "2025-07-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8179
+  },
+  {
+    "date": "2025-07-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8174
+  },
+  {
+    "date": "2025-07-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8398
+  },
+  {
+    "date": "2025-07-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7946
+  },
+  {
+    "date": "2025-07-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7973
+  },
+  {
+    "date": "2025-07-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.767
+  },
+  {
+    "date": "2025-07-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7686
+  },
+  {
+    "date": "2025-07-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7719
+  },
+  {
+    "date": "2025-07-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7991
+  },
+  {
+    "date": "2025-07-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7875
+  },
+  {
+    "date": "2025-07-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7893
+  },
+  {
+    "date": "2025-07-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8057
+  },
+  {
+    "date": "2025-07-31",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7937
+  },
+  {
+    "date": "2025-08-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7964
+  },
+  {
+    "date": "2025-08-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8324
+  },
+  {
+    "date": "2025-08-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8375
+  },
+  {
+    "date": "2025-08-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8577
+  },
+  {
+    "date": "2025-08-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8646
+  },
+  {
+    "date": "2025-08-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8589
+  },
+  {
+    "date": "2025-08-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8395
+  },
+  {
+    "date": "2025-08-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8514
+  },
+  {
+    "date": "2025-08-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8874
+  },
+  {
+    "date": "2025-08-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8985
+  },
+  {
+    "date": "2025-08-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8914
+  },
+  {
+    "date": "2025-08-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8936
+  },
+  {
+    "date": "2025-08-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9036
+  },
+  {
+    "date": "2025-08-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8971
+  },
+  {
+    "date": "2025-08-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9005
+  },
+  {
+    "date": "2025-08-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9154
+  },
+  {
+    "date": "2025-08-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9733
+  },
+  {
+    "date": "2025-08-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9483
+  },
+  {
+    "date": "2025-08-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.954
+  },
+  {
+    "date": "2025-08-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9282
+  },
+  {
+    "date": "2025-09-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9071
+  },
+  {
+    "date": "2025-09-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9206
+  },
+  {
+    "date": "2025-09-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9266
+  },
+  {
+    "date": "2025-09-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9466
+  },
+  {
+    "date": "2025-09-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.948
+  },
+  {
+    "date": "2025-09-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8817
+  },
+  {
+    "date": "2025-09-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8396
+  },
+  {
+    "date": "2025-09-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8202
+  },
+  {
+    "date": "2025-09-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8162
+  },
+  {
+    "date": "2025-09-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.824
+  },
+  {
+    "date": "2025-09-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.808
+  },
+  {
+    "date": "2025-09-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7222
+  },
+  {
+    "date": "2025-09-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7337
+  },
+  {
+    "date": "2025-09-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.76
+  },
+  {
+    "date": "2025-09-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7327
+  },
+  {
+    "date": "2025-09-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7364
+  },
+  {
+    "date": "2025-09-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7658
+  },
+  {
+    "date": "2025-09-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7713
+  },
+  {
+    "date": "2025-09-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7575
+  },
+  {
+    "date": "2025-09-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.756
+  },
+  {
+    "date": "2025-09-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7869
+  },
+  {
+    "date": "2025-10-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7938
+  },
+  {
+    "date": "2025-10-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7979
+  },
+  {
+    "date": "2025-10-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7932
+  },
+  {
+    "date": "2025-10-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7747
+  },
+  {
+    "date": "2025-10-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7789
+  },
+  {
+    "date": "2025-10-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7666
+  },
+  {
+    "date": "2025-10-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7793
+  },
+  {
+    "date": "2025-10-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8265
+  },
+  {
+    "date": "2025-10-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.858
+  },
+  {
+    "date": "2025-10-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8581
+  },
+  {
+    "date": "2025-10-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8935
+  },
+  {
+    "date": "2025-10-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.896
+  },
+  {
+    "date": "2025-10-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.9098
+  },
+  {
+    "date": "2025-10-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.914
+  },
+  {
+    "date": "2025-10-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8668
+  },
+  {
+    "date": "2025-10-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8593
+  },
+  {
+    "date": "2025-10-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8585
+  },
+  {
+    "date": "2025-10-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8783
+  },
+  {
+    "date": "2025-10-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8731
+  },
+  {
+    "date": "2025-10-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.872
+  },
+  {
+    "date": "2025-10-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8904
+  },
+  {
+    "date": "2025-10-31",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8794
+  },
+  {
+    "date": "2025-11-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8627
+  },
+  {
+    "date": "2025-11-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8625
+  },
+  {
+    "date": "2025-11-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8308
+  },
+  {
+    "date": "2025-11-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8605
+  },
+  {
+    "date": "2025-11-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.8002
+  },
+  {
+    "date": "2025-11-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7602
+  },
+  {
+    "date": "2025-11-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7642
+  },
+  {
+    "date": "2025-11-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7581
+  },
+  {
+    "date": "2025-11-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7781
+  },
+  {
+    "date": "2025-11-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7666
+  },
+  {
+    "date": "2025-11-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.772
+  },
+  {
+    "date": "2025-11-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.7323
+  },
+  {
+    "date": "2025-11-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6674
+  },
+  {
+    "date": "2025-11-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6615
+  },
+  {
+    "date": "2025-11-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6807
+  },
+  {
+    "date": "2025-11-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6765
+  },
+  {
+    "date": "2025-11-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6694
+  },
+  {
+    "date": "2025-11-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6659
+  },
+  {
+    "date": "2025-11-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6651
+  },
+  {
+    "date": "2025-11-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6471
+  },
+  {
+    "date": "2025-12-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6299
+  },
+  {
+    "date": "2025-12-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6094
+  },
+  {
+    "date": "2025-12-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6044
+  },
+  {
+    "date": "2025-12-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5733
+  },
+  {
+    "date": "2025-12-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5835
+  },
+  {
+    "date": "2025-12-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6153
+  },
+  {
+    "date": "2025-12-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6163
+  },
+  {
+    "date": "2025-12-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6224
+  },
+  {
+    "date": "2025-12-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6601
+  },
+  {
+    "date": "2025-12-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6535
+  },
+  {
+    "date": "2025-12-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6568
+  },
+  {
+    "date": "2025-12-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6723
+  },
+  {
+    "date": "2025-12-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6518
+  },
+  {
+    "date": "2025-12-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6346
+  },
+  {
+    "date": "2025-12-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6224
+  },
+  {
+    "date": "2025-12-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6273
+  },
+  {
+    "date": "2025-12-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6087
+  },
+  {
+    "date": "2025-12-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5972
+  },
+  {
+    "date": "2025-12-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5919
+  },
+  {
+    "date": "2025-12-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5922
+  },
+  {
+    "date": "2025-12-31",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5893
+  },
+  {
+    "date": "2026-01-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5671
+  },
+  {
+    "date": "2026-01-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6101
+  },
+  {
+    "date": "2026-01-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5975
+  },
+  {
+    "date": "2026-01-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.6079
+  },
+  {
+    "date": "2026-01-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5867
+  },
+  {
+    "date": "2026-01-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5527
+  },
+  {
+    "date": "2026-01-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5805
+  },
+  {
+    "date": "2026-01-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5424
+  },
+  {
+    "date": "2026-01-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.543
+  },
+  {
+    "date": "2026-01-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.5176
+  },
+  {
+    "date": "2026-01-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4899
+  },
+  {
+    "date": "2026-01-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.472
+  },
+  {
+    "date": "2026-01-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4603
+  },
+  {
+    "date": "2026-01-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4542
+  },
+  {
+    "date": "2026-01-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.466
+  },
+  {
+    "date": "2026-01-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4503
+  },
+  {
+    "date": "2026-01-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4486
+  },
+  {
+    "date": "2026-01-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.435
+  },
+  {
+    "date": "2026-01-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4313
+  },
+  {
+    "date": "2026-01-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4498
+  },
+  {
+    "date": "2026-01-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4677
+  },
+  {
+    "date": "2026-02-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4591
+  },
+  {
+    "date": "2026-02-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4315
+  },
+  {
+    "date": "2026-02-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4259
+  },
+  {
+    "date": "2026-02-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4347
+  },
+  {
+    "date": "2026-02-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4218
+  },
+  {
+    "date": "2026-02-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4058
+  },
+  {
+    "date": "2026-02-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4105
+  },
+  {
+    "date": "2026-02-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4019
+  },
+  {
+    "date": "2026-02-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.439
+  },
+  {
+    "date": "2026-02-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4363
+  },
+  {
+    "date": "2026-02-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4677
+  },
+  {
+    "date": "2026-02-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4425
+  },
+  {
+    "date": "2026-02-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4419
+  },
+  {
+    "date": "2026-02-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4435
+  },
+  {
+    "date": "2026-02-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4298
+  },
+  {
+    "date": "2026-02-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4412
+  },
+  {
+    "date": "2026-02-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4178
+  },
+  {
+    "date": "2026-02-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4155
+  },
+  {
+    "date": "2026-02-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3875
+  },
+  {
+    "date": "2026-03-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3577
+  },
+  {
+    "date": "2026-03-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4065
+  },
+  {
+    "date": "2026-03-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4036
+  },
+  {
+    "date": "2026-03-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4242
+  },
+  {
+    "date": "2026-03-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4406
+  },
+  {
+    "date": "2026-03-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4307
+  },
+  {
+    "date": "2026-03-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.379
+  },
+  {
+    "date": "2026-03-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3866
+  },
+  {
+    "date": "2026-03-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3335
+  },
+  {
+    "date": "2026-03-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3455
+  },
+  {
+    "date": "2026-03-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3715
+  },
+  {
+    "date": "2026-03-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3673
+  },
+  {
+    "date": "2026-03-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3882
+  },
+  {
+    "date": "2026-03-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3396
+  },
+  {
+    "date": "2026-03-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3556
+  },
+  {
+    "date": "2026-03-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3458
+  },
+  {
+    "date": "2026-03-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3627
+  },
+  {
+    "date": "2026-03-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3669
+  },
+  {
+    "date": "2026-03-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3607
+  },
+  {
+    "date": "2026-03-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.325
+  },
+  {
+    "date": "2026-03-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3279
+  },
+  {
+    "date": "2026-03-31",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3348
+  },
+  {
+    "date": "2026-04-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3707
+  },
+  {
+    "date": "2026-04-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3491
+  },
+  {
+    "date": "2026-04-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.332
+  },
+  {
+    "date": "2026-04-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.337
+  },
+  {
+    "date": "2026-04-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.397
+  },
+  {
+    "date": "2026-04-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4032
+  },
+  {
+    "date": "2026-04-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4042
+  },
+  {
+    "date": "2026-04-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3773
+  },
+  {
+    "date": "2026-04-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3864
+  },
+  {
+    "date": "2026-04-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3811
+  },
+  {
+    "date": "2026-04-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3914
+  },
+  {
+    "date": "2026-04-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4234
+  },
+  {
+    "date": "2026-04-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4174
+  },
+  {
+    "date": "2026-04-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.4148
+  },
+  {
+    "date": "2026-04-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3727
+  },
+  {
+    "date": "2026-04-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3736
+  },
+  {
+    "date": "2026-04-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3501
+  },
+  {
+    "date": "2026-04-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3086
+  },
+  {
+    "date": "2026-04-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3216
+  },
+  {
+    "date": "2026-04-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3242
+  },
+  {
+    "date": "2026-04-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3304
+  },
+  {
+    "date": "2026-05-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.32
+  },
+  {
+    "date": "2026-05-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3307
+  },
+  {
+    "date": "2026-05-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3326
+  },
+  {
+    "date": "2026-05-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3541
+  },
+  {
+    "date": "2026-05-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.352
+  },
+  {
+    "date": "2026-05-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3699
+  },
+  {
+    "date": "2026-05-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3512
+  },
+  {
+    "date": "2026-05-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3571
+  },
+  {
+    "date": "2026-05-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3454
+  },
+  {
+    "date": "2026-05-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3534
+  },
+  {
+    "date": "2026-05-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3289
+  },
+  {
+    "date": "2026-05-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.304
+  },
+  {
+    "date": "2026-05-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3272
+  },
+  {
+    "date": "2026-05-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3475
+  },
+  {
+    "date": "2026-05-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3519
+  },
+  {
+    "date": "2026-05-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3876
+  },
+  {
+    "date": "2026-05-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3887
+  },
+  {
+    "date": "2026-05-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3834
+  },
+  {
+    "date": "2026-05-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3562
+  },
+  {
+    "date": "2026-05-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3477
+  },
+  {
+    "date": "2026-06-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3449
+  },
+  {
+    "date": "2026-06-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3433
+  },
+  {
+    "date": "2026-06-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3376
+  },
+  {
+    "date": "2026-06-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2959
+  },
+  {
+    "date": "2026-06-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3271
+  },
+  {
+    "date": "2026-06-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2981
+  },
+  {
+    "date": "2026-06-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3182
+  },
+  {
+    "date": "2026-06-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2948
+  },
+  {
+    "date": "2026-06-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3053
+  },
+  {
+    "date": "2026-06-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.322
+  },
+  {
+    "date": "2026-06-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3294
+  },
+  {
+    "date": "2026-06-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3396
+  },
+  {
+    "date": "2026-06-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3447
+  },
+  {
+    "date": "2026-06-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3566
+  },
+  {
+    "date": "2026-06-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3378
+  },
+  {
+    "date": "2026-06-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3479
+  },
+  {
+    "date": "2026-06-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3119
+  },
+  {
+    "date": "2026-06-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3343
+  },
+  {
+    "date": "2026-06-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3473
+  },
+  {
+    "date": "2026-06-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3437
+  },
+  {
+    "date": "2026-06-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3438
+  },
+  {
+    "date": "2026-06-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3542
+  },
+  {
+    "date": "2026-07-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3447
+  },
+  {
+    "date": "2026-07-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3434
+  },
+  {
+    "date": "2026-07-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3664
+  },
+  {
+    "date": "2026-07-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3548
+  },
+  {
+    "date": "2026-07-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3162
+  },
+  {
+    "date": "2026-07-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3311
+  },
+  {
+    "date": "2026-07-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3038
+  },
+  {
+    "date": "2026-07-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2849
+  },
+  {
+    "date": "2026-07-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2871
+  },
+  {
+    "date": "2026-07-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3018
+  },
+  {
+    "date": "2026-07-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3116
+  },
+  {
+    "date": "2026-07-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2973
+  },
+  {
+    "date": "2026-07-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2744
+  },
+  {
+    "date": "2026-07-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2899
+  },
+  {
+    "date": "2026-07-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2883
+  },
+  {
+    "date": "2026-07-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2807
+  },
+  {
+    "date": "2026-07-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2505
+  },
+  {
+    "date": "2026-07-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2595
+  },
+  {
+    "date": "2026-07-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2624
+  },
+  {
+    "date": "2026-07-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2467
+  },
+  {
+    "date": "2026-07-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2832
+  },
+  {
+    "date": "2026-07-31",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.29
+  },
+  {
+    "date": "2026-08-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3174
+  },
+  {
+    "date": "2026-08-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3363
+  },
+  {
+    "date": "2026-08-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3404
+  },
+  {
+    "date": "2026-08-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3188
+  },
+  {
+    "date": "2026-08-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2953
+  },
+  {
+    "date": "2026-08-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2849
+  },
+  {
+    "date": "2026-08-12",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2783
+  },
+  {
+    "date": "2026-08-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.292
+  },
+  {
+    "date": "2026-08-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2914
+  },
+  {
+    "date": "2026-08-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2752
+  },
+  {
+    "date": "2026-08-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.267
+  },
+  {
+    "date": "2026-08-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2782
+  },
+  {
+    "date": "2026-08-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2599
+  },
+  {
+    "date": "2026-08-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2449
+  },
+  {
+    "date": "2026-08-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2461
+  },
+  {
+    "date": "2026-08-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2502
+  },
+  {
+    "date": "2026-08-26",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2427
+  },
+  {
+    "date": "2026-08-27",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2192
+  },
+  {
+    "date": "2026-08-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2274
+  },
+  {
+    "date": "2026-08-31",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2215
+  },
+  {
+    "date": "2026-09-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2237
+  },
+  {
+    "date": "2026-09-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2371
+  },
+  {
+    "date": "2026-09-03",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2406
+  },
+  {
+    "date": "2026-09-04",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2421
+  },
+  {
+    "date": "2026-09-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2568
+  },
+  {
+    "date": "2026-09-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2932
+  },
+  {
+    "date": "2026-09-10",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2865
+  },
+  {
+    "date": "2026-09-11",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.3
+  },
+  {
+    "date": "2026-09-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2673
+  },
+  {
+    "date": "2026-09-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2327
+  },
+  {
+    "date": "2026-09-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2512
+  },
+  {
+    "date": "2026-09-17",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2779
+  },
+  {
+    "date": "2026-09-18",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2496
+  },
+  {
+    "date": "2026-09-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2645
+  },
+  {
+    "date": "2026-09-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2784
+  },
+  {
+    "date": "2026-09-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2667
+  },
+  {
+    "date": "2026-09-24",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2558
+  },
+  {
+    "date": "2026-09-25",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2578
+  },
+  {
+    "date": "2026-09-28",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2485
+  },
+  {
+    "date": "2026-09-29",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2392
+  },
+  {
+    "date": "2026-09-30",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2309
+  },
+  {
+    "date": "2026-10-01",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2222
+  },
+  {
+    "date": "2026-10-02",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.214
+  },
+  {
+    "date": "2026-10-05",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2167
+  },
+  {
+    "date": "2026-10-06",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2363
+  },
+  {
+    "date": "2026-10-07",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2263
+  },
+  {
+    "date": "2026-10-08",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2147
+  },
+  {
+    "date": "2026-10-09",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2135
+  },
+  {
+    "date": "2026-10-13",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.201
+  },
+  {
+    "date": "2026-10-14",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2035
+  },
+  {
+    "date": "2026-10-15",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2034
+  },
+  {
+    "date": "2026-10-16",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.1977
+  },
+  {
+    "date": "2026-10-19",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.1788
+  },
+  {
+    "date": "2026-10-20",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.2049
+  },
+  {
+    "date": "2026-10-21",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.1918
+  },
+  {
+    "date": "2026-10-22",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.1901
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "FRU_HWX",
+    "ratio": 1.1648
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "CJ_SCR",
     "ratio": 0.2666
@@ -22748,6 +22808,11 @@
     "date": "2026-10-22",
     "ratio_id": "CJ_SCR",
     "ratio": 0.3119
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "CJ_SCR",
+    "ratio": 0.3083
   },
   {
     "date": "2025-06-02",
@@ -24500,6 +24565,11 @@
     "ratio": 1.1557
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "CJ_KEL",
+    "ratio": 1.1614
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "CJ_TVE",
     "ratio": 1.2891
@@ -25227,7 +25297,7 @@
   {
     "date": "2025-12-30",
     "ratio_id": "CJ_TVE",
-    "ratio": 1.041
+    "ratio": 1.0411
   },
   {
     "date": "2025-12-31",
@@ -26248,6 +26318,11 @@
     "date": "2026-10-22",
     "ratio_id": "CJ_TVE",
     "ratio": 0.9119
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "CJ_TVE",
+    "ratio": 0.9031
   },
   {
     "date": "2025-06-02",
@@ -28000,1754 +28075,9 @@
     "ratio": 0.3389
   },
   {
-    "date": "2025-06-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1417
-  },
-  {
-    "date": "2025-06-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1425
-  },
-  {
-    "date": "2025-06-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1419
-  },
-  {
-    "date": "2025-06-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1443
-  },
-  {
-    "date": "2025-06-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1432
-  },
-  {
-    "date": "2025-06-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1438
-  },
-  {
-    "date": "2025-06-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1456
-  },
-  {
-    "date": "2025-06-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.148
-  },
-  {
-    "date": "2025-06-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1471
-  },
-  {
-    "date": "2025-06-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1472
-  },
-  {
-    "date": "2025-06-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1415
-  },
-  {
-    "date": "2025-06-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1482
-  },
-  {
-    "date": "2025-06-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1471
-  },
-  {
-    "date": "2025-06-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1481
-  },
-  {
-    "date": "2025-06-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1458
-  },
-  {
-    "date": "2025-06-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1479
-  },
-  {
-    "date": "2025-06-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.148
-  },
-  {
-    "date": "2025-06-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1482
-  },
-  {
-    "date": "2025-06-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1456
-  },
-  {
-    "date": "2025-06-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1465
-  },
-  {
-    "date": "2025-06-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1506
-  },
-  {
-    "date": "2025-07-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1529
-  },
-  {
-    "date": "2025-07-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1494
-  },
-  {
-    "date": "2025-07-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1509
-  },
-  {
-    "date": "2025-07-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1516
-  },
-  {
-    "date": "2025-07-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1493
-  },
-  {
-    "date": "2025-07-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1528
-  },
-  {
-    "date": "2025-07-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1389
-  },
-  {
-    "date": "2025-07-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1376
-  },
-  {
-    "date": "2025-07-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1364
-  },
-  {
-    "date": "2025-07-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.137
-  },
-  {
-    "date": "2025-07-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1414
-  },
-  {
-    "date": "2025-07-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1419
-  },
-  {
-    "date": "2025-07-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1419
-  },
-  {
-    "date": "2025-07-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1447
-  },
-  {
-    "date": "2025-07-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1481
-  },
-  {
-    "date": "2025-07-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.15
-  },
-  {
-    "date": "2025-07-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1528
-  },
-  {
-    "date": "2025-07-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1454
-  },
-  {
-    "date": "2025-07-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1451
-  },
-  {
-    "date": "2025-07-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1493
-  },
-  {
-    "date": "2025-07-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1526
-  },
-  {
-    "date": "2025-07-31",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1531
-  },
-  {
-    "date": "2025-08-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1552
-  },
-  {
-    "date": "2025-08-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1528
-  },
-  {
-    "date": "2025-08-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1516
-  },
-  {
-    "date": "2025-08-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.154
-  },
-  {
-    "date": "2025-08-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1498
-  },
-  {
-    "date": "2025-08-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.15
-  },
-  {
-    "date": "2025-08-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1487
-  },
-  {
-    "date": "2025-08-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1491
-  },
-  {
-    "date": "2025-08-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1477
-  },
-  {
-    "date": "2025-08-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1466
-  },
-  {
-    "date": "2025-08-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1498
-  },
-  {
-    "date": "2025-08-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1489
-  },
-  {
-    "date": "2025-08-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1486
-  },
-  {
-    "date": "2025-08-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.152
-  },
-  {
-    "date": "2025-08-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1524
-  },
-  {
-    "date": "2025-08-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1518
-  },
-  {
-    "date": "2025-08-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1523
-  },
-  {
-    "date": "2025-08-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1517
-  },
-  {
-    "date": "2025-08-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1542
-  },
-  {
-    "date": "2025-08-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1508
-  },
-  {
-    "date": "2025-09-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1494
-  },
-  {
-    "date": "2025-09-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1486
-  },
-  {
-    "date": "2025-09-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1459
-  },
-  {
-    "date": "2025-09-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1466
-  },
-  {
-    "date": "2025-09-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.147
-  },
-  {
-    "date": "2025-09-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1466
-  },
-  {
-    "date": "2025-09-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1501
-  },
-  {
-    "date": "2025-09-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1472
-  },
-  {
-    "date": "2025-09-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.148
-  },
-  {
-    "date": "2025-09-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1537
-  },
-  {
-    "date": "2025-09-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1548
-  },
-  {
-    "date": "2025-09-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1546
-  },
-  {
-    "date": "2025-09-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1536
-  },
-  {
-    "date": "2025-09-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1535
-  },
-  {
-    "date": "2025-09-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.158
-  },
-  {
-    "date": "2025-09-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1582
-  },
-  {
-    "date": "2025-09-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1592
-  },
-  {
-    "date": "2025-09-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1571
-  },
-  {
-    "date": "2025-09-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1588
-  },
-  {
-    "date": "2025-09-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1653
-  },
-  {
-    "date": "2025-09-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1651
-  },
-  {
-    "date": "2025-10-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.167
-  },
-  {
-    "date": "2025-10-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1692
-  },
-  {
-    "date": "2025-10-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1722
-  },
-  {
-    "date": "2025-10-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1723
-  },
-  {
-    "date": "2025-10-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1759
-  },
-  {
-    "date": "2025-10-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1764
-  },
-  {
-    "date": "2025-10-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1756
-  },
-  {
-    "date": "2025-10-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.171
-  },
-  {
-    "date": "2025-10-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1666
-  },
-  {
-    "date": "2025-10-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1638
-  },
-  {
-    "date": "2025-10-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1626
-  },
-  {
-    "date": "2025-10-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1645
-  },
-  {
-    "date": "2025-10-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1614
-  },
-  {
-    "date": "2025-10-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1595
-  },
-  {
-    "date": "2025-10-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.16
-  },
-  {
-    "date": "2025-10-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1623
-  },
-  {
-    "date": "2025-10-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1639
-  },
-  {
-    "date": "2025-10-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1647
-  },
-  {
-    "date": "2025-10-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1669
-  },
-  {
-    "date": "2025-10-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1654
-  },
-  {
-    "date": "2025-10-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1567
-  },
-  {
-    "date": "2025-10-31",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1546
-  },
-  {
-    "date": "2025-11-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1549
-  },
-  {
-    "date": "2025-11-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1519
-  },
-  {
-    "date": "2025-11-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1574
-  },
-  {
-    "date": "2025-11-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1548
-  },
-  {
-    "date": "2025-11-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1548
-  },
-  {
-    "date": "2025-11-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1597
-  },
-  {
-    "date": "2025-11-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1635
-  },
-  {
-    "date": "2025-11-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1653
-  },
-  {
-    "date": "2025-11-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1611
-  },
-  {
-    "date": "2025-11-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1637
-  },
-  {
-    "date": "2025-11-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.163
-  },
-  {
-    "date": "2025-11-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.165
-  },
-  {
-    "date": "2025-11-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1638
-  },
-  {
-    "date": "2025-11-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1656
-  },
-  {
-    "date": "2025-11-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.16
-  },
-  {
-    "date": "2025-11-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1601
-  },
-  {
-    "date": "2025-11-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1562
-  },
-  {
-    "date": "2025-11-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1509
-  },
-  {
-    "date": "2025-11-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1521
-  },
-  {
-    "date": "2025-11-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1532
-  },
-  {
-    "date": "2025-12-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1519
-  },
-  {
-    "date": "2025-12-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1511
-  },
-  {
-    "date": "2025-12-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.15
-  },
-  {
-    "date": "2025-12-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1494
-  },
-  {
-    "date": "2025-12-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1518
-  },
-  {
-    "date": "2025-12-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1517
-  },
-  {
-    "date": "2025-12-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1505
-  },
-  {
-    "date": "2025-12-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.151
-  },
-  {
-    "date": "2025-12-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1524
-  },
-  {
-    "date": "2025-12-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1527
-  },
-  {
-    "date": "2025-12-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1511
-  },
-  {
-    "date": "2025-12-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1524
-  },
-  {
-    "date": "2025-12-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1475
-  },
-  {
-    "date": "2025-12-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1521
-  },
-  {
-    "date": "2025-12-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.152
-  },
-  {
-    "date": "2025-12-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1539
-  },
-  {
-    "date": "2025-12-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1584
-  },
-  {
-    "date": "2025-12-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1595
-  },
-  {
-    "date": "2025-12-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1586
-  },
-  {
-    "date": "2025-12-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1586
-  },
-  {
-    "date": "2025-12-31",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.159
-  },
-  {
-    "date": "2026-01-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1576
-  },
-  {
-    "date": "2026-01-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1575
-  },
-  {
-    "date": "2026-01-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1587
-  },
-  {
-    "date": "2026-01-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1604
-  },
-  {
-    "date": "2026-01-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1595
-  },
-  {
-    "date": "2026-01-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1619
-  },
-  {
-    "date": "2026-01-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1629
-  },
-  {
-    "date": "2026-01-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1639
-  },
-  {
-    "date": "2026-01-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1701
-  },
-  {
-    "date": "2026-01-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.162
-  },
-  {
-    "date": "2026-01-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1649
-  },
-  {
-    "date": "2026-01-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.164
-  },
-  {
-    "date": "2026-01-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1645
-  },
-  {
-    "date": "2026-01-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1679
-  },
-  {
-    "date": "2026-01-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1622
-  },
-  {
-    "date": "2026-01-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1656
-  },
-  {
-    "date": "2026-01-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1666
-  },
-  {
-    "date": "2026-01-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1699
-  },
-  {
-    "date": "2026-01-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.172
-  },
-  {
-    "date": "2026-01-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1739
-  },
-  {
-    "date": "2026-01-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1689
-  },
-  {
-    "date": "2026-02-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1682
-  },
-  {
-    "date": "2026-02-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1708
-  },
-  {
-    "date": "2026-02-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1648
-  },
-  {
-    "date": "2026-02-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1626
-  },
-  {
-    "date": "2026-02-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1644
-  },
-  {
-    "date": "2026-02-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1692
-  },
-  {
-    "date": "2026-02-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.169
-  },
-  {
-    "date": "2026-02-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1703
-  },
-  {
-    "date": "2026-02-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1644
-  },
-  {
-    "date": "2026-02-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1661
-  },
-  {
-    "date": "2026-02-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1636
-  },
-  {
-    "date": "2026-02-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1608
-  },
-  {
-    "date": "2026-02-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1521
-  },
-  {
-    "date": "2026-02-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1603
-  },
-  {
-    "date": "2026-02-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1527
-  },
-  {
-    "date": "2026-02-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1536
-  },
-  {
-    "date": "2026-02-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1537
-  },
-  {
-    "date": "2026-02-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1577
-  },
-  {
-    "date": "2026-02-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1581
-  },
-  {
-    "date": "2026-03-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1557
-  },
-  {
-    "date": "2026-03-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1576
-  },
-  {
-    "date": "2026-03-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1661
-  },
-  {
-    "date": "2026-03-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1667
-  },
-  {
-    "date": "2026-03-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1656
-  },
-  {
-    "date": "2026-03-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1613
-  },
-  {
-    "date": "2026-03-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1612
-  },
-  {
-    "date": "2026-03-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1598
-  },
-  {
-    "date": "2026-03-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1587
-  },
-  {
-    "date": "2026-03-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1552
-  },
-  {
-    "date": "2026-03-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1568
-  },
-  {
-    "date": "2026-03-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1563
-  },
-  {
-    "date": "2026-03-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1539
-  },
-  {
-    "date": "2026-03-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1552
-  },
-  {
-    "date": "2026-03-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1548
-  },
-  {
-    "date": "2026-03-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1562
-  },
-  {
-    "date": "2026-03-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1549
-  },
-  {
-    "date": "2026-03-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1523
-  },
-  {
-    "date": "2026-03-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1482
-  },
-  {
-    "date": "2026-03-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1502
-  },
-  {
-    "date": "2026-03-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1576
-  },
-  {
-    "date": "2026-03-31",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1617
-  },
-  {
-    "date": "2026-04-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1565
-  },
-  {
-    "date": "2026-04-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1567
-  },
-  {
-    "date": "2026-04-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1598
-  },
-  {
-    "date": "2026-04-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1627
-  },
-  {
-    "date": "2026-04-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1606
-  },
-  {
-    "date": "2026-04-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1589
-  },
-  {
-    "date": "2026-04-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1634
-  },
-  {
-    "date": "2026-04-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1728
-  },
-  {
-    "date": "2026-04-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1764
-  },
-  {
-    "date": "2026-04-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1746
-  },
-  {
-    "date": "2026-04-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1839
-  },
-  {
-    "date": "2026-04-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.193
-  },
-  {
-    "date": "2026-04-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1994
-  },
-  {
-    "date": "2026-04-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2151
-  },
-  {
-    "date": "2026-04-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.224
-  },
-  {
-    "date": "2026-04-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2282
-  },
-  {
-    "date": "2026-04-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.245
-  },
-  {
-    "date": "2026-04-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2312
-  },
-  {
-    "date": "2026-04-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2303
-  },
-  {
-    "date": "2026-04-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.23
-  },
-  {
-    "date": "2026-04-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2342
-  },
-  {
-    "date": "2026-05-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2353
-  },
-  {
-    "date": "2026-05-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2316
-  },
-  {
-    "date": "2026-05-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2217
-  },
-  {
-    "date": "2026-05-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2177
-  },
-  {
-    "date": "2026-05-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2208
-  },
-  {
-    "date": "2026-05-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2169
-  },
-  {
-    "date": "2026-05-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2198
-  },
-  {
-    "date": "2026-05-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2292
-  },
-  {
-    "date": "2026-05-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2271
-  },
-  {
-    "date": "2026-05-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2274
-  },
-  {
-    "date": "2026-05-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2262
-  },
-  {
-    "date": "2026-05-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2121
-  },
-  {
-    "date": "2026-05-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2104
-  },
-  {
-    "date": "2026-05-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2107
-  },
-  {
-    "date": "2026-05-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2083
-  },
-  {
-    "date": "2026-05-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2072
-  },
-  {
-    "date": "2026-05-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2067
-  },
-  {
-    "date": "2026-05-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1999
-  },
-  {
-    "date": "2026-05-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2017
-  },
-  {
-    "date": "2026-05-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1973
-  },
-  {
-    "date": "2026-06-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.201
-  },
-  {
-    "date": "2026-06-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2123
-  },
-  {
-    "date": "2026-06-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2074
-  },
-  {
-    "date": "2026-06-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.207
-  },
-  {
-    "date": "2026-06-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1971
-  },
-  {
-    "date": "2026-06-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2016
-  },
-  {
-    "date": "2026-06-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1922
-  },
-  {
-    "date": "2026-06-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1925
-  },
-  {
-    "date": "2026-06-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1953
-  },
-  {
-    "date": "2026-06-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1947
-  },
-  {
-    "date": "2026-06-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1938
-  },
-  {
-    "date": "2026-06-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1855
-  },
-  {
-    "date": "2026-06-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.179
-  },
-  {
-    "date": "2026-06-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1772
-  },
-  {
-    "date": "2026-06-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1805
-  },
-  {
-    "date": "2026-06-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1697
-  },
-  {
-    "date": "2026-06-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1652
-  },
-  {
-    "date": "2026-06-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1527
-  },
-  {
-    "date": "2026-06-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1521
-  },
-  {
-    "date": "2026-06-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1537
-  },
-  {
-    "date": "2026-06-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1556
-  },
-  {
-    "date": "2026-06-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1562
-  },
-  {
-    "date": "2026-07-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.152
-  },
-  {
-    "date": "2026-07-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1525
-  },
-  {
-    "date": "2026-07-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1486
-  },
-  {
-    "date": "2026-07-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1488
-  },
-  {
-    "date": "2026-07-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1563
-  },
-  {
-    "date": "2026-07-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1554
-  },
-  {
-    "date": "2026-07-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1537
-  },
-  {
-    "date": "2026-07-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1602
-  },
-  {
-    "date": "2026-07-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1666
-  },
-  {
-    "date": "2026-07-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1624
-  },
-  {
-    "date": "2026-07-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.158
-  },
-  {
-    "date": "2026-07-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1674
-  },
-  {
-    "date": "2026-07-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.164
-  },
-  {
-    "date": "2026-07-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1692
-  },
-  {
-    "date": "2026-07-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1692
-  },
-  {
-    "date": "2026-07-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1755
-  },
-  {
-    "date": "2026-07-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1685
-  },
-  {
-    "date": "2026-07-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1655
-  },
-  {
-    "date": "2026-07-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1601
-  },
-  {
-    "date": "2026-07-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1614
-  },
-  {
-    "date": "2026-07-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1659
-  },
-  {
-    "date": "2026-07-31",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1728
-  },
-  {
-    "date": "2026-08-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1574
-  },
-  {
-    "date": "2026-08-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1574
-  },
-  {
-    "date": "2026-08-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1611
-  },
-  {
-    "date": "2026-08-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1683
-  },
-  {
-    "date": "2026-08-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1653
-  },
-  {
-    "date": "2026-08-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1685
-  },
-  {
-    "date": "2026-08-12",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1652
-  },
-  {
-    "date": "2026-08-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1683
-  },
-  {
-    "date": "2026-08-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1702
-  },
-  {
-    "date": "2026-08-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1819
-  },
-  {
-    "date": "2026-08-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1795
-  },
-  {
-    "date": "2026-08-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1792
-  },
-  {
-    "date": "2026-08-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1825
-  },
-  {
-    "date": "2026-08-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1796
-  },
-  {
-    "date": "2026-08-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.176
-  },
-  {
-    "date": "2026-08-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1717
-  },
-  {
-    "date": "2026-08-26",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1721
-  },
-  {
-    "date": "2026-08-27",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1819
-  },
-  {
-    "date": "2026-08-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1773
-  },
-  {
-    "date": "2026-08-31",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1756
-  },
-  {
-    "date": "2026-09-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1833
-  },
-  {
-    "date": "2026-09-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1815
-  },
-  {
-    "date": "2026-09-03",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1837
-  },
-  {
-    "date": "2026-09-04",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1841
-  },
-  {
-    "date": "2026-09-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1872
-  },
-  {
-    "date": "2026-09-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1899
-  },
-  {
-    "date": "2026-09-10",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1993
-  },
-  {
-    "date": "2026-09-11",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.2044
-  },
-  {
-    "date": "2026-09-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1921
-  },
-  {
-    "date": "2026-09-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1904
-  },
-  {
-    "date": "2026-09-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.194
-  },
-  {
-    "date": "2026-09-17",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1932
-  },
-  {
-    "date": "2026-09-18",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1969
-  },
-  {
-    "date": "2026-09-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1927
-  },
-  {
-    "date": "2026-09-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1895
-  },
-  {
-    "date": "2026-09-23",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1877
-  },
-  {
-    "date": "2026-09-24",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1856
-  },
-  {
-    "date": "2026-09-25",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1777
-  },
-  {
-    "date": "2026-09-28",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1791
-  },
-  {
-    "date": "2026-09-29",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1741
-  },
-  {
-    "date": "2026-09-30",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1786
-  },
-  {
-    "date": "2026-10-01",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1743
-  },
-  {
-    "date": "2026-10-02",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1732
-  },
-  {
-    "date": "2026-10-05",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1729
-  },
-  {
-    "date": "2026-10-06",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1727
-  },
-  {
-    "date": "2026-10-07",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.173
-  },
-  {
-    "date": "2026-10-08",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1755
-  },
-  {
-    "date": "2026-10-09",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1747
-  },
-  {
-    "date": "2026-10-13",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1767
-  },
-  {
-    "date": "2026-10-14",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1732
-  },
-  {
-    "date": "2026-10-15",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1738
-  },
-  {
-    "date": "2026-10-16",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1727
-  },
-  {
-    "date": "2026-10-19",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1731
-  },
-  {
-    "date": "2026-10-20",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1679
-  },
-  {
-    "date": "2026-10-21",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1693
-  },
-  {
-    "date": "2026-10-22",
-    "ratio_id": "OBE_OVV",
-    "ratio": 0.1671
+    "date": "2026-10-23",
+    "ratio_id": "SDE_SCR",
+    "ratio": 0.3371
   },
   {
     "date": "2025-06-02",
@@ -31500,6 +29830,1766 @@
     "ratio": 0.6794
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "ATH_FRU",
+    "ratio": 0.678
+  },
+  {
+    "date": "2025-06-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1417
+  },
+  {
+    "date": "2025-06-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1425
+  },
+  {
+    "date": "2025-06-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1419
+  },
+  {
+    "date": "2025-06-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1443
+  },
+  {
+    "date": "2025-06-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1432
+  },
+  {
+    "date": "2025-06-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1438
+  },
+  {
+    "date": "2025-06-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1456
+  },
+  {
+    "date": "2025-06-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.148
+  },
+  {
+    "date": "2025-06-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1471
+  },
+  {
+    "date": "2025-06-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1472
+  },
+  {
+    "date": "2025-06-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1415
+  },
+  {
+    "date": "2025-06-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1482
+  },
+  {
+    "date": "2025-06-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1471
+  },
+  {
+    "date": "2025-06-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1481
+  },
+  {
+    "date": "2025-06-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1458
+  },
+  {
+    "date": "2025-06-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1479
+  },
+  {
+    "date": "2025-06-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.148
+  },
+  {
+    "date": "2025-06-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1482
+  },
+  {
+    "date": "2025-06-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1456
+  },
+  {
+    "date": "2025-06-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1465
+  },
+  {
+    "date": "2025-06-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1506
+  },
+  {
+    "date": "2025-07-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1529
+  },
+  {
+    "date": "2025-07-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1494
+  },
+  {
+    "date": "2025-07-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1509
+  },
+  {
+    "date": "2025-07-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1516
+  },
+  {
+    "date": "2025-07-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1493
+  },
+  {
+    "date": "2025-07-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1528
+  },
+  {
+    "date": "2025-07-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1389
+  },
+  {
+    "date": "2025-07-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1376
+  },
+  {
+    "date": "2025-07-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1364
+  },
+  {
+    "date": "2025-07-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.137
+  },
+  {
+    "date": "2025-07-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1414
+  },
+  {
+    "date": "2025-07-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1419
+  },
+  {
+    "date": "2025-07-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1419
+  },
+  {
+    "date": "2025-07-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1447
+  },
+  {
+    "date": "2025-07-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1481
+  },
+  {
+    "date": "2025-07-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.15
+  },
+  {
+    "date": "2025-07-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1528
+  },
+  {
+    "date": "2025-07-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1454
+  },
+  {
+    "date": "2025-07-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1451
+  },
+  {
+    "date": "2025-07-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1493
+  },
+  {
+    "date": "2025-07-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1526
+  },
+  {
+    "date": "2025-07-31",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1531
+  },
+  {
+    "date": "2025-08-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1552
+  },
+  {
+    "date": "2025-08-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1528
+  },
+  {
+    "date": "2025-08-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1516
+  },
+  {
+    "date": "2025-08-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.154
+  },
+  {
+    "date": "2025-08-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1498
+  },
+  {
+    "date": "2025-08-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.15
+  },
+  {
+    "date": "2025-08-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1487
+  },
+  {
+    "date": "2025-08-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1491
+  },
+  {
+    "date": "2025-08-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1477
+  },
+  {
+    "date": "2025-08-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1466
+  },
+  {
+    "date": "2025-08-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1498
+  },
+  {
+    "date": "2025-08-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1489
+  },
+  {
+    "date": "2025-08-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1486
+  },
+  {
+    "date": "2025-08-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.152
+  },
+  {
+    "date": "2025-08-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1524
+  },
+  {
+    "date": "2025-08-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1518
+  },
+  {
+    "date": "2025-08-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1523
+  },
+  {
+    "date": "2025-08-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1517
+  },
+  {
+    "date": "2025-08-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1542
+  },
+  {
+    "date": "2025-08-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1508
+  },
+  {
+    "date": "2025-09-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1494
+  },
+  {
+    "date": "2025-09-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1486
+  },
+  {
+    "date": "2025-09-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1459
+  },
+  {
+    "date": "2025-09-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1466
+  },
+  {
+    "date": "2025-09-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.147
+  },
+  {
+    "date": "2025-09-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1466
+  },
+  {
+    "date": "2025-09-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1501
+  },
+  {
+    "date": "2025-09-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1472
+  },
+  {
+    "date": "2025-09-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.148
+  },
+  {
+    "date": "2025-09-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1537
+  },
+  {
+    "date": "2025-09-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1548
+  },
+  {
+    "date": "2025-09-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1546
+  },
+  {
+    "date": "2025-09-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1536
+  },
+  {
+    "date": "2025-09-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1535
+  },
+  {
+    "date": "2025-09-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.158
+  },
+  {
+    "date": "2025-09-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1582
+  },
+  {
+    "date": "2025-09-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1592
+  },
+  {
+    "date": "2025-09-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1571
+  },
+  {
+    "date": "2025-09-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1588
+  },
+  {
+    "date": "2025-09-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1653
+  },
+  {
+    "date": "2025-09-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1651
+  },
+  {
+    "date": "2025-10-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.167
+  },
+  {
+    "date": "2025-10-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1692
+  },
+  {
+    "date": "2025-10-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1722
+  },
+  {
+    "date": "2025-10-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1723
+  },
+  {
+    "date": "2025-10-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1759
+  },
+  {
+    "date": "2025-10-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1764
+  },
+  {
+    "date": "2025-10-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1756
+  },
+  {
+    "date": "2025-10-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.171
+  },
+  {
+    "date": "2025-10-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1666
+  },
+  {
+    "date": "2025-10-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1638
+  },
+  {
+    "date": "2025-10-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1626
+  },
+  {
+    "date": "2025-10-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1645
+  },
+  {
+    "date": "2025-10-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1614
+  },
+  {
+    "date": "2025-10-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1595
+  },
+  {
+    "date": "2025-10-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.16
+  },
+  {
+    "date": "2025-10-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1623
+  },
+  {
+    "date": "2025-10-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1639
+  },
+  {
+    "date": "2025-10-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1647
+  },
+  {
+    "date": "2025-10-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1669
+  },
+  {
+    "date": "2025-10-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1654
+  },
+  {
+    "date": "2025-10-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1567
+  },
+  {
+    "date": "2025-10-31",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1546
+  },
+  {
+    "date": "2025-11-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1549
+  },
+  {
+    "date": "2025-11-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1519
+  },
+  {
+    "date": "2025-11-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1574
+  },
+  {
+    "date": "2025-11-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1548
+  },
+  {
+    "date": "2025-11-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1548
+  },
+  {
+    "date": "2025-11-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1597
+  },
+  {
+    "date": "2025-11-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1635
+  },
+  {
+    "date": "2025-11-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1653
+  },
+  {
+    "date": "2025-11-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1611
+  },
+  {
+    "date": "2025-11-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1637
+  },
+  {
+    "date": "2025-11-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.163
+  },
+  {
+    "date": "2025-11-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.165
+  },
+  {
+    "date": "2025-11-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1638
+  },
+  {
+    "date": "2025-11-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1656
+  },
+  {
+    "date": "2025-11-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.16
+  },
+  {
+    "date": "2025-11-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1601
+  },
+  {
+    "date": "2025-11-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1562
+  },
+  {
+    "date": "2025-11-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1509
+  },
+  {
+    "date": "2025-11-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1521
+  },
+  {
+    "date": "2025-11-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1532
+  },
+  {
+    "date": "2025-12-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1519
+  },
+  {
+    "date": "2025-12-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1511
+  },
+  {
+    "date": "2025-12-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.15
+  },
+  {
+    "date": "2025-12-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1494
+  },
+  {
+    "date": "2025-12-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1518
+  },
+  {
+    "date": "2025-12-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1517
+  },
+  {
+    "date": "2025-12-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1505
+  },
+  {
+    "date": "2025-12-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.151
+  },
+  {
+    "date": "2025-12-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1524
+  },
+  {
+    "date": "2025-12-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1527
+  },
+  {
+    "date": "2025-12-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1511
+  },
+  {
+    "date": "2025-12-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1524
+  },
+  {
+    "date": "2025-12-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1475
+  },
+  {
+    "date": "2025-12-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1521
+  },
+  {
+    "date": "2025-12-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.152
+  },
+  {
+    "date": "2025-12-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1539
+  },
+  {
+    "date": "2025-12-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1584
+  },
+  {
+    "date": "2025-12-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1595
+  },
+  {
+    "date": "2025-12-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1586
+  },
+  {
+    "date": "2025-12-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1586
+  },
+  {
+    "date": "2025-12-31",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.159
+  },
+  {
+    "date": "2026-01-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1576
+  },
+  {
+    "date": "2026-01-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1575
+  },
+  {
+    "date": "2026-01-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1587
+  },
+  {
+    "date": "2026-01-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1604
+  },
+  {
+    "date": "2026-01-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1595
+  },
+  {
+    "date": "2026-01-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1619
+  },
+  {
+    "date": "2026-01-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1629
+  },
+  {
+    "date": "2026-01-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1639
+  },
+  {
+    "date": "2026-01-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1701
+  },
+  {
+    "date": "2026-01-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.162
+  },
+  {
+    "date": "2026-01-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1649
+  },
+  {
+    "date": "2026-01-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.164
+  },
+  {
+    "date": "2026-01-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1645
+  },
+  {
+    "date": "2026-01-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1679
+  },
+  {
+    "date": "2026-01-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1622
+  },
+  {
+    "date": "2026-01-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1656
+  },
+  {
+    "date": "2026-01-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1666
+  },
+  {
+    "date": "2026-01-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1699
+  },
+  {
+    "date": "2026-01-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.172
+  },
+  {
+    "date": "2026-01-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1739
+  },
+  {
+    "date": "2026-01-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1689
+  },
+  {
+    "date": "2026-02-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1682
+  },
+  {
+    "date": "2026-02-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1708
+  },
+  {
+    "date": "2026-02-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1648
+  },
+  {
+    "date": "2026-02-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1626
+  },
+  {
+    "date": "2026-02-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1644
+  },
+  {
+    "date": "2026-02-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1692
+  },
+  {
+    "date": "2026-02-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.169
+  },
+  {
+    "date": "2026-02-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1703
+  },
+  {
+    "date": "2026-02-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1644
+  },
+  {
+    "date": "2026-02-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1661
+  },
+  {
+    "date": "2026-02-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1636
+  },
+  {
+    "date": "2026-02-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1608
+  },
+  {
+    "date": "2026-02-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1521
+  },
+  {
+    "date": "2026-02-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1603
+  },
+  {
+    "date": "2026-02-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1527
+  },
+  {
+    "date": "2026-02-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1536
+  },
+  {
+    "date": "2026-02-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1537
+  },
+  {
+    "date": "2026-02-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1577
+  },
+  {
+    "date": "2026-02-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1581
+  },
+  {
+    "date": "2026-03-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1557
+  },
+  {
+    "date": "2026-03-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1576
+  },
+  {
+    "date": "2026-03-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1661
+  },
+  {
+    "date": "2026-03-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1667
+  },
+  {
+    "date": "2026-03-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1656
+  },
+  {
+    "date": "2026-03-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1613
+  },
+  {
+    "date": "2026-03-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1612
+  },
+  {
+    "date": "2026-03-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1598
+  },
+  {
+    "date": "2026-03-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1587
+  },
+  {
+    "date": "2026-03-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1552
+  },
+  {
+    "date": "2026-03-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1568
+  },
+  {
+    "date": "2026-03-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1563
+  },
+  {
+    "date": "2026-03-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1539
+  },
+  {
+    "date": "2026-03-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1552
+  },
+  {
+    "date": "2026-03-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1548
+  },
+  {
+    "date": "2026-03-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1562
+  },
+  {
+    "date": "2026-03-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1549
+  },
+  {
+    "date": "2026-03-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1523
+  },
+  {
+    "date": "2026-03-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1482
+  },
+  {
+    "date": "2026-03-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1502
+  },
+  {
+    "date": "2026-03-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1576
+  },
+  {
+    "date": "2026-03-31",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1617
+  },
+  {
+    "date": "2026-04-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1565
+  },
+  {
+    "date": "2026-04-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1567
+  },
+  {
+    "date": "2026-04-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1598
+  },
+  {
+    "date": "2026-04-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1627
+  },
+  {
+    "date": "2026-04-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1606
+  },
+  {
+    "date": "2026-04-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1589
+  },
+  {
+    "date": "2026-04-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1634
+  },
+  {
+    "date": "2026-04-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1728
+  },
+  {
+    "date": "2026-04-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1764
+  },
+  {
+    "date": "2026-04-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1746
+  },
+  {
+    "date": "2026-04-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1839
+  },
+  {
+    "date": "2026-04-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.193
+  },
+  {
+    "date": "2026-04-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1994
+  },
+  {
+    "date": "2026-04-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2151
+  },
+  {
+    "date": "2026-04-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.224
+  },
+  {
+    "date": "2026-04-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2282
+  },
+  {
+    "date": "2026-04-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.245
+  },
+  {
+    "date": "2026-04-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2312
+  },
+  {
+    "date": "2026-04-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2303
+  },
+  {
+    "date": "2026-04-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.23
+  },
+  {
+    "date": "2026-04-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2342
+  },
+  {
+    "date": "2026-05-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2353
+  },
+  {
+    "date": "2026-05-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2316
+  },
+  {
+    "date": "2026-05-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2217
+  },
+  {
+    "date": "2026-05-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2177
+  },
+  {
+    "date": "2026-05-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2208
+  },
+  {
+    "date": "2026-05-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2169
+  },
+  {
+    "date": "2026-05-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2198
+  },
+  {
+    "date": "2026-05-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2292
+  },
+  {
+    "date": "2026-05-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2271
+  },
+  {
+    "date": "2026-05-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2274
+  },
+  {
+    "date": "2026-05-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2262
+  },
+  {
+    "date": "2026-05-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2121
+  },
+  {
+    "date": "2026-05-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2104
+  },
+  {
+    "date": "2026-05-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2107
+  },
+  {
+    "date": "2026-05-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2083
+  },
+  {
+    "date": "2026-05-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2072
+  },
+  {
+    "date": "2026-05-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2067
+  },
+  {
+    "date": "2026-05-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1999
+  },
+  {
+    "date": "2026-05-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2017
+  },
+  {
+    "date": "2026-05-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1973
+  },
+  {
+    "date": "2026-06-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.201
+  },
+  {
+    "date": "2026-06-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2123
+  },
+  {
+    "date": "2026-06-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2074
+  },
+  {
+    "date": "2026-06-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.207
+  },
+  {
+    "date": "2026-06-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1971
+  },
+  {
+    "date": "2026-06-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2016
+  },
+  {
+    "date": "2026-06-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1922
+  },
+  {
+    "date": "2026-06-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1925
+  },
+  {
+    "date": "2026-06-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1953
+  },
+  {
+    "date": "2026-06-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1947
+  },
+  {
+    "date": "2026-06-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1938
+  },
+  {
+    "date": "2026-06-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1855
+  },
+  {
+    "date": "2026-06-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.179
+  },
+  {
+    "date": "2026-06-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1772
+  },
+  {
+    "date": "2026-06-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1805
+  },
+  {
+    "date": "2026-06-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1697
+  },
+  {
+    "date": "2026-06-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1652
+  },
+  {
+    "date": "2026-06-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1527
+  },
+  {
+    "date": "2026-06-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1521
+  },
+  {
+    "date": "2026-06-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1537
+  },
+  {
+    "date": "2026-06-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1556
+  },
+  {
+    "date": "2026-06-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1562
+  },
+  {
+    "date": "2026-07-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.152
+  },
+  {
+    "date": "2026-07-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1525
+  },
+  {
+    "date": "2026-07-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1486
+  },
+  {
+    "date": "2026-07-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1488
+  },
+  {
+    "date": "2026-07-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1563
+  },
+  {
+    "date": "2026-07-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1554
+  },
+  {
+    "date": "2026-07-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1537
+  },
+  {
+    "date": "2026-07-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1602
+  },
+  {
+    "date": "2026-07-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1666
+  },
+  {
+    "date": "2026-07-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1624
+  },
+  {
+    "date": "2026-07-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.158
+  },
+  {
+    "date": "2026-07-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1674
+  },
+  {
+    "date": "2026-07-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.164
+  },
+  {
+    "date": "2026-07-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1692
+  },
+  {
+    "date": "2026-07-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1692
+  },
+  {
+    "date": "2026-07-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1755
+  },
+  {
+    "date": "2026-07-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1685
+  },
+  {
+    "date": "2026-07-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1655
+  },
+  {
+    "date": "2026-07-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1601
+  },
+  {
+    "date": "2026-07-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1614
+  },
+  {
+    "date": "2026-07-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1659
+  },
+  {
+    "date": "2026-07-31",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1728
+  },
+  {
+    "date": "2026-08-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1574
+  },
+  {
+    "date": "2026-08-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1574
+  },
+  {
+    "date": "2026-08-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1611
+  },
+  {
+    "date": "2026-08-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1683
+  },
+  {
+    "date": "2026-08-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1653
+  },
+  {
+    "date": "2026-08-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1685
+  },
+  {
+    "date": "2026-08-12",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1652
+  },
+  {
+    "date": "2026-08-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1683
+  },
+  {
+    "date": "2026-08-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1702
+  },
+  {
+    "date": "2026-08-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1819
+  },
+  {
+    "date": "2026-08-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1795
+  },
+  {
+    "date": "2026-08-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1792
+  },
+  {
+    "date": "2026-08-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1825
+  },
+  {
+    "date": "2026-08-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1796
+  },
+  {
+    "date": "2026-08-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.176
+  },
+  {
+    "date": "2026-08-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1717
+  },
+  {
+    "date": "2026-08-26",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1721
+  },
+  {
+    "date": "2026-08-27",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1819
+  },
+  {
+    "date": "2026-08-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1773
+  },
+  {
+    "date": "2026-08-31",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1756
+  },
+  {
+    "date": "2026-09-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1833
+  },
+  {
+    "date": "2026-09-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1815
+  },
+  {
+    "date": "2026-09-03",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1837
+  },
+  {
+    "date": "2026-09-04",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1841
+  },
+  {
+    "date": "2026-09-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1872
+  },
+  {
+    "date": "2026-09-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1899
+  },
+  {
+    "date": "2026-09-10",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1993
+  },
+  {
+    "date": "2026-09-11",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.2044
+  },
+  {
+    "date": "2026-09-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1921
+  },
+  {
+    "date": "2026-09-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1904
+  },
+  {
+    "date": "2026-09-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.194
+  },
+  {
+    "date": "2026-09-17",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1932
+  },
+  {
+    "date": "2026-09-18",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1969
+  },
+  {
+    "date": "2026-09-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1927
+  },
+  {
+    "date": "2026-09-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1895
+  },
+  {
+    "date": "2026-09-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1877
+  },
+  {
+    "date": "2026-09-24",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1856
+  },
+  {
+    "date": "2026-09-25",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1777
+  },
+  {
+    "date": "2026-09-28",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1791
+  },
+  {
+    "date": "2026-09-29",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1741
+  },
+  {
+    "date": "2026-09-30",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1786
+  },
+  {
+    "date": "2026-10-01",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1743
+  },
+  {
+    "date": "2026-10-02",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1732
+  },
+  {
+    "date": "2026-10-05",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1729
+  },
+  {
+    "date": "2026-10-06",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1727
+  },
+  {
+    "date": "2026-10-07",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.173
+  },
+  {
+    "date": "2026-10-08",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1755
+  },
+  {
+    "date": "2026-10-09",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1747
+  },
+  {
+    "date": "2026-10-13",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1767
+  },
+  {
+    "date": "2026-10-14",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1732
+  },
+  {
+    "date": "2026-10-15",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1738
+  },
+  {
+    "date": "2026-10-16",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1727
+  },
+  {
+    "date": "2026-10-19",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1731
+  },
+  {
+    "date": "2026-10-20",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1679
+  },
+  {
+    "date": "2026-10-21",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1693
+  },
+  {
+    "date": "2026-10-22",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1671
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "OBE_OVV",
+    "ratio": 0.1666
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "SU_WCP",
     "ratio": 5.9222
@@ -32287,7 +32377,7 @@
   {
     "date": "2026-01-16",
     "ratio_id": "SU_WCP",
-    "ratio": 6.0463
+    "ratio": 6.0464
   },
   {
     "date": "2026-01-19",
@@ -33062,7 +33152,7 @@
   {
     "date": "2026-08-28",
     "ratio_id": "SU_WCP",
-    "ratio": 5.1053
+    "ratio": 5.1052
   },
   {
     "date": "2026-08-31",
@@ -33248,6 +33338,11 @@
     "date": "2026-10-22",
     "ratio_id": "SU_WCP",
     "ratio": 5.3526
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "SU_WCP",
+    "ratio": 5.442
   },
   {
     "date": "2025-06-02",
@@ -35000,6 +35095,11 @@
     "ratio": 0.3869
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "ATH_XEG",
+    "ratio": 0.3814
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "KEL_XEG",
     "ratio": 0.4365
@@ -36748,6 +36848,11 @@
     "date": "2026-10-22",
     "ratio_id": "KEL_XEG",
     "ratio": 0.3756
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "KEL_XEG",
+    "ratio": 0.3728
   },
   {
     "date": "2025-06-02",
@@ -38500,6 +38605,11 @@
     "ratio": 0.5695
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "FRU_XEG",
+    "ratio": 0.5626
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "IMO_XEG",
     "ratio": 6.1065
@@ -38877,7 +38987,7 @@
   {
     "date": "2025-09-18",
     "ratio_id": "IMO_XEG",
-    "ratio": 7.0718
+    "ratio": 7.0717
   },
   {
     "date": "2025-09-19",
@@ -40248,6 +40358,11 @@
     "date": "2026-10-22",
     "ratio_id": "IMO_XEG",
     "ratio": 6.0032
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "IMO_XEG",
+    "ratio": 6.0083
   },
   {
     "date": "2025-06-02",
@@ -42000,6 +42115,11 @@
     "ratio": 0.434
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "CJ_XEG",
+    "ratio": 0.433
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "CVE_XEG",
     "ratio": 1.1122
@@ -42282,7 +42402,7 @@
   {
     "date": "2025-08-21",
     "ratio_id": "CVE_XEG",
-    "ratio": 1.2278
+    "ratio": 1.2277
   },
   {
     "date": "2025-08-22",
@@ -42667,7 +42787,7 @@
   {
     "date": "2025-12-10",
     "ratio_id": "CVE_XEG",
-    "ratio": 1.2617
+    "ratio": 1.2616
   },
   {
     "date": "2025-12-11",
@@ -43748,6 +43868,11 @@
     "date": "2026-10-22",
     "ratio_id": "CVE_XEG",
     "ratio": 1.4581
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "CVE_XEG",
+    "ratio": 1.4639
   },
   {
     "date": "2025-06-02",
@@ -45500,6 +45625,11 @@
     "ratio": 0.4717
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "SDE_XEG",
+    "ratio": 0.4734
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "OBE_XEG",
     "ratio": 0.434
@@ -47250,6 +47380,11 @@
     "ratio": 0.5266
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "OBE_XEG",
+    "ratio": 0.5371
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "SU_XEG",
     "ratio": 3.0241
@@ -47747,7 +47882,7 @@
   {
     "date": "2025-10-23",
     "ratio_id": "SU_XEG",
-    "ratio": 3.0373
+    "ratio": 3.0372
   },
   {
     "date": "2025-10-24",
@@ -48998,6 +49133,11 @@
     "date": "2026-10-22",
     "ratio_id": "SU_XEG",
     "ratio": 3.5214
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "SU_XEG",
+    "ratio": 3.5396
   },
   {
     "date": "2025-06-02",
@@ -50750,6 +50890,11 @@
     "ratio": 0.476
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "TVE_XEG",
+    "ratio": 0.4795
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "WCP_XEG",
     "ratio": 0.5106
@@ -52500,6 +52645,11 @@
     "ratio": 0.6579
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "WCP_XEG",
+    "ratio": 0.6504
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "SCR_XEG",
     "ratio": 1.3337
@@ -53042,7 +53192,7 @@
   {
     "date": "2025-11-05",
     "ratio_id": "SCR_XEG",
-    "ratio": 1.4783
+    "ratio": 1.4782
   },
   {
     "date": "2025-11-06",
@@ -54248,6 +54398,11 @@
     "date": "2026-10-22",
     "ratio_id": "SCR_XEG",
     "ratio": 1.3918
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "SCR_XEG",
+    "ratio": 1.4043
   },
   {
     "date": "2025-06-02",
@@ -56000,6 +56155,11 @@
     "ratio": 0.4786
   },
   {
+    "date": "2026-10-23",
+    "ratio_id": "HWX_XEG",
+    "ratio": 0.483
+  },
+  {
     "date": "2025-06-02",
     "ratio_id": "OVV_XEG",
     "ratio": 3.0632
@@ -56647,7 +56807,7 @@
   {
     "date": "2025-12-04",
     "ratio_id": "OVV_XEG",
-    "ratio": 2.9524
+    "ratio": 2.9525
   },
   {
     "date": "2025-12-05",
@@ -57748,6 +57908,11 @@
     "date": "2026-10-22",
     "ratio_id": "OVV_XEG",
     "ratio": 3.152
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "OVV_XEG",
+    "ratio": 3.2245
   },
   {
     "date": "2025-06-02",
@@ -59498,5 +59663,10 @@
     "date": "2026-10-22",
     "ratio_id": "XEG_VCN",
     "ratio": 0.4207
+  },
+  {
+    "date": "2026-10-23",
+    "ratio_id": "XEG_VCN",
+    "ratio": 0.4315
   }
 ]
