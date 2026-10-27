@@ -4,39 +4,39 @@
     "stock_B": "CJ",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.92,
+    "current_z_score": 0.9,
     "half_life_days": 10,
     "r_squared": 0.98,
-    "cointegration_stat": -4.69
+    "cointegration_stat": -4.67
   },
   {
     "stock_A": "KEL",
     "stock_B": "SU",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": -0.47,
+    "current_z_score": -0.09,
     "half_life_days": 12,
     "r_squared": 0.92,
-    "cointegration_stat": -4.52
+    "cointegration_stat": -4.5
+  },
+  {
+    "stock_A": "IMO",
+    "stock_B": "TVE",
+    "buy_signal": "None",
+    "watch_list": "IMO",
+    "current_z_score": -1.55,
+    "half_life_days": 19,
+    "r_squared": 0.96,
+    "cointegration_stat": -4.09
   },
   {
     "stock_A": "FRU",
     "stock_B": "SDE",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": -0.63,
-    "half_life_days": 12,
+    "current_z_score": -0.6,
+    "half_life_days": 13,
     "r_squared": 0.97,
-    "cointegration_stat": -4.09
-  },
-  {
-    "stock_A": "KEL",
-    "stock_B": "TVE",
-    "buy_signal": "None",
-    "watch_list": "KEL",
-    "current_z_score": -1.92,
-    "half_life_days": 15,
-    "r_squared": 0.91,
     "cointegration_stat": -4.06
   },
   {
@@ -44,169 +44,149 @@
     "stock_B": "WCP",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.45,
+    "current_z_score": 0.76,
     "half_life_days": 16,
     "r_squared": 0.9,
-    "cointegration_stat": -4.05
+    "cointegration_stat": -4.02
   },
   {
-    "stock_A": "IMO",
+    "stock_A": "KEL",
     "stock_B": "TVE",
     "buy_signal": "None",
-    "watch_list": "IMO",
-    "current_z_score": -1.85,
-    "half_life_days": 19,
-    "r_squared": 0.96,
-    "cointegration_stat": -4.04
+    "watch_list": "KEL",
+    "current_z_score": -1.31,
+    "half_life_days": 15,
+    "r_squared": 0.91,
+    "cointegration_stat": -3.97
   },
   {
     "stock_A": "ATH",
     "stock_B": "IMO",
     "buy_signal": "None",
     "watch_list": "IMO",
-    "current_z_score": 1.15,
+    "current_z_score": 1.11,
     "half_life_days": 18,
     "r_squared": 0.95,
-    "cointegration_stat": -3.82
+    "cointegration_stat": -3.85
   },
   {
     "stock_A": "ATH",
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.99,
+    "current_z_score": 0.95,
     "half_life_days": 17,
     "r_squared": 0.93,
-    "cointegration_stat": -3.74
+    "cointegration_stat": -3.73
   },
   {
     "stock_A": "CJ",
     "stock_B": "IMO",
     "buy_signal": "None",
     "watch_list": "IMO",
-    "current_z_score": 1.15,
+    "current_z_score": 1.09,
     "half_life_days": 20,
     "r_squared": 0.96,
-    "cointegration_stat": -3.71
+    "cointegration_stat": -3.72
   },
   {
     "stock_A": "IMO",
     "stock_B": "KEL",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": -0.08,
-    "half_life_days": 19,
+    "current_z_score": -0.22,
+    "half_life_days": 20,
     "r_squared": 0.88,
-    "cointegration_stat": -3.68
+    "cointegration_stat": -3.63
   },
   {
     "stock_A": "CVE",
     "stock_B": "OBE",
-    "buy_signal": "CVE",
+    "buy_signal": "None",
     "watch_list": "CVE",
-    "current_z_score": -2.19,
+    "current_z_score": -1.7,
     "half_life_days": 20,
     "r_squared": 0.91,
-    "cointegration_stat": -3.6
+    "cointegration_stat": -3.57
   },
   {
     "stock_A": "CJ",
     "stock_B": "SCR",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.88,
-    "half_life_days": 20,
+    "current_z_score": 0.76,
+    "half_life_days": 19,
     "r_squared": 0.93,
-    "cointegration_stat": -3.58
+    "cointegration_stat": -3.55
   },
   {
     "stock_A": "FRU",
     "stock_B": "HWX",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": -0.48,
-    "half_life_days": 16,
+    "current_z_score": -0.51,
+    "half_life_days": 17,
     "r_squared": 0.97,
-    "cointegration_stat": -3.52
+    "cointegration_stat": -3.5
+  },
+  {
+    "stock_A": "CNQ",
+    "stock_B": "SOIL",
+    "buy_signal": "None",
+    "watch_list": "CNQ",
+    "current_z_score": -1.85,
+    "half_life_days": 21,
+    "r_squared": 0.91,
+    "cointegration_stat": -3.48
   },
   {
     "stock_A": "CJ",
     "stock_B": "KEL",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": 0.92,
+    "current_z_score": 0.44,
     "half_life_days": 20,
     "r_squared": 0.89,
-    "cointegration_stat": -3.47
-  },
-  {
-    "stock_A": "CJ",
-    "stock_B": "TVE",
-    "buy_signal": "None",
-    "watch_list": "CJ",
-    "current_z_score": -1.81,
-    "half_life_days": 23,
-    "r_squared": 0.97,
-    "cointegration_stat": -3.45
-  },
-  {
-    "stock_A": "SDE",
-    "stock_B": "SCR",
-    "buy_signal": "None",
-    "watch_list": "None",
-    "current_z_score": 0.91,
-    "half_life_days": 22,
-    "r_squared": 0.92,
-    "cointegration_stat": -3.45
-  },
-  {
-    "stock_A": "OBE",
-    "stock_B": "OVV",
-    "buy_signal": "None",
-    "watch_list": "OBE",
-    "current_z_score": -1.24,
-    "half_life_days": 22,
-    "r_squared": 0.87,
-    "cointegration_stat": -3.4
+    "cointegration_stat": -3.44
   },
   {
     "stock_A": "PSK",
     "stock_B": "SOIL",
     "buy_signal": "None",
     "watch_list": "None",
-    "current_z_score": -0.56,
-    "half_life_days": 29,
-    "r_squared": 0.79,
+    "current_z_score": -0.55,
+    "half_life_days": 28,
+    "r_squared": 0.8,
+    "cointegration_stat": -3.44
+  },
+  {
+    "stock_A": "SDE",
+    "stock_B": "SCR",
+    "buy_signal": "None",
+    "watch_list": "None",
+    "current_z_score": 0.61,
+    "half_life_days": 22,
+    "r_squared": 0.92,
+    "cointegration_stat": -3.43
+  },
+  {
+    "stock_A": "CJ",
+    "stock_B": "TVE",
+    "buy_signal": "None",
+    "watch_list": "CJ",
+    "current_z_score": -1.5,
+    "half_life_days": 23,
+    "r_squared": 0.97,
     "cointegration_stat": -3.39
   },
   {
-    "stock_A": "ATH",
-    "stock_B": "FRU",
+    "stock_A": "OBE",
+    "stock_B": "OVV",
     "buy_signal": "None",
-    "watch_list": "FRU",
-    "current_z_score": 1.2,
-    "half_life_days": 23,
-    "r_squared": 0.94,
-    "cointegration_stat": -3.37
-  },
-  {
-    "stock_A": "CNQ",
-    "stock_B": "SOIL",
-    "buy_signal": "CNQ",
-    "watch_list": "CNQ",
-    "current_z_score": -2.01,
-    "half_life_days": 21,
-    "r_squared": 0.9,
-    "cointegration_stat": -3.36
-  },
-  {
-    "stock_A": "SU",
-    "stock_B": "WCP",
-    "buy_signal": "None",
-    "watch_list": "None",
-    "current_z_score": 0.73,
-    "half_life_days": 20,
-    "r_squared": 0.96,
-    "cointegration_stat": -3.35
+    "watch_list": "OBE",
+    "current_z_score": -1.35,
+    "half_life_days": 22,
+    "r_squared": 0.87,
+    "cointegration_stat": -3.39
   }
 ]
