@@ -4,8 +4,8 @@
     "dividend_amount": 0.09,
     "dividend_frequency": "Monthly",
     "annual_dividend": 1.08,
-    "current_price": 17.68,
-    "yield_pct": 6.11
+    "current_price": 17.58,
+    "yield_pct": 6.14
   },
   {
     "symbol": "PEY",
@@ -20,55 +20,55 @@
     "dividend_amount": 0.06,
     "dividend_frequency": "Monthly",
     "annual_dividend": 0.72,
-    "current_price": 13.4,
-    "yield_pct": 5.37
+    "current_price": 13.35,
+    "yield_pct": 5.39
   },
   {
     "symbol": "IPO",
     "dividend_amount": 0.09,
     "dividend_frequency": "Monthly",
     "annual_dividend": 1.08,
-    "current_price": 20.59,
-    "yield_pct": 5.25
+    "current_price": 20.67,
+    "yield_pct": 5.22
   },
   {
     "symbol": "TPZ",
     "dividend_amount": 0.35,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 1.4,
-    "current_price": 30.66,
-    "yield_pct": 4.57
+    "current_price": 30.98,
+    "yield_pct": 4.52
   },
   {
     "symbol": "SGY",
     "dividend_amount": 0.043,
     "dividend_frequency": "Monthly",
     "annual_dividend": 0.516,
-    "current_price": 12.95,
-    "yield_pct": 3.98
+    "current_price": 13.08,
+    "yield_pct": 3.94
   },
   {
     "symbol": "WCP",
     "dividend_amount": 0.061,
     "dividend_frequency": "Monthly",
     "annual_dividend": 0.732,
-    "current_price": 20.23,
-    "yield_pct": 3.62
+    "current_price": 20.43,
+    "yield_pct": 3.58
   },
   {
     "symbol": "CNQ",
     "dividend_amount": 0.625,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 2.5,
-    "current_price": 75.95,
-    "yield_pct": 3.29
+    "current_price": 76.78,
+    "yield_pct": 3.26
   },
   {
     "symbol": "HWX",
     "dividend_amount": 0.12,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 0.48,
-    "current_price": 14.78,
+    "current_price": 14.77,
     "yield_pct": 3.25
   },
   {
@@ -76,23 +76,23 @@
     "dividend_amount": 0.5,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 2,
-    "current_price": 67.33,
-    "yield_pct": 2.97
+    "current_price": 67.74,
+    "yield_pct": 2.95
   },
   {
     "symbol": "PSK",
     "dividend_amount": 0.265,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 1.06,
-    "current_price": 36.81,
-    "yield_pct": 2.88
+    "current_price": 37.05,
+    "yield_pct": 2.86
   },
   {
     "symbol": "SCR",
     "dividend_amount": 0.3,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 1.2,
-    "current_price": 42.88,
+    "current_price": 42.91,
     "yield_pct": 2.8
   },
   {
@@ -100,31 +100,31 @@
     "dividend_amount": 0.6,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 2.4,
-    "current_price": 106.99,
-    "yield_pct": 2.24
+    "current_price": 108.52,
+    "yield_pct": 2.21
   },
   {
     "symbol": "CVE",
     "dividend_amount": 0.22,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 0.88,
-    "current_price": 44.48,
-    "yield_pct": 1.98
+    "current_price": 45.2,
+    "yield_pct": 1.95
   },
   {
     "symbol": "IMO",
     "dividend_amount": 0.87,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 3.48,
-    "current_price": 181.04,
-    "yield_pct": 1.92
+    "current_price": 183.06,
+    "yield_pct": 1.9
   },
   {
     "symbol": "POU",
     "dividend_amount": 0.05,
     "dividend_frequency": "Monthly",
     "annual_dividend": 0.6,
-    "current_price": 34.79,
+    "current_price": 34.8,
     "yield_pct": 1.72
   },
   {
@@ -132,15 +132,15 @@
     "dividend_amount": 0.03,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 0.12,
-    "current_price": 7.09,
-    "yield_pct": 1.69
+    "current_price": 7.04,
+    "yield_pct": 1.7
   },
   {
     "symbol": "OVV",
     "dividend_amount": 0.417,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 1.668,
-    "current_price": 99.88,
+    "current_price": 99.83,
     "yield_pct": 1.67
   },
   {
@@ -148,7 +148,7 @@
     "dividend_amount": 0.05,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 0.2,
-    "current_price": 14.69,
+    "current_price": 14.7,
     "yield_pct": 1.36
   },
   {
@@ -156,15 +156,15 @@
     "dividend_amount": 0.023,
     "dividend_frequency": "Quarterly",
     "annual_dividend": 0.092,
-    "current_price": 7.61,
-    "yield_pct": 1.21
+    "current_price": 7.65,
+    "yield_pct": 1.2
   },
   {
     "symbol": "AAV",
     "dividend_amount": 0,
     "dividend_frequency": "None",
     "annual_dividend": 0,
-    "current_price": 10.82,
+    "current_price": 10.78,
     "yield_pct": 0
   },
   {
@@ -172,7 +172,7 @@
     "dividend_amount": 0,
     "dividend_frequency": "None",
     "annual_dividend": 0,
-    "current_price": 11.91,
+    "current_price": 11.93,
     "yield_pct": 0
   },
   {
@@ -180,7 +180,7 @@
     "dividend_amount": 0,
     "dividend_frequency": "None",
     "annual_dividend": 0,
-    "current_price": 11.72,
+    "current_price": 11.79,
     "yield_pct": 0
   },
   {
@@ -188,7 +188,7 @@
     "dividend_amount": 0,
     "dividend_frequency": "None",
     "annual_dividend": 0,
-    "current_price": 16.08,
+    "current_price": 16.43,
     "yield_pct": 0
   },
   {
@@ -196,7 +196,7 @@
     "dividend_amount": 0,
     "dividend_frequency": "None",
     "annual_dividend": 0,
-    "current_price": 9.54,
+    "current_price": 9.49,
     "yield_pct": 0
   },
   {
@@ -204,7 +204,7 @@
     "dividend_amount": 0,
     "dividend_frequency": "None",
     "annual_dividend": 0,
-    "current_price": 14.25,
+    "current_price": 14.31,
     "yield_pct": 0
   }
 ]
