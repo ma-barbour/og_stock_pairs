@@ -17,7 +17,7 @@
     "ticker": "SDE",
     "actual": 11.16,
     "expected": 12.01,
-    "divergence_pct": 7.62,
+    "divergence_pct": 7.63,
     "ranked_predictors": ["HWX", "ATH", "SOIL", "IMO", "IPO", "OBE", "WTI", "PEY", "gas_oil_ratio", "FRU", "AAV", "BTE"]
   },
   {
@@ -74,7 +74,7 @@
     "actual": 6.57,
     "expected": 6.6,
     "divergence_pct": 0.44,
-    "ranked_predictors": ["TOU", "AAV", "OBE", "ATH", "NATGAS", "CVE", "IMO", "SCR", "CAD_USD"]
+    "ranked_predictors": ["TOU", "AAV", "OBE", "ATH", "CVE", "NATGAS", "IMO", "SCR", "CAD_USD"]
   },
   {
     "ticker": "SGY",
@@ -130,7 +130,7 @@
     "actual": 16.5,
     "expected": 16.18,
     "divergence_pct": -1.92,
-    "ranked_predictors": ["HWX", "PEY", "IPO", "OBE", "CAD_USD", "TPZ", "IMO", "NATGAS"]
+    "ranked_predictors": ["HWX", "PEY", "IPO", "OBE", "CAD_USD", "IMO", "TPZ", "NATGAS"]
   },
   {
     "ticker": "IPO",
@@ -163,8 +163,8 @@
   {
     "ticker": "SU",
     "actual": 97.1,
-    "expected": 93.03,
-    "divergence_pct": -4.19,
+    "expected": 93.02,
+    "divergence_pct": -4.2,
     "ranked_predictors": ["CNQ", "SOIL", "IPO", "WCP", "HWX", "IMO", "gas_oil_ratio", "KEL", "CAD_USD", "AAV", "TPZ"]
   },
   {
